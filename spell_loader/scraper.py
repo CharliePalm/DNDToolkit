@@ -98,14 +98,14 @@ def parse_spell(html, is_fighter, is_rogue) -> Spell:
     spell.level, spell.school, spell.tags = get_school_level_and_tags(ps[1][7:-9]) 
     idx = 2 #idx for ps
 
-    spell.cast_time, ps[idx] = remove_html_tags(parse_strong(ps[idx]))
+    spell.cast_time, ps[idx] = parse_strong(ps[idx])
     if not ps[idx]: idx += 1
-    spell.range, ps[idx] = remove_html_tags(parse_strong(ps[idx]))
+    spell.range, ps[idx] = parse_strong(ps[idx])
     if not ps[idx]: idx += 1
-    component_str, ps[idx] = remove_html_tags(parse_strong(ps[idx]))
+    component_str, ps[idx] = parse_strong(ps[idx])
     if not ps[idx]: idx += 1
     spell.components, spell.materials = get_component_tags_from_string(component_str)
-    spell.duration = remove_html_tags(parse_strong(ps[idx])[0])
+    spell.duration = parse_strong(ps[idx])[0]
     idx += 1
     spell.description = remove_p_tags(ps[idx])
     idx += 1
@@ -142,6 +142,9 @@ def scrape_spell(href: str, is_fighter = False, is_rogue = False) -> Spell:
     spell = parse_spell(spell_html, is_fighter, is_rogue)
     return spell
 
+def dump_spells(spells: List[Spell]):
+    with open('./spell_loader/spells.json', 'w') as f:
+        json.dump(spells, f)
 def scrape_all_spells():
     all_hrefs = open_hrefs()
     fighter_hrefs = open_hrefs('fighter.csv')
@@ -151,6 +154,4 @@ def scrape_all_spells():
         print('parsing ' + href)
         spell = scrape_spell(href, href in fighter_hrefs, href in rogue_hrefs)
         spells.append(spell.__dict__)
-
-    with open('./spell_loader/spells.json', 'w') as f:
-        json.dump(spells, f)
+    dump_spells(spells)

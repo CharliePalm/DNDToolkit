@@ -105,17 +105,21 @@ class Notion:
         page_id = response['id']
         # do this after for description
         for desc_paragraph in spell.description.split('\n\n'):
-            p_type = 'bulleted_list_item' if desc_paragraph[0] == bullet_char else 'paragraph'
+            p_type = 'paragraph'
+            if desc_paragraph[0] == bullet_char:
+                p_type = 'bulleted_list_item'
+                desc_paragraph = desc_paragraph[1:]
+            
             self.client.blocks.children.append(page_id, children=[
                 {
                     "object": "block",
-                    "type": "paragraph",
+                    "type": p_type,
                     p_type: {
                         "rich_text": [
                             {
                                 "type": "text",
                                 "text": {
-                                    "content": desc_paragraph
+                                    "content": desc_paragraph 
                                 }
                             }
                         ]
@@ -127,13 +131,13 @@ class Notion:
         return self.client.blocks.children.list(id)
 
     def upload_spell(self, spell_name: str):
-        spells = load_json_spells('./cleaned_spells.json')
+        spells = load_json_spells('spells.json')
         for i in spells:
             if i.name == spell_name:
                 print(i)
                 self.create_spell(i)
                 break
     def upload_all_spells(self):
-        for spell in load_json_spells('./cleaned_spells.json'):
+        for spell in load_json_spells('spells.json'):
             print('creating spell ' + spell.name)
             self.create_spell(spell)

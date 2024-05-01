@@ -7,6 +7,7 @@ spell_loader_group.add_argument('--clean', '-c-', action='store_true')
 spell_loader_group.add_argument('--dry-run', '-dr')
 spell_loader_group.add_argument('--get-spell')
 spell_loader_group.add_argument('--get-all-spells', '-gas', action='store_true')
+spell_loader_group.add_argument('--save', action='store_true')
 
 notion_group = parser.add_argument_group('notion')
 notion_group.add_argument('--get', '-g')
@@ -22,7 +23,9 @@ if __name__ == '__main__':
             dry_run.full_dry_run()
         else:
             for spell in args.dry_run.split(' '):
-                dry_run.spell_dry_run(spell + '.txt')
+                spell = dry_run.spell_dry_run(spell + '.txt')
+                if args.save:
+                    scraper.dump_spells([spell.__dict__])
     if args.clean:
         cleaner.check_spells_for_incomplete_descriptions()
     if args.get_spell:

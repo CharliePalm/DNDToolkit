@@ -17,4 +17,4 @@ def spell_dry_run(spell_file):
             line = fp.readline()
         spell = parse_spell(s, False, False)
         print(str(spell))
-        
+        return spell
