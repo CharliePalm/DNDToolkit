@@ -139,6 +139,8 @@ def open_hrefs(file_name = 'all_hrefs.csv') -> List[str]:
 
 def scrape_spell(href: str, is_fighter = False, is_rogue = False) -> Spell:
     spell_html = get_spell_html(href)
+    if not spell_html:
+        return Spell()
     spell = parse_spell(spell_html, is_fighter, is_rogue)
     return spell
 

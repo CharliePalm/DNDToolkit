@@ -1,11 +1,12 @@
 import argparse
 from shared.notion.notion import Notion
 from spell_loader import cleaner, dry_run, scraper
+import json
 parser = argparse.ArgumentParser()
 spell_loader_group = parser.add_argument_group('spell-loader')
 spell_loader_group.add_argument('--clean', '-c-', action='store_true')
 spell_loader_group.add_argument('--dry-run', '-dr')
-spell_loader_group.add_argument('--get-spell')
+spell_loader_group.add_argument('--get-spell', '-gs')
 spell_loader_group.add_argument('--get-all-spells', '-gas', action='store_true')
 spell_loader_group.add_argument('--save', action='store_true')
 
@@ -29,8 +30,9 @@ if __name__ == '__main__':
     if args.clean:
         cleaner.check_spells_for_incomplete_descriptions()
     if args.get_spell:
-        spell = scraper.scrape_spell('/spell:' + args.get_spell)
-        print(spell)
+        spells = [scraper.scrape_spell('/spell:' + spell).__dict__ for spell in args.get_spell.split(' ')]
+        with open('./output.json', 'w') as fp:
+            fp.write(json.dumps(spells, indent=4))
     if args.get_all_spells:
         scraper.scrape_all_spells()
             

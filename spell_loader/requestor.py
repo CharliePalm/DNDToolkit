@@ -10,5 +10,5 @@ def get_spell_html(href):
     if r.status_code != 200:
         print('error in response')
         print(r)
-        exit(0)
+        return None
     return r.text
