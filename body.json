@@ -1,10 +1,10 @@
 [
     {
         "object": "block",
-        "id": "82b82eb4-c963-4024-a179-3ab1c4e8518b",
+        "id": "33ffb8f2-28cc-4057-afe3-0f2ce4f93e98",
         "parent": {
             "type": "page_id",
-            "page_id": "6fe372b3-5413-4319-bc13-66af3a8adc5b"
+            "page_id": "a5c54897-e436-43dc-94ff-2112a92ff7bd"
         },
         "type": "paragraph",
         "paragraph": {
@@ -23,7 +23,7 @@
                         "code": false,
                         "color": "default"
                     },
-                    "plain_text": "Put your descriptions here to view in the gallery",
+                    "plain_text": "d",
                     "href": null
                 }
             ],

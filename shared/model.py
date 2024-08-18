@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 from enum import Enum
 from typing import List, Set, Dict, Tuple
 bullet_char = '•'
@@ -112,6 +111,10 @@ class WeaponFamily(Enum):
     Simple = 'Simple'
     Martial = 'Martial'
 
+class EquipmentType(Enum):
+    Weapon = 'Weapon',
+    AdventuringGear = 'Adventuring Gear'
+
 class Alignment(Enum):
     LawfulEvil = 'Lawful Evil'
     ChaoticEvil = 'Chaotic Evil'
@@ -154,6 +157,15 @@ ability_to_skill = {
     Ability.Sleight_of_Hand: Skill.Dexterity,
     Ability.Stealth: Skill.Dexterity,
     Ability.Survival: Skill.Wisdom
+}
+
+skill_to_abbrev = {
+    Skill.Strength.value: 'STR',
+    Skill.Dexterity.value: 'DEX',
+    Skill.Charisma.value: 'CHA',
+    Skill.Constitution.value: 'CON',
+    Skill.Intelligence.value: 'INT',
+    Skill.Wisdom.value: 'WIS',
 }
 
 standard_skill_arr: List[int] = [15, 14, 13, 12, 10, 8]
@@ -373,13 +385,14 @@ class Character:
     spell_slots: Dict[int, int] = {}
     proficiencies: Dict[str, str | List] = {} # key is name of proficiency, 
     level: int = 0
-    equipment: List[Tuple[str | Weapon, int]] = [] # item + count
+    equipment: List[Tuple[str | Weapon, EquipmentType, int]] = [] # item + count
     background: str = ''# todo
     alignment: Alignment = ''# todo
     max_hp: int = 0
     current_hp: int = 0
     ac: int = 10
-     
+    other_features: Dict[str, str] = {}
+    
     def __init__(self): pass
 
     def get_spell_casting_mod(self):

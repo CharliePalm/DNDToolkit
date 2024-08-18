@@ -16,7 +16,7 @@ def update_block_content(block, text, index = 1):
         if type(val[v]) == list and len(val[v]):
             inner_val = val[v][index]
             v_type = inner_val['type']
-            inner_val[v_type]['content'] = ('\n' if index > 0 else '') + text
+            inner_val[v_type]['content'] = ('\n' if index > 0 else '') + str(text)
             break
     return block
     
@@ -29,19 +29,24 @@ def update_page_value(page, new_value, value_name):
     prop = page['properties'][value_name]
     if prop['type'] in ['number', 'checkbox']:
         prop[prop['type']] = new_value
-    elif prop['type'] in ['title']:
+    elif prop['type'] in ['title', 'rich_text']:
         secondary_type = prop[prop['type']][0]['type']
         prop[prop['type']][0][secondary_type]['content'] = new_value
-        # todo when we need to
-        pass
+    elif prop['type'] in ['select']:
+        prop[prop['type']] = { 'name': new_value}
+    elif prop['type'] in ['multi_select']:
+        prop[prop['type']] = [{'name': new_value}]
+    elif prop['type'] in ['relation']:
+        prop[prop['type']] = [{'id': new_value}]
 
 def remove_problematic_properties(page):
     to_del = []
-    for p in page['properties']:
-        t = page['properties'][p]['type']
-        if t in ['rollup', 'relation', 'formula']:
+    properties = page if 'properties' not in page else page['properties']
+    for p in properties:
+        t = properties[p]['type']
+        if t in ['rollup', 'formula']:
             to_del.append(p)
-    for d in to_del: del page['properties'][d]
+    for d in to_del: del properties[d]
 
 class Notion:
     spells_db_id = 'd01a32f616a34027a3787fc9e2523fb5'
@@ -172,7 +177,6 @@ class Notion:
         pass
 
     # base methods
-    # getters
     def get_block_children(self, id: str):
         return self.client.blocks.children.list(id)['results']
     
@@ -201,6 +205,7 @@ class Notion:
             icon=builders.get_icon(icon)
         )
     def create_db_page(self, parent_id: str, title: str, icon='⚔️', properties=None):
+        remove_problematic_properties(properties)
         return self.client.pages.create(
             properties=properties if properties else builders.get_page_props(title),
             parent={
@@ -238,7 +243,7 @@ class Notion:
     
     def copy_child_db(self, db_id, new_parent):
         db = self.scrape_result(self.get_db(db_id), True)
-        db['parent'] = new_parent()
+        db['parent'] = new_parent
         db = self.create_db(db)
         existing_items = self.scrape_result(self.query_db(db_id), True)
         for item in existing_items:
@@ -281,9 +286,11 @@ class Notion:
                     dbs_to_copy[idx] = dbs_with_depth
                 children_to_put.append(deepcopy(child))
         results = results + flush_queue()
+        ''' this is unfortunately not possible with notion's api :(
         for idx in dbs_with_depth:
             parent_entry = results[idx]
-            self.copy_child_db(db)
+            self.copy_child_db(db) 
+        '''
         for child_id, child_type in depth_continuation:
             self.deep_copy_page(child_id, child_type)
     
@@ -291,7 +298,6 @@ class Notion:
         return self.client.databases.create(parent=db['parent'], title=db['title'], properties=db['properties'], idcon=db['icon'], cover=db['cover'], is_inline=db['is_inline'])
 
     def update_db(self, db):
-        print('happy new year')
         return self.client.databases.update(db['id'], parent=db['parent'], title=db['title'], properties=db['properties'], idcon=db['icon'], cover=db['cover'], is_inline=db['is_inline'])
 
     def update_page(self, page):

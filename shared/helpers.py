@@ -71,13 +71,14 @@ def load_obj_from_dict(d, objType):
             t = s.__getattribute__(key)
             setattr(s, key, type(t)(d[key]))
         except:
-            setattr(s, key, (d[key]))
+            setattr(s, key, d[key])
     return s
 
 def load_json_object(filename, objType) -> List[object] | object:
     with open(filename, 'rb') as fp:
         objects = json.loads(fp.read())
-        objects = load_obj_from_dict(objects, objType)
+        if type(objects) == list: objects = [load_obj_from_dict(obj, objType) for obj in objects]
+        else: objects = load_obj_from_dict(objects, objType)
     return objects
 
 def pick(obj, *options):

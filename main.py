@@ -31,7 +31,7 @@ def get_func_and_params(args):
     if args.get: return notion.get_block_children, args.get
     if args.get_page: return notion.get_page, args.get_page
     if args.get_db: return notion.get_db, args.get_db
-    if args.get_full: return notion.get_page_deep_copy, args.get_full
+    if args.get_full: return notion.deep_copy_page, args.get_full
     if args.get_block: return notion.get_block, args.get_block
     if args.query_db: return notion.query_db, args.query_db
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
         result = func(param)
         if args.save or args.scrape:
             result = notion.scrape_result(result) if args.scrape else result
-            write_serialized_obj_to_disk(result, './results.json')
+            write_serialized_obj_to_disk(result, './results.output.json')
         else: print(json.dumps(result, indent=4))
     if args.put_all:
         if args.obj == 'Weapon':
