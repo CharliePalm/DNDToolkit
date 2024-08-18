@@ -1,8 +1,11 @@
 from dataclasses import dataclass
 from enum import Enum
-from typing import List, Set
-
+from typing import List, Set, Dict, Tuple
 bullet_char = '•'
+
+# lambdas
+
+is_caster = lambda charClass: charClass in casters
 
 # enums
 class CharacterClass(Enum):
@@ -104,8 +107,22 @@ class Species(Enum):
     Goliath = "Goliath"
     Firbolg = "Firbolg"
     Triton = "Triton"
-    Yuan_Ti_Pureblood = "Yuan-Ti Pureblood"
     
+class WeaponFamily(Enum):
+    Simple = 'Simple'
+    Martial = 'Martial'
+
+class Alignment(Enum):
+    LawfulEvil = 'Lawful Evil'
+    ChaoticEvil = 'Chaotic Evil'
+    NeutralEvil = 'Neutral Evil'
+    LawfulNeutral = 'Lawful Neutral'
+    ChaoticNeutral = 'Chaotic Neutral'
+    TrueNeutral = 'True Neutral'
+    LawfulGood = 'Lawful Good'
+    ChaoticGood = 'Chaotic Good'
+    NeutralGood = 'Neutral Good'
+
 # maps
 school_emoji_map = {
     School.Abjuration.value: '🛡️',
@@ -139,7 +156,9 @@ ability_to_skill = {
     Ability.Survival: Skill.Wisdom
 }
 
-skill_priority_tree = {
+standard_skill_arr: List[int] = [15, 14, 13, 12, 10, 8]
+
+skill_priority_tree: Dict[CharacterClass, Dict[any, any]] = {
     CharacterClass.Barbarian: {
         Skill.Strength: {
             Skill.Constitution: {}
@@ -279,7 +298,36 @@ skill_priority_tree = {
     }
 }
 
+# if a class compiles features instead of sets to be latest, we note that here
+uses_list_of_dicts = [
+    'features'
+]
+
+casters = set([
+    CharacterClass.Artificer,
+    CharacterClass.Bard,
+    CharacterClass.Cleric,
+    CharacterClass.Druid,
+    CharacterClass.Ranger,
+    CharacterClass.Paladin,
+    CharacterClass.Sorcerer,
+    CharacterClass.Warlock,
+    CharacterClass.Wizard,
+])
+
 # classes
+
+class Weapon:
+    name: str
+    cost: int # number of gold pieces
+    damage: str
+    damage_type: DamageType
+    weight: int # number of lbs
+    properties: Set[str]
+    range_normal: int = 0
+    range_max: int = 0
+    family: WeaponFamily
+
 class Spell:
     name: str = ''
     description: str = ''
@@ -307,21 +355,45 @@ class Spell:
         return to_ret
 
 class Character:
-    name: str
-    species: Species
-    character_class: CharacterClass
+    name: str = ''
+    species: Species = ''
+    character_class: CharacterClass = ''
     skills = {
-        Skill.Strength: 10,
-        Skill.Dexterity: 10,
-        Skill.Constitution: 10,
-        Skill.Charisma: 10,
-        Skill.Intelligence: 10,
-        Skill.Wisdom: 10,
+        Skill.Strength.value: 10,
+        Skill.Dexterity.value: 10,
+        Skill.Constitution.value: 10,
+        Skill.Charisma.value: 10,
+        Skill.Intelligence.value: 10,
+        Skill.Wisdom.value: 10,
     }
-    proficiencyBonus: int = 2
-    saving_throw_profs: Set[Skill]
-    ability_check_profs: Set[Ability]
-    
+    proficiency_bonus: int = 2
+    saving_throw_profs: Set[Skill] = set()
+    ability_check_profs: Set[Ability] = set()
+    features: Dict[str, str] = {}
+    spell_slots: Dict[int, int] = {}
+    proficiencies: Dict[str, str | List] = {} # key is name of proficiency, 
+    level: int = 0
+    equipment: List[Tuple[str | Weapon, int]] = [] # item + count
+    background: str = ''# todo
+    alignment: Alignment = ''# todo
+    max_hp: int = 0
+    current_hp: int = 0
+    ac: int = 10
+     
+    def __init__(self): pass
+
+    def get_spell_casting_mod(self):
+        if not is_caster(self.character_class): return 0
+        x = 0
+        if self.character_class in [CharacterClass.Bard, CharacterClass.Sorcerer, CharacterClass.Warlock, CharacterClass.Paladin]:
+            x = self.skills[Skill.Charisma.value]
+        elif self.character_class in [CharacterClass.Wizard, CharacterClass.Fighter, CharacterClass.Rogue, CharacterClass.Artificer]:
+            x = self.skills[Skill.Intelligence.value]
+        else: x = self.skills[Skill.Wisdom.value]
+        return x + self.proficiency_bonus
+
+    def get_spell_save(self): return (8 + self.get_spell_casting_mod()) if is_caster(self.character_class) else 0
+
     def make_check(self, ability: Ability):
         return self.get_modifier(ability_to_skill[ability]) + (self.proficiencyBonus if ability in self.ability_check_profs else 0)
 
@@ -329,4 +401,11 @@ class Character:
         return self.get_modifier(skill) + (self.proficiencyBonus if skill in self.saving_throw_profs else 0)
     
     def get_modifier(self, skill: Skill):
-        return self.skills[skill] / 2 - 5
+        return int(self.skills[skill] / 2 - 5)
+    
+    def __str__(self):
+        to_ret = ''
+        for attr in self.__dir__():
+            if attr[0] != '_':
+                to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
+        return to_ret

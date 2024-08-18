@@ -1,5 +1,5 @@
 import os
-from .scraper import parse_spell, pprint
+from .scraper import parse_spell
 directory = os.fsencode('./spell_loader/practice_spells')
     
 def full_dry_run():

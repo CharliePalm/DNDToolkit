@@ -1,0 +1,498 @@
+[
+    {
+        "name": "Club",
+        "cost": 0.1,
+        "damage": "1d4",
+        "damage_type": "Bludgeoning",
+        "weight": 2,
+        "properties": [
+            "Light"
+        ],
+        "family": "Simple",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Dagger",
+        "cost": 2,
+        "damage": "1d4",
+        "damage_type": "Piercing",
+        "weight": 1,
+        "properties": [
+            "Finesse",
+            "Light"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Simple"
+    },
+    {
+        "name": "Greatclub",
+        "cost": 0.2,
+        "damage": "1d8",
+        "damage_type": "Bludgeoning",
+        "weight": 10,
+        "properties": [
+            "Two-handed"
+        ],
+        "family": "Simple",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Handaxe",
+        "cost": 5,
+        "damage": "1d6",
+        "damage_type": "Slashing",
+        "weight": 2,
+        "properties": [
+            "Light"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Simple"
+    },
+    {
+        "name": "Javelin",
+        "cost": 0.5,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [],
+        "range_normal": 30,
+        "range_max": 120,
+        "family": "Simple"
+    },
+    {
+        "name": "Light hammer",
+        "cost": 2,
+        "damage": "1d4",
+        "damage_type": "Bludgeoning",
+        "weight": 2,
+        "properties": [
+            "Light"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Simple"
+    },
+    {
+        "name": "Mace",
+        "cost": 5,
+        "damage": "1d6",
+        "damage_type": "Bludgeoning",
+        "weight": 4,
+        "properties": [],
+        "family": "Simple",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Quarterstaff",
+        "cost": 0.2,
+        "damage": "1d6",
+        "damage_type": "Bludgeoning",
+        "weight": 4,
+        "properties": [
+            "Versatile (1d8)"
+        ],
+        "family": "Simple",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Sickle",
+        "cost": 1,
+        "damage": "1d4",
+        "damage_type": "Slashing",
+        "weight": 2,
+        "properties": [
+            "Light"
+        ],
+        "family": "Simple",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Spear",
+        "cost": 1,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 3,
+        "properties": [
+            "Versatile (1d8)"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Simple"
+    },
+    {
+        "name": "Crossbow, light",
+        "cost": 25,
+        "damage": "1d8",
+        "damage_type": "Piercing",
+        "weight": 5,
+        "properties": [
+            "Loading",
+            "Two-handed",
+            "Ammunition"
+        ],
+        "range_normal": 80,
+        "range_max": 320,
+        "family": "Simple"
+    },
+    {
+        "name": "Dart",
+        "cost": 0.05,
+        "damage": "1d4",
+        "damage_type": "Piercing",
+        "weight": 0.25,
+        "properties": [
+            "Finesse"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Simple"
+    },
+    {
+        "name": "Shortbow",
+        "cost": 25,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [
+            "Two-handed",
+            "Ammunition"
+        ],
+        "range_normal": 80,
+        "range_max": 320,
+        "family": "Simple"
+    },
+    {
+        "name": "Sling",
+        "cost": 0.1,
+        "damage": "1d4",
+        "damage_type": "Bludgeoning",
+        "weight": 0,
+        "properties": [
+            "Ammunition"
+        ],
+        "range_normal": 30,
+        "range_max": 120,
+        "family": "Simple"
+    },
+    {
+        "name": "Battleaxe",
+        "cost": 10,
+        "damage": "1d8",
+        "damage_type": "Slashing",
+        "weight": 4,
+        "properties": [
+            "Versatile (1d10)"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Flail",
+        "cost": 10,
+        "damage": "1d8",
+        "damage_type": "Bludgeoning",
+        "weight": 2,
+        "properties": [],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Glaive",
+        "cost": 20,
+        "damage": "1d10",
+        "damage_type": "Slashing",
+        "weight": 6,
+        "properties": [
+            "Two-handed",
+            "Heavy",
+            "Reach"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Greataxe",
+        "cost": 30,
+        "damage": "1d12",
+        "damage_type": "Slashing",
+        "weight": 7,
+        "properties": [
+            "Two-handed",
+            "Heavy"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Greatsword",
+        "cost": 50,
+        "damage": "2d6",
+        "damage_type": "Slashing",
+        "weight": 6,
+        "properties": [
+            "Two-handed",
+            "Heavy"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Halberd",
+        "cost": 20,
+        "damage": "1d10",
+        "damage_type": "Slashing",
+        "weight": 6,
+        "properties": [
+            "Two-handed",
+            "Heavy",
+            "Reach"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Lance",
+        "cost": 10,
+        "damage": "1d12",
+        "damage_type": "Piercing",
+        "weight": 6,
+        "properties": [
+            "Special",
+            "Reach"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Longsword",
+        "cost": 15,
+        "damage": "1d8",
+        "damage_type": "Slashing",
+        "weight": 3,
+        "properties": [
+            "Versatile (1d10)"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Maul",
+        "cost": 10,
+        "damage": "2d6",
+        "damage_type": "Bludgeoning",
+        "weight": 10,
+        "properties": [
+            "Two-handed",
+            "Heavy"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Morningstar",
+        "cost": 15,
+        "damage": "1d8",
+        "damage_type": "Piercing",
+        "weight": 4,
+        "properties": [],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Pike",
+        "cost": 5,
+        "damage": "1d10",
+        "damage_type": "Piercing",
+        "weight": 18,
+        "properties": [
+            "Two-handed",
+            "Heavy",
+            "Reach"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Rapier",
+        "cost": 25,
+        "damage": "1d8",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [
+            "Finesse"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Scimitar",
+        "cost": 25,
+        "damage": "1d6",
+        "damage_type": "Slashing",
+        "weight": 3,
+        "properties": [
+            "Finesse",
+            "Light"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Shortsword",
+        "cost": 10,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [
+            "Finesse",
+            "Light"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Trident",
+        "cost": 5,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 4,
+        "properties": [
+            "Versatile (1d8)"
+        ],
+        "range_normal": 20,
+        "range_max": 60,
+        "family": "Martial"
+    },
+    {
+        "name": "War pick",
+        "cost": 5,
+        "damage": "1d8",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Warhammer",
+        "cost": 15,
+        "damage": "1d8",
+        "damage_type": "Bludgeoning",
+        "weight": 2,
+        "properties": [
+            "Versatile (1d10)"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Whip",
+        "cost": 2,
+        "damage": "1d4",
+        "damage_type": "Slashing",
+        "weight": 3,
+        "properties": [
+            "Finesse",
+            "Reach"
+        ],
+        "family": "Martial",
+        "range_normal": 0,
+        "range_max": 0
+    },
+    {
+        "name": "Blowgun",
+        "cost": 10,
+        "damage": "1",
+        "damage_type": "Piercing",
+        "weight": 1,
+        "properties": [
+            "Loading",
+            "Ammunition"
+        ],
+        "range_normal": 25,
+        "range_max": 100,
+        "family": "Martial"
+    },
+    {
+        "name": "Crossbow, hand",
+        "cost": 75,
+        "damage": "1d6",
+        "damage_type": "Piercing",
+        "weight": 3,
+        "properties": [
+            "Loading",
+            "Light",
+            "Ammunition"
+        ],
+        "range_normal": 30,
+        "range_max": 120,
+        "family": "Martial"
+    },
+    {
+        "name": "Crossbow, heavy",
+        "cost": 50,
+        "damage": "1d10",
+        "damage_type": "Piercing",
+        "weight": 18,
+        "properties": [
+            "Heavy",
+            "Loading",
+            "Two-handed",
+            "Ammunition"
+        ],
+        "range_normal": 100,
+        "range_max": 400,
+        "family": "Martial"
+    },
+    {
+        "name": "Longbow",
+        "cost": 50,
+        "damage": "1d8",
+        "damage_type": "Piercing",
+        "weight": 2,
+        "properties": [
+            "Two-handed",
+            "Heavy",
+            "Ammunition"
+        ],
+        "range_normal": 150,
+        "range_max": 600,
+        "family": "Martial"
+    },
+    {
+        "name": "Net",
+        "cost": 1,
+        "damage": 0,
+        "weight": 3,
+        "properties": [
+            "Special"
+        ],
+        "range_normal": 5,
+        "range_max": 15,
+        "family": "Martial",
+        "damage_type": ""
+    }
+]

@@ -1,0 +1,527 @@
+[
+    {
+        "object": "block",
+        "id": "324fec4e-5a3e-4278-9361-74d0bf375687",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "(Subtitle here if applicable)",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "(Subtitle here if applicable)",
+                    "href": null
+                }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+        }
+    },
+    {
+        "object": "block",
+        "id": "203d2a24-9b06-4601-93ae-b8c0f2a4c301",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:14:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "column_list",
+        "column_list": {}
+    },
+    {
+        "object": "block",
+        "id": "16e5a0c8-524a-4c06-bffc-f215dd8a55ec",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:15:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "column_list",
+        "column_list": {}
+    },
+    {
+        "object": "block",
+        "id": "85f2f461-334d-477d-91d3-e93ab1d6b311",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Features and Traits",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Features and Traits",
+                    "href": null
+                }
+            ],
+            "is_toggleable": false,
+            "color": "brown_background"
+        }
+    },
+    {
+        "object": "block",
+        "id": "b5dbd904-e01e-4534-8afa-517247899663",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "child_database",
+        "child_database": {
+            "title": "Class features"
+        }
+    },
+    {
+        "object": "block",
+        "id": "065ca041-1fe2-4365-8aec-1e1907ebfd1b",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "child_database",
+        "child_database": {
+            "title": "Other Features"
+        }
+    },
+    {
+        "object": "block",
+        "id": "9b314b0e-b115-4c95-bdf6-fc1f7270ad13",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Inventory",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Inventory",
+                    "href": null
+                }
+            ],
+            "is_toggleable": false,
+            "color": "brown_background"
+        }
+    },
+    {
+        "object": "block",
+        "id": "73296a40-40d8-4081-a5a6-7ee5a1745c41",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": true,
+        "archived": false,
+        "in_trash": false,
+        "type": "column_list",
+        "column_list": {}
+    },
+    {
+        "object": "block",
+        "id": "19cecf71-73a1-45c1-9a07-4cb002633b16",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Spellcasting",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Spellcasting",
+                    "href": null
+                }
+            ],
+            "is_toggleable": false,
+            "color": "brown_background"
+        }
+    },
+    {
+        "object": "block",
+        "id": "e0d25992-c209-4b91-9092-11fbdfd86779",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "I would highly recommend using my ",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "I would highly recommend using my ",
+                    "href": null
+                },
+                {
+                    "type": "mention",
+                    "mention": {
+                        "type": "database",
+                        "database": {
+                            "id": "d01a32f6-16a3-4027-a378-7fc9e2523fb5"
+                        }
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "D&D 5e Spells",
+                    "href": "https://www.notion.so/d01a32f616a34027a3787fc9e2523fb5"
+                },
+                {
+                    "type": "text",
+                    "text": {
+                        "content": " database - it has every 5e spell and you can copy over anything you need!",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": " database - it has every 5e spell and you can copy over anything you need!",
+                    "href": null
+                }
+            ],
+            "color": "default"
+        }
+    },
+    {
+        "object": "block",
+        "id": "3a2c19ae-64ce-45f6-bb4b-66e83a7c959a",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "child_database",
+        "child_database": {
+            "title": "Spells"
+        }
+    },
+    {
+        "object": "block",
+        "id": "506e2df5-d991-4b27-92f3-aabf1fd4aee5",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "child_database",
+        "child_database": {
+            "title": "Spell Slots"
+        }
+    },
+    {
+        "object": "block",
+        "id": "014e0bee-0c85-406a-a0eb-73f30bc89c05",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "If you like my work please consider donating to help me continue making content like this! ",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "If you like my work please consider donating to help me continue making content like this! ",
+                    "href": null
+                }
+            ],
+            "color": "default"
+        }
+    },
+    {
+        "object": "block",
+        "id": "dc216c6e-22b6-4407-896a-ed808a5bf5be",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "embed",
+        "embed": {
+            "caption": [],
+            "url": "https://html.cafe/x274ac92e"
+        }
+    },
+    {
+        "object": "block",
+        "id": "e12472ca-477c-4b99-a4e1-83dbdc086d57",
+        "parent": {
+            "type": "page_id",
+            "page_id": "2e7458dc-ad59-4ba2-ad2f-c57d63c75fdd"
+        },
+        "created_time": "2024-08-15T22:09:00.000Z",
+        "last_edited_time": "2024-08-15T22:09:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+        },
+        "has_children": false,
+        "archived": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+            "rich_text": [],
+            "color": "default"
+        }
+    }
+]

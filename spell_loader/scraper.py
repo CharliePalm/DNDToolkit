@@ -1,18 +1,12 @@
 from bs4 import BeautifulSoup
-from pprint import pprint
 from typing import Tuple, List
 import re
 from shared.model import Spell, Components, CharacterClass, Tag
-from shared.notion.notion_interface import get_notion_bullet
 import csv
 from .cleaner import add_description_info
-from .requestor import get_spell_html
+from shared.requestor import get_spell_html
+from shared.helpers import parse_strong
 import json
-base_url = 'http://dnd5e.wikidot.com/'
-
-'''
-This file scrapes actual html strings
-'''
 
 def get_school_level_and_tags(text: str) -> Tuple[int, str, List[str]]:
     '''
@@ -31,19 +25,6 @@ def get_school_level_and_tags(text: str) -> Tuple[int, str, List[str]]:
 
 def remove_html_tags(text):
     return re.sub(r'<[^>]*>', '', text)
-
-def parse_strong(text: str) -> Tuple[str, str]:
-    '''
-    Wikidot uses the convention 
-        <p><strong>Column name</strong>column data</p>
-    to store some information, and this method parses the 'column data'
-    '''
-    idx = text.find('/strong>')
-    brDx = text.find('<br')
-    # sometimes the colon is outside the strong box so we need to get rid of it
-    parsed_text = text[idx+8:brDx if brDx != -1 else -4].replace(': ', '')
-    text = text[brDx+8:] if brDx != -1 else None
-    return parsed_text, text
 
 def get_component_tags_from_string(text: str,) -> Tuple[List[str], str]:
     materials = ''
@@ -147,6 +128,7 @@ def scrape_spell(href: str, is_fighter = False, is_rogue = False) -> Spell:
 def dump_spells(spells: List[Spell]):
     with open('./spell_loader/spells.json', 'w') as f:
         json.dump(spells, f)
+
 def scrape_all_spells():
     all_hrefs = open_hrefs()
     fighter_hrefs = open_hrefs('fighter.csv')

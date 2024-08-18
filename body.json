@@ -1,0 +1,33 @@
+[
+    {
+        "object": "block",
+        "id": "82b82eb4-c963-4024-a179-3ab1c4e8518b",
+        "parent": {
+            "type": "page_id",
+            "page_id": "6fe372b3-5413-4319-bc13-66af3a8adc5b"
+        },
+        "type": "paragraph",
+        "paragraph": {
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Put your descriptions here to view in the gallery",
+                    "href": null
+                }
+            ],
+            "color": "default"
+        }
+    }
+]

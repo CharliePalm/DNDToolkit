@@ -1,0 +1,121 @@
+{
+    "object": "database",
+    "id": "c92fc05a-65af-4769-9724-1a265d0f4c76",
+    "cover": null,
+    "icon": null,
+    "created_time": "2024-08-15T22:09:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "4cd9d06a-ee2a-42c2-b433-5c05c0feb596"
+    },
+    "last_edited_time": "2024-08-15T22:09:00.000Z",
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "Skills",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "Skills",
+            "href": null
+        }
+    ],
+    "description": [],
+    "is_inline": true,
+    "properties": {
+        "Amount": {
+            "id": "FKIw",
+            "name": "Amount",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "Tags": {
+            "id": "F%7Dmz",
+            "name": "Tags",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "4bdf2e47-100c-4826-ad27-c612f9f835de",
+                        "name": "CHA",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "de37e028-aa6c-4c7b-9617-a886bff36c81",
+                        "name": "WIS",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "7c059f57-80ad-4136-9f35-425035fb6592",
+                        "name": "INT",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "658aefaf-ebcc-46fa-bcea-ae3b73ed7e91",
+                        "name": "DEX",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "6c4da642-e509-4800-8f19-e1bad160530f",
+                        "name": "STR",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "92c4b4bb-814c-4c67-9d24-9ed19e8bef2d",
+                        "name": "CON",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "81fcec47-06a5-469a-802e-da8c952abfc0",
+                        "name": "PROF",
+                        "color": "red",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "Modifier": {
+            "id": "qLRT",
+            "name": "Modifier",
+            "type": "formula",
+            "formula": {
+                "expression": "(if(({{notion:block_property:FKIw:25b5d6e3-92fd-4c31-bb6a-e57ffc15a0cf:b2af8258-11a1-4080-8961-6a2b60fa44de}} >= 10), \"+\", \"\") + if((join({{notion:block_property:F%7Dmz:25b5d6e3-92fd-4c31-bb6a-e57ffc15a0cf:b2af8258-11a1-4080-8961-6a2b60fa44de}}, \", \") != \"PROF\"), format(floor(({{notion:block_property:FKIw:25b5d6e3-92fd-4c31-bb6a-e57ffc15a0cf:b2af8258-11a1-4080-8961-6a2b60fa44de}} / 2) - 5)), (\"+\" + format({{notion:block_property:FKIw:25b5d6e3-92fd-4c31-bb6a-e57ffc15a0cf:b2af8258-11a1-4080-8961-6a2b60fa44de}}))))"
+            }
+        },
+        "Name": {
+            "id": "title",
+            "name": "Name",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "block_id",
+        "block_id": "acf16007-d518-4900-86c0-c4181a5baef6"
+    },
+    "url": "https://www.notion.so/c92fc05a65af476997241a265d0f4c76",
+    "public_url": null,
+    "archived": false,
+    "in_trash": false,
+    "request_id": "249142da-363a-4b81-8255-df1524b074ee"
+}

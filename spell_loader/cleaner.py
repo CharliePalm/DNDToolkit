@@ -1,6 +1,6 @@
 # This file is intended for helper functions related to data that has ALREADY been scraped. i.e. we expect a clean description
 
-from shared.utility_functions import load_json_spells
+from shared.helpers import load_json_object
 from shared.model import Spell, Skill, DamageType
 import json
 import re
@@ -35,7 +35,7 @@ def parse_damage_info(spell_description: str):
     return saving_throw, damage_amount, damage_type
 
 def add_for_all_spells():
-    spells = load_json_spells()
+    spells = load_json_object('./spell_loader/spells.json', Spell)
     for spell in spells:
         add_description_info(spell)
     dump_to_cleaned_spells(spell)
