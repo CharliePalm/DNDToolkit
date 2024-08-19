@@ -4,13 +4,13 @@ from typing import List, Set
 from shared.helpers import safe_word_to_num, write_obj_to_json
 from shared.model import Weapon, WeaponFamily
 from shared.requestor import make_get_request
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 import re
-
+from pprint import pprint
 def get_all_weapons(is_dry_run):
     html = None
     if is_dry_run:
-        with open('./equipment_loader/equipment.html', 'r') as fp:
+        with open('./misc_loader/equipment.html', 'r') as fp:
             html = fp.read()
     if not html:
         html = make_get_request('https://dnd5e.wikidot.com/weapons')
@@ -47,4 +47,30 @@ def get_all_weapons(is_dry_run):
                 weapon.family = WeaponFamily.Simple.value if idx == 0 else WeaponFamily.Martial.value
                 weapons.append(weapon)
     
-    write_obj_to_json(weapons, './equipment_loader/weapons.json')
+    write_obj_to_json(weapons, './misc_loader/weapons.json')
+
+
+def get_all_backgrounds(is_dry_run):
+    html = None
+    if is_dry_run:
+        with open('./misc_loader/backgrounds.html', 'r') as fp:
+            html = fp.read()
+    if not html:
+        html = make_get_request('https://5ebackgrounds.com/')
+        with open('./misc_loader/backgrounds.html', 'w') as fp:
+            fp.write(html)
+        
+    soup = BeautifulSoup(html, features="html.parser")
+    
+    rows = soup.find('table', attrs={'id': 'tablepress-1'}).find_all('tr')
+    bgs: List[Tag] = [(row.find('td', attrs={'class':'column-1'}), row.find('td', attrs={'class':'column-6'})) for row in rows[1:]]
+    #pprint([(a.text, b.text) if a else '' for a, b in bgs])
+    to_write = {}
+    for key, val in bgs[1:]:
+        if not val or len(val.text) == 0 or 'special' in val.text: continue
+        val = val.text
+        if 'choose' in val.lower():
+            val = re.sub(r'\bChoose\s+(\d+):', r'\1' + ',', val, flags=re.IGNORECASE).replace(', and ', ', ')
+        val = [word.strip().capitalize() for word in re.sub( r'\(.*?\)', '', val.replace(' and ', ', ')).split(', ')]
+        to_write[key.text] = val
+    write_obj_to_json(to_write, './misc_loader/backgrounds.json')

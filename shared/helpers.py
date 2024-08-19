@@ -28,9 +28,9 @@ def write_obj_to_json(obj: any, path: str) -> None:
     if type(obj) == list:
         to_overwrite = []
         for entity in obj:
-            to_overwrite.append(serialize(entity))
+            to_overwrite.append(serialize(entity) if type(obj) != dict else obj)
         obj = to_overwrite
-    else: obj = serialize(obj)
+    elif type(obj) != dict: obj = serialize(obj)
     write_serialized_obj_to_disk(obj, path)
 
 def write_serialized_obj_to_disk(obj: any, path:str):
@@ -87,4 +87,3 @@ def pick(obj, *options):
         if option in obj:
             to_ret[option] = obj[option]
     return to_ret
-    

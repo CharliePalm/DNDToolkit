@@ -1,0 +1,242 @@
+{
+    "Anthropologist": [
+        "Insight",
+        "Religion"
+    ],
+    "Archaeologist": [
+        "History",
+        "Survival"
+    ],
+    "Adopted": [
+        "Persuasion",
+        "Deception",
+        "Stealth"
+    ],
+    "Black Fist Double Agent": [
+        "Deception",
+        "Insight"
+    ],
+    "Caravan Specialist": [
+        "Animal handling",
+        "Survival"
+    ],
+    "Charlatan": [
+        "Deception",
+        "Sleight of hand"
+    ],
+    "City Watch": [
+        "Athletics",
+        "Insight"
+    ],
+    "Clan Crafter": [
+        "History",
+        "Insight"
+    ],
+    "Cloistered Scholar": [
+        "History",
+        "1",
+        "Arcana",
+        "Nature",
+        "Religion"
+    ],
+    "Cormanthor Refugee": [
+        "Nature",
+        "Survival"
+    ],
+    "Courtier": [
+        "Insight",
+        "Persuasion"
+    ],
+    "Criminal": [
+        "Deception",
+        "Stealth"
+    ],
+    "Dissenter": [
+        "Special"
+    ],
+    "Dragon Casualty": [
+        "Intimidation",
+        "Survival"
+    ],
+    "Earthspur Miner": [
+        "Athletics",
+        "Survival"
+    ],
+    "Entertainer": [
+        "Acrobatics",
+        "Performance"
+    ],
+    "Far Traveler": [
+        "Insight",
+        "Perception"
+    ],
+    "Folk Hero": [
+        "Animal handling",
+        "Survival"
+    ],
+    "Gate Urchin": [
+        "Deception",
+        "Sleight of hand"
+    ],
+    "Gladiator": [
+        "Acrobatics",
+        "Performance"
+    ],
+    "Guild Artisan": [
+        "Insight",
+        "Persuasion"
+    ],
+    "Guild Merchant": [
+        "Insight",
+        "Persuasion"
+    ],
+    "Harborfolk": [
+        "Athletics",
+        "Sleight of hand"
+    ],
+    "Haunted One": [
+        "2",
+        "Arcana",
+        "Investigation",
+        "Religion",
+        "Survival"
+    ],
+    "Hermit": [
+        "Medicine",
+        "Religion"
+    ],
+    "Hillsfar Merchant": [
+        "Insight",
+        "Persuasion"
+    ],
+    "Hillsfar Smuggler": [
+        "Perception",
+        "Stealth"
+    ],
+    "House Agent": [
+        "Investigation",
+        "Persuasion"
+    ],
+    "Izzet Engineer": [
+        "Arcana",
+        "Investigation"
+    ],
+    "Inheritor": [
+        "Survival",
+        "1",
+        "Arcana",
+        "History",
+        "Religion"
+    ],
+    "Initiate": [
+        "Athletics",
+        "Intimidation"
+    ],
+    "Inquisitor": [
+        "Investigation",
+        "Religion"
+    ],
+    "Investigator": [
+        "Insight",
+        "Investigation"
+    ],
+    "Iron Route Bandit": [
+        "Animal handling",
+        "Stealth"
+    ],
+    "Knight": [
+        "History",
+        "Persuasion"
+    ],
+    "Mercenary Veteran": [
+        "Athletics",
+        "Persuasion"
+    ],
+    "Mulmaster Aristocrat": [
+        "Deception",
+        "Performance"
+    ],
+    "Noble": [
+        "History",
+        "Persuasion"
+    ],
+    "Outlander": [
+        "Athletics",
+        "Survival"
+    ],
+    "Phlan Insurgent": [
+        "Stealth",
+        "Survival"
+    ],
+    "Phlan Refugee": [
+        "Athletics",
+        "Insight"
+    ],
+    "Pirate": [
+        "Athletics",
+        "Perception"
+    ],
+    "Sage": [
+        "Arcana",
+        "History"
+    ],
+    "Sailor": [
+        "Athletics",
+        "Perception"
+    ],
+    "Secret Identity": [
+        "Deception",
+        "Stealth"
+    ],
+    "Shade Fanatic": [
+        "Deception",
+        "Intimidation"
+    ],
+    "Soldier": [
+        "Athletics",
+        "Intimidation"
+    ],
+    "Spy": [
+        "Deception",
+        "Stealth"
+    ],
+    "Stojanow Prisoner": [
+        "Deception",
+        "Perception"
+    ],
+    "Ticklebelly Nomad": [
+        "Animal handling",
+        "Nature"
+    ],
+    "Trade Sheriff": [
+        "Investigation",
+        "Persuasion"
+    ],
+    "Urban Bounty Hunter": [
+        "2",
+        "Deception",
+        "Insight",
+        "Persuasion",
+        "Stealth"
+    ],
+    "Urchin": [
+        "Sleight of hand",
+        "Stealth"
+    ],
+    "Uthgardt Tribe Member": [
+        "Athletics",
+        "Survival"
+    ],
+    "Vizier": [
+        "History",
+        "Religion"
+    ],
+    "Waterdhavian Noble": [
+        "History",
+        "Persuasion"
+    ],
+    "Boros Legionnaire": [
+        "Athletics",
+        "Intimidation"
+    ]
+}

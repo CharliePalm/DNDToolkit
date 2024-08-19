@@ -14,7 +14,7 @@ class TemplateFiller:
     page = None
     template_id = ''
     char: Character = None
-    all_weapons: List[Weapon] = load_json_object('./equipment_loader/weapons.json', Weapon)
+    all_weapons: List[Weapon] = load_json_object('./misc_loader/weapons.json', Weapon)
     
     def __init__(self, character_name: str, template_id: str) -> None:
         self.char = load_json_object(f'./generator/{character_name}.json', Character)

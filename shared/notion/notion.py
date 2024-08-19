@@ -122,7 +122,7 @@ class Notion:
     
     def upload_weapon(self, weapon_name: str):
         print(weapon_name)
-        weapons = load_json_object('./equipment_loader/weapons.json', Weapon)
+        weapons = load_json_object('./misc_loader/weapons.json', Weapon)
         for i in weapons:
             if i.name == weapon_name:
                 print('creating weapon ' + weapon_name)
@@ -135,7 +135,7 @@ class Notion:
             self.create_spell(spell)
 
     def upload_all_weapons(self):
-        for weapon in load_json_object('./equipment_loader/weapons.json', Weapon):
+        for weapon in load_json_object('./misc_loader/weapons.json', Weapon):
             print('creating weapon ' + weapon.name)
             self.create_weapon(weapon)
 

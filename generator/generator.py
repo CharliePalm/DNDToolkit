@@ -1,25 +1,52 @@
 from random import choice, randint, sample
 from typing import List
 from shared.helpers import get_dice_info, get_var_case, parse_strong, safe_word_to_num, write_obj_to_json, load_json_object
-from shared.model import CharacterClass, Character, Skill, Species, Weapon, WeaponFamily, skill_priority_tree, standard_skill_arr
+from shared.model import Alignment, CharacterClass, Character, Skill, Species, Weapon, WeaponFamily, skill_priority_tree, standard_skill_arr
 from bs4 import BeautifulSoup, Tag
 from shared.requestor import get_class_html
 from pprint import pprint
 import re
 from word2number.w2n import word_to_num
-import json
 
 word_to_num('two')
 should_be_number = lambda val: type(val) == int or val.replace('+', '').isnumeric()
 clean_col = lambda col: int(col) if should_be_number(col) else col
 indicates_one = lambda val: val == 'a' or val == 'an'
+MANUAL = True
+AUTOMATIC = False
+
+def make_skill_roll():
+    v = [randint(1, 6) for _ in range(4)]
+    v.sort()
+    return sum(v[1:])
 
 class Generator:
     level: int = 0
+    use_standard_arr = False
+    mode = AUTOMATIC
     def __init__(self, **kwargs):
         for arg in kwargs:
             self.__setattr__(arg, kwargs.get(arg))
         self.level = int(self.level)
+        
+    def choose(self, choices, num_choices):
+        c = sample(choices, num_choices)
+        if num_choices > 1:
+            return c
+        return c[0]
+    
+    def make_choice(self, choices: List[any], property: None | list | dict | str | set, num_choices: int):
+        if property is None: return self.choose(choices, num_choices)
+        if self.mode == AUTOMATIC:
+            if type(property) == list or type(property) == set:
+                for choice in self.choose(choices, num_choices): property.append(choice) if type(property) == list else property.add(choice)
+            elif type(property) == dict:
+                for (key, val) in self.choose(choices, num_choices): property[key] = val
+            else: self.char.__setattr__(property, self.choose(choices, num_choices))
+        else: 
+            print('manual choices not implemented')
+            exit(0)
+        return 
 
     def parse_header_table(self):
         class_table = self.soup.find('table')
@@ -42,11 +69,6 @@ class Generator:
                     elif headers[idx] != 'level':
                         self.char.__setattr__(headers[idx], clean_col(col))
 
-    def manage_choice(self, element: Tag):
-        element.find_next('table')
-        # rows = table_element.find_all('a')
-        # print(rows)
-
     def get_features(self):
         features = self.soup.find('div', {'class': 'feature'})
         profs_headers = features.find_all('h5')
@@ -61,16 +83,21 @@ class Generator:
                 continue
             text = f.get_text()
             if 'choose' in text[:75]:
-                self.manage_choice(f)
+                # self.manage_choice(f)
+                # todo
+                pass
             if self.features[header_idx] not in self.char.features:
                 self.char.features[self.features[header_idx]] = ''
             self.char.features[self.features[header_idx]] += text[:-1]
         
     def choose_skills(self):
         skill_map = skill_priority_tree[CharacterClass(self.char.character_class)]
+        skill_arr = standard_skill_arr if self.use_standard_arr else [make_skill_roll() for _ in range(6)]
+        skill_arr.sort(reverse=True)
+        print(skill_arr)
         skill_arr_idx = 0
         skills = set(Skill)
-        for skill_arr_idx in range(len(standard_skill_arr)):
+        for skill_arr_idx in range(len(skill_arr)):
             if skill_map:
                 keys = list(skill_map.keys())
             else:
@@ -104,7 +131,7 @@ class Generator:
                 num = re.search(r'\b[Cc]hoose\s+(\w+)', prof)
                 if num:
                     num =  word_to_num(num.group())
-                    skills = sample(re.search(r'\bfrom\b\s*(.*)', prof).group().split(', '), num)
+                    skills = self.make_choice(re.search(r'\bfrom\b\s*(.*)', prof).group().split(', '), None, num)
                 else: skills = prof
                 [self.char.ability_check_profs.add(skill.capitalize()) for skill in skills]
             elif prof != 'None':
@@ -120,12 +147,12 @@ class Generator:
             if matches:
                 matches = [re.sub(r'\b(and|or)\b', '', match).strip() for match in matches]
                 if 'martial' in matches[1]:
-                    weapons: List[Weapon] = load_json_object('./equipment_loader/weapons.json', Weapon)
+                    weapons: List[Weapon] = load_json_object('./misc_loader/weapons.json', Weapon)
                     f = lambda v: v.family == WeaponFamily.Martial.value and ('Ammunition' not in v.properties if 'melee' in matches[1] else ('Ammunition' in v.properties if 'ranged' in matches[1] else True))
-                    self.char.equipment.append((choice(list(filter(f, weapons))).name, 1))
+                    self.char.equipment.append((choice(list(filter(f, weapons))).name, 'Weapon', 1))
                 elif 'simple' in matches[1]:
                     f = lambda v: v.family == WeaponFamily.Simple.value and ('Ammunition' not in v.properties if 'melee' in matches[1] else ('Ammunition' in v.properties if 'ranged' in matches[1] else True))
-                    self.char.equipment.append((choice(list(filter(f, weapons))).name, 1))
+                    self.char.equipment.append((choice(list(filter(f, weapons))).name, 'Weapon', 1))
                 else:
                     # todo figure out how to handle non choices
                     print(matches)
@@ -137,7 +164,20 @@ class Generator:
                 num = safe_word_to_num(re.search(r'^\s*(\w+)', match).group(1))
                 self.char.equipment.append((re.search(r'^\s*\w+\s+(.*)', match).group(1).strip().capitalize(), num or 1))
             
-
+    def choose_background(self):
+        backgrounds: dict = load_json_object('./misc_loader/backgrounds.json', dict)
+        bg = self.make_choice(list(backgrounds.keys()), None, 1)
+        print(bg)
+        profs = backgrounds[bg]
+        for i in range(len(profs)):
+            if profs[i] == '1' or profs[i] == '2':
+                self.make_choice(profs[i+1:], self.char.ability_check_profs, int(profs[i]))
+            else:
+                self.char.ability_check_profs.add(profs[i])
+                
+    def choose_alignment(self):
+        self.make_choice(list(a.value for a in Alignment), 'alignment', 1)
+    
     def make_base_selections(self):
         if self.species:
             self.char.species = self.species
@@ -147,6 +187,7 @@ class Generator:
         self.choose_skills()
 
     def execute(self, dry_run):
+        print('hi :)')
         self.char = Character()
         self.char.level = int(self.level)
         self.char.name = self.name or 'my_char'
@@ -161,5 +202,7 @@ class Generator:
         self.soup = BeautifulSoup(html, 'html.parser')
         self.parse_header_table()
         self.get_features()
-        # print(self.char)
+        self.choose_background()
+        self.choose_alignment()
+        print(self.char)
         write_obj_to_json(self.char, f'./generator/{self.char.name}.json')
