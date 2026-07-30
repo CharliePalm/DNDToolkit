@@ -37,6 +37,15 @@ def _class_page_key(char_class: str) -> str:
     return char_class.lower().replace(" ", "-")
 
 
+def _page_content(html: str) -> Tag:
+    """parse html and return the #page-content Tag, raising if it's missing"""
+    soup = BeautifulSoup(html, "html.parser")
+    content = soup.find("div", id="page-content")
+    if not isinstance(content, Tag):
+        raise ValueError("page-content div not found")
+    return content
+
+
 def _load_html(page_key: str, is_dry_run: bool) -> Optional[str]:
     """read a local fixture when doing a dry run, otherwise fetch the live page"""
     if is_dry_run:
@@ -116,7 +125,7 @@ def _iter_features(container: Tag):
     walk a page-content container in document order, yielding (name, description)
     tuples. A feature starts at a header (h2-h6) and its description is every
     paragraph / list that follows until the next header. Tables are skipped so the
-    subclass list doesn't leak into the Primal Path description.
+    subclass list doesn't leak into the subclass description.
     """
     current_name = None
     current_desc: List[str] = []
@@ -166,8 +175,7 @@ def _parse_base_class(
     html: str, char_class: str
 ) -> Tuple[List[ClassFeature], List[str]]:
     """returns (base features, subclass page keys linked from this page)"""
-    soup = BeautifulSoup(html, "html.parser")
-    content = soup.find("div", id="page-content")
+    content = _page_content(html)
 
     feature_levels: Dict[str, int] = {}
     resource_breakpoints: Dict[str, dict] = {}
@@ -206,7 +214,7 @@ def _find_subclass_keys(content: Tag, class_page_key: str) -> List[str]:
         + r":[a-z0-9-]+)$"
     )
     for anchor in content.find_all("a", href=True):
-        match = pattern.match(anchor["href"].strip())
+        match = pattern.match(str(anchor["href"]).strip())
         if match:
             key = match.group(1)
             if key not in seen:
@@ -218,9 +226,11 @@ def _find_subclass_keys(content: Tag, class_page_key: str) -> List[str]:
 def _parse_subclass(html: str, char_class: str) -> List[ClassFeature]:
     soup = BeautifulSoup(html, "html.parser")
     content = soup.find("div", id="page-content")
+    if not isinstance(content, Tag):
+        raise ValueError("page-content div not found")
 
     title = soup.find("div", class_="page-title")
-    subclass_name = _clean_text(title) if title else ""
+    subclass_name = _clean_text(title) if isinstance(title, Tag) else ""
     prefix = char_class + ":"
     if subclass_name.startswith(prefix):
         subclass_name = subclass_name[len(prefix) :].strip()
