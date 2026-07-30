@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d8 per bard level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per bard level after 1st",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords Tools: Three musical instruments of your choice Saving Throws: Dexterity, Charisma Skills: Choose any three",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a rapier, (b) a longsword, or (c) any simple weapon\n\n\u2022 (a) a diplomat's pack or (b) an entertainer's pack\n\n\u2022 (a) a lute or (b) any other musical instrument\n\n\u2022 Leather armor and a dagger",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d8 per bard level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per bard level after 1st\n\nProficiencies:\nArmor: Light armor Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords Tools: Three musical instruments of your choice Saving Throws: Dexterity, Charisma Skills: Choose any three\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a rapier, (b) a longsword, or (c) any simple weapon\n\n\u2022 (a) a diplomat's pack or (b) an entertainer's pack\n\n\u2022 (a) a lute or (b) any other musical instrument\n\n\u2022 Leather armor and a dagger",
         "character_class": "Bard",
         "level": 1,
         "is_choice": false,
@@ -31,67 +11,7 @@
     },
     {
         "name": "Spellcasting",
-        "description": "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Cantrips",
-        "description": "You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spell Slots",
-        "description": "The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell Cure Wounds and have a 1st-level and a 2nd-level spell slot available, you can cast Cure Wounds using either slot.",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spells Known of 1st Level and Higher",
-        "description": "You know four 1st-level spells of your choice from the bard spell list.\n\nThe Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.",
-        "character_class": "Bard",
-        "level": 2,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Ability",
-        "description": "Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ritual Casting",
-        "description": "You can cast any bard spell you know as a ritual if that spell has the ritual tag.",
-        "character_class": "Bard",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Focus",
-        "description": "You can use a musical instrument (found in chapter 5) as a spellcasting focus for your bard spells.",
+        "description": "Spellcasting:\nYou have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.\n\nCantrips:\nYou know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.\n\nSpell Slots:\nThe Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell Cure Wounds and have a 1st-level and a 2nd-level spell slot available, you can cast Cure Wounds using either slot.\n\nSpells Known of 1st Level and Higher:\nYou know four 1st-level spells of your choice from the bard spell list.\n\nThe Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nCharisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nRitual Casting:\nYou can cast any bard spell you know as a ritual if that spell has the ritual tag.\n\nSpellcasting Focus:\nYou can use a musical instrument (found in chapter 5) as a spellcasting focus for your bard spells.",
         "character_class": "Bard",
         "level": 1,
         "is_choice": false,
@@ -154,16 +74,6 @@
         "description": "At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.\n\nAt 10th level, you can choose another two skill proficiencies to gain this benefit.",
         "character_class": "Bard",
         "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Bard",
-        "level": 4,
         "is_choice": false,
         "uses": null,
         "subclass": null,
@@ -470,16 +380,6 @@
         "is_choice": false
     },
     {
-        "name": "Extra Attack",
-        "description": "Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Bard",
-        "subclass": "College of Swords",
-        "level": 6,
-        "source": "Xanathar's Guide to Everything",
-        "uses": null,
-        "is_choice": false
-    },
-    {
         "name": "Master's Flourish",
         "description": "Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.",
         "character_class": "Bard",
@@ -505,16 +405,6 @@
         "character_class": "Bard",
         "subclass": "College of Valor",
         "level": 3,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Bard",
-        "subclass": "College of Valor",
-        "level": 6,
         "source": "Player's Handbook",
         "uses": null,
         "is_choice": false

@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d8 per mystic level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per mystic level after 1st",
-        "character_class": "Mystic",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor Weapons: Simple weapons Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two skills from Arcana, History, Insight, Medicine, Nature, Perception, and Religion",
-        "character_class": "Mystic",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a spear or (b) a mace\n\n\u2022 (a) leather armor or (b) studded leather armor\n\n\u2022 (a) a light crossbow and 20 bolts or (b) any simple weapon\n\n\u2022 (a) a scholar\u2019s pack or (b) an explorer\u2019s pack\n\nAlternatively, you can ignore the equipment here and in your background, and buy 5d4 \u00d7 10 gp worth of equipment from chapter 5 in the Player\u2019s Handbook.",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d8 per mystic level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per mystic level after 1st\n\nProficiencies:\nArmor: Light armor Weapons: Simple weapons Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two skills from Arcana, History, Insight, Medicine, Nature, Perception, and Religion\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a spear or (b) a mace\n\n\u2022 (a) leather armor or (b) studded leather armor\n\n\u2022 (a) a light crossbow and 20 bolts or (b) any simple weapon\n\n\u2022 (a) a scholar\u2019s pack or (b) an explorer\u2019s pack\n\nAlternatively, you can ignore the equipment here and in your background, and buy 5d4 \u00d7 10 gp worth of equipment from chapter 5 in the Player\u2019s Handbook.",
         "character_class": "Mystic",
         "level": 1,
         "is_choice": false,
@@ -130,16 +110,6 @@
         "description": "At 2nd level, your mind awakens to the ability to communicate via telepathy. You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don\u2019t need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself.",
         "character_class": "Mystic",
         "level": 2,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th,16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can\u2019t increase an ability score above 20 using this feature.",
-        "character_class": "Mystic",
-        "level": 4,
         "is_choice": false,
         "uses": null,
         "subclass": null,

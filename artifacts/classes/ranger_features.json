@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d10 per ranger level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per ranger level after 1st",
-        "character_class": "Ranger",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Dexterity Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival",
-        "character_class": "Ranger",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) scale mail or (b) leather armor\n\n\u2022 (a) two shortswords or (b) two simple melee weapons\n\n\u2022 (a) a dungeoneer's pack or (b) an explorer's pack\n\n\u2022 A longbow and a quiver of 20 arrows",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d10 per ranger level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per ranger level after 1st\n\nProficiencies:\nArmor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Dexterity Skills: Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) scale mail or (b) leather armor\n\n\u2022 (a) two shortswords or (b) two simple melee weapons\n\n\u2022 (a) a dungeoneer's pack or (b) an explorer's pack\n\n\u2022 A longbow and a quiver of 20 arrows",
         "character_class": "Ranger",
         "level": 1,
         "is_choice": false,
@@ -42,16 +22,6 @@
     {
         "name": "Favored Foe",
         "description": "This 1st-level feature replaces the Favored Enemy feature and works with the Foe Slayer feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it.\n\nWhen you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).\n\nThe first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you increase that damage by 1d4.\n\nYou can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nThis feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level.",
-        "character_class": "Ranger",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Natural Explorer",
-        "description": "Also at 1st level, you are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u2019re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n\u2022 Difficult terrain doesn\u2019t slow your group\u2019s travel.\n\n\u2022 Your group can\u2019t become lost except by magical means.\n\n\u2022 Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n\n\u2022 If you are traveling alone, you can move stealthily at a normal pace.\n\n\u2022 When you forage, you find twice as much food as you normally would.\n\n\u2022 While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou choose additional favored terrain types at 6th and 10th level.",
         "character_class": "Ranger",
         "level": 1,
         "is_choice": false,
@@ -111,49 +81,9 @@
     },
     {
         "name": "Spellcasting",
-        "description": "By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.",
-        "character_class": "Ranger",
-        "level": 2,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spell Slots",
-        "description": "The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Animal Friendship and have a 1st-level and a 2nd-level spell slot available, you can cast Animal Friendship using either slot.",
+        "description": "Spellcasting:\nBy the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.\n\nSpell Slots:\nThe Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Animal Friendship and have a 1st-level and a 2nd-level spell slot available, you can cast Animal Friendship using either slot.\n\nSpells Known of 1st Level and Higher:\nYou know two 1st-level spells of your choice from the ranger spell list.\n\nThe Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nWisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nSpellcasting Focus:\nAt 2nd level, you can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.",
         "character_class": "Ranger",
         "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spells Known of 1st Level and Higher",
-        "description": "You know two 1st-level spells of your choice from the ranger spell list.\n\nThe Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.",
-        "character_class": "Ranger",
-        "level": 2,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Ability",
-        "description": "Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier",
-        "character_class": "Ranger",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Focus",
-        "description": "At 2nd level, you can use a druidic focus as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.",
-        "character_class": "Ranger",
-        "level": 2,
         "is_choice": false,
         "uses": null,
         "subclass": null,
@@ -190,40 +120,10 @@
         "source": null
     },
     {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Ranger",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
         "name": "Martial Versatility",
         "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.",
         "character_class": "Ranger",
         "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Ranger",
-        "level": 5,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Land's Stride",
-        "description": "Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the Entangle spell.",
-        "character_class": "Ranger",
-        "level": 8,
         "is_choice": false,
         "uses": null,
         "subclass": null,
@@ -845,16 +745,6 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Ranger",
-        "subclass": "Fey Wanderer (UA)",
-        "level": 5,
         "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
         "is_choice": false

@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d12 per barbarian level Hit Points at 1st Level: 12 + your Constitution modifier Hit Points at Higher Levels: 1d12 (or 7) + your Constitution modifier per barbarian level after 1st",
-        "character_class": "Barbarian",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Constitution Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival",
-        "character_class": "Barbarian",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a greataxe or (b) any martial melee weapon\n\n\u2022 (a) two handaxes or (b) any simple weapon\n\n\u2022 An explorer's pack and four javelins",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d12 per barbarian level Hit Points at 1st Level: 12 + your Constitution modifier Hit Points at Higher Levels: 1d12 (or 7) + your Constitution modifier per barbarian level after 1st\n\nProficiencies:\nArmor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Constitution Skills: Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a greataxe or (b) any martial melee weapon\n\n\u2022 (a) two handaxes or (b) any simple weapon\n\n\u2022 An explorer's pack and four javelins",
         "character_class": "Barbarian",
         "level": 1,
         "is_choice": false,
@@ -91,26 +71,6 @@
         "description": "When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.",
         "character_class": "Barbarian",
         "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Barbarian",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Barbarian",
-        "level": 5,
         "is_choice": false,
         "uses": null,
         "subclass": null,

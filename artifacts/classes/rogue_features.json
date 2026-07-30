@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d8 per rogue level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per rogue level after 1st",
-        "character_class": "Rogue",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords Tools: Thieves' tools Saving Throws: Dexterity, Intelligence Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth",
-        "character_class": "Rogue",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a rapier or (b) a shortsword\n\n\u2022 (a) a shortbow and quiver of 20 arrows or (b) a shortsword\n\n\u2022 (a) a burglar's pack, (b) dungeoneer's pack, or (c) an explorer's pack\n\n\u2022 Leather armor, two daggers, and thieves' tools",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d8 per rogue level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per rogue level after 1st\n\nProficiencies:\nArmor: Light armor Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords Tools: Thieves' tools Saving Throws: Dexterity, Intelligence Skills: Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a rapier or (b) a shortsword\n\n\u2022 (a) a shortbow and quiver of 20 arrows or (b) a shortsword\n\n\u2022 (a) a burglar's pack, (b) dungeoneer's pack, or (c) an explorer's pack\n\n\u2022 Leather armor, two daggers, and thieves' tools",
         "character_class": "Rogue",
         "level": 1,
         "is_choice": false,
@@ -84,16 +64,6 @@
         "description": "At 3rd level, as a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.",
         "character_class": "Rogue",
         "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Rogue",
-        "level": 4,
         "is_choice": false,
         "uses": null,
         "subclass": null,
@@ -168,56 +138,6 @@
         "uses": 1,
         "subclass": null,
         "source": null
-    },
-    {
-        "name": "Spellcasting",
-        "description": "When you reach 3rd level, you augment your martial prowess with the ability to cast spells.",
-        "character_class": "Rogue",
-        "subclass": "Arcane Trickster",
-        "level": 3,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Cantrips",
-        "description": "You learn three cantrips: Mage Hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.",
-        "character_class": "Rogue",
-        "subclass": "Arcane Trickster",
-        "level": 10,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Spell Slots",
-        "description": "The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Charm Person and have a 1st-level and a 2nd-level spell slot available, you can cast Charm Person using either slot.",
-        "character_class": "Rogue",
-        "subclass": "Arcane Trickster",
-        "level": 1,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Spells Known of 1st Level and Higher",
-        "description": "You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.\n\nThe Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.",
-        "character_class": "Rogue",
-        "subclass": "Arcane Trickster",
-        "level": 1,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
-    },
-    {
-        "name": "Spellcasting Ability",
-        "description": "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-        "character_class": "Rogue",
-        "subclass": "Arcane Trickster",
-        "level": 3,
-        "source": "Player's Handbook",
-        "uses": null,
-        "is_choice": false
     },
     {
         "name": "Mage Hand Legerdemain",

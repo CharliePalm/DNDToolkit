@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d8 per warlock level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per warlock level after 1st",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor Weapons: Simple weapons Tools: None Saving Throws: Wisdom, Charisma Skills: Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a light crossbow and 20 bolts or (b) any simple weapon\n\n\u2022 (a) a component pouch or (b) an arcane focus\n\n\u2022 (a) a scholar's pack or (b) a dungeoneer's pack\n\n\u2022 Leather armor, any simple weapon, and two daggers",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d8 per warlock level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per warlock level after 1st\n\nProficiencies:\nArmor: Light armor Weapons: Simple weapons Tools: None Saving Throws: Wisdom, Charisma Skills: Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a light crossbow and 20 bolts or (b) any simple weapon\n\n\u2022 (a) a component pouch or (b) an arcane focus\n\n\u2022 (a) a scholar's pack or (b) a dungeoneer's pack\n\n\u2022 Leather armor, any simple weapon, and two daggers",
         "character_class": "Warlock",
         "level": 1,
         "is_choice": false,
@@ -40,58 +20,8 @@
         "source": null
     },
     {
-        "name": "Pact Magic",
-        "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells.",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Cantrips",
-        "description": "You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spell Slots",
-        "description": "The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spells Known of 1st Level and Higher",
-        "description": "At 1st level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Ability",
-        "description": "Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier",
-        "character_class": "Warlock",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Spellcasting Focus",
-        "description": "You can use an arcane focus as a spellcasting focus for your warlock spells.",
+        "name": "Spellcasting",
+        "description": "Pact Magic:\nYour arcane research and the magic bestowed on you by your patron have given you facility with spells.\n\nCantrips:\nYou know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n\nSpell Slots:\nThe Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\n\nSpells Known of 1st Level and Higher:\nAt 1st level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability:\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus:\nYou can use an arcane focus as a spellcasting focus for your warlock spells.",
         "character_class": "Warlock",
         "level": 1,
         "is_choice": false,
@@ -117,16 +47,6 @@
         "is_choice": true,
         "subclass": "Pick your subclass where you set your class (top left)",
         "uses": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Warlock",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
         "source": null
     },
     {
