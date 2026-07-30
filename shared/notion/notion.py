@@ -68,8 +68,14 @@ class Notion:
     template_page = "548ab0377082480d818f68232c63ef7b"
     client: notion_client.Client
 
+    # 2026-03-11 is the first API version that supports native "icon" objects
+    # (built-in Notion icons set by name/color)
+    notion_version = "2026-03-11"
+
     def __init__(self):
-        self.client = notion_client.Client(auth=os.environ["NOTION_TOKEN"])
+        self.client = notion_client.Client(
+            auth=os.environ["NOTION_TOKEN"], notion_version=self.notion_version
+        )
 
     def scrape_result(self, result, remove_ids=False):
         if "object" in result and result["object"] == "list" or type(result) == list:
