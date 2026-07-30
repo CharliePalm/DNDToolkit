@@ -122,10 +122,14 @@ def _parse_level_table(table: Tag) -> Tuple[Dict[str, int], Dict[str, dict]]:
 
 def _iter_features(container: Tag):
     """
-    walk a page-content container in document order, yielding (name, description)
-    tuples. A feature starts at a header (h2-h6) and its description is every
-    paragraph / list that follows until the next header. Tables are skipped so the
-    subclass list doesn't leak into the subclass description.
+        walk a page-content container in document order, yielding (name, description)
+        tuples. A feature starts at a header (h2-h6) and its description is every
+        paragraph / list that follows until the next header. Tables are skipped so the
+    <<<<<<< Updated upstream
+        subclass list doesn't leak into the subclass description.
+    =======
+        subclass list doesn't leak into the Primal Path description.
+    >>>>>>> Stashed changes
     """
     current_name = None
     current_desc: List[str] = []
