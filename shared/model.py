@@ -366,6 +366,23 @@ class Spell:
                 to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
         return to_ret
 
+class ClassFeature:
+    name: str = ''
+    description: str = ''
+    level: int = 1
+    uses = None  # None, an int, or a dict of {level: value} when the count scales
+    character_class: str = ''
+    subclass: str = None  # None for base-class features
+    source: str = None  # sourcebook the feature comes from, when known
+    def __init__(self):
+        pass
+    def __str__(self):
+        to_ret = ''
+        for attr in self.__dir__():
+            if attr[0] != '_':
+                to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
+        return to_ret
+
 class Character:
     name: str = ''
     species: Species = ''
