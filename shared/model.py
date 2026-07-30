@@ -1,13 +1,15 @@
-from enum import Enum
-from typing import List, Set, Dict, Tuple
-bullet_char = '•'
+from enum import Enum, StrEnum
+from typing import List, Literal, Set, Dict, Tuple
+
+bullet_char = "•"
 
 # lambdas
 
 is_caster = lambda charClass: charClass in casters
 
+
 # enums
-class CharacterClass(Enum):
+class CharacterClass(StrEnum):
     Barbarian = "Barbarian"
     Bard = "Bard"
     Cleric = "Cleric"
@@ -23,55 +25,61 @@ class CharacterClass(Enum):
     Artificer = "Artificer"
     Blood_Hunter = "Blood Hunter"
     Mystic = "Mystic"
-    
-class Components(Enum):
-    V = 'Verbal' 
-    S = 'Somatic' 
-    M = 'Material'
-    
-class School(Enum):
-    Abjuration = 'Abjuration'
-    Conjuration = 'Conjuration'
-    Divination = 'Divination'
-    Enchantment = 'Enchantment'
-    Evocation = 'Evocation'
-    Illusion = 'Illusion'
-    Necromancy = 'Necromancy'
-    Transmutation = 'Transmutation'
 
-class Tag(Enum):
-    Dunamancy = 'Dunamancy'
-    Ritual = 'Ritual'
-    Graviturgy = 'Graviturgy'
-    Chronurgy = 'Chronurgy'
-    Technomagic = 'Technomagic'
 
-class DamageType(Enum):
-    Cold = 'Cold'
-    Fire = 'Fire'
-    Bludgeoning = 'Bludgeoning'
-    Radiant = 'Radiant'
-    Necrotic = 'Necrotic'
-    Psychic = 'Psychic'
-    Force = 'Force'
-    Elemental = 'Elemental'
-    Piercing = 'Piercing'
-    Lightning = 'Lightning'
-    Thunder = 'Thunder'
-    Acid = 'Acid'
-    Poison = 'Poison'
-    Slashing = 'Slashing'
-    Physical = 'Physical'
+class Components(StrEnum):
+    V = "Verbal"
+    S = "Somatic"
+    M = "Material"
 
-class Skill(Enum):
-    Strength = 'Strength'
-    Dexterity = 'Dexterity'
-    Constitution = 'Constitution'
-    Charisma = 'Charisma'
-    Intelligence = 'Intelligence'
-    Wisdom = 'Wisdom'
 
-class Ability(Enum):
+class School(StrEnum):
+    Abjuration = "Abjuration"
+    Conjuration = "Conjuration"
+    Divination = "Divination"
+    Enchantment = "Enchantment"
+    Evocation = "Evocation"
+    Illusion = "Illusion"
+    Necromancy = "Necromancy"
+    Transmutation = "Transmutation"
+
+
+class Tag(StrEnum):
+    Dunamancy = "Dunamancy"
+    Ritual = "Ritual"
+    Graviturgy = "Graviturgy"
+    Chronurgy = "Chronurgy"
+    Technomagic = "Technomagic"
+
+
+class DamageType(StrEnum):
+    Cold = "Cold"
+    Fire = "Fire"
+    Bludgeoning = "Bludgeoning"
+    Radiant = "Radiant"
+    Necrotic = "Necrotic"
+    Psychic = "Psychic"
+    Force = "Force"
+    Elemental = "Elemental"
+    Piercing = "Piercing"
+    Lightning = "Lightning"
+    Thunder = "Thunder"
+    Acid = "Acid"
+    Poison = "Poison"
+    Slashing = "Slashing"
+    Physical = "Physical"
+
+
+class Skill(StrEnum):
+    Strength = "Strength"
+    Dexterity = "Dexterity"
+    Constitution = "Constitution"
+    Charisma = "Charisma"
+    Intelligence = "Intelligence"
+    Wisdom = "Wisdom"
+
+
+class Ability(StrEnum):
     Acrobatics = "Acrobatics"
     Animal_Handling = "Animal Handling"
     Arcana = "Arcana"
@@ -91,7 +99,8 @@ class Ability(Enum):
     Stealth = "Stealth"
     Survival = "Survival"
 
-class Species(Enum):
+
+class Species(StrEnum):
     Dwarf = "Dwarf"
     Elf = "Elf"
     Halfling = "Halfling"
@@ -106,36 +115,40 @@ class Species(Enum):
     Goliath = "Goliath"
     Firbolg = "Firbolg"
     Triton = "Triton"
-    
-class WeaponFamily(Enum):
-    Simple = 'Simple'
-    Martial = 'Martial'
 
-class EquipmentType(Enum):
-    Weapon = 'Weapon',
-    AdventuringGear = 'Adventuring Gear'
 
-class Alignment(Enum):
-    LawfulEvil = 'Lawful Evil'
-    ChaoticEvil = 'Chaotic Evil'
-    NeutralEvil = 'Neutral Evil'
-    LawfulNeutral = 'Lawful Neutral'
-    ChaoticNeutral = 'Chaotic Neutral'
-    TrueNeutral = 'True Neutral'
-    LawfulGood = 'Lawful Good'
-    ChaoticGood = 'Chaotic Good'
-    NeutralGood = 'Neutral Good'
+class WeaponFamily(StrEnum):
+    Simple = "Simple"
+    Martial = "Martial"
+
+
+class EquipmentType(StrEnum):
+    Weapon = "Weapon"
+    AdventuringGear = "Adventuring Gear"
+
+
+class Alignment(StrEnum):
+    LawfulEvil = "Lawful Evil"
+    ChaoticEvil = "Chaotic Evil"
+    NeutralEvil = "Neutral Evil"
+    LawfulNeutral = "Lawful Neutral"
+    ChaoticNeutral = "Chaotic Neutral"
+    TrueNeutral = "True Neutral"
+    LawfulGood = "Lawful Good"
+    ChaoticGood = "Chaotic Good"
+    NeutralGood = "Neutral Good"
+
 
 # maps
 school_emoji_map = {
-    School.Abjuration.value: '🛡️',
-    School.Conjuration.value: '🌀',
-    School.Divination.value: '🔮',
-    School.Enchantment.value: '✨',
-    School.Evocation.value: '🔥',
-    School.Illusion.value: '👁️‍🗨️',
-    School.Necromancy.value: '💀',
-    School.Transmutation.value: '🔄',
+    School.Abjuration: "🛡️",
+    School.Conjuration: "🌀",
+    School.Divination: "🔮",
+    School.Enchantment: "✨",
+    School.Evocation: "🔥",
+    School.Illusion: "👁️‍🗨️",
+    School.Necromancy: "💀",
+    School.Transmutation: "🔄",
 }
 
 ability_to_skill = {
@@ -156,237 +169,180 @@ ability_to_skill = {
     Ability.Religion: Skill.Intelligence,
     Ability.Sleight_of_Hand: Skill.Dexterity,
     Ability.Stealth: Skill.Dexterity,
-    Ability.Survival: Skill.Wisdom
+    Ability.Survival: Skill.Wisdom,
 }
 
 skill_to_abbrev = {
-    Skill.Strength.value: 'STR',
-    Skill.Dexterity.value: 'DEX',
-    Skill.Charisma.value: 'CHA',
-    Skill.Constitution.value: 'CON',
-    Skill.Intelligence.value: 'INT',
-    Skill.Wisdom.value: 'WIS',
+    Skill.Strength: "STR",
+    Skill.Dexterity: "DEX",
+    Skill.Charisma: "CHA",
+    Skill.Constitution: "CON",
+    Skill.Intelligence: "INT",
+    Skill.Wisdom: "WIS",
 }
 
 standard_skill_arr: List[int] = [15, 14, 13, 12, 10, 8]
 
-skill_priority_tree: Dict[CharacterClass, Dict[any, any]] = {
-    CharacterClass.Barbarian: {
-        Skill.Strength: {
-            Skill.Constitution: {}
-        }
-    },
+skill_priority_tree: Dict[CharacterClass, Dict[Skill, Dict[Skill, dict]]] = {
+    CharacterClass.Barbarian: {Skill.Strength: {Skill.Constitution: {}}},
     CharacterClass.Bard: {
         Skill.Charisma: {
-            Skill.Dexterity: {
-                Skill.Constitution: {}
-            },
-            Skill.Wisdom: {
-                Skill.Constitution: {}
-            }
+            Skill.Dexterity: {Skill.Constitution: {}},
+            Skill.Wisdom: {Skill.Constitution: {}},
         }
     },
-    CharacterClass.Cleric: {
-        Skill.Wisdom: {}
-    },
+    CharacterClass.Cleric: {Skill.Wisdom: {}},
     CharacterClass.Druid: {
         Skill.Wisdom: {
-            Skill.Dexterity: {
-                Skill.Constitution: {}
-            },
-            Skill.Constitution: {
-                Skill.Dexterity: {}
-            }
+            Skill.Dexterity: {Skill.Constitution: {}},
+            Skill.Constitution: {Skill.Dexterity: {}},
         }
     },
     CharacterClass.Fighter: {
-        Skill.Strength: {
-            Skill.Constitution: {}
-        },
-        Skill.Dexterity: {
-            Skill.Constitution: {}
-        },
+        Skill.Strength: {Skill.Constitution: {}},
+        Skill.Dexterity: {Skill.Constitution: {}},
     },
     CharacterClass.Monk: {
         Skill.Dexterity: {
-            Skill.Wisdom: {
-                Skill.Constitution: {}
-            },
-            Skill.Constitution: {
-                Skill.Wisdom: {}
-            }
+            Skill.Wisdom: {Skill.Constitution: {}},
+            Skill.Constitution: {Skill.Wisdom: {}},
         }
     },
     CharacterClass.Paladin: {
-        Skill.Strength: {
-            Skill.Charisma: {
-                Skill.Constitution: {}
-            }
-        },
-        Skill.Charisma: {
-            Skill.Strength: {
-                Skill.Constitution: {}
-            }
-        }
+        Skill.Strength: {Skill.Charisma: {Skill.Constitution: {}}},
+        Skill.Charisma: {Skill.Strength: {Skill.Constitution: {}}},
     },
     CharacterClass.Ranger: {
-        Skill.Dexterity: {
-            Skill.Wisdom: {
-                Skill.Constitution: {},
-                Skill.Strength: {}
-            }
-        }
+        Skill.Dexterity: {Skill.Wisdom: {Skill.Constitution: {}, Skill.Strength: {}}}
     },
     CharacterClass.Rogue: {
         Skill.Dexterity: {
-            Skill.Charisma: {
-                Skill.Constitution: {}
-            },
-            Skill.Intelligence: {
-                Skill.Constitution: {}
-            }
+            Skill.Charisma: {Skill.Constitution: {}},
+            Skill.Intelligence: {Skill.Constitution: {}},
         }
     },
     CharacterClass.Sorcerer: {
         Skill.Charisma: {
-            Skill.Dexterity: {
-                Skill.Constitution: {}
-            },
-            Skill.Constitution: {
-                Skill.Dexterity: {}
-            }
+            Skill.Dexterity: {Skill.Constitution: {}},
+            Skill.Constitution: {Skill.Dexterity: {}},
         }
     },
     CharacterClass.Warlock: {
         Skill.Charisma: {
-            Skill.Dexterity: {
-                Skill.Constitution: {}
-            },
-            Skill.Constitution: {
-                Skill.Dexterity: {}
-            }
+            Skill.Dexterity: {Skill.Constitution: {}},
+            Skill.Constitution: {Skill.Dexterity: {}},
         }
     },
     CharacterClass.Wizard: {
         Skill.Intelligence: {
-            Skill.Constitution: {
-                Skill.Dexterity: {
-                    Skill.Wisdom: {}
-                }
-            },
-            Skill.Dexterity: {
-                Skill.Constitution: {
-                    Skill.Wisdom: {}
-                }
-            }
+            Skill.Constitution: {Skill.Dexterity: {Skill.Wisdom: {}}},
+            Skill.Dexterity: {Skill.Constitution: {Skill.Wisdom: {}}},
         }
     },
     CharacterClass.Artificer: {
         Skill.Intelligence: {
-            Skill.Dexterity: {
-                Skill.Constitution: {}
-            },
-            Skill.Constitution: {
-                Skill.Dexterity: {}
-            }
+            Skill.Dexterity: {Skill.Constitution: {}},
+            Skill.Constitution: {Skill.Dexterity: {}},
         }
     },
     CharacterClass.Blood_Hunter: {
-        Skill.Dexterity: {
-            Skill.Constitution: {
-                Skill.Strength: {}
-            }
-        }
+        Skill.Dexterity: {Skill.Constitution: {Skill.Strength: {}}}
     },
     CharacterClass.Mystic: {
         Skill.Intelligence: {
-            Skill.Wisdom: {
-                Skill.Dexterity: {}
-            },
-            Skill.Dexterity: {
-                Skill.Wisdom: {}
-            }
+            Skill.Wisdom: {Skill.Dexterity: {}},
+            Skill.Dexterity: {Skill.Wisdom: {}},
         }
-    }
+    },
 }
 
 # if a class compiles features instead of sets to be latest, we note that here
-uses_list_of_dicts = [
-    'features'
-]
+uses_list_of_dicts = ["features"]
 
-casters = set([
-    CharacterClass.Artificer,
-    CharacterClass.Bard,
-    CharacterClass.Cleric,
-    CharacterClass.Druid,
-    CharacterClass.Ranger,
-    CharacterClass.Paladin,
-    CharacterClass.Sorcerer,
-    CharacterClass.Warlock,
-    CharacterClass.Wizard,
-])
+casters = set(
+    [
+        CharacterClass.Artificer,
+        CharacterClass.Bard,
+        CharacterClass.Cleric,
+        CharacterClass.Druid,
+        CharacterClass.Ranger,
+        CharacterClass.Paladin,
+        CharacterClass.Sorcerer,
+        CharacterClass.Warlock,
+        CharacterClass.Wizard,
+    ]
+)
 
 # classes
 
+
 class Weapon:
     name: str
-    cost: int # number of gold pieces
+    cost: int  # number of gold pieces
     damage: str
     damage_type: DamageType
-    weight: int # number of lbs
+    weight: int  # number of lbs
     properties: Set[str]
     range_normal: int = 0
     range_max: int = 0
     family: WeaponFamily
 
+
 class Spell:
-    name: str = ''
-    description: str = ''
-    duration: str = ''
+    name: str = ""
+    description: str = ""
+    duration: str = ""
     components: List[Components] = []
-    materials: str = ''
+    materials: str = ""
     classes: List[CharacterClass] = []
-    school: School = ''
+    school: School | Literal[""] = ""
     level: int
-    cast_time: str = ''
-    range: str = ''
-    higher_levels: str = ''
-    source: str = ''
+    cast_time: str = ""
+    range: str = ""
+    higher_levels: str = ""
+    source: str = ""
     tags: List[Tag] = []
-    damage_type: DamageType = ''
-    damage: str = ''
-    saving_throw: Skill = ''
+    damage_type: DamageType | Literal[""] = ""
+    damage: str = ""
+    saving_throw: Skill | Literal[""] = ""
+
     def __init__(self):
         pass
+
     def __str__(self):
-        to_ret = ''
+        to_ret = ""
         for attr in self.__dir__():
-            if attr[0] != '_':
-                to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
+            if attr[0] != "_":
+                to_ret += attr + ": " + str(self.__getattribute__(attr)) + "\n"
         return to_ret
+
 
 class ClassFeature:
-    name: str = ''
-    description: str = ''
+    name: str = ""
+    description: str = ""
     level: int = 1
-    uses = None  # None, an int, or a dict of {level: value} when the count scales
-    character_class: str = ''
-    subclass: str = None  # None for base-class features
-    source: str = None  # sourcebook the feature comes from, when known
+    uses: int | dict[int, int] | None = (
+        None  # None, an int, or a dict of {level: value} when the count scales
+    )
+    character_class: str = ""
+    subclass: str | None = None  # None for base-class features
+    source: str | None = None  # sourcebook the feature comes from, when known
+
     def __init__(self):
         pass
+
     def __str__(self):
-        to_ret = ''
+        to_ret = ""
         for attr in self.__dir__():
-            if attr[0] != '_':
-                to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
+            if attr[0] != "_":
+                to_ret += attr + ": " + str(self.__getattribute__(attr)) + "\n"
         return to_ret
 
+
 class Character:
-    name: str = ''
-    species: Species = ''
-    character_class: CharacterClass = ''
+    name: str = ""
+    species: Species | Literal[""] = ""
+    character_class: CharacterClass | Literal[""] = ""
     skills = {
         Skill.Strength.value: 10,
         Skill.Dexterity.value: 10,
@@ -400,42 +356,62 @@ class Character:
     ability_check_profs: Set[Ability] = set()
     features: Dict[str, str] = {}
     spell_slots: Dict[int, int] = {}
-    proficiencies: Dict[str, str | List] = {} # key is name of proficiency, 
+    proficiencies: Dict[str, str | List] = {}  # key is name of proficiency,
     level: int = 0
-    equipment: List[Tuple[str | Weapon, EquipmentType, int]] = [] # item + count
-    background: str = ''# todo
-    alignment: Alignment = ''# todo
+    equipment: List[Tuple[str | Weapon, EquipmentType, int]] = []  # item + count
+    background: str = ""  # todo
+    alignment: Alignment | Literal[""] = ""  # todo
     max_hp: int = 0
     current_hp: int = 0
     ac: int = 10
     other_features: Dict[str, str] = {}
-    
-    def __init__(self): pass
+
+    def __init__(self):
+        pass
 
     def get_spell_casting_mod(self):
-        if not is_caster(self.character_class): return 0
+        if not is_caster(self.character_class):
+            return 0
         x = 0
-        if self.character_class in [CharacterClass.Bard, CharacterClass.Sorcerer, CharacterClass.Warlock, CharacterClass.Paladin]:
+        if self.character_class in [
+            CharacterClass.Bard,
+            CharacterClass.Sorcerer,
+            CharacterClass.Warlock,
+            CharacterClass.Paladin,
+        ]:
             x = self.skills[Skill.Charisma.value]
-        elif self.character_class in [CharacterClass.Wizard, CharacterClass.Fighter, CharacterClass.Rogue, CharacterClass.Artificer]:
+        elif self.character_class in [
+            CharacterClass.Wizard,
+            CharacterClass.Fighter,
+            CharacterClass.Rogue,
+            CharacterClass.Artificer,
+        ]:
             x = self.skills[Skill.Intelligence.value]
-        else: x = self.skills[Skill.Wisdom.value]
+        else:
+            x = self.skills[Skill.Wisdom.value]
         return x + self.proficiency_bonus
 
-    def get_spell_save(self): return (8 + self.get_spell_casting_mod()) if is_caster(self.character_class) else 0
+    def get_spell_save(self):
+        return (
+            (8 + self.get_spell_casting_mod()) if is_caster(self.character_class) else 0
+        )
 
     def make_check(self, ability: Ability):
-        return self.get_modifier(ability_to_skill[ability]) + (self.proficiencyBonus if ability in self.ability_check_profs else 0)
+        return self.get_modifier(ability_to_skill[ability]) + (
+            self.proficiency_bonus if ability in self.ability_check_profs else 0
+        )
 
     def make_save(self, skill: Skill):
-        return self.get_modifier(skill) + (self.proficiencyBonus if skill in self.saving_throw_profs else 0)
-    
+        return self.get_modifier(skill) + (
+            self.proficiency_bonus if skill in self.saving_throw_profs else 0
+        )
+
     def get_modifier(self, skill: Skill):
         return int(self.skills[skill] / 2 - 5)
-    
+
     def __str__(self):
-        to_ret = ''
+        to_ret = ""
         for attr in self.__dir__():
-            if attr[0] != '_':
-                to_ret += attr + ': ' + str(self.__getattribute__(attr)) + '\n'
+            if attr[0] != "_":
+                to_ret += attr + ": " + str(self.__getattribute__(attr)) + "\n"
         return to_ret

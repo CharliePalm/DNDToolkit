@@ -1,2 +1,4 @@
 word2number
 notion_client
+requests
+bs4
