@@ -9,12 +9,29 @@ from shared.model import CharacterClass, ClassFeature
 from shared.requestor import base_url, make_get_request
 
 TEST_HTML_DIR = "./generator/test_html"
-OUTPUT_DIR = "./misc_loader"
+OUTPUT_DIR = "./artifacts/classes"
 
 ORDINAL_RE = re.compile(r"(\d+)(?:st|nd|rd|th)\s+level", re.IGNORECASE)
 LEVEL_RE = re.compile(r"(\d+)")
 ONCE_PER_REST_RE = re.compile(
     r"can'?t use (?:it|this feature) again until you finish", re.IGNORECASE
+)
+CHOICE_SUBCLASS_PLACEHOLDER = "Pick your subclass where you set your class (top left)"
+SUBCLASS_CHOICE_KEYWORDS = (
+    "archetype",
+    "conclave",
+    "oath",
+    "domain",
+    "patron",
+    "tradition",
+    "college",
+    "circle",
+    "path",
+    "origin",
+)
+SPECIALIZATION_CHOICE_PATTERNS = (
+    re.compile(r"\b(type of|kind of)\s+(specialist|specialization)\b", re.IGNORECASE),
+    re.compile(r"\b(specialist|specialization)\b", re.IGNORECASE),
 )
 
 
@@ -156,6 +173,22 @@ def _prose_level(description: str) -> Optional[int]:
     return min(levels) if levels else None
 
 
+def _class_feature_choice(name: str, description: str) -> Tuple[bool, Optional[str]]:
+    """return (is_choice_feature, placeholder_subclass_value) for subclass pickers"""
+    text = f"{name}\n{description}".lower()
+    if not text:
+        return False, None
+
+    has_choice_phrase = re.search(r"\b(choose|pick|select)\b", text) is not None
+    has_subclass_keyword = any(keyword in text for keyword in SUBCLASS_CHOICE_KEYWORDS)
+    has_specialization_choice = any(
+        pattern.search(text) for pattern in SPECIALIZATION_CHOICE_PATTERNS
+    )
+    if has_choice_phrase and (has_subclass_keyword or has_specialization_choice):
+        return True, CHOICE_SUBCLASS_PLACEHOLDER
+    return False, None
+
+
 def _merge_feature(features: Dict[str, ClassFeature], feature: ClassFeature) -> None:
     """
     add a feature, improving an existing one instead of duplicating it when the
@@ -165,12 +198,15 @@ def _merge_feature(features: Dict[str, ClassFeature], feature: ClassFeature) -> 
     if key in features:
         existing = features[key]
         existing.level = min(existing.level, feature.level)
+        existing.is_choice = existing.is_choice or feature.is_choice
         if feature.description and feature.description not in existing.description:
             existing.description = (
                 existing.description + "\n\n" + feature.description
             ).strip()
         if existing.uses is None:
             existing.uses = feature.uses
+        if feature.subclass is not None:
+            existing.subclass = feature.subclass
     else:
         features[key] = feature
 
@@ -197,6 +233,9 @@ def _parse_base_class(
         feature.character_class = char_class
         norm = _normalize_name(name)
         feature.level = feature_levels.get(norm) or _prose_level(description) or 1
+        feature.is_choice, placeholder = _class_feature_choice(name, description)
+        if feature.is_choice:
+            feature.subclass = placeholder
         if norm in resource_breakpoints:
             feature.uses = resource_breakpoints[norm]
         elif ONCE_PER_REST_RE.search(description):
@@ -271,33 +310,34 @@ def get_class_features(
     scrape every class feature (base class + subclasses) for a D&D 5e class.
     returns a flat list of ClassFeature objects; base features have subclass=None.
     """
+
+    def run(for_class: CharacterClass):
+        page_key = _class_page_key(for_class)
+        html = _load_html(page_key, is_dry_run)
+        if not html:
+            print("could not load page for " + for_class)
+            return []
+
+        all_features, subclass_keys = _parse_base_class(html, for_class)
+
+        for subclass_key in subclass_keys:
+            subclass_html = _load_html(subclass_key, is_dry_run)
+            if not subclass_html:
+                print("skipping (no html): " + subclass_key)
+                continue
+            all_features.extend(_parse_subclass(subclass_html, for_class))
+
+        if save:
+            write_obj_to_json(
+                all_features, os.path.join(OUTPUT_DIR, page_key + "_features.json")
+            )
+        return all_features
+
     if isinstance(char_class, str):
-        char_class = CharacterClass[char_class.capitalize()].value
-    page_key = _class_page_key(char_class)
-    html = _load_html(page_key, is_dry_run)
-    if not html:
-        print("could not load page for " + char_class)
-        return []
-
-    all_features, subclass_keys = _parse_base_class(html, char_class)
-
-    for subclass_key in subclass_keys:
-        subclass_html = _load_html(subclass_key, is_dry_run)
-        if not subclass_html:
-            print("skipping (no html): " + subclass_key)
-            continue
-        all_features.extend(_parse_subclass(subclass_html, char_class))
-
-    if save:
-        write_obj_to_json(
-            all_features, os.path.join(OUTPUT_DIR, page_key + "_features.json")
-        )
-    return all_features
-
-
-def load_class_features(char_class: str = "Barbarian", is_dry_run: bool = True):
-    return get_class_features(char_class, is_dry_run=is_dry_run)
-
-
-if __name__ == "__main__":
-    load_class_features()
+        if char_class == "all":
+            all_feats = []
+            for cc in CharacterClass:
+                print("scraping ", cc)
+                all_feats.append(run(cc))
+        else:
+            return run(CharacterClass[char_class.capitalize()])

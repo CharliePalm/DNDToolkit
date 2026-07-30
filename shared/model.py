@@ -326,6 +326,9 @@ class ClassFeature:
     )
     character_class: str = ""
     subclass: str | None = None  # None for base-class features
+    is_choice: bool = (
+        False  # True when the feature is where the player chooses a subclass or makes some other decision about their character
+    )
     source: str | None = None  # sourcebook the feature comes from, when known
 
     def __init__(self):

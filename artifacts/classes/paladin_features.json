@@ -1,0 +1,1022 @@
+[
+    {
+        "name": "Hit Points",
+        "description": "Hit Dice: 1d10 per paladin level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per paladin level after 1st",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Proficiencies",
+        "description": "Armor: All armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Wisdom, Charisma Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Equipment",
+        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a martial weapon and a shield or (b) two martial weapons\n\n\u2022 (a) five javelins or (b) any simple melee weapon\n\n\u2022 (a) a priest's pack or (b) an explorer's pack\n\n\u2022 Chain mail and a holy symbol",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Divine Sense",
+        "description": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.\n\nYou can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Lay on Hands",
+        "description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.\n\nAs an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.\n\nAlternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.\n\nThis feature has no effect on undead and constructs.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Fighting Style",
+        "description": "Starting at 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.\n\n\u2022 Blessed Warrior. You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.\n\n\u2022 Blind Fighting. You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.\n\n\u2022 Defense. While you are wearing armor, you gain a +1 bonus to AC.\n\n\u2022 Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n\u2022 Great Weapon Fighting. When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n\u2022 Interception. When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.\n\n\u2022 Protection. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.\n\n\u2022 Close Quarters Shooter (UA). When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks.\n\n\u2022 Mariner (UA). As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to armor class.\n\n\u2022 Thrown Weapon Fighting (UA). You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.\n\n\u2022 In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.\n\n\u2022 In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.\n\n\u2022 Tunnel Fighter (UA). As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach.\n\n\u2022 Unarmed Fighting (UA). Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8. When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.\n\n\u2022 When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.\n\n\u2022 When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.",
+        "character_class": "Paladin",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Spellcasting",
+        "description": "By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.",
+        "character_class": "Paladin",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Preparing and Casting Spells",
+        "description": "The Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Spellcasting Ability",
+        "description": "Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Spellcasting Focus",
+        "description": "You can use a holy symbol as a spellcasting focus for your paladin spells.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Divine Smite",
+        "description": "Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8.",
+        "character_class": "Paladin",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Divine Health",
+        "description": "By 3rd level, the divine magic flowing through you makes you immune to disease.",
+        "character_class": "Paladin",
+        "level": 3,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Sacred Oath",
+        "description": "When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.",
+        "character_class": "Paladin",
+        "level": 3,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Oath Spells",
+        "description": "Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.\n\nIf you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.\n\nWhen you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.\n\nSome Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.",
+        "character_class": "Paladin",
+        "level": 1,
+        "is_choice": true,
+        "subclass": "Pick your subclass where you set your class (top left)",
+        "uses": null,
+        "source": null
+    },
+    {
+        "name": "Harness Divine Power",
+        "description": "Also at 3rd level, you can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.",
+        "character_class": "Paladin",
+        "level": 3,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Ability Score Improvement",
+        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "character_class": "Paladin",
+        "level": 4,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Martial Versatility",
+        "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.",
+        "character_class": "Paladin",
+        "level": 4,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Extra Attack",
+        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "character_class": "Paladin",
+        "level": 5,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Aura of Protection",
+        "description": "Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "level": 6,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Aura of Courage",
+        "description": "Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "level": 10,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Improved Divine Smite",
+        "description": "By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage.",
+        "character_class": "Paladin",
+        "level": 11,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Cleansing Touch",
+        "description": "Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.\n\nYou can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.",
+        "character_class": "Paladin",
+        "level": 14,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Tenets of the Ancients",
+        "description": "The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.\n\nKindle the Light. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.\n\nShelter the Light. Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren.\n\nPreserve Your Own Light. Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.\n\nBe the Light. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Nature's Wrath. You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.\n\n\u2022 Turn the Faithless. You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Warding",
+        "description": "Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 7,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Undying Sentinel",
+        "description": "Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.\n\nAdditionally, you suffer none of the drawbacks of old age, and you can't be aged magically.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 15,
+        "uses": 1,
+        "source": "Player's Handbook",
+        "is_choice": false
+    },
+    {
+        "name": "Elder Champion",
+        "description": "At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or moss-like, or you might sprout antlers or a lion-like mane.\n\nUsing your action, you undergo a transformation. For 1 minute, you gain the following benefits:\n\n\u2022 At the start of each of your turns, you regain 10 hit points.\n\n\u2022 Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.\n\n\u2022 Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Ancients",
+        "level": 20,
+        "uses": 1,
+        "source": "Player's Handbook",
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Conquest",
+        "description": "A paladin who takes this oath has the tenets of conquest seared on the upper arm.\n\nDouse the Flame of Hope. It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies\u2019 will to fight is shattered forever. A blade can end a life. Fear can end an empire.\n\nRule with an Iron Fist. Once you have conquered, tolerate no dissent. Your word is law. Those who obey it shall be favored. Those who defy it shall be punished as an example to all who might follow.\n\nStrength Above All. You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Conquering Presence. You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n\u2022 Guided Strike. You can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Conquest",
+        "description": "Starting at 7th level, you constantly emanate a menacing aura while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.\n\nIf a creature is frightened of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 7,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Scornful Rebuke",
+        "description": "Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you\u2019re not incapacitated.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 15,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Invincible Conqueror",
+        "description": "At 20th level, you gain the ability to harness extraordinary martial prowess. As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:\n\n\u2022 You have resistance to all damage.\n\n\u2022 When you take the Attack action on your turn, you can make one additional attack as part of that action.\n\n\u2022 Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Conquest",
+        "level": 20,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of the Crown",
+        "description": "The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.\n\nLaw. The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.\n\nLoyalty. Your word is your bond. Without loyalty, oaths and laws are meaningless.\n\nCourage. You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?\n\nResponsibility. You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 3,
+        "source": "Sword Coast Adventurer's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 3,
+        "source": "Sword Coast Adventurer's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Champion Challenge. As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is more than 30 feet away from you.\n\n\u2022 Turn the Tide. As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 3,
+        "source": "Sword Coast Adventurer's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Divine Allegiance",
+        "description": "Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 7,
+        "source": "Sword Coast Adventurer's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Unyielding Saint",
+        "description": "Starting at 15th level, you have advantage on saving throws to avoid becoming paralyzed or stunned.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 15,
+        "source": "Sword Coast Adventurer's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Exalted Champion",
+        "description": "At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:\n\n\u2022 You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\n\n\u2022 Your allies have advantage on death saving throws while within 30 feet of you.\n\n\u2022 You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.\n\nThis effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Crown",
+        "level": 20,
+        "uses": 1,
+        "source": "Sword Coast Adventurer's Guide",
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Devotion",
+        "description": "Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.\n\nHonesty. Don't lie or cheat. Let your word be your promise.\n\nCourage. Never fear to act, though caution is wise.\n\nCompassion. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\n\nHonor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.\n\nDuty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Sacred Weapon. As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.\n\n\u2022 Turn the Unholy. As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Devotion",
+        "description": "Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 7,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Purity of Spirit",
+        "description": "Beginning at 15th level, you are always under the effects of a Protection from Evil and Good spell.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 15,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Holy Nimbus",
+        "description": "At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.\n\nWhenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.\n\nIn addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Devotion",
+        "level": 20,
+        "uses": 1,
+        "source": "Player's Handbook",
+        "is_choice": false
+    },
+    {
+        "name": "Tenets Of Glory",
+        "description": "The tenets of the Oath of Glory drive a paladin to attempt heroics that might one day shine in legend.\n\nActions over Words. Strive to be known by glorious deeds, not words.\n\nChallenges Are but Tests. Face hardships with courage, and encourage your allies to face them with you.\n\nHone the Body. Like raw stone, your body must be worked so its potential can be realized.\n\nDiscipline the Soul. You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 3,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 3,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\n\u2022 Peerless Athlete. As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal).\n\n\u2022 Inspiring Smite. Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals 2d8 + your level in this class, divided among the chosen creatures however you like.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 3,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Alacrity",
+        "description": "At 7th level, you emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't incapacitated, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.\n\nWhen you reach 18th level in this class, the range of the aura increases to 10 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 7,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Glorious Defense",
+        "description": "When you reach 15th level, you can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction, provided the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 15,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Living Legend",
+        "description": "At 20th level, you can empower yourself with the legends \u2014 whether true or exaggerated \u2014 of your great deeds. As a bonus action, you gain the following benefits for 1 minute:\n\n\u2022 You are blessed with an otherworldly presence, gaining advantage on all Charisma checks.\n\n\u2022 Once on each of your turns when you make a weapon attack and miss, you can cause that attack to hit instead.\n\n\u2022 If you fail a saving throw, you can use your reaction to reroll it. You must use this new roll.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Glory",
+        "level": 20,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Redemption",
+        "description": "The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.\n\nPeace. Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.\n\nInnocence. All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.\n\nPatience. Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow it to survive and then flourish.\n\nWisdom. Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Emissary of Peace. You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes.\n\n\u2022 Rebuke the Violent. You can use your Channel Divinity to rebuke those who use violence. Immediately after an attacker within 30 feet of you deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 3,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of the Guardian",
+        "description": "Starting at 7th level, you can shield your allies from harm at the cost of your own health. When a creature within 10 feet of you takes damage, you can use your reaction to magically take that damage, instead of that creature taking it. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 7,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Protective Spirit",
+        "description": "Starting at 15th level, a holy presence mends your wounds in combat. You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren\u2019t incapacitated.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 15,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Emissary of Redemption",
+        "description": "At 20th level, you become an avatar of peace, which gives you two benefits:\n\n\u2022 You have resistance to all damage dealt by other creatures (their attacks, spells, and other effects).\n\n\u2022 Whenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.\n\nIf you attack a creature, cast a spell on it, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption",
+        "level": 20,
+        "source": "Xanathar's Guide to Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Vengeance",
+        "description": "The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.\n\nFight the Greater Evil. Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.\n\nNo Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.\n\nBy Any Means Necessary. My qualms can't get in the way of exterminating my foes.\n\nRestitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Abjure Enemy. As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw. On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed. On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.\n\n\u2022 Vow of Enmity. As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 3,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Relentless Avenger",
+        "description": "By 7th level, your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 7,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Soul of Vengeance",
+        "description": "Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 15,
+        "source": "Player's Handbook",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Avenging Angel",
+        "description": "At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:\n\n\u2022 Wings sprout from your back and grant you a flying speed of 60 feet.\n\n\u2022 You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Vengeance",
+        "level": 20,
+        "uses": 1,
+        "source": "Player's Handbook",
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of the Watchers",
+        "description": "A paladin who assumes the Oath of the Watchers swears to safeguard mortal realms from otherwordly threats.\n\nVigilance. The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.\n\nLoyalty. Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.\n\nDiscipline. You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 3,
+        "source": "Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 3,
+        "source": "Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\n\u2022 Watcher's Will. You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, you and the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.\n\n\u2022 Abjure the Extraplanar. You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the Dodge action.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 3,
+        "source": "Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of the Sentinel",
+        "description": "At 7th level, you emit an aura of alertness while you aren't incapacitated. When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 7,
+        "source": "Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Vigilant Rebuke",
+        "description": "At 15th level, you've learned how to chastise anyone who dares wield beguilements against you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on an Intelligence, a Wisdom, or a Charisma saving throw, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the creature that forced the saving throw.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 15,
+        "source": "Tasha's Cauldron of Everything",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mortal Bulwark",
+        "description": "At 20th level, you manifest a spark of divine power in defense of the mortal realms. As a bonus action, you gain the following benefits for 1 minute:\n\n\u2022 You gain truesight with a range of 120 feet.\n\n\u2022 You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends.\n\n\u2022 When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers",
+        "level": 20,
+        "uses": 1,
+        "source": "Tasha's Cauldron of Everything",
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oathbreaker",
+        "level": 3,
+        "source": "Dungeon Master's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Control Undead. As an action, you target one undead creature you can see within 30 feet of you. The target must make a Wisdom saving throw. On a failed save, the target must obey your commands for the next 24 hours, or until you use this Channel Divinity option again. An undead whose challenge rating is equal to or greater than your paladin level is immune to this effect.\n\n\u2022 Dreadful Aspect. As an action, you channel the darkest emotions and focus them into a burst of magical menace. Each creature of your choice within 30 feet of you must make a Wisdom saving throw if it can see you. On a failed save, the target is frightened of you for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from you, it can attempt another Wisdom saving throw to end the effect on it.",
+        "character_class": "Paladin",
+        "subclass": "Oathbreaker",
+        "level": 3,
+        "source": "Dungeon Master's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Hate",
+        "description": "Starting at 7th level you, as well any fiends and undead within 10 feet of you, gain a bonus to melee weapon damage rolls equal to your Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oathbreaker",
+        "level": 7,
+        "source": "Dungeon Master's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Supernatural Resistance",
+        "description": "At 15th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.",
+        "character_class": "Paladin",
+        "subclass": "Oathbreaker",
+        "level": 15,
+        "source": "Dungeon Master's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Dread Lord",
+        "description": "At 20th level, you can, as an action, surround yourself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around you to dim light. Whenever an enemy that is frightened by you starts its turn in the aura, it takes 4d10 psychic damage. Additionally, you and any creatures of your choosing in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.\n\nWhile the aura lasts, you can use a bonus action on your turn to cause the shadows in the aura to attack one creature. Make a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + your Charisma modifier.\n\nAfter activating the aura, you can't do so again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oathbreaker",
+        "level": 20,
+        "source": "Dungeon Master's Guide",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Treachery",
+        "description": "A paladin who embraces the Oath of Treachery owes allegiance to no one. There are no tenets of this oath, for it lacks any substance. Those who are unfortunate enough to have close contact with blackguards have observed that a blackguard\u2019s overwhelming concern is power and safety, especially if both can be obtained at the expense of others.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Conjure Duplicate. As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, and doesn\u2019t occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you. For the duration, you can cast spells as though you were in the illusion\u2019s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.\n\n\u2022 For the duration, you can cast spells as though you were in the illusion\u2019s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.\n\n\u2022 For the duration, you can cast spells as though you were in the illusion\u2019s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.\n\n\u2022 Poison Strike. You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your paladin level, or 20 + your paladin level if you had advantage on the attack roll.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of Treachery",
+        "description": "Starting at 7th level, you emanate an aura of discord, which gives you the following benefits.\n\n\u2022 Cull the Herd. You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.\n\n\u2022 Treacherous Strike. If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed. You can use this ability three times, and regain expended uses of it when you finish a short or long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 7,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blackguard's Escape",
+        "description": "At 15th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 15,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Icon of Deceit",
+        "description": "At 20th level, you gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:\n\n\u2022 You are invisible.\n\n\u2022 If a creature damages you on its turn, it must succeed on a Wisdom saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren\u2019t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.\n\n\u2022 If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your paladin level.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Treachery (UA)",
+        "level": 20,
+        "source": "Unearthed Arcana 26 - Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Redemption",
+        "description": "The tenets of the Oath of Redemption hold a paladin to a high standard of peace and justice.\n\nPeace. Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.\n\nInnocence. All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil. By setting the proper example, and working to heal the wounds of a deeply flawed world, you can set anyone on a righteous path.\n\nPatience. Change takes time. Those who have walked the path of the wicked must be given reminders to keep them honest and true. Once you have planted the seed of righteousness in a creature, you must work day after day to allow it to survive and then flourish.\n\nWisdom. Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Redemption Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Armor of Peace",
+        "description": "Starting at 3rd level, your commitment to peace allows you to walk into the most dangerous situations unarmored. While you aren\u2019t wearing armor or wielding a shield, your base AC is 16 + your Dexterity modifier.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Warrior of Reconciliation",
+        "description": "At 3rd level, you foreswear the weapons of war in favor of simple tools. While wielding a simple weapon that deals bludgeoning damage, you gain a special benefit if you reduce a creature to 0 hit points with that weapon and decide to spare the creature\u2019s life. Instead of falling unconscious, the creature is charmed by you for 1 minute. During that time, the charmed creature is peaceful and docile, refusing to move or to take actions or reactions, unless you command it to. You can\u2019t order the creature to attack, force someone to make a saving throw, or cause damage to itself or others. This charmed effect ends early if you are incapacitated or if you or your companions attack the creature, deal damage to it, or force it to make a saving throw. When the effect ends, the creature falls unconscious if it still has 0 hit points.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\nEmissary of Peace. You can use your Channel Divinity to augment your presence with divine power. As a bonus action, you grant yourself a +5 bonus to the next Charisma (Persuasion) check you make within the next minute.\n\nRebuke the Violent. You can use your Channel Divinity to rebuke those who use violence. As a reaction when an enemy within 10 feet of you deals damage with a melee attack against one creature other than you, you force that attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of the Guardian",
+        "description": "Starting at 7th level, you can shield your allies from harm at the cost of your own health. As a reaction when an ally within 10 feet of you takes damage, you instead magically take that damage. This feature doesn\u2019t transfer any other effects that might accompany the damage.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 7,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Protective Spirit",
+        "description": "Starting at 15th level, a holy presence mends your wounds in combat. You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren\u2019t incapacitated.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 15,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Emissary of Redemption",
+        "description": "At 20th level, you become an avatar of peace, which gives you two benefits:\n\n\u2022 You have resistance to all damage dealt by other creatures (their attacks, spells, and other effects).\n\n\u2022 Whenever a creature damages you, it takes damage equal to half the amount it dealt to you.\n\nIf you attack a creature, deal damage to it, or force it to make a saving throw, neither benefit works against that creature until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Redemption (UA)",
+        "level": 20,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of the Watchers",
+        "description": "A paladin who assumes the Oath of the Watchers swears to safeguard the mortal realm from otherwordly threats.\n\nVigilance The threats you face are cunning, powerful, and subversive. Be ever alert for their corruption.\n\nLoyalty Never accept gifts or favors from fiends or those who truck with them. Stay true to your order, your comrades, and your duty.\n\nDiscipline You are the shield against the endless terrors that lie beyond the stars. Your blade must be forever sharp and your mind keen to survive what lies beyond.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Adbjure the Extraplanar You can use your Channel Divinity to castigate unwordly beings. As an action, you present your holy symbol and each elemental, fey, fiend, or aberration within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\n\u2022 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\n\u2022 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\n\u2022 Watcher's Will You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, all the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aura of the Sentinel",
+        "description": "You emit an aura of alertness while you aren't incapacitated. At 7th level, when you and any creature of your choice within 10 feet of you rolls initiative, you each gain a bonus to initiative equal to your Charisma modifier (minimum of +1).\n\nAt 18th level, the range of this aura increases to 30 feet.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 7,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Vigilant Rebuke",
+        "description": "At 15th level, you've learned how to magically chastise anyone who dares cast unwanted spells at you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on a saving throw against a spell, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the spellcaster.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 15,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mortal Bulwark",
+        "description": "At 20th level, you manifest a spark of your deity's power in defense of your sacred oath. As a bonus action, you gain the following benefits for 1 minute:\n\n\u2022 You gain truesight in a 120-foot radius.\n\n\u2022 You have advantage on attack rolls against elementals, fey, fiends, and aberrations.\n\n\u2022 When you hit a creature with an attack and deal damage to it, you can also force it to make a Charisma saving throw. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of the Watchers (UA)",
+        "level": 20,
+        "uses": 1,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
+        "is_choice": false
+    },
+    {
+        "name": "Tenets of Heroism",
+        "description": "The tenets of the Oath of Heroism reflect a paladin's commitment to fulfilling their calling as a hero worthy of legend.\n\nActions Over Words Strive to be known by deeds, not words.\n\nChallenges Are But Tests Every hardship serves to challenge your abilities and harden your resolve.\n\nEmbrace Destiny You didn't choose this path, but it's yours to walk. And it will carry you into legend.\n\nHone the Body Like raw stone, your body must be worked so its potential can be realized.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Oath Spells",
+        "description": "You gain oath spells at the paladin levels listed.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Channel Divinity",
+        "description": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n\n\u2022 Legendary Strike You can use your Channel Divinity as a bonus action to guide your attacks: for 1 minute, your weapon attacks score a critical hit on a roll of 19 or 20 on the d20.\n\n\u2022 Peerless Athlete You can use your Channel Divinity to augment your athleticism with divine favor. As a bonus action, you gain advantage on all Strength (Athletics) and Dexterity (Acrobatics) checks for the next 10 minutes.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 3,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mighty Deed",
+        "description": "At 7th level, your actions on the battlefield can supernaturally bolster your allies and demoralize your enemies. Whenever you score a critical hit or reduce a creature to 0 hit points, you can choose one or more creatures that you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). All the chosen creatures are affected by one of the following effects of your choice.\n\n\u2022 The creature gains temporary hit points equal to 1d6 + your Charisma modifier (minimum of 1 temporary hit point).\n\n\u2022 The creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of you until the start of your next turn.\n\nOnce you use this feature you can't use it again until the start of your next turn.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 7,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Glorious Defense",
+        "description": "At 15th level, your blessed glory on the battlefield can misdirect an attack. When a creature you can see hits you with an attack roll, you can use your reaction to gain a bonus to AC against that attack, potentially causing it to miss you. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 15,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Living Myth",
+        "description": "Starting at 20th level, you can now empower yourself with the legends - whether true or exaggerated - told of your great deeds. As a bonus action, you gain the following benefits for 10 minutes.\n\n\u2022 You are blessed with otherworldly comeliness, gaining advantage on all Charisma checks.\n\n\u2022 Once on each of your turns when you make a weapon attack and miss, you can cause that attack to hit instead.\n\n\u2022 If you fail a saving throw, you can use your reaction to succeed instead.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "character_class": "Paladin",
+        "subclass": "Oath of Heroism (UA)",
+        "level": 20,
+        "uses": 1,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
+        "is_choice": false
+    }
+]

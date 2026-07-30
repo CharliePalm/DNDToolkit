@@ -1,0 +1,698 @@
+[
+    {
+        "name": "Hit Points",
+        "description": "Hit Dice: 1d8 per mystic level Hit Points at 1st Level: 8 + your Constitution modifier Hit Points at Higher Levels: 1d8 (or 5) + your Constitution modifier per mystic level after 1st",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Proficiencies",
+        "description": "Armor: Light armor Weapons: Simple weapons Tools: None Saving Throws: Intelligence, Wisdom Skills: Choose two skills from Arcana, History, Insight, Medicine, Nature, Perception, and Religion",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Equipment",
+        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a spear or (b) a mace\n\n\u2022 (a) leather armor or (b) studded leather armor\n\n\u2022 (a) a light crossbow and 20 bolts or (b) any simple weapon\n\n\u2022 (a) a scholar\u2019s pack or (b) an explorer\u2019s pack\n\nAlternatively, you can ignore the equipment here and in your background, and buy 5d4 \u00d7 10 gp worth of equipment from chapter 5 in the Player\u2019s Handbook.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionics",
+        "description": "As a student of psionics, you can master and use psionic talents and disciplines. Psionics is a special form of magic use, distinct from spellcasting.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionic Talents",
+        "description": "A psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels. The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent. You chose your talents from the Psionic Talents list.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionic Disciplines",
+        "description": "A psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time, and chooses them from the Psionic Discipline list.\n\nAt 1st level, you know one psionic discipline of your choice. The Disciplines Known column of the Mystic table shows the total number of disciplines you know at each level; when that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psi Points",
+        "description": "You have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.\n\nThe number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can\u2019t go below 0 or over your maximum.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psi Limit",
+        "description": "Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": {
+            "1": 2,
+            "3": 3,
+            "5": 5,
+            "7": 6,
+            "9": 7
+        },
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psychic Focus",
+        "description": "You can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline\u2019s description. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn\u2019t limit your ability to use other disciplines.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionic Ability",
+        "description": "Intelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.\n\nDiscipline save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nDiscipline attack modifier = your proficiency bonus + your Intelligence modifier",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Mystic Order",
+        "description": "At 1st level, you choose a Mystic Order: the Order of the Avatar, the Order of the Awakened, the Order of the Immortal, the Order of the Nomad, the Order of the Soul Knife, or the Order of the Wu Jen. Each order specializes in a specific approach to psionics. Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level.",
+        "character_class": "Mystic",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Mystical Recovery",
+        "description": "Starting at 2nd level, you can draw vigor from the psi energy you use to power your psionic disciplines.\n\nImmediately after you spend psi points on a psionic discipline, you can take a bonus action to regain hit points equal to the number of psi points you spent.",
+        "character_class": "Mystic",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Telepathy",
+        "description": "At 2nd level, your mind awakens to the ability to communicate via telepathy. You can telepathically speak to any creature you can see within 120 feet of you in this manner. You don\u2019t need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself.",
+        "character_class": "Mystic",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Ability Score Improvement",
+        "description": "When you reach 4th level, and again at 8th, 12th,16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can\u2019t increase an ability score above 20 using this feature.",
+        "character_class": "Mystic",
+        "level": 4,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Strength of Mind",
+        "description": "Even the simplest psionic technique requires a deep understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with threats.\n\nStarting at 4th level, you can replace your proficiency in Wisdom saving throws whenever you finish a short or long rest. To do so, choose Strength, Dexterity, Constitution, or Charisma. You gain proficiency in saves using that ability, instead of Wisdom. This change lasts until you finish your next short or long rest.",
+        "character_class": "Mystic",
+        "level": 4,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Potent Psionics",
+        "description": "At 8th level, you gain the ability to infuse your weapon attacks with psychic energy. Once on each of your turns when you hit a creature with a weapon, you can deal an extra 1d8 psychic damage to that target. When you reach 14th level, this extra damage increases to 2d8.\n\nIn addition, you add your Intelligence modifier to any damage roll you make for a psionic talent.",
+        "character_class": "Mystic",
+        "level": 8,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Consumptive Power",
+        "description": "At 10th level, you gain the ability to sacrifice your physical durability in exchange for psionic power. When activating a psionic discipline, you can pay its psi point cost with your hit points, instead of using any psi points. Your current hit points and hit point maximum are both reduced by the number of hit points you spend. This reduction can\u2019t be lessened in any way, and the reduction to your hit point maximum lasts until you finish a long rest.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest.",
+        "character_class": "Mystic",
+        "level": 10,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionic Mastery",
+        "description": "Beginning at 11th level, your mastery of psionic energy allows you to push your mind beyond its normal limits. As an action, you gain 9 special psi points that you can spend only on disciplines that require an action or a bonus action to use. You can use all 9 points on one discipline, or you can spread them across multiple disciplines. You can\u2019t also spend your normal psi points on these disciplines; you can spend only the special points gained from this feature. When you finish a long rest, you lose any of these special points that you haven\u2019t spent.\n\nIf more than one of the disciplines you activate with these points require concentration, you can concentrate on all of them. Activating one of them ends any effect you were already concentrating on, and if you begin concentrating on an effect that doesn\u2019t use these special points, the disciplines end that you\u2019re concentrating on.\n\nAt 15th level, the pool of psi points you gain from this feature increases to 11.\n\nYou have one use of this feature, and you regain any expended use of it with a long rest. You gain one additional use of this feature at 13th, 15th, and 17th level.",
+        "character_class": "Mystic",
+        "level": 11,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Psionic Body",
+        "description": "At 20th level, your mastery of psionic power causes your mind to transcend the body. Your physical form is infused with psionic energy. You gain the following benefits:\n\n\u2022 You gain resistance to bludgeoning, piercing, and slashing damage.\n\n\u2022 You no longer age.\n\n\u2022 You are immune to disease, poison damage, and the poisoned condition.\n\n\u2022 If you die, roll a d20. On a 10 or higher, you discorporate with 0 hit points, instead of dying, and you fall unconscious. You and your gear disappear. You appear at a spot of your choice 1d3 days later on the plane of existence where you died, having gained the benefits of one long rest.",
+        "character_class": "Mystic",
+        "level": 20,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Beacon",
+        "description": "As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it earlier as a bonus action.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blade Meld",
+        "description": "As a bonus action, a one-handed melee weapon you hold becomes one with your hand. For the next minute, you can't let go of the weapon nor can it be forced from your grasp.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blind Spot",
+        "description": "As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are invisible to it until the end of your next turn.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Delusion",
+        "description": "As an action, you plant a false belief in the mind of one creature that you can see within 60 feet of you. You can create a sound or an image. Only the target of this talent perceives the sound or image you create.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a creature's roar, a musical instrument, or any other sound you pick. It lasts for 1 minute.\n\nIf you create an object, it must fit within a 5-foot cube and can\u2019t move or be reflective. The image can't create any effect that influences a sense other than sight. The image lasts for 1 minute, and it disappears if the creature touches it.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Energy Beam",
+        "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 1d8 acid, cold, fire, lightning, or thunder damage (your choice).\n\nThe talent's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Light Step",
+        "description": "As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the first time you stand up this turn, you do so without expending any of your movement if your speed is greater than 0.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Meld",
+        "description": "As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this talent fails and the action is wasted.\n\nThis communication can occur until the end of the current turn. You don\u2019t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target\u2019s choice, gaining perfect recall of one thing it saw or did.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Slam",
+        "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone.\n\nThe talent\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Thrust",
+        "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d10 psychic damage.\n\nThe talent\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mystic Charm",
+        "description": "As an action, you beguile one humanoid you can see within 120 feet of you. The target must succeed on a Charisma saving throw or be charmed by you until the end of your next turn.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mystic Hand",
+        "description": "You can use your action to manipulate or move one object within 30 feet of you. The object can\u2019t weigh more than 10 pounds, and you can\u2019t affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction.\n\nThis talent allows you to open an unlocked door, pour out a beer stein, and so on.\n\nThe object falls to the ground at the end of your turn if you leave it suspended in midair.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psychic Hammer",
+        "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can\u2019t lift the target off the ground unless it is already airborne or underwater.\n\nThe talent\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Using a Discipline",
+        "description": "\u2022 Each psionic discipline has several ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\n\u2022 The following sections go into more detail on using a discipline. Psionic disciplines are magical and function similarly to spells.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psychic Focus",
+        "description": "\u2022 The Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Effect Options and Psi Points",
+        "description": "\u2022 A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\n\u2022 Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline; you can't decide to spend additional points once you see the discipline in action.\n\n\u2022 Each option notes specific information about its effect, including any action required to use it and its range.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Components",
+        "description": "\u2022 Disciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials. The power of psionics comes from the mind.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Duration",
+        "description": "\u2022 An effect option in a discipline specifies how long its effect lasts. Instantaneous. If no duration is specified, the effect of the option is instantaneous. Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute. Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.\n\n\u2022 Instantaneous. If no duration is specified, the effect of the option is instantaneous.\n\n\u2022 Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.\n\n\u2022 Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.\n\n\u2022 Instantaneous. If no duration is specified, the effect of the option is instantaneous.\n\n\u2022 Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.\n\n\u2022 Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Targets and Areas of Effect",
+        "description": "\u2022 Psionic disciplines use the same rules as spells for determining targets and areas of effect, as presented in chapter 10, \"Spellcasting,\" of the Player's Handbook.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Saving Throws and Attack Rolls",
+        "description": "\u2022 If a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability.\n\n\u2022 Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Combining Psionic Effects",
+        "description": "\u2022 The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect\u2014usually dependent on how many psi points were used to create the effect\u2014applies while the durations of the effects overlap.\n\n\u2022 Psionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule.\n\n\u2022 Avatar\n\n\u2022 Awakened\n\n\u2022 Immortal\n\n\u2022 Nomad\n\n\u2022 Wu Jen",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Bonus Disciplines",
+        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Avatar disciplines.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Avatar",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Armor Training",
+        "description": "At 1st level, you gain proficiency with medium armor and shields.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Avatar",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Avatar of Battle",
+        "description": "Starting at 3rd level, you project an inspiring aura. While you aren\u2019t incapacitated, each ally within 30 feet of you who can see you gains a +2 bonus to initiative rolls.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Avatar",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Avatar of Healing",
+        "description": "Beginning at 6th level, you project an aura of resilience. While you aren\u2019t incapacitated, each ally within 30 feet of you who can see you regains additional hit points equal to your Intelligence modifier (minimum of 0) whenever they regain hit points from a psionic discipline.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Avatar",
+        "level": 6,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Avatar of Speed",
+        "description": "Starting at 14th level, you project an aura of speed. While you aren\u2019t incapacitated, any ally within 30 feet of you who can see you can take the Dash action as a bonus action.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Avatar",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Bonus Disciplines",
+        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Awakened disciplines.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Awakened",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Awakened Talent",
+        "description": "At 1st level, you gain proficiency with two of the following skills of your choice: Animal Handling, Deception, Insight, Intimidation, Investigation, Perception, and Persuasion.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Awakened",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psionic Investigation",
+        "description": "Starting at 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes (as if concentrating on a psionic discipline), you learn a few basic facts about it. You gain a mental image from the object\u2019s point of view, showing the last creature to hold the object within the past 24 hours.\n\nYou also learn of any events that have occurred within 20 feet of the object within the past hour. The events you perceive unfold from the object\u2019s perspective. You see and hear such events as if you were there, but can\u2019t use other senses.\n\nAdditionally, you can embed an intangible psionic sensor within the object. For the next 24 hours, you can use an action to learn the object\u2019s location relative to you (its distance and direction) and to look at the object\u2019s surroundings from its point of view as if you were there. This perception lasts until the start of your next turn.\n\nOnce you use this feature, you can\u2019t use it again until you finish a short or long rest.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Awakened",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psionic Surge",
+        "description": "Starting at 6th level, you can overload your psychic focus to batter down an opponent\u2019s defenses. You can impose disadvantage on a target\u2019s saving throw against a discipline or talent you use, but at the cost of using your psychic focus. Your psychic focus immediately ends if it\u2019s active, and you can\u2019t use it until you finish a short or long rest.\n\nYou can\u2019t use this feature if you can\u2019t use your psychic focus.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Awakened",
+        "level": 6,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Spectral Form",
+        "description": "At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can\u2019t willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Awakened",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Bonus Disciplines",
+        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Immortal Disciplines.",
+        "character_class": "Mystic",
+        "subclass": "Order of the the Immortal",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Immortal Durability",
+        "description": "Starting at 1st level, your hit point maximum increases by 1 per mystic level.\n\nIn addition, while you aren't wearing armor or wielding a shield, your base AC equals 10 + your Dexterity modifier + your Constitution modifier.",
+        "character_class": "Mystic",
+        "subclass": "Order of the the Immortal",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psionic Resilience",
+        "description": "Starting at 3rd level, your psionic energy grants you extraordinary fortitude. At the start of each of your turns, you gain temporary hit points equal to your Intelligence modifier (minimum of 0) if you have at least 1 hit point.",
+        "character_class": "Mystic",
+        "subclass": "Order of the the Immortal",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Surge of Health",
+        "description": "Starting at 6th level, you can draw on your psychic focus to escape death\u2019s grasp. As a reaction when you take damage, you can halve that damage against you. Your psychic focus immediately ends if it\u2019s active, and you can\u2019t use it until you finish a short or long rest.\n\nYou can\u2019t use this feature if you can\u2019t use your psychic focus.",
+        "character_class": "Mystic",
+        "subclass": "Order of the the Immortal",
+        "level": 6,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Immortal Will",
+        "description": "Starting at 14th level, you can draw on your reserves of psionic power to survive beyond death. At the end of your turn while at 0 hit points, you can spend 5 psi points to immediately regain a number of hit points equal to your mystic level + your Constitution modifier.",
+        "character_class": "Mystic",
+        "subclass": "Order of the the Immortal",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Bonus Disciplines",
+        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Nomad disciplines.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Nomad",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Breadth of Knowledge",
+        "description": "At 1st level, you gain the ability to extend your knowledge. When you finish a long rest, you gain two proficiencies of your choice: two tools, two skills, or one of each. You can replace one or both of these selections with languages. This benefit lasts until you finish a long rest.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Nomad",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Memory of One Thousand Steps",
+        "description": "At 3rd level, you gain the ability to use psionics to recall your steps. As a reaction when you are hit by an attack, you can teleport to an unoccupied space that you occupied since the start of your last turn, and the attack misses you. Once you use this feature, you can\u2019t use it again until you finish a short or long rest.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Nomad",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Superior Teleportation",
+        "description": "At 6th level, you gain a superior talent for teleportation. When you use a psionic discipline to teleport any distance, you can increase that distance by up to 10 feet.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Nomad",
+        "level": 6,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Effortless Journey",
+        "description": "Starting at 14th level, your mind can mystically move your body. Once on each of your turns, you can forfeit up to 30 feet of your movement to teleport the distance you forfeited. You must teleport to an unoccupied space you can see.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Nomad",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Martial Training",
+        "description": "At 1st level, you gain proficiency with medium armor and martial weapons.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Soul Knife",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Soul Knife",
+        "description": "Starting at 1st level, you gain the ability to manifest a blade of psychic energy. As a bonus action, you create scintillating knives of energy that project from both of your fists. You can\u2019t hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.\n\nFor you, a soul knife is a martial melee weapon with the light and finesse properties. It deals 1d8 psychic damage on a hit.\n\nAs a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are incapacitated.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Soul Knife",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Hone the Blade",
+        "description": "Starting at 3rd level, you can spend psi points to augment your soul knife\u2019s attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Soul Knife",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Consumptive Knife",
+        "description": "Starting at 6th level, whenever you slay an enemy creature with a soul knife attack, you immediately regain 2 psi points.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Soul Knife",
+        "level": 6,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Phantom Knife",
+        "description": "Starting at 14th level, you can make an attack that phases through most defenses. As an action, you can make one attack with your soul knife. Treat the target\u2019s AC as 10 against this attack, regardless of the target\u2019s actual AC.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Soul Knife",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Bonus Disciplines",
+        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Wu Jen disciplines.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Wu Jen",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Hermit\u2019s Study",
+        "description": "At 1st level, you gain proficiency with two of the following skills of your choice: Animal Handling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, or Survival.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Wu Jen",
+        "level": 1,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Elemental Attunement",
+        "description": "Starting at 3rd level, when a creature\u2019s resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature\u2019s resistance. You can\u2019t spend this point if doing so would increase the discipline\u2019s cost above your psi limit.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Wu Jen",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Arcane Dabbler",
+        "description": "At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.\n\nAs a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.\n\nThe spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.\n\nWhenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Wu Jen",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Elemental Mastery",
+        "description": "Starting at 14th level, if you have resistance to a type of damage, you can spend 2 psi points as a reaction when you take damage of that type to ignore that damage; you gain immunity to that damage type until the end of your next turn.",
+        "character_class": "Mystic",
+        "subclass": "Order of the Wu Jen",
+        "level": 14,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    }
+]

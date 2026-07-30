@@ -1,0 +1,552 @@
+[
+    {
+        "name": "Hit Points",
+        "description": "Hit Dice: 1d10 per blood hunter level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per blood hunter level after 1st",
+        "character_class": "Blood Hunter",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Proficiencies",
+        "description": "Armor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: Alchemist's supplies Saving Throws: Dexterity, Intelligence Skills: Choose three from Acrobatics, Arcana, Athletics, History, Insight, Investigation, Religion, and Survival",
+        "character_class": "Blood Hunter",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Equipment",
+        "description": "\u2022 (a) a martial weapon or (b) two simple weapons\n\n\u2022 (a) a light crossbow and 20 bolts or (b) hand crossbow and 20 bolts\n\n\u2022 (a) studded leather armor or (b) scale mail armor\n\n\u2022 an explorer's pack and alchemist's supplies",
+        "character_class": "Blood Hunter",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Hunter's Bane",
+        "description": "At 1st level, you have survived the Hunter\u2019s Bane\u2014a dangerous, long-guarded ritual that alters your life\u2019s blood, forever binding you to the darkness and honing your senses against it. You have advantage on Wisdom (Survival) checks to track fey, fiends, or undead, as well as on Intelligence checks to recall information about such creatures.\n\nThe Hunter\u2019s Bane also empowers your body to control and shape hemocraft magic, using your own blood and life essence to fuel your abilities. Some of your features require your target to make a saving throw to resist the feature\u2019s effects. The saving throw DC is calculated as follows:\n\nHemocraft save DC = 8 + your proficiency bonus + your Hemocraft modifier (your choice between Intelligence and Wisdom)",
+        "character_class": "Blood Hunter",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Blood Maledict",
+        "description": "Also at 1st level, you gain the ability to channel\u2014or sometimes sacrifice\u2014a part of your vital essence to curse and manipulate creatures through hemocraft magic. You know one Blood Curse of your choice. You learn one additional blood curse of your choice at 6th, 10th, 14th, and 18th level. Each time you learn a new blood curse, you can also choose one of the blood curses you know and replace it with another blood curse.\n\nEach time you use your Blood Maledict feature, you choose which curse to invoke from the curses you know. While invoking a blood curse, but before it affects the target, you can choose to amplify the curse by taking necrotic damage equal to one roll of your hemocraft die. This damage can\u2019t be reduced in any way. An amplified curse gains an additional effect, noted in the curse\u2019s description. Creatures that do not have blood are immune to blood curses unless you have amplified the curse.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again. You can use Blood Maledict twice between rests starting at 6th level, three times starting at 13th level, and four times starting at 17th level.",
+        "character_class": "Blood Hunter",
+        "level": 1,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Fighting Style",
+        "description": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can\u2019t take a Fighting Style option more than once, even if you later get to choose again.\n\n\u2022 Archery. You gain a +2 bonus to attack rolls you make with ranged weapons.\n\n\u2022 Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n\u2022 Great Weapon Fighting. When you roll a 1 or 2 on a non-rite damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n\u2022 Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
+        "character_class": "Blood Hunter",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Crimson Rite",
+        "description": "Also at 2nd level, you learn to invoke a rite of hemocraft that infuses your weapon strikes with elemental energy. As a bonus action, you can activate any rite you know on one weapon you\u2019re holding. The effect of the rite lasts until you finish a short or long rest. When you activate a rite, you take necrotic damage equal to one roll of your hemocraft die. This damage can\u2019t be reduced in any way.\n\nWhile the rite is in effect, attacks you make with this weapon are magical, and deal extra damage equal to your hemocraft die of the type determined by the chosen rite. A weapon can hold only one active rite at a time. Other creatures can\u2019t gain the benefit of your rite.\n\nYou choose one rite from the crimson rites below when you first gain this feature. You learn an additional crimson rite at 7th level, and again at 14th level.",
+        "character_class": "Blood Hunter",
+        "level": 2,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Crimson Rites",
+        "description": "Rite of the Flame. Your rite damage is fire damage. Rite of the Frozen. Your rite damage is cold damage. Rite of the Storm. Your rite damage is lightning damage. Rite of the Dead. Your rite damage is necrotic damage. (Prerequisite: 14th level) Rite of the Oracle. Your rite damage is psychic damage. (Prerequisite: 14th level) Rite of the Roar. Your rite damage is thunder damage. (Prerequisite: 14th level)",
+        "character_class": "Blood Hunter",
+        "level": 14,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Blood Hunter Order",
+        "description": "At 3rd level, you commit to an order of blood hunters whose philosophy will guide you throughout your life. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
+        "character_class": "Blood Hunter",
+        "level": 3,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Ability Score Improvement",
+        "description": "When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can\u2019t increase an ability score above 20 using this feature.\n\nUsing the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.",
+        "character_class": "Blood Hunter",
+        "level": 4,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Extra Attack",
+        "description": "Starting at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "character_class": "Blood Hunter",
+        "level": 5,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Brand of Castigation",
+        "description": "At 6th level, when you damage a creature with a weapon for which you have an active crimson rite, you can channel hemocraft magic to sear an arcane brand into that creature (no action required). You always know the direction to the branded creature as long as it\u2019s on the same plane as you. Further, each time the branded creature deals damage to you or a creature you can see within 5 feet of you, the branded creature takes psychic damage equal to your Hemocraft modifier (minimum of 1).\n\nYour brand lasts until you dismiss it or until you use this feature to apply a brand to another creature. Your brand can be dispelled with Dispel Magic, and is treated as a spell with a level equal to half your blood hunter level (maximum 9th level).\n\nOnce you use this feature, you can\u2019t use it again until you finish a short or long rest.",
+        "character_class": "Blood Hunter",
+        "level": 6,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Grim Psychometry",
+        "description": "When you reach 9th level, you gain a supernatural talent for discerning the secrets surrounding mysterious relics or places touched by evil. Whenever you make an Intelligence (History) check to recall information about the sinister or tragic history of an object you are touching or your current location, you have advantage on the check. At the DM\u2019s discretion, a suitably high roll might cause your character to experience brief visions of the past connected to the object or location.",
+        "character_class": "Blood Hunter",
+        "level": 9,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Dark Augmentation",
+        "description": "Starting at 10th level, the magic of hemocraft suffuses your body to permanently reinforce your resilience. Your speed increases by 5 feet, and you have a bonus to Strength, Dexterity, and Constitution saving throws equal to your Hemocraft modifier (minimum of +1).",
+        "character_class": "Blood Hunter",
+        "level": 10,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Brand of Tethering",
+        "description": "Starting at 13th level, the psychic damage from your Brand of Castigation increases to twice your Hemocraft modifier (minimum of 2). Additionally, a branded creature can\u2019t take the Dash action, and if it attempts to teleport or to leave its current plane by any means, it takes 4d6 psychic damage and must make a Wisdom saving throw. On a failure, the attempt to teleport or leave the plane fails.",
+        "character_class": "Blood Hunter",
+        "level": 13,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Hardened Soul",
+        "description": "When you reach 14th level, you have advantage on saving throws against being charmed and frightened.",
+        "character_class": "Blood Hunter",
+        "level": 14,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Sanguine Mastery",
+        "description": "Upon reaching 20th level, your mastery of blood magic reaches its height, mitigating your sacrifice and empowering your expertise. Once per turn, whenever a blood hunter feature requires you to roll a hemocraft die, you can reroll the die and use either roll.\n\nAdditionally, whenever you score a critical hit with a weapon for which you have an active crimson rite, you regain one expended use of your Blood Maledict feature.",
+        "character_class": "Blood Hunter",
+        "level": 20,
+        "is_choice": false,
+        "uses": null,
+        "subclass": null,
+        "source": null
+    },
+    {
+        "name": "Blood Curse of the Anxious",
+        "description": "As a bonus action, you harry the body or mind of a creature within 30 feet of you, making them susceptible to forceful influence. Until the end of your next turn, Charisma (Intimidation) checks made against the cursed creature have advantage.\n\nAmplify. The next Wisdom saving throw the cursed creature makes before this curse ends has disadvantage.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Binding",
+        "description": "As a bonus action, you attempt to bind a Large or smaller creature you can see within 30 feet of you, which must make a Strength saving throw. On a failure, the cursed creature\u2019s speed is reduced to 0 and it can\u2019t use reactions until the end of your next turn.\n\nAmplify. This curse lasts for 1 minute and can affect any creature regardless of size. The cursed creature can repeat the saving throw at the end of each of its turns, ending the curse on itself on a success.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Bloated Agony",
+        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you, causing its body to swell until the end of your next turn. For the duration, the creature has disadvantage on Strength checks and Dexterity checks, and takes 1d8 necrotic damage if it makes more than one attack during its turn.\n\nAmplify. This curse lasts for 1 minute. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Corrosion",
+        "description": "Prerequisite: 15th level, Order of the Mutant As a bonus action, you cause a creature within 30 feet of you to become poisoned. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.\n\nAmplify. The cursed creature takes 4d6 necrotic damage when you inflict this curse, and it takes this damage again each time it fails a Constitution saving throw to end the curse.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 15,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Exorcist",
+        "description": "Prerequisite: 15th level, Order of the Ghostslayer As a bonus action, you choose one creature you can see within 30 feet of you that is charmed or frightened, or which is under a possession effect. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify. A creature that charmed, frightened, or possessed the target of your curse takes 3d6 psychic damage and must succeed on a Wisdom saving throw or be stunned until the end of your next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 15,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Exposure",
+        "description": "When a creature you can see within 30 feet of you takes damage from an attack or spell, you can use your reaction to temporarily weaken its resilience. Until the end of the target\u2019s next turn, it loses resistance to all the damage types dealt by the triggering attack or spell (including for that triggering effect).\n\nAmplify. The target instead loses invulnerability to the damage types of the triggering attack or spell, but has resistance to those damage types until the end of its next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Eyeless",
+        "description": "When a creature you can see within 30 feet of you makes an attack, you can use your reaction to roll one hemocraft die and subtract the number rolled from the creature\u2019s attack roll. You can choose to use this feature after the creature\u2019s roll, but before the DM determines whether the attack hits or misses. The creature is immune to this curse if it is immune to the blinded condition.\n\nAmplify. You apply this curse to all the creature\u2019s attack rolls until the end of the creature\u2019s turn. You roll separately for each affected attack.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Fallen Puppet",
+        "description": "When a creature you can see within 30 feet of you drops to 0 hit points, you can use your reaction to instill that creature with a final act of aggression. The creature immediately makes one weapon attack against a target of your choice within its range.\n\nAmplify. You can first cause the cursed creature to move up to half its speed, and you grant a bonus to its attack roll equal to your Hemocraft modifier (minimum of +1).",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Howl",
+        "description": "Prerequisite: 18th level, Order of the Lycan As an action, you unleash a bloodcurdling howl. Each creature within 30 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. If a creature fails its saving throw by 5 or more, it is stunned while frightened in this way. A creature that succeeds on its saving throw is immune to this blood curse for the next 24 hours.\n\nYou can choose any number of creatures you can see to be unaffected by the howl.\n\nAmplify. The range of this curse increases to 60 feet.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 18,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Marked",
+        "description": "As a bonus action, you mark a creature that you can see within 30 feet of you. Until the end of your turn, whenever you hit the cursed creature with a weapon for which you have an active crimson rite, you roll an additional hemocraft die when determining the extra damage from the rite.\n\nAmplify. The next attack roll you make against the target before the end of your turn has advantage.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Muddled Mind",
+        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you that is concentrating on a spell or using a feature that requires concentration. That creature has disadvantage on the next Constitution saving throw it makes to maintain concentration before the end of your next turn.\n\nAmplify. The cursed creature has disadvantage on all Constitution saving throws made to maintain concentration until the end of your next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Soul Eater",
+        "description": "Prerequisite: 18th level, Order of the Profane Soul When a creature that isn\u2019t a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to offer their life energy to your patron in exchange for power. Until the end of your next turn, you make attacks with advantage and you have resistance to all damage.\n\nAmplify. Additionally, you regain an expended warlock spell slot. Once you\u2019ve amplified this blood curse, you must finish a long rest before you can amplify it again.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 18,
+        "source": null,
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Rite of the Dawn",
+        "description": "When you join this order at 3rd level, you learn the Rite of the Dawn as part of your Crimson Rite feature. When you activate the Rite of the Dawn, the extra damage dealt by your rite is radiant damage. Additionally, while that rite is active on your weapon, you gain the following benefits:\n\n\u2022 Your weapon sheds bright light out to a radius of 20 feet.\n\n\u2022 You have resistance to necrotic damage.\n\n\u2022 When you hit an undead creature with a weapon for which the Rite of the Dawn is active, you roll an additional hemocraft die when determining the extra damage from the rite.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Curse Specialist",
+        "description": "Starting at 3rd level, you learn to master blood curses. You gain an additional use of your Blood Maledict feature. In addition, your blood curses can target any creature, whether it has blood or not.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Aether Walk",
+        "description": "Upon reaching 7th level, at the start of your turn, you can magically step into the veil between the planes as long as you aren\u2019t incapacitated. You can move through other creatures and objects as if they were difficult terrain, as well as see and affect creatures and objects on the Ethereal Plane. You take 1d10 force damage if you end your turn inside an object.\n\nThis feature lasts for a number of rounds equal to your Hemocraft modifier (minimum of 1 round). If you are inside an object when it ends, you are immediately shunted to the nearest unoccupied space and you take force damage equal to twice the number of feet you moved.\n\nOnce you use this feature, you must finish a short or long rest before you can use it again. You can use Aether Walk twice between rests starting at 15th level.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 7,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Brand of Sundering",
+        "description": "Starting at 11th level, your Brand of Castigation exposes a fragment of your foe\u2019s essence, leaving them vulnerable to your Crimson Rite feature. Whenever you hit a creature with a weapon for which you have an active crimson rite, you roll an additional hemocraft die when determining the extra damage from the rite. Additionally, if a branded creature has the Incorporeal Movement trait or a similar feature, it can\u2019t move through creatures or objects while branded.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 11,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Exorcist",
+        "description": "At 15th level, you hone your hemocraft to tear corruption from the minds and bodies of your allies \u2014 and to punish those responsible for it. You gain the Blood Curse of the Exorcist for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 15,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Rite Revival",
+        "description": "Upon reaching 18th level, you learn to protect your fading life by reabsorbing the energy you feed to your weapons. If you have one or more crimson rites active and you are reduced to 0 hit points but don\u2019t die outright, you can choose to have all your active crimson rites end and drop to 1 hit point instead.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Ghostslayer",
+        "level": 18,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Heightened Senses",
+        "description": "When you choose this archetype at 3rd level, you gain the improved senses of a natural predator. You have advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Hybrid Transformation",
+        "description": "Also at 3rd level, you learn to control the lycanthropic curse that courses through your veins. As a bonus action, you transform into a special hybrid form for up to 1 hour. You can speak, use equipment, and wear armor while in this form, and can revert to your normal form as a bonus action. You automatically revert to your normal form if you fall unconscious or die.\n\nThis feature replaces the rules for lycanthropy in the Monster Manual. Once you use this feature, you must finish a short or long rest before you can use it again. While you are transformed, you gain the following features:\n\n\u2022 Feral Might. You have advantage on Strength checks and Strength saving throws, and you have a +1 bonus to melee damage rolls. This bonus increases to +2 at 11th level and to +3 at 18th level.\n\n\u2022 Resilient Hide. You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons. Additionally, while you are not wearing heavy armor, you have a +1 bonus to AC.\n\n\u2022 Predatory Strikes. You can apply your Crimson Rite feature to your unarmed strikes, which you treat as one weapon. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes, which deal 1d6 bludgeoning or slashing damage (your choice). This damage increases to 1d8 at 11th level. Additionally, when you use the Attack action to make an unarmed strike, you can make one additional unarmed strike as a bonus action.\n\n\u2022 Additionally, when you use the Attack action to make an unarmed strike, you can make one additional unarmed strike as a bonus action.\n\n\u2022 Additionally, when you use the Attack action to make an unarmed strike, you can make one additional unarmed strike as a bonus action.\n\n\u2022 Bloodlust. If you start your turn with fewer hit points than half your hit point maximum, you must succeed on a DC 8 Wisdom saving throw or move directly toward the nearest creature and use the Attack action against that creature. If you\u2019re concentrating on a spell or are under an effect that prevents you from concentrating (such as the barbarian\u2019s Rage feature), you automatically fail this saving throw. If you have your Extra Attack feature, you can choose whether to use it for this frenzied attack. If more than one creature is equally near to you, roll randomly to determine your target. Once your attack is resolved, you regain control of yourself.\n\n\u2022 If you have your Extra Attack feature, you can choose whether to use it for this frenzied attack. If more than one creature is equally near to you, roll randomly to determine your target. Once your attack is resolved, you regain control of yourself.\n\n\u2022 If you have your Extra Attack feature, you can choose whether to use it for this frenzied attack. If more than one creature is equally near to you, roll randomly to determine your target. Once your attack is resolved, you regain control of yourself.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Stalker's Prowess",
+        "description": "At 7th level, your speed increases by 10 feet, and you add 10 feet to your long jump distance and 3 feet to your high jump distance. Your hybrid form also gains the following additional benefit.\n\n\u2022 Improved Predatory Strikes. You have a +1 bonus to attack rolls made with your unarmed strike. This bonus increases to +2 at 11th level and to +3 at 18th level. Additionally, when you have an active crimson rite on your unarmed strike while in your hybrid form, your unarmed strikes are considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 7,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Advanced Transformation",
+        "description": "At 11th level, you learn to unleash and control more of the beast within. You can use your Hybrid Transformation feature twice, regaining all expended uses when you finish a short or long rest. Your hybrid form also gains the following additional benefit.\n\n\u2022 Lycan Regeneration. At the start of each of your turns when you have at least 1 hit point but fewer hit points than half your hit point maximum, you gain hit points equal to 1 + your Constitution modifier (minimum of 1). If you are in hybrid form, you gain these hit points before you must make the saving throw for your bloodlust.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 11,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Brand of the Voracious",
+        "description": "Starting at 15th level, you have advantage on the saving throw for your bloodlust while in hybrid form. Additionally, your Brand of Castigation can now bind a foe to your hunter\u2019s ferocity. While in your hybrid form, you have advantage on attack rolls against a creature branded by you.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 15,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Hybrid Transformation Mastery",
+        "description": "At 18th level, you have mastered your inner predator. You can use your Hybrid Transformation feature an unlimited number of times, and your hybrid form lasts until you revert to your normal form, fall unconscious, or die.\n\nYou also gain the Blood Curse of the Howl for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Lycan",
+        "level": 18,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mutagencraft",
+        "description": "When you choose this archetype at 3rd level, you learn to master forbidden alchemical formulas\u2014known as mutagens\u2014that can temporarily alter your mental and physical abilities.\n\nAs a bonus action, you consume a mutagen, whose effects and side effects last until you finish a short or long rest unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush all mutagens from your system, ending their effects and side effects.\n\nMutagens are designed for the specific biology of the character who concocted them, and your mutagens have no effect on other creatures. They are also unstable by nature, losing their potency over time and becoming inert if not used before you finish your next short or long rest.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Formulas",
+        "description": "The number of mutagens you can concoct when you finish a rest, and the number of formulas you know, increases as you gain levels in the blood hunter class, as shown on the Mutagencraft table above. Additionally, when you learn a new mutagen formula, you can replace one formula you already know with a new mutagen formula. You choose four mutagen formulas to learn, and you can concoct one mutagen when you finish a short or long rest.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Strange Metabolism",
+        "description": "When you reach 7th level, your body begins to adapt to toxins and venoms, ignoring their corrupting effects. You gain immunity to poison damage and the poisoned condition.\n\nAdditionally, you can trigger a burst of adrenaline that lets you temporarily resist the negative effects of a mutagen. As a bonus action, you can ignore the negative side effect of one mutagen affecting you for 1 minute. Once you do so, you can\u2019t do so again until you finish a long rest.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 7,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Brand of Axiom",
+        "description": "At 11th level, your mutagenic hemocraft lets your Brand of Castigation reveal a foe\u2019s true nature. Any illusion or invisibility in effect on a creature when you brand it ends, and the creature can\u2019t benefit from invisibility or illusion effects while branded by you. If a creature branded by you is in an alternative form (by way of the Polymorph spell, the Change Shape action or Shapechanger trait, the Wild Shape feature, and similar effects), it must succeed on a Wisdom saving throw or revert to its true form and be stunned until the end of your next turn. Whenever a branded creature attempts to alter its form, it must succeed on a Wisdom saving throw or have the attempt fail, and it is stunned until the end of your next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 11,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Corrosion",
+        "description": "Starting at 15th level, your blood curse can infuse a creature\u2019s body with terrible toxins. You gain the Blood Curse of Corrosion for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 15,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Exalted Mutation",
+        "description": "At 18th level, your body has adapted to produce mutagens naturally in a moment of need. As a bonus action, choose one mutagen currently affecting you. Its effects and side effects end, and you can immediately have a mutagen you know the formula for take effect in its place.\n\nYou can use this feature a number of times equal to your Hemocraft modifier (minimum of once). You regain all expended uses when you finish a long rest.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Mutant",
+        "level": 18,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Otherworldly Patron",
+        "description": "When you reach 3rd level, you strike a bargain with an otherworldly being of your choice:\n\nThe choice you make augments some of your subclass features, as noted below.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Pact Magic",
+        "description": "When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. The spells you can learn can be found on the Warlock spell list.\n\nCantrips. You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.\n\nSpell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 8th level, you have two 2nd-level spell slots. To cast the 1st-level spell Witch Bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.\n\nSpells Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Profane Soul Spellcasting table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what\u2019s shown in the table\u2019s Slot Level column for your level. When you reach 13th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability. Your chosen Hemocraft ability (Intelligence or Wisdom) is your spellcasting ability for your warlock spells, so you use your Hemocraft ability whenever a spell refers to your spellcasting ability. In addition, you use your Hemocraft modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Hemocraft modifier. Spell attack modifier = your proficiency bonus + your Hemocraft modifier.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 1,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Rite Focus",
+        "description": "Starting at 3rd level, your weapon becomes a conduit for the power of your pact with your chosen patron. While you have an active crimson rite, you can use your weapon as a spellcasting focus for your warlock spells, and you gain a specific benefit based on your chosen pact.\n\nThe Archfey. When you damage a creature with a weapon for which you have an active crimson rite, that creature glows with faint light until the end of your next turn. For the duration, the creature gains no benefit from any cover or from being invisible.\n\nThe Celestial. As a bonus action, you expend one use of your Blood Maledict feature to heal one creature you can see within 60 feet of you. That creature regains a number of hit points equal to one roll of your hemocraft die + your Hemocraft modifier (minimum of +1).\n\nThe Fathomless. You can breathe underwater. Additionally, once per turn when you damage a creature with a weapon for which you have an active crimson rite, you can reduce that creature\u2019s speed by 10 feet until the start of your next turn.\n\nThe Fiend. While using the Rite of the Flame, if you roll a 1 or 2 on a damage die when you roll the extra damage from the rite, you can reroll the die and choose which roll to use.\n\nThe Genie. As a bonus action, you expend a use of your Blood Maledict feature to give yourself a flying speed of 30 feet, which lasts for a number of rounds equal to your Hemocraft modifier (minimum of 1 round).\n\nThe Great Old One. When you score a critical hit against a creature, that creature and any other creatures of your choice within 10 feet of it are frightened of you until the end of your next turn.\n\nThe Hexblade. When you successfully target a creature with a blood curse, the next time you hit that creature with an attack while the curse is in effect, the attack deals additional damage equal to your proficiency modifier.\n\nThe Undead. When you take necrotic damage, you can use your reaction to halve that damage. In addition, your appearance changes to reflect some aspect of your patron while you have any crimson rite active.\n\nThe Undying. When you reduce a hostile creature of at least mild threat (DM\u2019s discretion) to 0 hit points, you regain a number of hit points equal to one roll of your hemocraft die.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 3,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mystic Frenzy",
+        "description": "Starting at 7th level, when you use your action to cast a cantrip, you can immediately make one weapon attack as a bonus action.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 7,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Revealed Arcana",
+        "description": "At 7th level, your patron grants you the use of a distinctive spell based on your pact. You cast this spell using any pact magic spell slot, and can\u2019t do so again until you finish a long rest.\n\nThe Archfey. You can cast Blur.\n\nThe Celestial. You can cast Lesser Restoration.\n\nThe Fathomless. You can cast Gust of Wind.\n\nThe Fiend. You can cast Scorching Ray.\n\nThe Genie. You can cast Phantasmal Force.\n\nThe Great Old One. You can cast Detect Thoughts.\n\nThe Hexblade. You can cast Branding Smite.\n\nThe Undead. You can cast Blindness/Deafness.\n\nThe Undying. You can cast Silence.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 7,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Brand of the Sapping Scar",
+        "description": "Upon reaching 11th level, your Brand of Castigation feature digs dark arcane scars into your target, leaving them vulnerable to your magic. A creature branded by you has disadvantage on saving throws against your warlock spells.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 11,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Unsealed Arcana",
+        "description": "At 15th level, your patron grants you the use of an additional spell based on your pact. You cast this spell without expending a spell slot, and can\u2019t do so again until you finish a long rest.\n\nThe Archfey. You can cast Slow.\n\nThe Celestial. You can cast Revivify.\n\nThe Fathomless. You can cast Lightning Bolt.\n\nThe Fiend. You can cast Fireball.\n\nThe Genie. You can cast Protection from Energy.\n\nThe Great Old One. You can cast Haste.\n\nThe Hexblade. You can cast Blink.\n\nThe Undead. You can cast Speak with Dead.\n\nThe Undying. You can cast Bestow Curse.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 15,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Souleater",
+        "description": "Starting at 18th level, you learn to siphon the life energy from your fallen prey. You gain the Blood Curse of the Soul Eater for your Blood Maledict feature. This doesn\u2019t count against your number of blood curses known.",
+        "character_class": "Blood Hunter",
+        "subclass": "Order of the Profane Soul",
+        "level": 18,
+        "source": "DND Beyond",
+        "uses": null,
+        "is_choice": false
+    }
+]
