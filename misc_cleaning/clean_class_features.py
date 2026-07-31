@@ -54,6 +54,14 @@ CONSOLIDATED_NAMES = {"Base Features"}
 # how similar two descriptions must be to count as "the same" feature
 DESCRIPTION_SIMILARITY_THRESHOLD = 0.8
 
+# UA multiclass features lead each description with "Level 6+ <Subclass> Feature"
+FEATURE_PREFIX_RE = re.compile(r"^\s*Level \d+\+?\s+.*?\bFeature\b[\s:.\u2014-]*", re.IGNORECASE)
+
+
+def _strip_feature_prefix(description: str) -> str:
+    """remove the "Level N+ <Subclass> Feature" boilerplate prefix from a description"""
+    return FEATURE_PREFIX_RE.sub("", description or "", count=1).strip()
+
 
 def _normalize_name(name: str) -> str:
     return re.sub(r"\s+", " ", name).strip().lower()
@@ -135,6 +143,8 @@ def clean() -> None:
     for path in sorted(CLASSES_DIR.glob("*_features.json")):
         with open(path, "r") as fp:
             features: List[dict] = json.load(fp)
+        for feature in features:
+            feature["description"] = _strip_feature_prefix(feature.get("description", ""))
         features = _consolidate(features, BASE_FEATURE_NAMES, "Base Features")
         features = _consolidate(features, SPELLCASTING_NAMES, "Spellcasting")
         data[path] = features

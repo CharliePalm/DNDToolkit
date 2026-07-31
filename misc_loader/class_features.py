@@ -1,7 +1,7 @@
 import os
 import re
 from typing import Dict, List, Optional, Tuple
-
+import time
 from bs4 import BeautifulSoup, Tag
 
 from shared.helpers import write_obj_to_json
@@ -427,5 +427,6 @@ def get_class_features(
         for cc in CharacterClass:
             print("scraping ", cc)
             all_feats.append(run(cc))
+            time.sleep(5)
     else:
         return run(CharacterClass[char_class.capitalize()])
