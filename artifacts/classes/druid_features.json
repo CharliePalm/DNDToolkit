@@ -35,7 +35,7 @@
         "character_class": "Druid",
         "level": 2,
         "is_choice": false,
-        "uses": null,
+        "uses": 2,
         "subclass": null,
         "source": null
     },
@@ -246,7 +246,7 @@
         "subclass": "Circle of the Shepherd",
         "level": 2,
         "source": "Xanathar's Guide to Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -276,7 +276,7 @@
         "subclass": "Circle of the Shepherd",
         "level": 14,
         "source": "Xanathar's Guide to Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -536,7 +536,7 @@
         "subclass": "Circle of Stars (UA)",
         "level": 5,
         "source": "Unearthed Arcana 69 - Subclasses, Part 3",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -556,7 +556,7 @@
         "subclass": "Circle of Twilight (UA)",
         "level": 6,
         "source": "Unearthed Arcana 23 - Druid",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -646,7 +646,7 @@
         "subclass": "Circle of Wildfire (UA)",
         "level": 14,
         "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     }
 ]

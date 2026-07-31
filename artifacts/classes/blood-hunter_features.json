@@ -25,7 +25,7 @@
         "character_class": "Blood Hunter",
         "level": 1,
         "is_choice": false,
-        "uses": null,
+        "uses": 1,
         "subclass": null,
         "source": null
     },
@@ -75,7 +75,7 @@
         "character_class": "Blood Hunter",
         "level": 6,
         "is_choice": false,
-        "uses": null,
+        "uses": 1,
         "subclass": null,
         "source": null
     },
@@ -276,7 +276,7 @@
         "subclass": "Order of the Ghostslayer",
         "level": 7,
         "source": "DND Beyond",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -326,7 +326,7 @@
         "subclass": "Order of the Lycan",
         "level": 3,
         "source": "DND Beyond",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {

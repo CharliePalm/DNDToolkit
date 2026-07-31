@@ -266,7 +266,7 @@
         "subclass": "Way of the Ascendant Dragon",
         "level": 3,
         "source": "Fizban's Treasury of Dragons",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -526,7 +526,7 @@
         "subclass": "Way of the Open Hand",
         "level": 6,
         "source": "Player's Handbook",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -736,7 +736,7 @@
         "subclass": "Kensei (UA)",
         "level": 6,
         "source": "Unearthed Arcana 24 - Monk",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -866,7 +866,7 @@
         "subclass": "Way of Tranquility",
         "level": 17,
         "source": "Unearthed Arcana 24 - Monk",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     }
 ]

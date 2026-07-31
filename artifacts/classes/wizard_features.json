@@ -1126,7 +1126,7 @@
         "subclass": "Technomancy (UA)",
         "level": 6,
         "source": null,
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -1146,7 +1146,7 @@
         "subclass": "Technomancy (UA)",
         "level": 14,
         "source": null,
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -1176,7 +1176,7 @@
         "subclass": "Theurgy (UA)",
         "level": 2,
         "source": null,
-        "uses": null,
+        "uses": 3,
         "is_choice": false
     },
     {

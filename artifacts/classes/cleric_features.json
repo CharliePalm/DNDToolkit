@@ -46,7 +46,7 @@
         "level": 2,
         "is_choice": true,
         "subclass": "Pick your subclass where you set your class (top left)",
-        "uses": null,
+        "uses": 3,
         "source": null
     },
     {
@@ -1136,7 +1136,7 @@
         "subclass": "Zeal Domain (Amonkhet)",
         "level": 17,
         "source": "Plane Shift - Amonkhet",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -1406,7 +1406,7 @@
         "subclass": "Unity Domain (UA)",
         "level": 1,
         "source": "Unearthed Arcana 68 - Subclasses, Part 2",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {

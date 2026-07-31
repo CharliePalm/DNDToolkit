@@ -386,7 +386,7 @@
         "subclass": "Horizon Walker Conclave",
         "level": 7,
         "source": "Xanathar's Guide to Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -776,7 +776,7 @@
         "subclass": "Fey Wanderer (UA)",
         "level": 4,
         "source": "Unearthed Arcana 69 - Subclasses, Part 3",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {

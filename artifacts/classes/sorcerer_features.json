@@ -186,7 +186,7 @@
         "subclass": "Clockwork Soul",
         "level": 6,
         "source": "Tasha's Cauldron of Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -286,7 +286,7 @@
         "subclass": "Divine Soul",
         "level": 18,
         "source": "Xanathar's Guide to Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -486,7 +486,7 @@
         "subclass": "Wild Magic",
         "level": 1,
         "source": "Player's Handbook",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -676,7 +676,7 @@
         "subclass": "Aberrant Mind (UA)",
         "level": 18,
         "source": "Unearthed Arcana 61 - Aberrant Mind",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -716,7 +716,7 @@
         "subclass": "Clockwork Soul (UA)",
         "level": 14,
         "source": "Unearthed Arcana 68 - Subclasses, Part 2",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -726,7 +726,7 @@
         "subclass": "Clockwork Soul (UA)",
         "level": 6,
         "source": "Unearthed Arcana 68 - Subclasses, Part 2",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -796,7 +796,7 @@
         "subclass": "Favored Soul Revisited (UA)",
         "level": 1,
         "source": "Unearthed Arcana 28 - Sorcerer",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -826,7 +826,7 @@
         "subclass": "Favored Soul Revisited (UA)",
         "level": 18,
         "source": "Unearthed Arcana 28 - Sorcerer",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -866,7 +866,7 @@
         "subclass": "Giant Soul",
         "level": 14,
         "source": "Unearthed Arcana 51 - Giant Soul",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -896,7 +896,7 @@
         "subclass": "Phoenix Sorcery",
         "level": 1,
         "source": "Unearthed Arcana 28 - Sorcerer",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -906,7 +906,7 @@
         "subclass": "Phoenix Sorcery",
         "level": 6,
         "source": "Unearthed Arcana 28 - Sorcerer",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -1006,7 +1006,7 @@
         "subclass": "Sea Sorcery",
         "level": 6,
         "source": "Unearthed Arcana 28 - Sorcerer",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {

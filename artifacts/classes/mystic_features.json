@@ -141,7 +141,7 @@
         "character_class": "Mystic",
         "level": 10,
         "is_choice": false,
-        "uses": null,
+        "uses": 1,
         "subclass": null,
         "source": null
     },
@@ -442,7 +442,7 @@
         "subclass": "Order of the Awakened",
         "level": 3,
         "source": null,
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -462,7 +462,7 @@
         "subclass": "Order of the Awakened",
         "level": 14,
         "source": null,
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -542,7 +542,7 @@
         "subclass": "Order of the Nomad",
         "level": 3,
         "source": null,
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {

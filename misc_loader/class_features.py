@@ -8,14 +8,82 @@ from shared.helpers import write_obj_to_json
 from shared.model import CharacterClass, ClassFeature
 from shared.requestor import base_url, make_get_request
 
-TEST_HTML_DIR = "./generator/test_html"
+TEST_HTML_DIR = "./fixtures/test_html"
 OUTPUT_DIR = "./artifacts/classes"
 
 ORDINAL_RE = re.compile(r"(\d+)(?:st|nd|rd|th)\s+level", re.IGNORECASE)
+# UA multiclass subclasses lead each feature with "Level 6+ <Subclass> Feature"
+FEATURE_LEVEL_RE = re.compile(r"\bLevel (\d+)\+?\s+[^.]*?\bFeature\b", re.IGNORECASE)
 LEVEL_RE = re.compile(r"(\d+)")
+
+# wikidot descriptions mix curly and straight apostrophes; normalize before matching
+_APOSTROPHES = str.maketrans({"\u2019": "'", "\u2018": "'"})
+
+NUMBER_WORDS = {
+    "once": 1,
+    "one": 1,
+    "twice": 2,
+    "two": 2,
+    "thrice": 3,
+    "three": 3,
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+}
+
 ONCE_PER_REST_RE = re.compile(
-    r"can'?t use (?:it|this feature) again until you finish", re.IGNORECASE
+    r"can't use (?:it|this feature) again until you finish", re.IGNORECASE
 )
+# alternate once-per-rest phrasing: "you must finish a short or long rest ... to use it again"
+MUST_REST_RE = re.compile(
+    r"must finish a[n]? (?:short|long|short or long)[a-z ]*rest"
+    r"[^.]{0,80}\b(?:use|do)\b[^.]{0,30}\bagain\b",
+    re.IGNORECASE,
+)
+# "a number of times equal to ..." — a calculation-based count (ability modifier,
+# proficiency bonus, etc). We deliberately leave `uses` null for these.
+SCALING_USES_RE = re.compile(r"number of times equal to", re.IGNORECASE)
+# an explicit fixed count, e.g. "you can use it twice" / "you can use this feature three times"
+EXPLICIT_USES_RE = re.compile(
+    r"you can use (?:it|this feature) "
+    r"(once|twice|thrice|\d+ times|"
+    r"(?:one|two|three|four|five|six|seven|eight|nine|ten) times)",
+    re.IGNORECASE,
+)
+
+
+def _word_to_int(token: str) -> Optional[int]:
+    """map a number word or digit token (optionally suffixed with 'times') to an int"""
+    token = token.strip().lower().replace(" times", "").strip()
+    if token.isdigit():
+        return int(token)
+    return NUMBER_WORDS.get(token)
+
+
+def _uses_from_description(description: str) -> Optional[int]:
+    """
+    infer a feature's limited-use count from its prose. Returns the literal count for
+    explicit "you can use it N times" phrasing, or 1 for once-per-rest features.
+    Returns None when the description implies no per-rest limit, or when the count is
+    calculation-based (e.g. scales with an ability modifier or proficiency bonus).
+    """
+    if not description:
+        return None
+    text = description.translate(_APOSTROPHES)
+    if SCALING_USES_RE.search(text):
+        return None
+    explicit = EXPLICIT_USES_RE.search(text)
+    if explicit:
+        return _word_to_int(explicit.group(1))
+    if ONCE_PER_REST_RE.search(text) or MUST_REST_RE.search(text):
+        return 1
+    return None
+
+
 CHOICE_SUBCLASS_PLACEHOLDER = "Pick your subclass where you set your class (top left)"
 SUBCLASS_CHOICE_KEYWORDS = (
     "archetype",
@@ -139,14 +207,10 @@ def _parse_level_table(table: Tag) -> Tuple[Dict[str, int], Dict[str, dict]]:
 
 def _iter_features(container: Tag):
     """
-        walk a page-content container in document order, yielding (name, description)
-        tuples. A feature starts at a header (h2-h6) and its description is every
-        paragraph / list that follows until the next header. Tables are skipped so the
-    <<<<<<< Updated upstream
-        subclass list doesn't leak into the subclass description.
-    =======
-        subclass list doesn't leak into the Primal Path description.
-    >>>>>>> Stashed changes
+    walk a page-content container in document order, yielding (name, description)
+    tuples. A feature starts at a header (h2-h6) and its description is every
+    paragraph / list that follows until the next header. Tables are skipped so the
+    subclass list doesn't leak into the subclass description.
     """
     current_name = None
     current_desc: List[str] = []
@@ -169,6 +233,9 @@ def _iter_features(container: Tag):
 
 
 def _prose_level(description: str) -> Optional[int]:
+    header = FEATURE_LEVEL_RE.search(description)
+    if header:
+        return int(header.group(1))
     levels = [int(m) for m in ORDINAL_RE.findall(description)]
     return min(levels) if levels else None
 
@@ -238,8 +305,8 @@ def _parse_base_class(
             feature.subclass = placeholder
         if norm in resource_breakpoints:
             feature.uses = resource_breakpoints[norm]
-        elif ONCE_PER_REST_RE.search(description):
-            feature.uses = 1
+        else:
+            feature.uses = _uses_from_description(description)
         _merge_feature(features, feature)
 
     page_key = _class_page_key(char_class)
@@ -248,12 +315,15 @@ def _parse_base_class(
 
 
 def _find_subclass_keys(content: Tag, class_page_key: str) -> List[str]:
-    """collect unique subclass page keys (e.g. "barbarian:ancestral-guardian")"""
+    """collect unique subclass page keys (e.g. "barbarian:ancestral-guardian" or
+    a shared "multisubclass:mage-of-lorehold-ua")"""
     keys: List[str] = []
     seen = set()
     pattern = re.compile(
         r"^(?:https?://dnd5e\.wikidot\.com)?/("
+        + r"(?:"
         + re.escape(class_page_key)
+        + r"|multisubclass)"
         + r":[a-z0-9-]+)$"
     )
     for anchor in content.find_all("a", href=True):
@@ -294,8 +364,7 @@ def _parse_subclass(html: str, char_class: str) -> List[ClassFeature]:
         feature.character_class = char_class
         feature.subclass = subclass_name
         feature.level = _prose_level(description) or 3
-        if ONCE_PER_REST_RE.search(description):
-            feature.uses = 1
+        feature.uses = _uses_from_description(description)
         _merge_feature(features, feature)
 
     for feature in features.values():

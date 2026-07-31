@@ -266,7 +266,7 @@
         "subclass": "Oath of Conquest",
         "level": 20,
         "source": "Xanathar's Guide to Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -446,7 +446,7 @@
         "subclass": "Oath of Glory",
         "level": 20,
         "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -726,7 +726,7 @@
         "subclass": "Oath of Treachery (UA)",
         "level": 15,
         "source": "Unearthed Arcana 26 - Paladin",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
@@ -736,7 +736,7 @@
         "subclass": "Oath of Treachery (UA)",
         "level": 20,
         "source": "Unearthed Arcana 26 - Paladin",
-        "uses": null,
+        "uses": 1,
         "is_choice": false
     },
     {
