@@ -75,8 +75,8 @@
         "character_class": "Wizard",
         "subclass": "School of Abjuration",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -85,8 +85,8 @@
         "character_class": "Wizard",
         "subclass": "School of Abjuration",
         "level": 1,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -95,8 +95,8 @@
         "character_class": "Wizard",
         "subclass": "School of Abjuration",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -105,8 +105,8 @@
         "character_class": "Wizard",
         "subclass": "School of Abjuration",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -115,8 +115,8 @@
         "character_class": "Wizard",
         "subclass": "School of Abjuration",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -125,8 +125,8 @@
         "character_class": "Wizard",
         "subclass": "Bladesinging",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -135,8 +135,8 @@
         "character_class": "Wizard",
         "subclass": "Bladesinging",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -145,8 +145,8 @@
         "character_class": "Wizard",
         "subclass": "Bladesinging",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -155,8 +155,8 @@
         "character_class": "Wizard",
         "subclass": "Bladesinging",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -165,8 +165,8 @@
         "character_class": "Wizard",
         "subclass": "Bladesinging",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -175,8 +175,8 @@
         "character_class": "Wizard",
         "subclass": "Chronurgy Magic",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -185,8 +185,8 @@
         "character_class": "Wizard",
         "subclass": "Chronurgy Magic",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -195,8 +195,8 @@
         "character_class": "Wizard",
         "subclass": "Chronurgy Magic",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -205,8 +205,8 @@
         "character_class": "Wizard",
         "subclass": "Chronurgy Magic",
         "level": 4,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -215,8 +215,8 @@
         "character_class": "Wizard",
         "subclass": "Chronurgy Magic",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -225,8 +225,8 @@
         "character_class": "Wizard",
         "subclass": "School of Conjuration",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -235,8 +235,8 @@
         "character_class": "Wizard",
         "subclass": "School of Conjuration",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -255,8 +255,8 @@
         "character_class": "Wizard",
         "subclass": "School of Conjuration",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -265,8 +265,8 @@
         "character_class": "Wizard",
         "subclass": "School of Conjuration",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -275,8 +275,8 @@
         "character_class": "Wizard",
         "subclass": "School of Divination",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -285,8 +285,8 @@
         "character_class": "Wizard",
         "subclass": "School of Divination",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -295,8 +295,8 @@
         "character_class": "Wizard",
         "subclass": "School of Divination",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -305,8 +305,8 @@
         "character_class": "Wizard",
         "subclass": "School of Divination",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -315,8 +315,8 @@
         "character_class": "Wizard",
         "subclass": "School of Divination",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -325,8 +325,8 @@
         "character_class": "Wizard",
         "subclass": "School of Enchantment",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -335,8 +335,8 @@
         "character_class": "Wizard",
         "subclass": "School of Enchantment",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -345,8 +345,8 @@
         "character_class": "Wizard",
         "subclass": "School of Enchantment",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -355,8 +355,8 @@
         "character_class": "Wizard",
         "subclass": "School of Enchantment",
         "level": 1,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -365,8 +365,8 @@
         "character_class": "Wizard",
         "subclass": "School of Enchantment",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -375,8 +375,8 @@
         "character_class": "Wizard",
         "subclass": "School of Evocation",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -385,8 +385,8 @@
         "character_class": "Wizard",
         "subclass": "School of Evocation",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -395,8 +395,8 @@
         "character_class": "Wizard",
         "subclass": "School of Evocation",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -405,8 +405,8 @@
         "character_class": "Wizard",
         "subclass": "School of Evocation",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -415,8 +415,8 @@
         "character_class": "Wizard",
         "subclass": "School of Evocation",
         "level": 5,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -425,8 +425,8 @@
         "character_class": "Wizard",
         "subclass": "Graviturgy Magic",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -435,8 +435,8 @@
         "character_class": "Wizard",
         "subclass": "Graviturgy Magic",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -445,8 +445,8 @@
         "character_class": "Wizard",
         "subclass": "Graviturgy Magic",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -455,8 +455,8 @@
         "character_class": "Wizard",
         "subclass": "Graviturgy Magic",
         "level": 3,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -465,8 +465,8 @@
         "character_class": "Wizard",
         "subclass": "School of Illusion",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -475,8 +475,8 @@
         "character_class": "Wizard",
         "subclass": "School of Illusion",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -485,8 +485,8 @@
         "character_class": "Wizard",
         "subclass": "School of Illusion",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -505,8 +505,8 @@
         "character_class": "Wizard",
         "subclass": "School of Illusion",
         "level": 1,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -515,8 +515,8 @@
         "character_class": "Wizard",
         "subclass": "School of Necromancy",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -525,8 +525,8 @@
         "character_class": "Wizard",
         "subclass": "School of Necromancy",
         "level": 1,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -535,8 +535,8 @@
         "character_class": "Wizard",
         "subclass": "School of Necromancy",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -545,8 +545,8 @@
         "character_class": "Wizard",
         "subclass": "School of Necromancy",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -555,8 +555,8 @@
         "character_class": "Wizard",
         "subclass": "School of Necromancy",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -565,8 +565,8 @@
         "character_class": "Wizard",
         "subclass": "Order of Scribes",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -575,8 +575,8 @@
         "character_class": "Wizard",
         "subclass": "Order of Scribes",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -585,8 +585,8 @@
         "character_class": "Wizard",
         "subclass": "Order of Scribes",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -595,8 +595,8 @@
         "character_class": "Wizard",
         "subclass": "Order of Scribes",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -605,8 +605,8 @@
         "character_class": "Wizard",
         "subclass": "Order of Scribes",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -615,8 +615,8 @@
         "character_class": "Wizard",
         "subclass": "School of Transmutation",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -625,8 +625,8 @@
         "character_class": "Wizard",
         "subclass": "School of Transmutation",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -635,8 +635,8 @@
         "character_class": "Wizard",
         "subclass": "School of Transmutation",
         "level": 1,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -645,8 +645,8 @@
         "character_class": "Wizard",
         "subclass": "School of Transmutation",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -655,8 +655,8 @@
         "character_class": "Wizard",
         "subclass": "School of Transmutation",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -665,8 +665,8 @@
         "character_class": "Wizard",
         "subclass": "War Magic",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -675,8 +675,8 @@
         "character_class": "Wizard",
         "subclass": "War Magic",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -685,8 +685,8 @@
         "character_class": "Wizard",
         "subclass": "War Magic",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -695,8 +695,8 @@
         "character_class": "Wizard",
         "subclass": "War Magic",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -705,8 +705,8 @@
         "character_class": "Wizard",
         "subclass": "War Magic",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -715,8 +715,8 @@
         "character_class": "Wizard",
         "subclass": "Runecrafter (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -725,8 +725,8 @@
         "character_class": "Wizard",
         "subclass": "Runecrafter (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -735,8 +735,8 @@
         "character_class": "Wizard",
         "subclass": "Runecrafter (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -745,8 +745,8 @@
         "character_class": "Wizard",
         "subclass": "Runecrafter (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -755,8 +755,8 @@
         "character_class": "Wizard",
         "subclass": "Runecrafter (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -765,8 +765,8 @@
         "character_class": "Wizard",
         "subclass": "Artificer (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 1 - Eberron",
         "uses": null,
+        "source": "Unearthed Arcana 1 - Eberron",
         "is_choice": false
     },
     {
@@ -775,8 +775,8 @@
         "character_class": "Wizard",
         "subclass": "Artificer (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 1 - Eberron",
         "uses": null,
+        "source": "Unearthed Arcana 1 - Eberron",
         "is_choice": false
     },
     {
@@ -785,8 +785,8 @@
         "character_class": "Wizard",
         "subclass": "Artificer (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 1 - Eberron",
         "uses": null,
+        "source": "Unearthed Arcana 1 - Eberron",
         "is_choice": false
     },
     {
@@ -795,8 +795,8 @@
         "character_class": "Wizard",
         "subclass": "Artificer (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 1 - Eberron",
         "uses": null,
+        "source": "Unearthed Arcana 1 - Eberron",
         "is_choice": false
     },
     {
@@ -805,8 +805,8 @@
         "character_class": "Wizard",
         "subclass": "Artificer (UA)",
         "level": 14,
-        "source": "Unearthed Arcana 1 - Eberron",
         "uses": null,
+        "source": "Unearthed Arcana 1 - Eberron",
         "is_choice": false
     },
     {
@@ -815,8 +815,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -825,8 +825,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -835,8 +835,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -845,8 +845,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -855,8 +855,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -865,8 +865,8 @@
         "character_class": "Wizard",
         "subclass": "School of Invention (UA)",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -875,8 +875,8 @@
         "character_class": "Wizard",
         "subclass": "Lore Mastery",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -885,8 +885,8 @@
         "character_class": "Wizard",
         "subclass": "Lore Mastery",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -895,8 +895,8 @@
         "character_class": "Wizard",
         "subclass": "Lore Mastery",
         "level": 3,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -905,8 +905,8 @@
         "character_class": "Wizard",
         "subclass": "Lore Mastery",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -935,8 +935,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -945,8 +945,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -955,8 +955,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -965,8 +965,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -975,8 +975,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -985,8 +985,8 @@
         "character_class": "Wizard",
         "subclass": "Onomancy (UA)",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -995,8 +995,8 @@
         "character_class": "Wizard",
         "subclass": "Order Of Scribes (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1005,8 +1005,8 @@
         "character_class": "Wizard",
         "subclass": "Order Of Scribes (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1015,8 +1015,8 @@
         "character_class": "Wizard",
         "subclass": "Order Of Scribes (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1025,8 +1025,8 @@
         "character_class": "Wizard",
         "subclass": "Order Of Scribes (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1035,8 +1035,8 @@
         "character_class": "Wizard",
         "subclass": "Order Of Scribes (UA)",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1045,8 +1045,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1055,8 +1055,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1065,8 +1065,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1075,8 +1075,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1085,8 +1085,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1095,8 +1095,8 @@
         "character_class": "Wizard",
         "subclass": "Psionics (UA)",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1105,8 +1105,8 @@
         "character_class": "Wizard",
         "subclass": "Technomancy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1115,8 +1115,8 @@
         "character_class": "Wizard",
         "subclass": "Technomancy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1125,8 +1125,8 @@
         "character_class": "Wizard",
         "subclass": "Technomancy (UA)",
         "level": 6,
-        "source": null,
         "uses": 1,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1135,8 +1135,8 @@
         "character_class": "Wizard",
         "subclass": "Technomancy (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1145,8 +1145,8 @@
         "character_class": "Wizard",
         "subclass": "Technomancy (UA)",
         "level": 14,
-        "source": null,
         "uses": 1,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1155,8 +1155,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1165,8 +1165,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 2,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1175,8 +1175,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 2,
-        "source": null,
         "uses": 3,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1185,8 +1185,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 3,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1195,8 +1195,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 6,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1205,8 +1205,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 10,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     },
     {
@@ -1215,8 +1215,8 @@
         "character_class": "Wizard",
         "subclass": "Theurgy (UA)",
         "level": 14,
-        "source": null,
         "uses": null,
+        "source": null,
         "is_choice": false
     }
 ]

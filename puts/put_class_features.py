@@ -24,15 +24,14 @@ from typing import Dict, List
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from shared.model import bullet_char  # noqa: E402
+from shared.model import bullet_char, serialize_uses  # noqa: E402
 from shared.notion.notion import Notion  # noqa: E402
 
-# TODO: set this to the target Notion database id before running
-DB_ID = ""
+DB_ID = "3ae5625c1efa80abb26dca31de8d2261"
 
 CLASSES_DIR = REPO_ROOT / "artifacts" / "classes"
 ICONS_FILE = CLASSES_DIR / "class_icons.json"
-SHARED_FILE = "shared_features.json"
+SHARED_FILE = "shared.json"
 
 FALLBACK_ICON = "hexagon-three-sixths"
 FALLBACK_COLOR = "gray"
@@ -72,15 +71,27 @@ def _icon_for(name: str, icons: Dict[str, dict]) -> dict:
     return {"type": "icon", "icon": {"name": icon_name, "color": color}}
 
 
-def _properties(name: str, classes: List[str], subclasses: List[str]) -> dict:
+def _properties(
+    name: str,
+    classes: List[str],
+    subclasses: List[str],
+    level: int,
+    uses: int | dict[int | str, int | str] | str | None,
+) -> dict:
+    uses_value = serialize_uses(uses)
     return {
         "Name": {"title": [{"text": {"content": name}}]},
         "Class": {"multi_select": [{"name": c} for c in classes]},
         "Subclass": {"multi_select": [{"name": s} for s in subclasses]},
-        "ismanual": {"checkbox": False},
+        "_ismanual": {"checkbox": False},
+        "_uselist": {
+            "rich_text": [{"type": "text", "text": {"content": uses_value or ""}}]
+        },
         "Important Effects": {"rich_text": []},
         "Total Uses": {"select": None},
         "Remaining Uses": {"select": None},
+        "Level": {"number": level},
+        # "Class/Level": {"relation:", "2b65625c-1efa-8022-b358-e55c4d02a510"},
     }
 
 
@@ -124,9 +135,14 @@ def _iter_features():
                     subclass = entry.get("subclass")
                     if subclass and subclass not in subclasses:
                         subclasses.append(subclass)
-                yield feature["name"], feature.get(
-                    "description", ""
-                ), classes, subclasses
+                yield (
+                    feature["name"],
+                    feature.get("description", ""),
+                    classes,
+                    subclasses,
+                    feature["level"],
+                    feature.get("uses"),
+                )
         else:
             for feature in features:
                 subclass = feature.get("subclass")
@@ -135,10 +151,12 @@ def _iter_features():
                     feature.get("description", ""),
                     [feature["character_class"]],
                     [subclass] if subclass else [],
+                    feature["level"],
+                    feature.get("uses"),
                 )
 
 
-async def put_class_features() -> None:
+def put_class_features() -> None:
     if not DB_ID:
         raise SystemExit("Set DB_ID at the top of this script before running.")
 
@@ -147,13 +165,14 @@ async def put_class_features() -> None:
 
     created = 0
     failed = 0
-    for name, description, classes, subclasses in _iter_features():
+    for name, description, classes, subclasses, level, uses in _iter_features():
         try:
-            page = await notion.insert_into_db(
+            page = notion.insert_into_db(
                 DB_ID,
-                _properties(name, classes, subclasses),
+                _properties(name, classes, subclasses, level, uses),
                 _icon_for(name, icons),
             )
+
             blocks = _description_blocks(description)
             for start in range(0, len(blocks), MAX_CHILDREN):
                 notion.client.blocks.children.append(
@@ -169,4 +188,4 @@ async def put_class_features() -> None:
 
 
 if __name__ == "__main__":
-    run(put_class_features())
+    put_class_features()

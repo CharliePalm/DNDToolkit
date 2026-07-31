@@ -75,7 +75,7 @@
         "character_class": "Fighter",
         "level": 9,
         "is_choice": false,
-        "uses": 1,
+        "uses": 2,
         "subclass": null,
         "source": null
     },
@@ -85,8 +85,8 @@
         "character_class": "Fighter",
         "subclass": "Battle Master",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -95,8 +95,8 @@
         "character_class": "Fighter",
         "subclass": "Battle Master",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -105,8 +105,8 @@
         "character_class": "Fighter",
         "subclass": "Battle Master",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -115,8 +115,8 @@
         "character_class": "Fighter",
         "subclass": "Battle Master",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -125,8 +125,8 @@
         "character_class": "Fighter",
         "subclass": "Battle Master",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -135,8 +135,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -145,8 +145,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -155,8 +155,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -165,8 +165,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -175,8 +175,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -185,8 +185,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer",
         "level": 18,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -195,8 +195,8 @@
         "character_class": "Fighter",
         "subclass": "Banneret",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -205,8 +205,8 @@
         "character_class": "Fighter",
         "subclass": "Banneret",
         "level": 7,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -215,8 +215,8 @@
         "character_class": "Fighter",
         "subclass": "Banneret",
         "level": 10,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -225,8 +225,8 @@
         "character_class": "Fighter",
         "subclass": "Banneret",
         "level": 15,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -235,8 +235,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -245,8 +245,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -255,8 +255,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -265,8 +265,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -275,8 +275,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -285,8 +285,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -295,8 +295,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier",
         "level": 18,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -305,8 +305,8 @@
         "character_class": "Fighter",
         "subclass": "Champion",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -315,8 +315,8 @@
         "character_class": "Fighter",
         "subclass": "Champion",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -325,8 +325,8 @@
         "character_class": "Fighter",
         "subclass": "Champion",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -335,8 +335,8 @@
         "character_class": "Fighter",
         "subclass": "Champion",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -345,8 +345,8 @@
         "character_class": "Fighter",
         "subclass": "Champion",
         "level": 18,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -355,8 +355,8 @@
         "character_class": "Fighter",
         "subclass": "Echo Knight",
         "level": 3,
-        "source": "Explorer's Guide to Wildemount",
         "uses": null,
+        "source": "Explorer's Guide to Wildemount",
         "is_choice": false
     },
     {
@@ -365,8 +365,8 @@
         "character_class": "Fighter",
         "subclass": "Echo Knight",
         "level": 3,
-        "source": "Explorer's Guide to Wildemount",
         "uses": null,
+        "source": "Explorer's Guide to Wildemount",
         "is_choice": false
     },
     {
@@ -375,8 +375,8 @@
         "character_class": "Fighter",
         "subclass": "Echo Knight",
         "level": 7,
-        "source": "Explorer's Guide to Wildemount",
         "uses": null,
+        "source": "Explorer's Guide to Wildemount",
         "is_choice": false
     },
     {
@@ -395,8 +395,8 @@
         "character_class": "Fighter",
         "subclass": "Echo Knight",
         "level": 15,
-        "source": "Explorer's Guide to Wildemount",
         "uses": null,
+        "source": "Explorer's Guide to Wildemount",
         "is_choice": false
     },
     {
@@ -405,8 +405,8 @@
         "character_class": "Fighter",
         "subclass": "Echo Knight",
         "level": 18,
-        "source": "Explorer's Guide to Wildemount",
         "uses": null,
+        "source": "Explorer's Guide to Wildemount",
         "is_choice": false
     },
     {
@@ -415,8 +415,8 @@
         "character_class": "Fighter",
         "subclass": "Eldritch Knight",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -425,8 +425,8 @@
         "character_class": "Fighter",
         "subclass": "Eldritch Knight",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -435,8 +435,8 @@
         "character_class": "Fighter",
         "subclass": "Eldritch Knight",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -445,8 +445,8 @@
         "character_class": "Fighter",
         "subclass": "Eldritch Knight",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -455,8 +455,8 @@
         "character_class": "Fighter",
         "subclass": "Eldritch Knight",
         "level": 18,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -465,8 +465,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Warrior",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -475,8 +475,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Warrior",
         "level": 7,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -485,8 +485,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Warrior",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -495,8 +495,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Warrior",
         "level": 15,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -505,8 +505,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Warrior",
         "level": 18,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -515,8 +515,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -525,8 +525,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -535,8 +535,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -545,8 +545,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 7,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -555,8 +555,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -565,8 +565,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 15,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -575,8 +575,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight",
         "level": 18,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -585,8 +585,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -595,8 +595,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": 3,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -605,8 +605,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -615,8 +615,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -625,8 +625,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -635,8 +635,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai",
         "level": 18,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -645,8 +645,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -655,8 +655,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -665,8 +665,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -675,8 +675,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -685,8 +685,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -695,8 +695,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 18,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -705,8 +705,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -715,8 +715,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -725,8 +725,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -735,8 +735,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -745,8 +745,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -755,8 +755,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -765,8 +765,8 @@
         "character_class": "Fighter",
         "subclass": "Arcane Archer Revised (UA)",
         "level": 18,
-        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 39 - Revised Subclasses",
         "is_choice": false
     },
     {
@@ -775,8 +775,8 @@
         "character_class": "Fighter",
         "subclass": "Brute",
         "level": 3,
-        "source": "Unearthed Arcana 46 - Three Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 46 - Three Subclasses",
         "is_choice": false
     },
     {
@@ -785,8 +785,8 @@
         "character_class": "Fighter",
         "subclass": "Brute",
         "level": 7,
-        "source": "Unearthed Arcana 46 - Three Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 46 - Three Subclasses",
         "is_choice": false
     },
     {
@@ -795,8 +795,8 @@
         "character_class": "Fighter",
         "subclass": "Brute",
         "level": 10,
-        "source": "Unearthed Arcana 46 - Three Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 46 - Three Subclasses",
         "is_choice": false
     },
     {
@@ -805,8 +805,8 @@
         "character_class": "Fighter",
         "subclass": "Brute",
         "level": 15,
-        "source": "Unearthed Arcana 46 - Three Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 46 - Three Subclasses",
         "is_choice": false
     },
     {
@@ -815,8 +815,8 @@
         "character_class": "Fighter",
         "subclass": "Brute",
         "level": 18,
-        "source": "Unearthed Arcana 46 - Three Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 46 - Three Subclasses",
         "is_choice": false
     },
     {
@@ -825,8 +825,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -835,8 +835,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -845,8 +845,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -855,8 +855,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -865,8 +865,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -875,8 +875,8 @@
         "character_class": "Fighter",
         "subclass": "Cavalier (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 40 - Revised Class Options",
         "uses": null,
+        "source": "Unearthed Arcana 40 - Revised Class Options",
         "is_choice": false
     },
     {
@@ -885,8 +885,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -895,8 +895,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -905,8 +905,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 7,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -915,8 +915,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 10,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -925,8 +925,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 15,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -935,8 +935,8 @@
         "character_class": "Fighter",
         "subclass": "Knight",
         "level": 18,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -945,8 +945,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 3,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -955,8 +955,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 3,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -965,8 +965,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 3,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -975,8 +975,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 7,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -985,8 +985,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 10,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -995,8 +995,8 @@
         "character_class": "Fighter",
         "subclass": "Monster Hunter",
         "level": 15,
-        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "uses": null,
+        "source": "Unearthed Arcana 13 - Gothic Heroes",
         "is_choice": false
     },
     {
@@ -1005,8 +1005,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Knight",
         "level": 3,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "uses": null,
+        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "is_choice": false
     },
     {
@@ -1015,8 +1015,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Knight",
         "level": 7,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "uses": null,
+        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "is_choice": false
     },
     {
@@ -1025,8 +1025,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Knight",
         "level": 10,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "uses": null,
+        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "is_choice": false
     },
     {
@@ -1035,8 +1035,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Knight",
         "level": 15,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "uses": null,
+        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "is_choice": false
     },
     {
@@ -1045,8 +1045,8 @@
         "character_class": "Fighter",
         "subclass": "Psi Knight",
         "level": 18,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "uses": null,
+        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
         "is_choice": false
     },
     {
@@ -1055,8 +1055,8 @@
         "character_class": "Fighter",
         "subclass": "Psychic Warrior",
         "level": 3,
-        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "is_choice": false
     },
     {
@@ -1065,8 +1065,8 @@
         "character_class": "Fighter",
         "subclass": "Psychic Warrior",
         "level": 3,
-        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "is_choice": false
     },
     {
@@ -1075,8 +1075,8 @@
         "character_class": "Fighter",
         "subclass": "Psychic Warrior",
         "level": 7,
-        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "is_choice": false
     },
     {
@@ -1085,8 +1085,8 @@
         "character_class": "Fighter",
         "subclass": "Psychic Warrior",
         "level": 10,
-        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "is_choice": false
     },
     {
@@ -1095,8 +1095,8 @@
         "character_class": "Fighter",
         "subclass": "Psychic Warrior",
         "level": 15,
-        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 66 - Fighter, Rogue, Wizard",
         "is_choice": false
     },
     {
@@ -1115,8 +1115,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -1125,8 +1125,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -1135,8 +1135,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -1145,8 +1145,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": 2,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -1155,8 +1155,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 7,
-        "is_choice": false,
         "uses": null,
+        "is_choice": false,
         "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue"
     },
     {
@@ -1165,8 +1165,8 @@
         "character_class": "Fighter",
         "subclass": "Rune Knight (UA)",
         "level": 18,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -1175,8 +1175,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1185,8 +1185,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": 3,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1195,8 +1195,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1205,8 +1205,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1215,8 +1215,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1225,8 +1225,8 @@
         "character_class": "Fighter",
         "subclass": "Samurai (UA)",
         "level": 18,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": 1,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1235,8 +1235,8 @@
         "character_class": "Fighter",
         "subclass": "Scout",
         "level": 3,
-        "source": "Unearthed Arcana 12 - Kits of Old",
         "uses": null,
+        "source": "Unearthed Arcana 12 - Kits of Old",
         "is_choice": false
     },
     {
@@ -1245,8 +1245,8 @@
         "character_class": "Fighter",
         "subclass": "Scout",
         "level": 3,
-        "source": "Unearthed Arcana 12 - Kits of Old",
         "uses": null,
+        "source": "Unearthed Arcana 12 - Kits of Old",
         "is_choice": false
     },
     {
@@ -1255,8 +1255,8 @@
         "character_class": "Fighter",
         "subclass": "Scout",
         "level": 10,
-        "source": "Unearthed Arcana 12 - Kits of Old",
         "uses": null,
+        "source": "Unearthed Arcana 12 - Kits of Old",
         "is_choice": false
     },
     {
@@ -1265,8 +1265,8 @@
         "character_class": "Fighter",
         "subclass": "Scout",
         "level": 15,
-        "source": "Unearthed Arcana 12 - Kits of Old",
         "uses": null,
+        "source": "Unearthed Arcana 12 - Kits of Old",
         "is_choice": false
     },
     {
@@ -1275,8 +1275,8 @@
         "character_class": "Fighter",
         "subclass": "Sharpshooter",
         "level": 3,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": 3,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1285,8 +1285,8 @@
         "character_class": "Fighter",
         "subclass": "Sharpshooter",
         "level": 7,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1295,8 +1295,8 @@
         "character_class": "Fighter",
         "subclass": "Sharpshooter",
         "level": 10,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1305,8 +1305,8 @@
         "character_class": "Fighter",
         "subclass": "Sharpshooter",
         "level": 15,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     },
     {
@@ -1315,8 +1315,8 @@
         "character_class": "Fighter",
         "subclass": "Sharpshooter",
         "level": 18,
-        "source": "Unearthed Arcana 23 - Fighter",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Fighter",
         "is_choice": false
     }
 ]

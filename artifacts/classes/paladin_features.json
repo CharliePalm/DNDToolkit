@@ -155,8 +155,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Ancients",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -165,8 +165,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Ancients",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -175,8 +175,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Ancients",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -185,8 +185,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Ancients",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -215,8 +215,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -225,8 +225,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -235,8 +235,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -245,8 +245,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -255,8 +255,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -265,8 +265,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Conquest",
         "level": 20,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -275,8 +275,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Crown",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -285,8 +285,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Crown",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -295,8 +295,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Crown",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -305,8 +305,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Crown",
         "level": 7,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -315,8 +315,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Crown",
         "level": 15,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -335,8 +335,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Devotion",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -345,8 +345,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Devotion",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -355,8 +355,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Devotion",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -365,8 +365,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Devotion",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -375,8 +375,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Devotion",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -395,8 +395,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 3,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -405,8 +405,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 3,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -415,8 +415,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 3,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -425,8 +425,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 7,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -435,8 +435,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 15,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -445,8 +445,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Glory",
         "level": 20,
-        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "uses": 1,
+        "source": "Mythic Odysseys of Theros, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -455,8 +455,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -465,8 +465,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -475,8 +475,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -485,8 +485,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -495,8 +495,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -505,8 +505,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption",
         "level": 20,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -515,8 +515,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Vengeance",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -525,8 +525,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Vengeance",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -535,8 +535,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Vengeance",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -545,8 +545,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Vengeance",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -555,8 +555,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Vengeance",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -575,8 +575,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -585,8 +585,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -595,8 +595,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -605,8 +605,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers",
         "level": 7,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -615,8 +615,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers",
         "level": 15,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -635,8 +635,8 @@
         "character_class": "Paladin",
         "subclass": "Oathbreaker",
         "level": 3,
-        "source": "Dungeon Master's Guide",
         "uses": null,
+        "source": "Dungeon Master's Guide",
         "is_choice": false
     },
     {
@@ -645,8 +645,8 @@
         "character_class": "Paladin",
         "subclass": "Oathbreaker",
         "level": 3,
-        "source": "Dungeon Master's Guide",
         "uses": null,
+        "source": "Dungeon Master's Guide",
         "is_choice": false
     },
     {
@@ -655,8 +655,8 @@
         "character_class": "Paladin",
         "subclass": "Oathbreaker",
         "level": 7,
-        "source": "Dungeon Master's Guide",
         "uses": null,
+        "source": "Dungeon Master's Guide",
         "is_choice": false
     },
     {
@@ -665,8 +665,8 @@
         "character_class": "Paladin",
         "subclass": "Oathbreaker",
         "level": 15,
-        "source": "Dungeon Master's Guide",
         "uses": null,
+        "source": "Dungeon Master's Guide",
         "is_choice": false
     },
     {
@@ -675,8 +675,8 @@
         "character_class": "Paladin",
         "subclass": "Oathbreaker",
         "level": 20,
-        "source": "Dungeon Master's Guide",
         "uses": null,
+        "source": "Dungeon Master's Guide",
         "is_choice": false
     },
     {
@@ -685,8 +685,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -695,8 +695,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -705,8 +705,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -715,8 +715,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -725,8 +725,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": 1,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -735,8 +735,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Treachery (UA)",
         "level": 20,
-        "source": "Unearthed Arcana 26 - Paladin",
         "uses": 1,
+        "source": "Unearthed Arcana 26 - Paladin",
         "is_choice": false
     },
     {
@@ -745,8 +745,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -755,8 +755,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -765,8 +765,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -775,8 +775,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -785,8 +785,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -795,8 +795,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -805,8 +805,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -815,8 +815,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Redemption (UA)",
         "level": 20,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -825,8 +825,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -835,8 +835,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -845,8 +845,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -855,8 +855,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -865,8 +865,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of the Watchers (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -885,8 +885,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Heroism (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "is_choice": false
     },
     {
@@ -895,8 +895,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Heroism (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "is_choice": false
     },
     {
@@ -905,8 +905,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Heroism (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "is_choice": false
     },
     {
@@ -915,8 +915,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Heroism (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "is_choice": false
     },
     {
@@ -925,8 +925,8 @@
         "character_class": "Paladin",
         "subclass": "Oath of Heroism (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "uses": null,
+        "source": "Unearthed Arcana 62 - Bard and Paladin",
         "is_choice": false
     },
     {

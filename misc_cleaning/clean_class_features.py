@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Dict, List
 
 CLASSES_DIR = Path(__file__).resolve().parent.parent / "artifacts" / "classes"
-SHARED_FILE = CLASSES_DIR / "shared_features.json"
+SHARED_FILE = CLASSES_DIR / "shared.json"
 
 # entries merged into a single "Base Features" feature
 BASE_FEATURE_NAMES = {

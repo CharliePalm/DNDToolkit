@@ -162,8 +162,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Ancestral Guardian",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -172,8 +172,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Ancestral Guardian",
         "level": 6,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -192,8 +192,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Ancestral Guardian",
         "level": 14,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -202,8 +202,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Battlerager",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -212,8 +212,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Battlerager",
         "level": 3,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -222,8 +222,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Battlerager",
         "level": 6,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -232,8 +232,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Battlerager",
         "level": 10,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -242,8 +242,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Battlerager",
         "level": 14,
-        "source": "Sword Coast Adventurer's Guide",
         "uses": null,
+        "source": "Sword Coast Adventurer's Guide",
         "is_choice": false
     },
     {
@@ -252,8 +252,8 @@
         "character_class": "Barbarian",
         "subclass": "Path Of The Beast",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -262,8 +262,8 @@
         "character_class": "Barbarian",
         "subclass": "Path Of The Beast",
         "level": 6,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -272,8 +272,8 @@
         "character_class": "Barbarian",
         "subclass": "Path Of The Beast",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -282,8 +282,8 @@
         "character_class": "Barbarian",
         "subclass": "Path Of The Beast",
         "level": 14,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -292,8 +292,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Berserker",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -302,8 +302,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Berserker",
         "level": 6,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -312,8 +312,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Berserker",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -322,8 +322,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Berserker",
         "level": 14,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -332,8 +332,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant",
         "level": 3,
-        "source": "Bigby Presents - Glory of the Giants",
         "uses": null,
+        "source": "Bigby Presents - Glory of the Giants",
         "is_choice": false
     },
     {
@@ -342,8 +342,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant",
         "level": 3,
-        "source": "Bigby Presents - Glory of the Giants",
         "uses": null,
+        "source": "Bigby Presents - Glory of the Giants",
         "is_choice": false
     },
     {
@@ -352,8 +352,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant",
         "level": 3,
-        "source": "Bigby Presents - Glory of the Giants",
         "uses": null,
+        "source": "Bigby Presents - Glory of the Giants",
         "is_choice": false
     },
     {
@@ -362,8 +362,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant",
         "level": 3,
-        "source": "Bigby Presents - Glory of the Giants",
         "uses": null,
+        "source": "Bigby Presents - Glory of the Giants",
         "is_choice": false
     },
     {
@@ -372,8 +372,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant",
         "level": 3,
-        "source": "Bigby Presents - Glory of the Giants",
         "uses": null,
+        "source": "Bigby Presents - Glory of the Giants",
         "is_choice": false
     },
     {
@@ -382,8 +382,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Storm Herald",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -392,8 +392,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Storm Herald",
         "level": 6,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -402,8 +402,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Storm Herald",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -412,8 +412,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Storm Herald",
         "level": 14,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -422,8 +422,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Totem Warrior",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -432,8 +432,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Totem Warrior",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -442,8 +442,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Totem Warrior",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -452,8 +452,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Totem Warrior",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -462,8 +462,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Totem Warrior",
         "level": 14,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -472,8 +472,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of Wild Magic",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -482,8 +482,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of Wild Magic",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -492,8 +492,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of Wild Magic",
         "level": 6,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -502,8 +502,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of Wild Magic",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -512,8 +512,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of Wild Magic",
         "level": 14,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -522,8 +522,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Zealot",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -532,8 +532,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Zealot",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -542,8 +542,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Zealot",
         "level": 6,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -552,8 +552,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Zealot",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -562,8 +562,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Zealot",
         "level": 14,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -572,8 +572,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Beast (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -582,8 +582,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Beast (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -592,8 +592,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Beast (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -602,8 +602,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Beast (UA)",
         "level": 14,
-        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "uses": null,
+        "source": "Unearthed Arcana 67 - Subclasses, Part 1",
         "is_choice": false
     },
     {
@@ -612,8 +612,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -622,8 +622,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -632,8 +632,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -642,8 +642,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -652,8 +652,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Giant (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -662,8 +662,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Wild Soul (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "uses": null,
+        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "is_choice": false
     },
     {
@@ -672,8 +672,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Wild Soul (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "uses": null,
+        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "is_choice": false
     },
     {
@@ -682,8 +682,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Wild Soul (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "uses": null,
+        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "is_choice": false
     },
     {
@@ -692,8 +692,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Wild Soul (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "uses": null,
+        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "is_choice": false
     },
     {
@@ -702,8 +702,8 @@
         "character_class": "Barbarian",
         "subclass": "Path of the Wild Soul (UA)",
         "level": 14,
-        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "uses": null,
+        "source": "Unearthed Arcana 60: Barbarian and Monk",
         "is_choice": false
     }
 ]

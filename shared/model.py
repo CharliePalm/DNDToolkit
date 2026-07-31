@@ -317,11 +317,66 @@ class Spell:
         return to_ret
 
 
+def parse_uses(
+    raw: int | dict[int | str, int | str] | str | None,
+) -> int | dict[int, int | str] | None:
+    """Parse a compact uses string like "1:2,3:3,6:4" into the model's dict form."""
+    if raw is None or isinstance(raw, int):
+        return raw
+    if isinstance(raw, dict):
+        result: dict[int, int | str] = {}
+        for level_text, value in raw.items():
+            level = int(level_text)
+            if isinstance(value, str) and value.isdigit():
+                result[level] = int(value)
+            else:
+                result[level] = value
+        return result
+    if not isinstance(raw, str):
+        return raw
+
+    text = raw.strip()
+    if not text:
+        return None
+
+    result: dict[int, int | str] = {}
+    for part in text.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        level_text, value_text = part.split(":", 1)
+        level = int(level_text.strip())
+        value = value_text.strip()
+        if value.isdigit():
+            result[level] = int(value)
+        else:
+            result[level] = value
+    return result
+
+
+def serialize_uses(
+    uses: int | dict[int | str, int | str] | str | None,
+) -> str | None:
+    """Serialize a uses value into the compact "level:value,level:value" form."""
+    if uses is None:
+        return None
+    if isinstance(uses, str):
+        return uses.strip()
+    if isinstance(uses, int):
+        return str(uses)
+    if isinstance(uses, dict):
+        items = []
+        for level in sorted(uses, key=lambda item: int(item)):
+            items.append(f"{level}:{uses[level]}")
+        return ",".join(items)
+    return None
+
+
 class ClassFeature:
     name: str = ""
     description: str = ""
     level: int = 1
-    uses: int | dict[int, int] | None = (
+    uses: int | dict[int, int | str] | None = (
         None  # None, an int, or a dict of {level: value} when the count scales
     )
     character_class: str = ""

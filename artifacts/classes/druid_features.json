@@ -95,8 +95,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Dreams",
         "level": 2,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -105,8 +105,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Dreams",
         "level": 6,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -115,8 +115,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Dreams",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -135,8 +135,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Land",
         "level": 2,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -155,8 +155,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Land",
         "level": 9,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -165,8 +165,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Land",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -175,8 +175,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Land",
         "level": 14,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -185,8 +185,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Moon",
         "level": 2,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -195,8 +195,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Moon",
         "level": 2,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -205,8 +205,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Moon",
         "level": 6,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -215,8 +215,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Moon",
         "level": 10,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -225,8 +225,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Moon",
         "level": 14,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -235,8 +235,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Shepherd",
         "level": 2,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -245,8 +245,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Shepherd",
         "level": 2,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -255,8 +255,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Shepherd",
         "level": 6,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -265,8 +265,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Shepherd",
         "level": 10,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -275,8 +275,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Shepherd",
         "level": 14,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -285,8 +285,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 2,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -295,8 +295,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 2,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -305,8 +305,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 2,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -315,8 +315,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 6,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -325,8 +325,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 10,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -335,8 +335,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Spores",
         "level": 14,
-        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Guildmaster's Guide to Ravnica, Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -345,8 +345,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars",
         "level": 2,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -355,8 +355,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars",
         "level": 2,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -365,8 +365,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars",
         "level": 6,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -375,8 +375,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -385,8 +385,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars",
         "level": 14,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -395,8 +395,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire",
         "level": 2,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -405,8 +405,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire",
         "level": 2,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -415,8 +415,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire",
         "level": 6,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -425,8 +425,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire",
         "level": 10,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -445,8 +445,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Primeval (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -455,8 +455,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Primeval (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -465,8 +465,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Primeval (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -475,8 +475,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Primeval (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -485,8 +485,8 @@
         "character_class": "Druid",
         "subclass": "Circle of the Primeval (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 83 - Giant Options",
         "uses": null,
+        "source": "Unearthed Arcana 83 - Giant Options",
         "is_choice": false
     },
     {
@@ -495,8 +495,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -505,8 +505,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -515,8 +515,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -525,8 +525,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -535,8 +535,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Stars (UA)",
         "level": 5,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": 1,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -545,8 +545,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Twilight (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 23 - Druid",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Druid",
         "is_choice": false
     },
     {
@@ -555,8 +555,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Twilight (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 23 - Druid",
         "uses": 1,
+        "source": "Unearthed Arcana 23 - Druid",
         "is_choice": false
     },
     {
@@ -565,8 +565,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Twilight (UA)",
         "level": 10,
-        "source": "Unearthed Arcana 23 - Druid",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Druid",
         "is_choice": false
     },
     {
@@ -575,8 +575,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Twilight (UA)",
         "level": 14,
-        "source": "Unearthed Arcana 23 - Druid",
         "uses": null,
+        "source": "Unearthed Arcana 23 - Druid",
         "is_choice": false
     },
     {
@@ -585,8 +585,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -595,8 +595,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 2,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -605,8 +605,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -615,8 +615,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -625,8 +625,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 6,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -635,8 +635,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": null,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     },
     {
@@ -645,8 +645,8 @@
         "character_class": "Druid",
         "subclass": "Circle of Wildfire (UA)",
         "level": 14,
-        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "uses": 1,
+        "source": "Unearthed Arcana 63 - Cleric, Druid, Wizard",
         "is_choice": false
     }
 ]

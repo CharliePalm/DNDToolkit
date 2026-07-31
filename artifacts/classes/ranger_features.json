@@ -185,8 +185,8 @@
         "character_class": "Ranger",
         "subclass": "Beast Master Conclave",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -195,8 +195,8 @@
         "character_class": "Ranger",
         "subclass": "Beast Master Conclave",
         "level": 1,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -205,8 +205,8 @@
         "character_class": "Ranger",
         "subclass": "Beast Master Conclave",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -215,8 +215,8 @@
         "character_class": "Ranger",
         "subclass": "Beast Master Conclave",
         "level": 11,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -225,8 +225,8 @@
         "character_class": "Ranger",
         "subclass": "Beast Master Conclave",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -235,8 +235,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -245,8 +245,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -255,8 +255,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -265,8 +265,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 7,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -275,8 +275,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 11,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -285,8 +285,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer",
         "level": 15,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -295,8 +295,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -305,8 +305,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -315,8 +315,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -325,8 +325,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -335,8 +335,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 11,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -345,8 +345,8 @@
         "character_class": "Ranger",
         "subclass": "Gloom Stalker Conclave",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -355,8 +355,8 @@
         "character_class": "Ranger",
         "subclass": "Horizon Walker Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -375,8 +375,8 @@
         "character_class": "Ranger",
         "subclass": "Horizon Walker Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -385,8 +385,8 @@
         "character_class": "Ranger",
         "subclass": "Horizon Walker Conclave",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": 1,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -395,8 +395,8 @@
         "character_class": "Ranger",
         "subclass": "Horizon Walker Conclave",
         "level": 11,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -405,8 +405,8 @@
         "character_class": "Ranger",
         "subclass": "Horizon Walker Conclave",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -415,8 +415,8 @@
         "character_class": "Ranger",
         "subclass": "Hunter Conclave",
         "level": 3,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -425,8 +425,8 @@
         "character_class": "Ranger",
         "subclass": "Hunter Conclave",
         "level": 7,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -435,8 +435,8 @@
         "character_class": "Ranger",
         "subclass": "Hunter Conclave",
         "level": 11,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -445,8 +445,8 @@
         "character_class": "Ranger",
         "subclass": "Hunter Conclave",
         "level": 15,
-        "source": "Player's Handbook",
         "uses": null,
+        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -455,8 +455,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -465,8 +465,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -475,8 +475,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer Conclave",
         "level": 3,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -485,8 +485,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer Conclave",
         "level": 7,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -505,8 +505,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer Conclave",
         "level": 15,
-        "source": "Xanathar's Guide to Everything",
         "uses": null,
+        "source": "Xanathar's Guide to Everything",
         "is_choice": false
     },
     {
@@ -515,8 +515,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper",
         "level": 3,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -525,8 +525,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper",
         "level": 1,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -535,8 +535,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper",
         "level": 7,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -545,8 +545,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper",
         "level": 11,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -555,8 +555,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper",
         "level": 15,
-        "source": "Tasha's Cauldron of Everything",
         "uses": null,
+        "source": "Tasha's Cauldron of Everything",
         "is_choice": false
     },
     {
@@ -565,8 +565,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden",
         "level": 3,
-        "source": "Fizban's Treasury of Dragons",
         "uses": null,
+        "source": "Fizban's Treasury of Dragons",
         "is_choice": false
     },
     {
@@ -575,8 +575,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden",
         "level": 1,
-        "source": "Fizban's Treasury of Dragons",
         "uses": null,
+        "source": "Fizban's Treasury of Dragons",
         "is_choice": false
     },
     {
@@ -585,8 +585,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden",
         "level": 7,
-        "source": "Fizban's Treasury of Dragons",
         "uses": null,
+        "source": "Fizban's Treasury of Dragons",
         "is_choice": false
     },
     {
@@ -595,8 +595,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden",
         "level": 3,
-        "source": "Fizban's Treasury of Dragons",
         "uses": null,
+        "source": "Fizban's Treasury of Dragons",
         "is_choice": false
     },
     {
@@ -605,8 +605,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden",
         "level": 15,
-        "source": "Fizban's Treasury of Dragons",
         "uses": null,
+        "source": "Fizban's Treasury of Dragons",
         "is_choice": false
     },
     {
@@ -615,8 +615,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "uses": null,
+        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "is_choice": false
     },
     {
@@ -625,8 +625,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden (UA)",
         "level": 1,
-        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "uses": null,
+        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "is_choice": false
     },
     {
@@ -635,8 +635,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "uses": null,
+        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "is_choice": false
     },
     {
@@ -645,8 +645,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "uses": null,
+        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "is_choice": false
     },
     {
@@ -655,8 +655,8 @@
         "character_class": "Ranger",
         "subclass": "Drakewarden (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "uses": null,
+        "source": "Unearthed Arcana 75 - Subclasses, Part 5",
         "is_choice": false
     },
     {
@@ -665,8 +665,8 @@
         "character_class": "Ranger",
         "subclass": "Deep Stalker",
         "level": 3,
-        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "uses": null,
+        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "is_choice": false
     },
     {
@@ -675,8 +675,8 @@
         "character_class": "Ranger",
         "subclass": "Deep Stalker",
         "level": 3,
-        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "uses": null,
+        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "is_choice": false
     },
     {
@@ -685,8 +685,8 @@
         "character_class": "Ranger",
         "subclass": "Deep Stalker",
         "level": 7,
-        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "uses": null,
+        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "is_choice": false
     },
     {
@@ -695,8 +695,8 @@
         "character_class": "Ranger",
         "subclass": "Deep Stalker",
         "level": 11,
-        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "uses": null,
+        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "is_choice": false
     },
     {
@@ -705,8 +705,8 @@
         "character_class": "Ranger",
         "subclass": "Deep Stalker",
         "level": 15,
-        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "uses": null,
+        "source": "Unearthed Arcana 10 - Light, Dark, Underdark!",
         "is_choice": false
     },
     {
@@ -715,8 +715,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -725,8 +725,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -735,8 +735,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -745,8 +745,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -755,8 +755,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -765,8 +765,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 11,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": null,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -775,8 +775,8 @@
         "character_class": "Ranger",
         "subclass": "Fey Wanderer (UA)",
         "level": 4,
-        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "uses": 1,
+        "source": "Unearthed Arcana 69 - Subclasses, Part 3",
         "is_choice": false
     },
     {
@@ -785,8 +785,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -795,8 +795,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -805,8 +805,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 5,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -815,8 +815,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -825,8 +825,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 11,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -835,8 +835,8 @@
         "character_class": "Ranger",
         "subclass": "Monster Slayer (UA)",
         "level": 15,
-        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "uses": null,
+        "source": "Unearthed Arcana 35 - A Trio of Subclasses",
         "is_choice": false
     },
     {
@@ -845,8 +845,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 3,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -855,8 +855,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 3,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -865,8 +865,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 3,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -875,8 +875,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 7,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -885,8 +885,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 11,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -895,8 +895,8 @@
         "character_class": "Ranger",
         "subclass": "Primeval Guardian",
         "level": 15,
-        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 27 - Ranger & Rogue",
         "is_choice": false
     },
     {
@@ -905,8 +905,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -915,8 +915,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper (UA)",
         "level": 3,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -925,8 +925,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper (UA)",
         "level": 7,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     },
     {
@@ -945,8 +945,8 @@
         "character_class": "Ranger",
         "subclass": "Swarmkeeper (UA)",
         "level": 4,
-        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "uses": null,
+        "source": "Unearthed Arcana 64 - Fighter, Ranger, Rogue",
         "is_choice": false
     }
 ]
