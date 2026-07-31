@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d10 per blood hunter level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per blood hunter level after 1st",
-        "character_class": "Blood Hunter",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: Alchemist's supplies Saving Throws: Dexterity, Intelligence Skills: Choose three from Acrobatics, Arcana, Athletics, History, Insight, Investigation, Religion, and Survival",
-        "character_class": "Blood Hunter",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "\u2022 (a) a martial weapon or (b) two simple weapons\n\n\u2022 (a) a light crossbow and 20 bolts or (b) hand crossbow and 20 bolts\n\n\u2022 (a) studded leather armor or (b) scale mail armor\n\n\u2022 an explorer's pack and alchemist's supplies",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d10 per blood hunter level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per blood hunter level after 1st\n\nProficiencies:\nArmor: Light armor, medium armor, shields Weapons: Simple weapons, martial weapons Tools: Alchemist's supplies Saving Throws: Dexterity, Intelligence Skills: Choose three from Acrobatics, Arcana, Athletics, History, Insight, Investigation, Religion, and Survival\n\nEquipment:\n\u2022 (a) a martial weapon or (b) two simple weapons\n\n\u2022 (a) a light crossbow and 20 bolts or (b) hand crossbow and 20 bolts\n\n\u2022 (a) studded leather armor or (b) scale mail armor\n\n\u2022 an explorer's pack and alchemist's supplies",
         "character_class": "Blood Hunter",
         "level": 1,
         "is_choice": false,
@@ -74,26 +54,6 @@
         "description": "At 3rd level, you commit to an order of blood hunters whose philosophy will guide you throughout your life. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
         "character_class": "Blood Hunter",
         "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can\u2019t increase an ability score above 20 using this feature.\n\nUsing the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.",
-        "character_class": "Blood Hunter",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Starting at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Blood Hunter",
-        "level": 5,
         "is_choice": false,
         "uses": null,
         "subclass": null,
@@ -470,14 +430,14 @@
         "is_choice": false
     },
     {
-        "name": "Pact Magic",
-        "description": "When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. The spells you can learn can be found on the Warlock spell list.\n\nCantrips. You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.\n\nSpell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 8th level, you have two 2nd-level spell slots. To cast the 1st-level spell Witch Bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.\n\nSpells Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Profane Soul Spellcasting table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what\u2019s shown in the table\u2019s Slot Level column for your level. When you reach 13th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability. Your chosen Hemocraft ability (Intelligence or Wisdom) is your spellcasting ability for your warlock spells, so you use your Hemocraft ability whenever a spell refers to your spellcasting ability. In addition, you use your Hemocraft modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Hemocraft modifier. Spell attack modifier = your proficiency bonus + your Hemocraft modifier.",
+        "name": "Spellcasting",
+        "description": "Pact Magic:\nWhen you reach 3rd level, you can augment your combat techniques with the ability to cast spells. The spells you can learn can be found on the Warlock spell list.\n\nCantrips. You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.\n\nSpell Slots. The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 8th level, you have two 2nd-level spell slots. To cast the 1st-level spell Witch Bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.\n\nSpells Known of 1st Level and Higher. At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Profane Soul Spellcasting table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what\u2019s shown in the table\u2019s Slot Level column for your level. When you reach 13th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability. Your chosen Hemocraft ability (Intelligence or Wisdom) is your spellcasting ability for your warlock spells, so you use your Hemocraft ability whenever a spell refers to your spellcasting ability. In addition, you use your Hemocraft modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Hemocraft modifier. Spell attack modifier = your proficiency bonus + your Hemocraft modifier.",
         "character_class": "Blood Hunter",
-        "subclass": "Order of the Profane Soul",
         "level": 3,
+        "is_choice": false,
         "uses": null,
-        "source": "DND Beyond",
-        "is_choice": false
+        "subclass": "Order of the Profane Soul",
+        "source": null
     },
     {
         "name": "Rite Focus",

@@ -19,7 +19,8 @@ from pathlib import Path
 from typing import Dict, List
 
 CLASSES_DIR = Path(__file__).resolve().parent.parent / "artifacts" / "classes"
-SHARED_FILE = CLASSES_DIR / "shared.json"
+OUTPUT_DIR = Path(__file__).resolve().parent.parent / "artifacts" / "cleaned_classes"
+SHARED_FILE = OUTPUT_DIR / "shared.json"
 
 # entries merged into a single "Base Features" feature
 BASE_FEATURE_NAMES = {
@@ -55,7 +56,9 @@ CONSOLIDATED_NAMES = {"Base Features"}
 DESCRIPTION_SIMILARITY_THRESHOLD = 0.8
 
 # UA multiclass features lead each description with "Level 6+ <Subclass> Feature"
-FEATURE_PREFIX_RE = re.compile(r"^\s*Level \d+\+?\s+.*?\bFeature\b[\s:.\u2014-]*", re.IGNORECASE)
+FEATURE_PREFIX_RE = re.compile(
+    r"^\s*Level \d+\+?\s+.*?\bFeature\b[\s:.\u2014-]*", re.IGNORECASE
+)
 
 
 def _strip_feature_prefix(description: str) -> str:
@@ -144,7 +147,9 @@ def clean() -> None:
         with open(path, "r") as fp:
             features: List[dict] = json.load(fp)
         for feature in features:
-            feature["description"] = _strip_feature_prefix(feature.get("description", ""))
+            feature["description"] = _strip_feature_prefix(
+                feature.get("description", "")
+            )
         features = _consolidate(features, BASE_FEATURE_NAMES, "Base Features")
         features = _consolidate(features, SPELLCASTING_NAMES, "Spellcasting")
         data[path] = features
@@ -188,9 +193,12 @@ def clean() -> None:
     # remove shared features from their parent class files and write everything back
     for path, features in data.items():
         cleaned = [f for f in features if id(f) not in remove_ids]
-        with open(path, "w") as fp:
+        output_path = OUTPUT_DIR / path.name
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w") as fp:
             json.dump(cleaned, fp, indent=4)
 
+    SHARED_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(SHARED_FILE, "w") as fp:
         json.dump(shared, fp, indent=4)
 

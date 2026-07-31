@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d10 per paladin level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per paladin level after 1st",
-        "character_class": "Paladin",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: All armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Wisdom, Charisma Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion",
-        "character_class": "Paladin",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a martial weapon and a shield or (b) two martial weapons\n\n\u2022 (a) five javelins or (b) any simple melee weapon\n\n\u2022 (a) a priest's pack or (b) an explorer's pack\n\n\u2022 Chain mail and a holy symbol",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d10 per paladin level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per paladin level after 1st\n\nProficiencies:\nArmor: All armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Wisdom, Charisma Skills: Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) a martial weapon and a shield or (b) two martial weapons\n\n\u2022 (a) five javelins or (b) any simple melee weapon\n\n\u2022 (a) a priest's pack or (b) an explorer's pack\n\n\u2022 Chain mail and a holy symbol",
         "character_class": "Paladin",
         "level": 1,
         "is_choice": false,
@@ -61,7 +41,7 @@
     },
     {
         "name": "Spellcasting",
-        "description": "By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.\n\nPreparing and Casting Spells\n\nThe Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.\n\nSpellcasting Ability\n\nCharisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus\n\nYou can use a holy symbol as a spellcasting focus for your paladin spells.",
+        "description": "Spellcasting:\nBy 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.\n\nPreparing and Casting Spells\n\nThe Paladin table shows how many spell slots you have to cast your paladin spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.\n\nSpellcasting Ability\n\nCharisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus\n\nYou can use a holy symbol as a spellcasting focus for your paladin spells.",
         "character_class": "Paladin",
         "level": 2,
         "is_choice": false,
@@ -100,40 +80,10 @@
         "source": null
     },
     {
-        "name": "Harness Divine Power",
-        "description": "Also at 3rd level, you can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.",
-        "character_class": "Paladin",
-        "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Paladin",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
         "name": "Martial Versatility",
         "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.",
         "character_class": "Paladin",
         "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Extra Attack",
-        "description": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
-        "character_class": "Paladin",
-        "level": 5,
         "is_choice": false,
         "uses": null,
         "subclass": null,

@@ -1,0 +1,698 @@
+[
+    {
+        "name": "Ability Score Improvement",
+        "description": "When you reach 4th level, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+        "classes": [
+            {
+                "character_class": "Artificer",
+                "subclass": null
+            },
+            {
+                "character_class": "Barbarian",
+                "subclass": null
+            },
+            {
+                "character_class": "Bard",
+                "subclass": null
+            },
+            {
+                "character_class": "Blood Hunter",
+                "subclass": null
+            },
+            {
+                "character_class": "Cleric",
+                "subclass": null
+            },
+            {
+                "character_class": "Druid",
+                "subclass": null
+            },
+            {
+                "character_class": "Fighter",
+                "subclass": null
+            },
+            {
+                "character_class": "Monk",
+                "subclass": null
+            },
+            {
+                "character_class": "Mystic",
+                "subclass": null
+            },
+            {
+                "character_class": "Paladin",
+                "subclass": null
+            },
+            {
+                "character_class": "Ranger",
+                "subclass": null
+            },
+            {
+                "character_class": "Rogue",
+                "subclass": null
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": null
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": null
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": null
+            }
+        ]
+    },
+    {
+        "name": "Ancient Companion",
+        "description": "You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature\u2019s game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit\u2019s appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Cantrip Versatility",
+        "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.",
+        "classes": [
+            {
+                "character_class": "Cleric",
+                "subclass": null
+            },
+            {
+                "character_class": "Druid",
+                "subclass": null
+            }
+        ]
+    },
+    {
+        "name": "Creative Skills",
+        "description": "You gain proficiency in two of the following skills of your choice: Acrobatics, Athletics, Nature, or Performance.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Eloquent Apprentice",
+        "description": "You learn one cantrip of your choice, either Sacred Flame or Vicious Mockery. It doesn\u2019t count against the number of cantrips you know, and it is added to your class spell list if it isn\u2019t there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Essence Tap",
+        "description": "As a bonus action, you can draw on a reservoir of life essence to empower yourself for 1 minute, or until you use this feature again. For the duration, you gain one of the following benefits of your choice:\n\nOvergrowth. When you choose this benefit, and as a bonus action on subsequent turns while the benefit lasts, you can expend and roll one Hit Die. You regain a number of hit points equal to the number rolled plus your spellcasting ability modifier.\n\nWithering Strike. When you deal damage, you can change the damage type to necrotic, and you ignore resistance to necrotic damage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Extra Attack",
+        "description": "Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn.",
+        "classes": [
+            {
+                "character_class": "Artificer",
+                "subclass": "Armorer"
+            },
+            {
+                "character_class": "Artificer",
+                "subclass": "Armorer (UA)"
+            },
+            {
+                "character_class": "Artificer",
+                "subclass": "Battle Smith"
+            },
+            {
+                "character_class": "Barbarian",
+                "subclass": null
+            },
+            {
+                "character_class": "Bard",
+                "subclass": "College of Swords"
+            },
+            {
+                "character_class": "Bard",
+                "subclass": "College of Valor"
+            },
+            {
+                "character_class": "Blood Hunter",
+                "subclass": null
+            },
+            {
+                "character_class": "Monk",
+                "subclass": null
+            },
+            {
+                "character_class": "Paladin",
+                "subclass": null
+            },
+            {
+                "character_class": "Ranger",
+                "subclass": null
+            },
+            {
+                "character_class": "Ranger",
+                "subclass": "Fey Wanderer (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Favored Soul (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Favored Medium",
+        "description": "You have honed your forms of elemental expression to best suit your ideas. Choose one of the following damage types: cold, fire, or lightning. You gain resistance to that damage type.\n\nAdditionally, when you cast a spell using a spell slot that deals the chosen damage type, you emit a spectacular aura of artistry, which extends 5 feet from you in every direction (but not through total cover) and lasts until the end of your next turn. While the aura is active, each creature of your choice has resistance to your chosen damage type while within the aura, as you shape your favored elemental medium around them.\n\nYou can change your choice of damage type whenever you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Focused Expression",
+        "description": "Honing your talents, you skillfully infuse your motions with even more potent expressions of elemental might. Once per turn when you deal damage to at least one target, you gain an additional effect determined by the damage type chosen for your Favored Medium feature:\n\nCold. One of the targets of your choice takes an additional 1d6 cold damage and must make a Constitution saving throw against your spell save DC. On a failed save, the target\u2019s speed is reduced by 10 feet until the end of its next turn, as ice mires it. A target can be affected by the ice only once per round.\n\nFire. One of the targets of your choice takes an additional 1d6 fire damage. Fortifying flames then dance around one creature of your choice within 30 feet of you. The chosen creature gains 1d6 temporary hit points.\n\nLightning. One of the targets of your choice takes an additional 1d6 lightning damage and must make a Dexterity saving throw against your spell save DC. On a failed save, the target is unable to take reactions until the end of its next turn, as residual lightning shocks its form.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Functions of Probability",
+        "description": "By iterating on the mathematical patterns of reality, you can nudge chance to tilt around a creature. When you cast a spell using a spell slot that targets at least one creature, you can choose that creature or another creature within 30 feet of it (including yourself) and add one of the following effects:\n\nDiminishing Function. The chosen creature must succeed on a Wisdom saving throw against your spell save DC, or the creature must roll a d6 and subtract the number rolled from the next attack roll it takes before the start of your next turn.\n\nSupplemental Function. Once before the start of your next turn, the chosen creature can roll a d6 and add the number rolled to an attack roll or a saving throw of its choice. The creature can roll the d6 after rolling the d20 but must decide before any effects of the roll occur.",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Harness Divine Power",
+        "description": "At 2nd level, you can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Cleric",
+                "subclass": null
+            },
+            {
+                "character_class": "Paladin",
+                "subclass": null
+            }
+        ]
+    },
+    {
+        "name": "History\u2019s Whims",
+        "description": "Through steeping yourself in the chaotic whims of history, you learn how to briefly channel the wild nature of time itself. As a bonus action, you can enter a state of chronal chaos. When you enter this state, and at the start of each of your subsequent turns while in this state, you gain one of the following benefits of your choice:\n\n\u2022 Luck. You receive brief flashes of the future, steeling yourself against oncoming assaults. Whenever you make a saving throw against an effect that deals damage, you can roll a d6 and add the number rolled to the total.\n\n\u2022 Resistance. You rewind time, knitting together injuries as they occur. You have resistance to bludgeoning, piercing, and slashing damage.\n\n\u2022 Swiftness. Time stutters, slowing others but hurtling you forward. Your movement speed increases by 15 feet, and you do not provoke opportunity attacks.\n\nThe benefit lasts until the start of your next turn. You cannot choose the same benefit two rounds in a row.\n\nThe state lasts for 1 minute and ends early if you\u2019re incapacitated. Once you use this feature, you can\u2019t use it again until you finish a long rest, unless you expend a spell slot of 4th level or higher to use it again.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Impeccable Physicality",
+        "description": "Your relentless dedication and training have instilled an outstanding sense of precision and grace in your art. You gain proficiency in Dexterity saving throws if you do not already have it. Additionally, when you make a Dexterity saving throw, you can treat a d20 roll of a 9 or lower as a 10.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Infusion of Eloquence",
+        "description": "When you cast a spell that deals damage, you can invoke additional words of power to change the spell\u2019s damage type to your choice of psychic or radiant. Any creature damaged by the spell takes extra damage equal to your proficiency bonus and has its emotions swayed with despair or adoration, based on the damage type dealt:\n\nPsychic. The creature is frightened of you until the start of your next turn. Radiant. The creature is charmed by you until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Inky Shroud",
+        "description": "You learn the Darkness spell, and it is added to your class spell list if it isn\u2019t there already. If you are a wizard, you add it to your spellbook, if it\u2019s not there already.\n\nYou can cast the spell without expending a spell slot, and you can\u2019t do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Kinetic Artistry",
+        "description": "You can Dash as a bonus action. When you take this bonus action, choose one of the following additional effects:\n\nBoreal Sweep. Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.\n\nScorching Whirl. Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to 1d4 + your spellcasting modifier.\n\nThunderlight Jaunt. You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature\u2019s space, you are pushed into the nearest unoccupied space.\n\nYou can use a bonus action in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Land's Stride",
+        "description": "Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the Entangle spell.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Circle of the Land"
+            },
+            {
+                "character_class": "Ranger",
+                "subclass": null
+            }
+        ]
+    },
+    {
+        "name": "Lessons of the Past",
+        "description": "Through your studies, you learn how to better listen and take to heart the teachings of history. When you bond with your ancient companion, you gain the following additional benefits depending on the type of spirit you chose:\n\n\u2022 Healer. Your hit point maximum increases by an amount equal to your level in this class, and you gain the same number of hit points. When you regain hit points from a spell, you regain an additional 1d8 hit points.\n\n\u2022 Sage. You have advantage on ability checks using the Arcana, History, Nature, and Religion skills. Additionally, once per turn, when you deal damage to a creature with a spell of 1st-level or higher, you can deal an additional 1d8 force damage to that creature.\n\n\u2022 Warrior. If you use your action to cast a cantrip, you can make one weapon attack as part of that action. If that weapon attack hits, the target takes an additional 1d8 radiant damage.\n\nWhen you bond with a new ancient companion of a different type, you immediately lose the benefits of your previous companion and gain the benefits from the new companion\u2019s type.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Lorehold Spells",
+        "description": "You learn the cantrip Sacred Flame and the 1st level spell Comprehend Languages. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Natural Explorer",
+        "description": "At 3rd level, you are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u2019re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n\u2022 Difficult terrain doesn\u2019t slow your group\u2019s travel.\n\n\u2022 Your group can\u2019t become lost except by magical means.\n\n\u2022 Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n\n\u2022 If you are traveling alone, you can move stealthily at a normal pace.\n\n\u2022 When you forage, you find twice as much food as you normally would.\n\nWhile tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou choose additional favored terrain types at 7th and 15th level.",
+        "classes": [
+            {
+                "character_class": "Fighter",
+                "subclass": "Scout"
+            },
+            {
+                "character_class": "Ranger",
+                "subclass": null
+            }
+        ]
+    },
+    {
+        "name": "Null Equation",
+        "description": "Through careful calculations, you beset your enemies with abstract equations that reduce their might. Once per turn, immediately after dealing damage to a creature, you can force the creature to make a Constitution saving throw against your spell save DC. On a failure, the creature has disadvantage on Strength and Dexterity saving throws, and its weapon attacks deal only half damage. These effects last until the start of your next turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Psi Replenishment",
+        "description": "Starting at 3rd level, as a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can\u2019t use Psi Replenishment again until you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Fighter",
+                "subclass": "Psi Knight"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Psionic Soul"
+            }
+        ]
+    },
+    {
+        "name": "Quandrix Spells",
+        "description": "You learn the cantrip Guidance and the 1st-level spell Guiding Bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nQuandrix Spells",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Quantum Tunneling",
+        "description": "Your mathematical expertise extends to altering the foundational equations of your very being. You gain resistance to bludgeoning, piercing, and slashing damage.\n\nAdditionally, you can move through other creatures and objects as if they were difficult terrain, but you take 1d10 force damage for every 5 feet you move while inside another creature or object. If you end your turn inside a creature or an object, you are shunted into the nearest unoccupied space you last occupied.",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Silvery Barbs",
+        "description": "You can invoke words laced with magic to demoralize your foes and turn their misfortune into a boon to bolster your allies. Immediately after a creature you can see within 60 feet of you succeeds on an attack roll, an ability check, or a saving throw, you can use your reaction to demoralize the creature. Unless the creature is immune to being charmed, it rerolls the d20 and must use the lower roll. If the attack roll, ability check, or saving throw then fails, you can choose a different creature you can see within 60 feet of you (you can choose yourself). That creature is empowered, and can reroll one attack roll, ability check, or saving throw it makes within 1 minute and use the higher result. A creature can be empowered by only one use of this feature at a time.\n\nOnce a creature fails an attack roll, an ability check, or a saving throw because of a reroll forced by this feature, you can\u2019t use the feature again until you finish a long rest, unless you expend a spell slot to use it again.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Spellcasting",
+        "description": "Spellcasting:\nWhen you reach 3rd level, you augment your martial prowess with the ability to cast spells.\n\nCantrips\n\nYou learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.\n\nSpell Slots\n\nThe Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Shield and have a 1st-level and a 2nd-level spell slot available, you can cast Shield using either slot.\n\nSpells Known of 1st Level and Higher\n\nYou know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.\n\nThe Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.\n\nSpellcasting Ability\n\nIntelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+        "classes": [
+            {
+                "character_class": "Fighter",
+                "subclass": "Eldritch Knight"
+            },
+            {
+                "character_class": "Rogue",
+                "subclass": "Arcane Trickster"
+            }
+        ]
+    },
+    {
+        "name": "Using This Subclass",
+        "description": "Upon selecting the Mage of Lorehold subclass, you gain two features: Lorehold Spells and Ancient Companion.\n\nIn this subclass\u2019s features, any reference to your class refers to the class from which you gained the subclass. If you\u2019re a bard, the College of Lorehold counts as your college; if you\u2019re a warlock, the magic of the college serves as your patron; and if you\u2019re a wizard, the college represents your arcane tradition.\n\nWhen you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Using This Subclass",
+        "description": "Upon selecting the Mage of Silverquill subclass, you gain two features: Eloquent Apprentice and Silvery Barbs.\n\nIn this subclass\u2019s features, any reference to your class refers to the class from which you gained the subclass. If you\u2019re a bard, the College of Silverquill counts as your college, if you\u2019re a warlock, the college counts as your patron, and if you\u2019re a wizard, the college counts as your tradition.\n\nWhen you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Using This Subclass",
+        "description": "Upon selecting the Mage of Prismari subclass, you gain two features: Creative Skills and Kinetic Artistry.\n\nIn this subclass\u2019s features, any reference to your class refers to the class from which you gained the subclass. If you\u2019re a druid, the College of Prismari counts as your circle; if you\u2019re a sorcerer, the magic of the college is the origin of your sorcery; and if you\u2019re a wizard, the college represents your arcane tradition.\n\nWhen you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Prismari (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Prismari (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Using This Subclass",
+        "description": "Upon selecting the Mage of Witherbloom subclass, you gain two features: Witherbloom Spells and Essence Tap.\n\nIn this subclass\u2019s features, any reference to your class refers to the class from which you gained the subclass. If you\u2019re a druid, the College of Witherbloom counts as your circle, and if you\u2019re a warlock, the college counts as your patron.\n\nWhen you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Using This Subclass",
+        "description": "Upon selecting the Mage of Quandrix subclass, you gain two features: Quandrix Spells and Functions of Probability.\n\nIn this subclass\u2019s features, any reference to your class refers to the class from which you gained the subclass. If you\u2019re a sorcerer, the magic of Quandrix is part of your sorcerous origin, and if you\u2019re a wizard, the college represents your arcane tradition.\n\nWhen you subsequently reach a level in your class that gives you a subclass feature, you gain one feature of your choice from the options presented here. Each feature has a class level prerequisite, as noted beneath its name. You must meet that prerequisite to gain the feature.",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Velocity Shift",
+        "description": "You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves to a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.\n\nYou can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Sorcerer",
+                "subclass": "Mage of Quandrix (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Quandrix (UA)"
+            }
+        ]
+    },
+    {
+        "name": "War Echoes",
+        "description": "By pulling from the magic of the past, you can cause your opponent\u2019s old wounds to resonate anew. Once per turn, when a creature you can see hits a target with an attack roll, you can use your reaction to force the target to make a Wisdom saving throw against your spell save DC. On a failure, the target becomes vulnerable to one of the damage types dealt by the attack. This vulnerability lasts until the end of the target\u2019s next turn and affects the damage dealt by the triggering attack.\n\nYou can use your reaction in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold UA"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Lorehold UA"
+            }
+        ]
+    },
+    {
+        "name": "Witherbloom Adept",
+        "description": "Your connection to the flow of life force deepens. Once per turn when you deal necrotic damage or restore hit points using a spell, one target of the spell takes additional damage or regains additional hit points equal to your proficiency bonus.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Witherbloom Brew",
+        "description": "You gain proficiency with herbalism kits if you don\u2019t already have it.\n\nWhen you finish a long rest, you can use an herbalism kit and a pot or cauldron to create magical brews. You create a number of brews equal to your proficiency bonus. Each brew requires its own flask. A brew retains its magical potency for 24 hours or until it is used. For each brew, choose one of the following effects:\n\nFortifying. When you create this brew, choose a damage type from the following list: cold, fire, necrotic, poison, or radiant. A creature can drink this brew or administer it to another creature as an action. The recipient gains resistance to the chosen damage type for 1 hour.\n\nQuickening. A creature can drink this brew or administer it to another creature as an action. The recipient regains 2d6 hit points, and one disease or condition from the following list affecting the recipient ends (brew user\u2019s choice): charmed, frightened, paralyzed, poisoned, stunned.\n\nToxifying. As an action, a creature can apply this brew to a simple or martial weapon. The next time the weapon or a piece of ammunition fired by it hits a creature within 1 hour, the target takes 2d6 poison damage and must succeed on a Constitution saving throw against your spell save DC or be poisoned for 1 minute.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Witherbloom Spells",
+        "description": "You learn the cantrip Spare the Dying and the 1st level spells Cure Wounds and Inflict Wounds. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don\u2019t count against the number of spells you can prepare each day.\n\nWitherbloom Spells",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Withering Vortex",
+        "description": "When you cast a spell using a spell slot that deals necrotic damage to any number of creatures that aren\u2019t Undead or Constructs, choose one of the creatures that took damage. You drain an amount of life energy equal to half the damage dealt to the chosen creature. One creature other than yourself that you can see within 30 feet of you regains a number of hit points equal to the life energy drained.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Word of Power",
+        "description": "You can invoke a word of power that is the pinnacle of your magical study. You gain the following options:\n\nDeadly Despair. When the target of your Silvery Barbs fails an attack roll, an ability check, or a saving throw because of the reroll, you can invoke a word of despair to give the target vulnerability to one damage type of your choice until the start of your next turn.\n\nSelfless Invocation. When a creature you can see within 60 feet of you takes damage, you can invoke a word of power using your reaction to grant the creature resistance to that damage, and you take an amount of psychic damage equal to the damage that creature takes.",
+        "classes": [
+            {
+                "character_class": "Bard",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage of Silverquill (UA)"
+            },
+            {
+                "character_class": "Wizard",
+                "subclass": "Mage of Silverquill (UA)"
+            }
+        ]
+    }
+]

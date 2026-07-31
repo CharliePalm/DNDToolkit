@@ -1,27 +1,7 @@
 [
     {
-        "name": "Hit Points",
-        "description": "Hit Dice: 1d10 per fighter level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per fighter level after 1st",
-        "character_class": "Fighter",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Proficiencies",
-        "description": "Armor: All armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Constitution Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival",
-        "character_class": "Fighter",
-        "level": 1,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
-        "source": null
-    },
-    {
-        "name": "Equipment",
-        "description": "You start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) chain mail or (b) leather, longbow, and 20 arrows\n\n\u2022 (a) a martial weapon and a shield or (b) two martial weapons\n\n\u2022 (a) a light crossbow and 20 bolts or (b) two handaxes\n\n\u2022 (a) a dungeoneer's pack or (b) an explorer's pack",
+        "name": "Base Features",
+        "description": "Hit Points:\nHit Dice: 1d10 per fighter level Hit Points at 1st Level: 10 + your Constitution modifier Hit Points at Higher Levels: 1d10 (or 6) + your Constitution modifier per fighter level after 1st\n\nProficiencies:\nArmor: All armor, shields Weapons: Simple weapons, martial weapons Tools: None Saving Throws: Strength, Constitution Skills: Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival\n\nEquipment:\nYou start with the following equipment, in addition to the equipment granted by your background:\n\n\u2022 (a) chain mail or (b) leather, longbow, and 20 arrows\n\n\u2022 (a) a martial weapon and a shield or (b) two martial weapons\n\n\u2022 (a) a light crossbow and 20 bolts or (b) two handaxes\n\n\u2022 (a) a dungeoneer's pack or (b) an explorer's pack",
         "character_class": "Fighter",
         "level": 1,
         "is_choice": false,
@@ -67,16 +47,6 @@
         "is_choice": true,
         "subclass": "Pick your subclass where you set your class (top left)",
         "uses": null,
-        "source": null
-    },
-    {
-        "name": "Ability Score Improvement",
-        "description": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-        "character_class": "Fighter",
-        "level": 4,
-        "is_choice": false,
-        "uses": null,
-        "subclass": null,
         "source": null
     },
     {
@@ -437,16 +407,6 @@
         "level": 18,
         "uses": null,
         "source": "Explorer's Guide to Wildemount",
-        "is_choice": false
-    },
-    {
-        "name": "Spellcasting",
-        "description": "When you reach 3rd level, you augment your martial prowess with the ability to cast spells.\n\nCantrips\n\nYou learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.\n\nSpell Slots\n\nThe Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Shield and have a 1st-level and a 2nd-level spell slot available, you can cast Shield using either slot.\n\nSpells Known of 1st Level and Higher\n\nYou know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.\n\nThe Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.\n\nSpellcasting Ability\n\nIntelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-        "character_class": "Fighter",
-        "subclass": "Eldritch Knight",
-        "level": 3,
-        "uses": null,
-        "source": "Player's Handbook",
         "is_choice": false
     },
     {
@@ -1050,16 +1010,6 @@
         "is_choice": false
     },
     {
-        "name": "Psi Replenishment",
-        "description": "Starting at 3rd level, as a bonus action, you can calm your mind for a moment and restore your Psionic Talent die to its starting size. You then can\u2019t use Psi Replenishment again until you finish a long rest.",
-        "character_class": "Fighter",
-        "subclass": "Psi Knight",
-        "level": 3,
-        "uses": null,
-        "source": "Unearthed Arcana 71 - Psionic Options Revisited",
-        "is_choice": false
-    },
-    {
         "name": "Telekinetic Adept",
         "description": "By the 7th level, you have mastered new ways to use your telekinesis:\n\nPsionic Thrust. When you deal damage to a target with the Telekinetic Strike of your Psionic Talent, you can force the target to make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. Unless the save succeeds, you can knock the target prone or move it up to 10 feet in any direction horizontally.\n\nTelekinetic Movement. If your Psionic Talent die is available, you can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. When you take this action, your Psionic Talent die decreases by one die size.",
         "character_class": "Fighter",
@@ -1282,16 +1232,6 @@
     {
         "name": "Combat Superiority",
         "description": "At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice.\n\nSuperiority Dice. You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long or short rest.\n\nYou gain another superiority die at 7th level and one more at 15th level.\n\nUsing Superiority Dice. You can expend superiority dice to gain a number of different benefits:\n\n\u2022 Survival Superiority. When you make a check that allows you to apply your proficiency in Athletics, Nature, Perception, Stealth, or Survival, you can expend one superiority die to bolster the check. Add half the number rolled on the superiority die (rounding up) to your check. You apply this bonus after making the check but before learning if it was successful.\n\n\u2022 Precision Attack. When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.\n\n\u2022 Scout\u2019s Evasion. If you are hit by an attack while wearing light or medium armor, you can expend one superiority die as a reaction, adding the number rolled to your AC. If the attack still hits, you take half damage from it.",
-        "character_class": "Fighter",
-        "subclass": "Scout",
-        "level": 3,
-        "uses": null,
-        "source": "Unearthed Arcana 12 - Kits of Old",
-        "is_choice": false
-    },
-    {
-        "name": "Natural Explorer",
-        "description": "At 3rd level, you are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you\u2019re proficient in.\n\nWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\n\u2022 Difficult terrain doesn\u2019t slow your group\u2019s travel.\n\n\u2022 Your group can\u2019t become lost except by magical means.\n\n\u2022 Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n\n\u2022 If you are traveling alone, you can move stealthily at a normal pace.\n\n\u2022 When you forage, you find twice as much food as you normally would.\n\nWhile tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nYou choose additional favored terrain types at 7th and 15th level.",
         "character_class": "Fighter",
         "subclass": "Scout",
         "level": 3,
