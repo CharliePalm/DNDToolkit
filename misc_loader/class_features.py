@@ -208,17 +208,30 @@ def _parse_level_table(table: Tag) -> Tuple[Dict[str, int], Dict[str, dict]]:
 def _iter_features(container: Tag):
     """
     walk a page-content container in document order, yielding (name, description)
-    tuples. A feature starts at a header (h2-h6) and its description is every
-    paragraph / list that follows until the next header. Tables are skipped so the
-    subclass list doesn't leak into the subclass description.
+    tuples. A feature starts at a header and its description is every paragraph /
+    list that follows until the next header at the same or a shallower level. A
+    deeper header (e.g. an h5 "Dancing Item" stat block under an h3 feature) is a
+    subsection: its heading and content fold into the current feature's description
+    rather than starting a new one. Tables are skipped so the subclass list doesn't
+    leak into the subclass description.
     """
+    heading_tags = ("h2", "h3", "h4", "h5", "h6")
     current_name = None
+    current_level = 0
     current_desc: List[str] = []
-    for node in container.find_all(["h2", "h3", "h4", "h5", "h6", "p", "ul"]):
-        if node.name in ("h2", "h3", "h4", "h5", "h6"):
+    for node in container.find_all([*heading_tags, "p", "ul"]):
+        if node.name in heading_tags:
+            level = int(node.name[1])
+            text = _clean_text(node)
+            if current_name is not None and level > current_level:
+                # subsection of the current feature: keep its heading in the description
+                if text:
+                    current_desc.append(text)
+                continue
             if current_name is not None:
                 yield current_name, "\n\n".join(current_desc).strip()
-            current_name = _clean_text(node)
+            current_name = text
+            current_level = level
             current_desc = []
         elif current_name is not None:
             if node.name == "ul":
