@@ -34,7 +34,7 @@
         "description": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can\u2019t take a Fighting Style option more than once, even if you later get to choose again.\n\n\u2022 Archery. You gain a +2 bonus to attack rolls you make with ranged weapons.\n\n\u2022 Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n\u2022 Great Weapon Fighting. When you roll a 1 or 2 on a non-rite damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n\u2022 Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
         "character_class": "Blood Hunter",
         "level": 2,
-        "is_choice": false,
+        "is_choice": true,
         "uses": null,
         "subclass": null,
         "source": null
@@ -54,9 +54,9 @@
         "description": "At 3rd level, you commit to an order of blood hunters whose philosophy will guide you throughout your life. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
         "character_class": "Blood Hunter",
         "level": 3,
-        "is_choice": false,
+        "is_choice": true,
         "uses": null,
-        "subclass": null,
+        "subclass": "Pick your subclass where you set your class (top left)",
         "source": null
     },
     {

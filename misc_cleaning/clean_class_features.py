@@ -11,6 +11,7 @@ Rules:
      each parent class file.
 """
 
+from copy import copy
 import json
 import re
 from collections import defaultdict
@@ -64,6 +65,14 @@ FEATURE_PREFIX_RE = re.compile(
 def _strip_feature_prefix(description: str) -> str:
     """remove the "Level N+ <Subclass> Feature" boilerplate prefix from a description"""
     return FEATURE_PREFIX_RE.sub("", description or "", count=1).strip()
+
+
+def _normalize_subclass(subclass):
+    """wrap a trailing "UA" marker in parentheses (e.g. "Mage of Lorehold UA" ->
+    "Mage of Lorehold (UA)"), leaving already-parenthesized names untouched"""
+    if not subclass:
+        return subclass
+    return re.sub(r"\s+UA\s*$", " (UA)", subclass.rstrip())
 
 
 def _normalize_name(name: str) -> str:
@@ -150,6 +159,7 @@ def clean() -> None:
             feature["description"] = _strip_feature_prefix(
                 feature.get("description", "")
             )
+            feature["subclass"] = _normalize_subclass(feature.get("subclass"))
         features = _consolidate(features, BASE_FEATURE_NAMES, "Base Features")
         features = _consolidate(features, SPELLCASTING_NAMES, "Spellcasting")
         data[path] = features
@@ -175,11 +185,12 @@ def clean() -> None:
                 {(f["character_class"], f.get("subclass")) for f in cluster},
                 key=lambda pair: (pair[0], pair[1] or ""),
             )
-            representative = cluster[0]
+            representative = copy(cluster[0])
+            if "character_class" in representative:
+                del representative["character_class"]
             shared.append(
                 {
-                    "name": representative["name"],
-                    "description": representative["description"],
+                    **representative,
                     "classes": [
                         {"character_class": cls, "subclass": subclass}
                         for cls, subclass in pairs

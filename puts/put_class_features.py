@@ -27,9 +27,15 @@ sys.path.insert(0, str(REPO_ROOT))
 from shared.model import bullet_char, serialize_uses  # noqa: E402
 from shared.notion.notion import Notion  # noqa: E402
 
-DB_ID = "3ae5625c1efa80abb26dca31de8d2261"
+NON_FEATURE_SUBCLASSES = set(
+    [
+        "Blood Curse",
+        "Artificer Infusions",
+    ]
+)
+DB_ID = "4ef5625c1efa82ee840201ed25c122a0"
 
-CLASSES_DIR = REPO_ROOT / "artifacts" / "classes"
+CLASSES_DIR = REPO_ROOT / "artifacts" / "cleaned_classes"
 ICONS_FILE = CLASSES_DIR / "class_icons.json"
 SHARED_FILE = "shared.json"
 
@@ -123,7 +129,18 @@ def _description_blocks(description: str) -> List[dict]:
 
 
 def _iter_features():
-    """yield (name, description, classes, subclasses) for every feature"""
+    """yield (name, description, classes, subclasses, level, uses) for every feature"""
+
+    def transform(feature, classes, subclasses):
+        return (
+            feature["name"],
+            feature.get("description", ""),
+            classes,
+            subclasses,
+            feature["level"],
+            feature.get("uses"),
+        )
+
     for path in sorted(CLASSES_DIR.glob("*_features.json")):
         features = json.load(open(path))
         if path.name == SHARED_FILE:
@@ -135,24 +152,18 @@ def _iter_features():
                     subclass = entry.get("subclass")
                     if subclass and subclass not in subclasses:
                         subclasses.append(subclass)
-                yield (
-                    feature["name"],
-                    feature.get("description", ""),
-                    classes,
-                    subclasses,
-                    feature["level"],
-                    feature.get("uses"),
-                )
+                yield transform(feature, classes, subclasses)
         else:
             for feature in features:
-                subclass = feature.get("subclass")
-                yield (
-                    feature["name"],
-                    feature.get("description", ""),
+                if (
+                    feature.get("subclass")
+                    and feature["subclass"] in NON_FEATURE_SUBCLASSES
+                ):
+                    continue
+                yield transform(
+                    feature,
                     [feature["character_class"]],
-                    [subclass] if subclass else [],
-                    feature["level"],
-                    feature.get("uses"),
+                    [feature["subclass"]] if feature.get("subclass") else [],
                 )
 
 
