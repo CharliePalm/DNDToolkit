@@ -249,8 +249,11 @@ def _prose_level(description: str) -> Optional[int]:
     header = FEATURE_LEVEL_RE.search(description)
     if header:
         return int(header.group(1))
-    levels = [int(m) for m in ORDINAL_RE.findall(description)]
-    return min(levels) if levels else None
+    # the opening clause states the level the feature is gained ("By 6th level ...");
+    # later mentions (e.g. "a spell slot of 3rd level or higher") are unrelated, so
+    # take the first ordinal rather than the minimum.
+    match = ORDINAL_RE.search(description)
+    return int(match.group(1)) if match else None
 
 
 def _class_feature_choice(name: str, description: str) -> Tuple[bool, Optional[str]]:
@@ -411,15 +414,18 @@ def get_class_features(
 
         if save:
             write_obj_to_json(
-                all_features, os.path.join(OUTPUT_DIR, page_key + "_features.json")
+                all_features,
+                os.path.join(
+                    OUTPUT_DIR,
+                    page_key + ("_DRY_RUN" if is_dry_run else "") + "_features.json",
+                ),
             )
         return all_features
 
-    if isinstance(char_class, str):
-        if char_class == "all":
-            all_feats = []
-            for cc in CharacterClass:
-                print("scraping ", cc)
-                all_feats.append(run(cc))
-        else:
-            return run(CharacterClass[char_class.capitalize()])
+    if char_class == "all":
+        all_feats = []
+        for cc in CharacterClass:
+            print("scraping ", cc)
+            all_feats.append(run(cc))
+    else:
+        return run(CharacterClass[char_class.capitalize()])
