@@ -36,7 +36,7 @@ NON_FEATURE_SUBCLASSES = set(
 DB_ID = "4ef5625c1efa82ee840201ed25c122a0"
 
 CLASSES_DIR = REPO_ROOT / "artifacts" / "cleaned_classes"
-ICONS_FILE = CLASSES_DIR / "class_icons.json"
+ICONS_FILE = REPO_ROOT / "artifacts" / "feature_icons.json"
 SHARED_FILE = "shared.json"
 
 FALLBACK_ICON = "hexagon-three-sixths"
@@ -63,8 +63,6 @@ MAX_CHILDREN = 100
 
 
 def _load_icons() -> Dict[str, dict]:
-    if not ICONS_FILE.exists():
-        return {}
     return {entry["key"]: entry for entry in json.load(open(ICONS_FILE))}
 
 
