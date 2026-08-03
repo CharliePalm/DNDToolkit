@@ -1,28 +1,28 @@
 [
     {
         "key": "Hit Points",
-        "value": "heart",
-        "color": "red"
+        "value": "bone",
+        "color": "pink"
     },
     {
         "key": "Proficiencies",
+        "value": "list",
+        "color": "lightgray"
+    },
+    {
+        "key": "Equipment",
         "value": "checklist",
         "color": "brown"
     },
     {
-        "key": "Equipment",
-        "value": "list",
-        "color": "brown"
-    },
-    {
         "key": "Optional Rule: Firearm Proficiency",
-        "value": "bomb",
+        "value": "flash",
         "color": "orange"
     },
     {
         "key": "Magical Tinkering",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Spellcasting",
@@ -31,63 +31,63 @@
     },
     {
         "key": "Infuse Item",
+        "value": "hammer",
+        "color": "lightgray"
+    },
+    {
+        "key": "Artificer Specialist",
         "value": "screwdriver",
         "color": "orange"
     },
     {
-        "key": "Artificer Specialist",
-        "value": "gears",
-        "color": "lightgray"
-    },
-    {
         "key": "The Right Tool for the Job",
-        "value": "screwdriver",
+        "value": "gear",
         "color": "orange"
     },
     {
         "key": "Ability Score Improvement",
-        "value": "chart-line",
+        "value": "star",
         "color": "yellow"
     },
     {
         "key": "Tool Expertise",
-        "value": "screwdriver",
+        "value": "gears",
         "color": "lightgray"
     },
     {
         "key": "Flash of Genius",
         "value": "library",
-        "color": "brown"
+        "color": "white"
     },
     {
         "key": "Magic Item Adept",
-        "value": "gem",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Spell-Storing Item",
         "value": "sword",
-        "color": "red"
+        "color": "yellow"
     },
     {
         "key": "Magic Item Savant",
-        "value": "magic-wand",
-        "color": "purple"
-    },
-    {
-        "key": "Magic Item Master",
         "value": "gem",
         "color": "pink"
     },
     {
+        "key": "Magic Item Master",
+        "value": "flash",
+        "color": "purple"
+    },
+    {
         "key": "Soul of Artifice",
-        "value": "gears",
+        "value": "gear",
         "color": "lightgray"
     },
     {
         "key": "Arcane Propulsion Armor",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Armor of Magical Strength",
@@ -96,43 +96,43 @@
     },
     {
         "key": "Armor of Tools (UA)",
-        "value": "wrench",
+        "value": "screwdriver",
         "color": "lightgray"
     },
     {
         "key": "Boots of the Winding Path",
-        "value": "orbit",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Enhanced Arcane Focus",
         "value": "stars",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Enhanced Defense",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Enhanced Weapon",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Helm of Awareness",
-        "value": "telescope",
+        "value": "binoculars",
         "color": "yellow"
     },
     {
         "key": "Homunculus Servant",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Mind Sharpener",
         "value": "thought",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Radiant Weapon",
@@ -146,27 +146,27 @@
     },
     {
         "key": "Replicate Magic Item",
-        "value": "magic-wand",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Repulsion Shield",
         "value": "shield",
-        "color": "brown"
+        "color": "purple"
     },
     {
         "key": "Resistant Armor",
         "value": "shield",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Returning Weapon",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Spell-Refueling Ring",
-        "value": "brightness-high",
+        "value": "sunrise",
         "color": "white"
     },
     {
@@ -176,38 +176,38 @@
     },
     {
         "key": "Alchemist Spells",
-        "value": "flash",
+        "value": "bomb",
         "color": "orange"
     },
     {
         "key": "Experimental Elixir",
         "value": "run",
-        "color": "orange"
-    },
-    {
-        "key": "Alchemical Savant",
-        "value": "snake",
         "color": "green"
     },
     {
-        "key": "Restorative Reagents",
-        "value": "library",
-        "color": "white"
-    },
-    {
-        "key": "Chemical Mastery",
+        "key": "Alchemical Savant",
         "value": "chemistry",
         "color": "green"
     },
     {
+        "key": "Restorative Reagents",
+        "value": "gradebook",
+        "color": "yellow"
+    },
+    {
+        "key": "Chemical Mastery",
+        "value": "snake",
+        "color": "green"
+    },
+    {
         "key": "Tools of the Trade",
-        "value": "gear",
-        "color": "orange"
+        "value": "screwdriver",
+        "color": "lightgray"
     },
     {
         "key": "Armorer Spells",
         "value": "shield",
-        "color": "yellow"
+        "color": "brown"
     },
     {
         "key": "Arcane Armor",
@@ -217,37 +217,37 @@
     {
         "key": "Armor Model",
         "value": "shield",
-        "color": "brown"
+        "color": "purple"
     },
     {
         "key": "Extra Attack",
         "value": "chess-knight",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Armor Modifications",
         "value": "shield",
-        "color": "brown"
+        "color": "yellow"
     },
     {
         "key": "Perfected Armor",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Artillerist Spells",
-        "value": "snowflake",
-        "color": "lightgray"
+        "value": "temperature-cool",
+        "color": "white"
     },
     {
         "key": "Eldritch Cannon",
-        "value": "partly-cloudy-night",
+        "value": "asterisk",
         "color": "brown"
     },
     {
         "key": "Arcane Firearm",
         "value": "fire",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Explosive Cannon",
@@ -256,8 +256,8 @@
     },
     {
         "key": "Fortified Position",
-        "value": "asterisk",
-        "color": "purple"
+        "value": "moon",
+        "color": "brown"
     },
     {
         "key": "Battle Smith Spells",
@@ -266,77 +266,77 @@
     },
     {
         "key": "Battle Ready",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "yellow"
     },
     {
         "key": "Steel Defender",
-        "value": "first-aid",
+        "value": "first-aid-kit",
         "color": "red"
     },
     {
         "key": "Arcane Jolt",
-        "value": "gem",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Improved Defender",
         "value": "shield",
-        "color": "lightgray"
+        "color": "brown"
     },
     {
         "key": "Archivist Spells",
         "value": "book",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Artificial Mind",
-        "value": "thought",
-        "color": "pink"
-    },
-    {
-        "key": "Mind Network",
         "value": "brain",
         "color": "pink"
     },
     {
+        "key": "Mind Network",
+        "value": "thought",
+        "color": "purple"
+    },
+    {
         "key": "Pure Information",
-        "value": "gears",
-        "color": "orange"
+        "value": "gear",
+        "color": "lightgray"
     },
     {
         "key": "Power Armor",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Rage",
-        "value": "emoji-angry",
-        "color": "red"
+        "value": "volcano",
+        "color": "orange"
     },
     {
         "key": "Unarmored Defense",
         "value": "shield",
-        "color": "purple"
+        "color": "lightgray"
     },
     {
         "key": "Danger Sense",
-        "value": "warning",
-        "color": "orange"
-    },
-    {
-        "key": "Reckless Attack",
-        "value": "sword",
+        "value": "alert",
         "color": "red"
     },
     {
+        "key": "Reckless Attack",
+        "value": "chess-knight",
+        "color": "yellow"
+    },
+    {
         "key": "Primal Path",
-        "value": "cat",
-        "color": "orange"
+        "value": "hare",
+        "color": "green"
     },
     {
         "key": "Primal Knowledge",
-        "value": "butterfly",
+        "value": "hare",
         "color": "green"
     },
     {
@@ -346,7 +346,7 @@
     },
     {
         "key": "Feral Instinct",
-        "value": "emoji-angry",
+        "value": "fire",
         "color": "orange"
     },
     {
@@ -356,13 +356,13 @@
     },
     {
         "key": "Brutal Critical",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Relentless Rage",
         "value": "emoji-angry",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Persistent Rage",
@@ -372,32 +372,32 @@
     {
         "key": "Indomitable Might",
         "value": "shield",
-        "color": "yellow"
+        "color": "brown"
     },
     {
         "key": "Primal Champion",
-        "value": "bug",
+        "value": "butterfly",
         "color": "green"
     },
     {
         "key": "Ancestral Protectors",
         "value": "shield",
-        "color": "yellow"
+        "color": "brown"
     },
     {
         "key": "Spirit Shield",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Consult the Spirits",
-        "value": "stars",
-        "color": "purple"
+        "value": "orbit",
+        "color": "pink"
     },
     {
         "key": "Vengeful Ancestors",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Restriction: Dwarves Only",
@@ -407,11 +407,11 @@
     {
         "key": "Battlerager Armor",
         "value": "shield",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Reckless Abandon",
-        "value": "emoji-angry",
+        "value": "volcano",
         "color": "orange"
     },
     {
@@ -421,43 +421,43 @@
     },
     {
         "key": "Spiked Retribution",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Form of the Beast",
-        "value": "bug",
-        "color": "green"
+        "value": "fish",
+        "color": "orange"
     },
     {
         "key": "Bestial Soul",
-        "value": "mountains",
+        "value": "sailboat",
         "color": "lightgray"
     },
     {
         "key": "Infectious Fury",
-        "value": "volcano",
-        "color": "red"
+        "value": "emoji-angry",
+        "color": "orange"
     },
     {
         "key": "Call the Hunt",
-        "value": "heart-rate",
-        "color": "red"
+        "value": "heart",
+        "color": "pink"
     },
     {
         "key": "Frenzy",
         "value": "emoji-angry",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Mindless Rage",
-        "value": "volcano",
+        "value": "emoji-angry",
         "color": "red"
     },
     {
         "key": "Intimidating Presence",
-        "value": "emoji-surprised",
-        "color": "purple"
+        "value": "skull",
+        "color": "brown"
     },
     {
         "key": "Retaliation",
@@ -466,38 +466,38 @@
     },
     {
         "key": "Giant\u2019s Power",
-        "value": "library",
-        "color": "brown"
+        "value": "gradebook",
+        "color": "yellow"
     },
     {
         "key": "Giant\u2019s Havoc",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "red"
     },
     {
         "key": "Elemental Cleaver",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Mighty Impel",
-        "value": "run",
+        "value": "walk",
         "color": "green"
     },
     {
         "key": "Demiurgic Colossus",
         "value": "volcano",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Storm Aura",
         "value": "storm",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Storm Soul",
         "value": "flash",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Shielding Storm",
@@ -511,8 +511,8 @@
     },
     {
         "key": "Spirit Seeker",
-        "value": "hare",
-        "color": "orange"
+        "value": "bug",
+        "color": "green"
     },
     {
         "key": "Totem Spirit",
@@ -521,98 +521,98 @@
     },
     {
         "key": "Aspect of the Beast",
-        "value": "hare",
+        "value": "butterfly",
         "color": "orange"
     },
     {
         "key": "Spirit Walker",
-        "value": "bug",
+        "value": "fish",
         "color": "green"
     },
     {
         "key": "Totemic Attunement",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "red"
     },
     {
         "key": "Magic Awareness",
-        "value": "view",
+        "value": "telescope",
         "color": "yellow"
     },
     {
         "key": "Wild Surge",
-        "value": "butterfly",
-        "color": "green"
+        "value": "fish",
+        "color": "orange"
     },
     {
         "key": "Bolstering Magic",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Unstable Backlash",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Controlled Surge",
-        "value": "gem",
+        "value": "flash",
         "color": "purple"
     },
     {
         "key": "Divine Fury",
-        "value": "star-of-life",
-        "color": "brown"
+        "value": "temple",
+        "color": "yellow"
     },
     {
         "key": "Warrior of the Gods",
-        "value": "star-of-life",
-        "color": "red"
+        "value": "first-aid",
+        "color": "pink"
     },
     {
         "key": "Fanatical Focus",
-        "value": "emoji-angry",
+        "value": "volcano",
         "color": "red"
     },
     {
         "key": "Zealous Presence",
         "value": "orbit",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Rage Beyond Death",
-        "value": "fire",
+        "value": "emoji-angry",
         "color": "red"
     },
     {
         "key": "Giant Power",
-        "value": "book",
-        "color": "lightgray"
+        "value": "library",
+        "color": "white"
     },
     {
         "key": "Giant's Havoc",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "lightgray"
     },
     {
         "key": "Demiurgic Collussus",
-        "value": "volcano",
+        "value": "emoji-angry",
         "color": "red"
     },
     {
         "key": "Lingering Magic",
         "value": "magic-wand",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Magic Reserves",
-        "value": "gem",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Arcane Rebuke",
-        "value": "stars",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Chaotic Fury",
@@ -621,63 +621,63 @@
     },
     {
         "key": "Bardic Inspiration",
-        "value": "dialogue",
+        "value": "megaphone",
         "color": "orange"
     },
     {
         "key": "Jack of All Trades",
-        "value": "checklist",
+        "value": "list",
         "color": "lightgray"
     },
     {
         "key": "Song of Rest",
-        "value": "piano",
-        "color": "purple"
-    },
-    {
-        "key": "Magical Inspiration",
-        "value": "chat",
-        "color": "pink"
-    },
-    {
-        "key": "Bard College",
-        "value": "piano",
-        "color": "purple"
-    },
-    {
-        "key": "Expertise",
-        "value": "checklist",
-        "color": "lightgray"
-    },
-    {
-        "key": "Bardic Versatility",
-        "value": "piano",
-        "color": "pink"
-    },
-    {
-        "key": "Font of Inspiration",
-        "value": "conversation",
-        "color": "pink"
-    },
-    {
-        "key": "Countercharm",
         "value": "note-quarter",
         "color": "purple"
     },
     {
+        "key": "Magical Inspiration",
+        "value": "megaphone",
+        "color": "orange"
+    },
+    {
+        "key": "Bard College",
+        "value": "guitar",
+        "color": "pink"
+    },
+    {
+        "key": "Expertise",
+        "value": "list",
+        "color": "brown"
+    },
+    {
+        "key": "Bardic Versatility",
+        "value": "note-quarter",
+        "color": "purple"
+    },
+    {
+        "key": "Font of Inspiration",
+        "value": "chat",
+        "color": "orange"
+    },
+    {
+        "key": "Countercharm",
+        "value": "music",
+        "color": "purple"
+    },
+    {
         "key": "Magical Secrets",
-        "value": "flash",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Superior Inspiration",
-        "value": "dialogue",
-        "color": "pink"
+        "value": "chat",
+        "color": "orange"
     },
     {
         "key": "Mote of Potential",
-        "value": "violin",
-        "color": "purple"
+        "value": "note-quarter",
+        "color": "pink"
     },
     {
         "key": "Performance of Creation",
@@ -691,18 +691,18 @@
     },
     {
         "key": "Creative Crescendo",
-        "value": "conversation",
-        "color": "pink"
+        "value": "megaphone",
+        "color": "orange"
     },
     {
         "key": "Silver Tongue",
-        "value": "dialogue",
-        "color": "pink"
+        "value": "conversation",
+        "color": "orange"
     },
     {
         "key": "Unsettling Words",
-        "value": "stars",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Unfailing Inspiration",
@@ -711,77 +711,77 @@
     },
     {
         "key": "Universal Speech",
-        "value": "gem",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Infectious Inspiration",
-        "value": "megaphone",
-        "color": "pink"
-    },
-    {
-        "key": "Mantle of Inspiration",
-        "value": "chat",
+        "value": "conversation",
         "color": "orange"
     },
     {
+        "key": "Mantle of Inspiration",
+        "value": "conversation",
+        "color": "pink"
+    },
+    {
         "key": "Enthralling Performance",
-        "value": "music",
+        "value": "guitar",
         "color": "purple"
     },
     {
         "key": "Mantle of Majesty",
-        "value": "chat",
+        "value": "conversation",
         "color": "pink"
     },
     {
         "key": "Unbreakable Majesty",
-        "value": "flash",
-        "color": "pink"
+        "value": "stars",
+        "color": "purple"
     },
     {
         "key": "Bonus Proficiencies",
-        "value": "list",
+        "value": "checklist",
         "color": "lightgray"
     },
     {
         "key": "Cutting Words",
-        "value": "dialogue",
-        "color": "orange"
+        "value": "conversation",
+        "color": "pink"
     },
     {
         "key": "Additional Magical Secrets",
-        "value": "flash",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Peerless Skill",
-        "value": "chat",
+        "value": "dialogue",
         "color": "pink"
     },
     {
         "key": "Guiding Whispers",
-        "value": "book-closed",
-        "color": "lightgray"
+        "value": "book",
+        "color": "yellow"
     },
     {
         "key": "Spiritual Focus",
-        "value": "first-aid-kit",
+        "value": "heart-rate",
         "color": "pink"
     },
     {
         "key": "Tales from Beyond",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Spirit Session",
-        "value": "skull-profile",
+        "value": "skull",
         "color": "lightgray"
     },
     {
         "key": "Mystical Connection",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "pink"
     },
     {
@@ -792,12 +792,12 @@
     {
         "key": "Blade Flourish",
         "value": "chess-knight",
-        "color": "red"
+        "color": "yellow"
     },
     {
         "key": "Master's Flourish",
         "value": "sword",
-        "color": "yellow"
+        "color": "red"
     },
     {
         "key": "Combat Inspiration",
@@ -806,58 +806,58 @@
     },
     {
         "key": "Battle Magic",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Psychic Blades",
-        "value": "thought",
-        "color": "pink"
+        "value": "brain",
+        "color": "purple"
     },
     {
         "key": "Words of Terror",
-        "value": "skull",
-        "color": "brown"
+        "value": "ghost",
+        "color": "purple"
     },
     {
         "key": "Mantle of Whispers",
-        "value": "chat",
-        "color": "pink"
+        "value": "megaphone",
+        "color": "orange"
     },
     {
         "key": "Shadow Lore",
-        "value": "book-closed",
-        "color": "lightgray"
+        "value": "book",
+        "color": "yellow"
     },
     {
         "key": "Using This Subclass",
         "value": "magic-wand",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Lorehold Spells",
-        "value": "library",
+        "value": "book-closed",
         "color": "white"
     },
     {
         "key": "Ancient Companion",
         "value": "fish",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Lessons of the Past",
-        "value": "book",
-        "color": "lightgray"
+        "value": "library",
+        "color": "white"
     },
     {
         "key": "War Echoes",
-        "value": "magic-wand",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "History\u2019s Whims",
-        "value": "run",
-        "color": "green"
+        "value": "walk",
+        "color": "orange"
     },
     {
         "key": "Eloquent Apprentice",
@@ -866,27 +866,27 @@
     },
     {
         "key": "Silvery Barbs",
-        "value": "flash",
+        "value": "gem",
         "color": "pink"
     },
     {
         "key": "Inky Shroud",
-        "value": "asterisk",
-        "color": "brown"
+        "value": "book",
+        "color": "yellow"
     },
     {
         "key": "Infusion of Eloquence",
-        "value": "screwdriver",
+        "value": "wrench",
         "color": "lightgray"
     },
     {
         "key": "Word of Power",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Note of Potential",
-        "value": "violin",
+        "value": "trumpet",
         "color": "pink"
     },
     {
@@ -901,73 +901,73 @@
     },
     {
         "key": "Fool's Luck",
-        "value": "die6",
-        "color": "yellow"
-    },
-    {
-        "key": "Hunter's Bane",
-        "value": "compass",
+        "value": "clover-four-leaf",
         "color": "green"
     },
     {
+        "key": "Hunter's Bane",
+        "value": "target",
+        "color": "orange"
+    },
+    {
         "key": "Blood Maledict",
-        "value": "skull",
+        "value": "heart",
         "color": "brown"
     },
     {
         "key": "Crimson Rite",
-        "value": "skull",
-        "color": "red"
+        "value": "heart",
+        "color": "brown"
     },
     {
         "key": "Blood Hunter Order",
-        "value": "compass",
+        "value": "binoculars",
         "color": "green"
     },
     {
         "key": "Brand of Castigation",
-        "value": "skull",
+        "value": "water",
         "color": "brown"
     },
     {
         "key": "Grim Psychometry",
-        "value": "gradebook",
+        "value": "library",
         "color": "brown"
     },
     {
         "key": "Dark Augmentation",
-        "value": "asterisk",
+        "value": "moon",
         "color": "brown"
     },
     {
         "key": "Brand of Tethering",
-        "value": "orbit",
+        "value": "flash",
         "color": "purple"
     },
     {
         "key": "Hardened Soul",
-        "value": "ghost",
+        "value": "emoji-surprised",
         "color": "purple"
     },
     {
         "key": "Sanguine Mastery",
         "value": "heart",
-        "color": "brown"
+        "color": "red"
     },
     {
         "key": "Blood Curse of the Anxious",
-        "value": "bomb",
+        "value": "skull",
         "color": "purple"
     },
     {
         "key": "Blood Curse of Binding",
         "value": "skull",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Blood Curse of Bloated Agony",
-        "value": "skull",
-        "color": "purple"
+        "value": "bomb",
+        "color": "brown"
     },
     {
         "key": "Blood Curse of Corrosion",
@@ -976,73 +976,73 @@
     },
     {
         "key": "Blood Curse of the Exorcist",
-        "value": "bomb",
+        "value": "skull",
         "color": "brown"
     },
     {
         "key": "Blood Curse of Exposure",
-        "value": "skull",
+        "value": "ghost",
         "color": "brown"
     },
     {
         "key": "Blood Curse of the Eyeless",
-        "value": "skull",
-        "color": "purple"
-    },
-    {
-        "key": "Blood Curse of the Fallen Puppet",
-        "value": "ghost",
-        "color": "purple"
-    },
-    {
-        "key": "Blood Curse of the Howl",
-        "value": "ghost",
-        "color": "brown"
-    },
-    {
-        "key": "Blood Curse of the Marked",
-        "value": "heart",
-        "color": "brown"
-    },
-    {
-        "key": "Blood Curse of the Muddled Mind",
         "value": "bomb",
         "color": "purple"
     },
     {
-        "key": "Blood Curse of the Soul Eater",
+        "key": "Blood Curse of the Fallen Puppet",
+        "value": "bomb",
+        "color": "brown"
+    },
+    {
+        "key": "Blood Curse of the Howl",
+        "value": "bomb",
+        "color": "purple"
+    },
+    {
+        "key": "Blood Curse of the Marked",
         "value": "skull",
+        "color": "brown"
+    },
+    {
+        "key": "Blood Curse of the Muddled Mind",
+        "value": "ghost",
+        "color": "purple"
+    },
+    {
+        "key": "Blood Curse of the Soul Eater",
+        "value": "bomb",
         "color": "brown"
     },
     {
         "key": "Rite of the Dawn",
         "value": "light-bulb",
-        "color": "white"
+        "color": "yellow"
     },
     {
         "key": "Curse Specialist",
-        "value": "bomb",
+        "value": "ghost",
         "color": "purple"
     },
     {
         "key": "Aether Walk",
-        "value": "stars",
-        "color": "pink"
+        "value": "magic-wand",
+        "color": "purple"
     },
     {
         "key": "Brand of Sundering",
-        "value": "heart",
+        "value": "skull",
         "color": "red"
     },
     {
         "key": "Rite Revival",
         "value": "sword",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Heightened Senses",
-        "value": "binoculars",
-        "color": "yellow"
+        "value": "view",
+        "color": "lightgray"
     },
     {
         "key": "Hybrid Transformation",
@@ -1051,7 +1051,7 @@
     },
     {
         "key": "Stalker's Prowess",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
@@ -1061,18 +1061,18 @@
     },
     {
         "key": "Brand of the Voracious",
-        "value": "compass",
-        "color": "orange"
+        "value": "map",
+        "color": "green"
     },
     {
         "key": "Hybrid Transformation Mastery",
-        "value": "bomb",
-        "color": "purple"
+        "value": "skull",
+        "color": "brown"
     },
     {
         "key": "Mutagencraft",
-        "value": "clover",
-        "color": "green"
+        "value": "conifer-tree",
+        "color": "brown"
     },
     {
         "key": "Formulas",
@@ -1086,8 +1086,8 @@
     },
     {
         "key": "Brand of Axiom",
-        "value": "hare",
-        "color": "orange"
+        "value": "cat",
+        "color": "green"
     },
     {
         "key": "Exalted Mutation",
@@ -1097,17 +1097,17 @@
     {
         "key": "Otherworldly Patron",
         "value": "ghost",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Pact Magic",
-        "value": "gem",
-        "color": "purple"
+        "value": "ghost",
+        "color": "pink"
     },
     {
         "key": "Rite Focus",
-        "value": "ghost",
-        "color": "purple"
+        "value": "gem",
+        "color": "pink"
     },
     {
         "key": "Mystic Frenzy",
@@ -1116,47 +1116,47 @@
     },
     {
         "key": "Revealed Arcana",
-        "value": "book",
-        "color": "yellow"
+        "value": "gradebook",
+        "color": "brown"
     },
     {
         "key": "Brand of the Sapping Scar",
-        "value": "stars",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Unsealed Arcana",
-        "value": "book",
+        "value": "book-closed",
         "color": "lightgray"
     },
     {
         "key": "Blood Curse of the Souleater",
-        "value": "bomb",
+        "value": "ghost",
         "color": "brown"
     },
     {
         "key": "Divine Domain",
-        "value": "star-of-life",
-        "color": "white"
-    },
-    {
-        "key": "Channel Divinity",
-        "value": "star-of-life",
-        "color": "yellow"
-    },
-    {
-        "key": "Harness Divine Power",
-        "value": "church",
+        "value": "asterisk",
         "color": "brown"
     },
     {
-        "key": "Cantrip Versatility",
-        "value": "chart-line",
+        "key": "Channel Divinity",
+        "value": "judicial-scales",
+        "color": "white"
+    },
+    {
+        "key": "Harness Divine Power",
+        "value": "temple",
         "color": "yellow"
     },
     {
+        "key": "Cantrip Versatility",
+        "value": "book-closed",
+        "color": "lightgray"
+    },
+    {
         "key": "Destroy Undead",
-        "value": "long-bone",
+        "value": "grave",
         "color": "brown"
     },
     {
@@ -1166,108 +1166,108 @@
     },
     {
         "key": "Divine Intervention",
-        "value": "torii",
-        "color": "yellow"
+        "value": "church",
+        "color": "brown"
     },
     {
         "key": "Arcane Initiate",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Channel Divinity: Arcane Abjuration",
-        "value": "flash",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Spell Breaker",
-        "value": "first-aid",
+        "value": "first-aid-kit",
         "color": "red"
     },
     {
         "key": "Potent Spellcasting",
-        "value": "gradebook",
-        "color": "yellow"
-    },
-    {
-        "key": "Arcane Mastery",
-        "value": "flash",
-        "color": "purple"
-    },
-    {
-        "key": "Bonus Proficiency",
-        "value": "list",
+        "value": "book-closed",
         "color": "lightgray"
     },
     {
+        "key": "Arcane Mastery",
+        "value": "stars",
+        "color": "pink"
+    },
+    {
+        "key": "Bonus Proficiency",
+        "value": "checklist",
+        "color": "brown"
+    },
+    {
         "key": "Reaper",
-        "value": "skull",
+        "value": "library",
         "color": "brown"
     },
     {
         "key": "Channel Divinity: Touch of Death",
-        "value": "sword",
-        "color": "yellow"
+        "value": "judicial-scales",
+        "color": "white"
     },
     {
         "key": "Inescapable Destruction",
-        "value": "judicial-scales",
+        "value": "star-of-life",
         "color": "yellow"
     },
     {
         "key": "Divine Strike",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "yellow"
     },
     {
         "key": "Improved Reaper",
-        "value": "bone",
-        "color": "lightgray"
-    },
-    {
-        "key": "Blessing of the Forge",
-        "value": "sun",
-        "color": "yellow"
-    },
-    {
-        "key": "Channel Divinity: Artisan's Blessing",
-        "value": "sun",
-        "color": "white"
-    },
-    {
-        "key": "Soul of the Forge",
-        "value": "wrench",
-        "color": "lightgray"
-    },
-    {
-        "key": "Saint of Forge and Fire",
-        "value": "volcano",
-        "color": "red"
-    },
-    {
-        "key": "Circle of Mortality",
-        "value": "mushroom",
-        "color": "green"
-    },
-    {
-        "key": "Eyes of the Grave",
-        "value": "bone",
-        "color": "brown"
-    },
-    {
-        "key": "Channel Divinity: Path to the Grave",
-        "value": "star-of-life",
-        "color": "white"
-    },
-    {
-        "key": "Sentinel at Death's Door",
         "value": "long-bone",
         "color": "brown"
     },
     {
+        "key": "Blessing of the Forge",
+        "value": "torii",
+        "color": "brown"
+    },
+    {
+        "key": "Channel Divinity: Artisan's Blessing",
+        "value": "temple",
+        "color": "white"
+    },
+    {
+        "key": "Soul of the Forge",
+        "value": "screwdriver",
+        "color": "orange"
+    },
+    {
+        "key": "Saint of Forge and Fire",
+        "value": "forest-fire",
+        "color": "red"
+    },
+    {
+        "key": "Circle of Mortality",
+        "value": "cactus",
+        "color": "brown"
+    },
+    {
+        "key": "Eyes of the Grave",
+        "value": "bone",
+        "color": "lightgray"
+    },
+    {
+        "key": "Channel Divinity: Path to the Grave",
+        "value": "judicial-scales",
+        "color": "white"
+    },
+    {
+        "key": "Sentinel at Death's Door",
+        "value": "skull",
+        "color": "brown"
+    },
+    {
         "key": "Keeper of Souls",
-        "value": "star-of-life",
-        "color": "pink"
+        "value": "first-aid",
+        "color": "red"
     },
     {
         "key": "Blessings of Knowledge",
@@ -1276,42 +1276,42 @@
     },
     {
         "key": "Channel Divinity: Knowledge of the Ages",
-        "value": "star-of-life",
-        "color": "yellow"
-    },
-    {
-        "key": "Channel Divinity: Read Thoughts",
         "value": "judicial-scales",
         "color": "white"
     },
     {
+        "key": "Channel Divinity: Read Thoughts",
+        "value": "star-of-life",
+        "color": "yellow"
+    },
+    {
         "key": "Visions of the Past",
-        "value": "binoculars",
-        "color": "lightgray"
+        "value": "view",
+        "color": "yellow"
     },
     {
         "key": "Disciple of Life",
-        "value": "heart-rate",
-        "color": "red"
-    },
-    {
-        "key": "Channel Divinity: Preserve Life",
-        "value": "heart-rate",
-        "color": "red"
-    },
-    {
-        "key": "Blessed Healer",
-        "value": "star-of-life",
+        "value": "first-aid-kit",
         "color": "pink"
     },
     {
+        "key": "Channel Divinity: Preserve Life",
+        "value": "first-aid-kit",
+        "color": "pink"
+    },
+    {
+        "key": "Blessed Healer",
+        "value": "first-aid-kit",
+        "color": "red"
+    },
+    {
         "key": "Supreme Healing",
-        "value": "star-of-life",
+        "value": "first-aid-kit",
         "color": "pink"
     },
     {
         "key": "Bonus Cantrip",
-        "value": "sun",
+        "value": "light-bulb",
         "color": "white"
     },
     {
@@ -1321,12 +1321,12 @@
     },
     {
         "key": "Channel Divinity: Radiance of the Dawn",
-        "value": "star-of-life",
+        "value": "sword",
         "color": "yellow"
     },
     {
         "key": "Improved Flare",
-        "value": "hashtag",
+        "value": "gem",
         "color": "purple"
     },
     {
@@ -1341,28 +1341,28 @@
     },
     {
         "key": "Channel Divinity: Charm Animals and Plants",
-        "value": "hare",
+        "value": "bug",
         "color": "orange"
     },
     {
         "key": "Dampen Elements",
-        "value": "flash",
+        "value": "storm",
         "color": "purple"
     },
     {
         "key": "Master of Nature",
-        "value": "conifer-tree",
-        "color": "green"
+        "value": "tree",
+        "color": "brown"
     },
     {
         "key": "Voice of Authority",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "red"
     },
     {
         "key": "Channel Divinity: Order's Demand",
         "value": "judicial-scales",
-        "color": "white"
+        "color": "yellow"
     },
     {
         "key": "Embodiment of the Law",
@@ -1371,8 +1371,8 @@
     },
     {
         "key": "Order's Wrath",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Implement of Peace",
@@ -1381,23 +1381,23 @@
     },
     {
         "key": "Emboldening Bond",
-        "value": "flash",
-        "color": "purple"
+        "value": "stars",
+        "color": "pink"
     },
     {
         "key": "Channel Divinity: Balm of Peace",
-        "value": "sword",
-        "color": "yellow"
+        "value": "judicial-scales",
+        "color": "white"
     },
     {
         "key": "Protective Bond",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Expansive Bond",
         "value": "shield",
-        "color": "yellow"
+        "color": "brown"
     },
     {
         "key": "Wrath of the Storm",
@@ -1406,62 +1406,62 @@
     },
     {
         "key": "Channel Divinity: Destructive Wrath",
-        "value": "star-of-life",
-        "color": "yellow"
+        "value": "sword",
+        "color": "white"
     },
     {
         "key": "Thunderous Strike",
-        "value": "storm",
+        "value": "flash",
         "color": "purple"
     },
     {
         "key": "Stormborn",
-        "value": "storm",
+        "value": "flash",
         "color": "purple"
     },
     {
         "key": "Blessing of the Trickster",
-        "value": "church",
+        "value": "temple",
         "color": "white"
     },
     {
         "key": "Channel Divinity: Invoke Duplicity",
         "value": "sword",
-        "color": "white"
-    },
-    {
-        "key": "Channel Divinity: Cloak of Shadows",
-        "value": "star-of-life",
         "color": "yellow"
     },
     {
+        "key": "Channel Divinity: Cloak of Shadows",
+        "value": "judicial-scales",
+        "color": "white"
+    },
+    {
         "key": "Improved Duplicity",
-        "value": "magic-wand",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "Eyes of Night",
-        "value": "partly-cloudy-night",
+        "value": "moon",
         "color": "brown"
     },
     {
         "key": "Vigilant Blessing",
-        "value": "church",
+        "value": "sun",
         "color": "yellow"
     },
     {
         "key": "Channel Divinity: Twilight Sanctuary",
-        "value": "star-of-life",
-        "color": "brown"
+        "value": "asterisk",
+        "color": "white"
     },
     {
         "key": "Steps of Night",
-        "value": "asterisk",
-        "color": "purple"
+        "value": "partly-cloudy-night",
+        "color": "brown"
     },
     {
         "key": "Twilight Shroud",
-        "value": "church",
+        "value": "temple",
         "color": "brown"
     },
     {
@@ -1471,8 +1471,8 @@
     },
     {
         "key": "Channel Divinity: Guided Strike",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Channel Divinity: War God's Blessing",
@@ -1481,33 +1481,33 @@
     },
     {
         "key": "Avatar of Battle",
-        "value": "orbit",
-        "color": "purple"
+        "value": "stars",
+        "color": "pink"
     },
     {
         "key": "Solidarity's Action",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Channel Divinity: Oketra's Blessing",
-        "value": "temple",
-        "color": "white"
+        "value": "star-of-life",
+        "color": "brown"
     },
     {
         "key": "Acolyte of Strength",
-        "value": "hare",
-        "color": "green"
+        "value": "butterfly",
+        "color": "orange"
     },
     {
         "key": "Channel Divinity: Feat of Strength",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "judicial-scales",
+        "color": "yellow"
     },
     {
         "key": "Channel Divinity: Rhonas' Blessing",
-        "value": "church",
-        "color": "brown"
+        "value": "temple",
+        "color": "yellow"
     },
     {
         "key": "Priest of Zeal",
@@ -1516,142 +1516,142 @@
     },
     {
         "key": "Channel Divinity: Consuming Fervor",
-        "value": "star-of-life",
+        "value": "judicial-scales",
         "color": "yellow"
     },
     {
         "key": "Resounding Strike",
         "value": "sword",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Blaze of Glory",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "red"
     },
     {
         "key": "Omens and Portents",
-        "value": "sailboat",
+        "value": "water",
         "color": "lightgray"
     },
     {
         "key": "Ties That Bind",
         "value": "first-aid-kit",
-        "color": "red"
+        "color": "pink"
     },
     {
         "key": "Channel Divinity: Strands of Fate",
-        "value": "star-of-life",
+        "value": "judicial-scales",
         "color": "yellow"
     },
     {
         "key": "Insightful Striking",
-        "value": "telescope",
+        "value": "view",
         "color": "lightgray"
     },
     {
         "key": "Visions of the Future",
-        "value": "binoculars",
+        "value": "view",
         "color": "lightgray"
     },
     {
         "key": "Heart of the City",
-        "value": "megaphone",
-        "color": "pink"
+        "value": "chat",
+        "color": "orange"
     },
     {
         "key": "Channel Divinity: Spirits of the City",
-        "value": "sword",
+        "value": "judicial-scales",
         "color": "white"
     },
     {
         "key": "Block Watch",
         "value": "shield",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Express Transit",
-        "value": "orbit",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Shield of the Faithful",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Channel Divinity: Radiant Defense",
-        "value": "asterisk",
+        "value": "temple",
         "color": "white"
     },
     {
         "key": "Indomitable Defense",
         "value": "shield",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Steps of the Brave",
         "value": "run",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Midnight Shroud",
-        "value": "moon",
+        "value": "partly-cloudy-night",
         "color": "purple"
     },
     {
         "key": "Channel Divinity: Shared Burden",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "judicial-scales",
+        "color": "yellow"
     },
     {
         "key": "Enduring Unity",
         "value": "shield",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Druidic",
         "value": "stars",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Wild Shape",
         "value": "butterfly",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Druid Circle",
-        "value": "tree",
+        "value": "clover",
         "color": "brown"
     },
     {
         "key": "Wild Companion",
-        "value": "hare",
-        "color": "orange"
+        "value": "butterfly",
+        "color": "green"
     },
     {
         "key": "Timeless Body",
-        "value": "stars",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Beast Spells",
+        "value": "cat",
+        "color": "green"
+    },
+    {
+        "key": "Archdruid",
         "value": "butterfly",
         "color": "orange"
     },
     {
-        "key": "Archdruid",
-        "value": "hare",
-        "color": "orange"
-    },
-    {
         "key": "Balm of the Summer Court",
-        "value": "sun",
+        "value": "star-of-life",
         "color": "white"
     },
     {
         "key": "Hearth of Moonlight and Shadow",
-        "value": "ghost",
+        "value": "asterisk",
         "color": "brown"
     },
     {
@@ -1661,68 +1661,68 @@
     },
     {
         "key": "Walker in Dreams",
-        "value": "flash",
+        "value": "ringed-planet",
         "color": "purple"
     },
     {
         "key": "Natural Recovery",
-        "value": "first-aid",
+        "value": "first-aid-kit",
         "color": "red"
     },
     {
         "key": "Circle Spells",
-        "value": "conifer-tree",
+        "value": "mushroom",
         "color": "green"
     },
     {
         "key": "Land's Stride",
-        "value": "cactus",
-        "color": "green"
+        "value": "clover",
+        "color": "brown"
     },
     {
         "key": "Nature's Ward",
-        "value": "reference",
-        "color": "purple"
+        "value": "gem",
+        "color": "brown"
     },
     {
         "key": "Nature's Sanctuary",
-        "value": "tree",
+        "value": "mushroom",
         "color": "green"
     },
     {
         "key": "Combat Wild Shape",
-        "value": "hare",
-        "color": "green"
-    },
-    {
-        "key": "Circle Forms",
         "value": "butterfly",
         "color": "orange"
     },
     {
+        "key": "Circle Forms",
+        "value": "fish",
+        "color": "green"
+    },
+    {
         "key": "Primal Strike",
-        "value": "cat",
+        "value": "fish",
         "color": "orange"
     },
     {
         "key": "Elemental Wild Shape",
-        "value": "cat",
-        "color": "orange"
+        "value": "fish",
+        "color": "green"
     },
     {
         "key": "Thousand Forms",
-        "value": "gem",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Speech of the Woods",
-        "value": "gradebook",
-        "color": "brown"
+        "value": "book",
+        "color": "lightgray"
     },
     {
         "key": "Spirit Totem",
-        "value": "binoculars",
-        "color": "yellow"
+        "value": "telescope",
+        "color": "lightgray"
     },
     {
         "key": "Mighty Summoner",
@@ -1732,32 +1732,32 @@
     {
         "key": "Guardian Spirit",
         "value": "shield",
-        "color": "brown"
+        "color": "yellow"
     },
     {
         "key": "Faithful Summons",
         "value": "magic-wand",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Halo of Spores",
-        "value": "bone",
+        "value": "skull",
         "color": "brown"
     },
     {
         "key": "Symbiotic Entity",
         "value": "fish",
-        "color": "orange"
+        "color": "green"
     },
     {
         "key": "Fungal Infestation",
-        "value": "sword",
-        "color": "red"
+        "value": "chess-knight",
+        "color": "yellow"
     },
     {
         "key": "Spreading Spores",
-        "value": "alarm",
-        "color": "orange"
+        "value": "stopwatch",
+        "color": "yellow"
     },
     {
         "key": "Fungal Body",
@@ -1766,18 +1766,18 @@
     },
     {
         "key": "Star Map",
-        "value": "asterisk",
-        "color": "yellow"
+        "value": "brightness-high",
+        "color": "white"
     },
     {
         "key": "Starry Form",
-        "value": "bug",
-        "color": "orange"
+        "value": "cat",
+        "color": "green"
     },
     {
         "key": "Cosmic Omen",
-        "value": "asterisk",
-        "color": "brown"
+        "value": "sun",
+        "color": "white"
     },
     {
         "key": "Twinkling Constellations",
@@ -1787,17 +1787,17 @@
     {
         "key": "Full of Stars",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Summon Wildfire Spirit",
-        "value": "butterfly",
-        "color": "orange"
+        "value": "fish",
+        "color": "green"
     },
     {
         "key": "Enhanced Bond",
-        "value": "first-aid-kit",
-        "color": "red"
+        "value": "heart-rate",
+        "color": "pink"
     },
     {
         "key": "Cauterizing Flames",
@@ -1806,37 +1806,37 @@
     },
     {
         "key": "Blazing Revival",
-        "value": "long-bone",
-        "color": "brown"
+        "value": "grave",
+        "color": "lightgray"
     },
     {
         "key": "Keeper of Old",
-        "value": "cactus",
+        "value": "tree",
         "color": "brown"
     },
     {
         "key": "Primeval Companion",
         "value": "cat",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Prehistoric Conduit",
         "value": "magic-wand",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Titanic Bond",
-        "value": "mountains",
+        "value": "sailboat",
         "color": "green"
     },
     {
         "key": "Scourge of the Ancients",
-        "value": "cat",
+        "value": "butterfly",
         "color": "orange"
     },
     {
         "key": "Creative Skills",
-        "value": "cactus",
+        "value": "tree",
         "color": "green"
     },
     {
@@ -1856,8 +1856,8 @@
     },
     {
         "key": "Impeccable Physicality",
-        "value": "view",
-        "color": "yellow"
+        "value": "binoculars",
+        "color": "lightgray"
     },
     {
         "key": "Witherbloom Spells",
@@ -1866,7 +1866,7 @@
     },
     {
         "key": "Essence Tap",
-        "value": "heart-rate",
+        "value": "first-aid",
         "color": "red"
     },
     {
@@ -1876,42 +1876,42 @@
     },
     {
         "key": "Witherbloom Adept",
-        "value": "heart-rate",
-        "color": "red"
+        "value": "first-aid-kit",
+        "color": "pink"
     },
     {
         "key": "Withering Vortex",
-        "value": "skull-profile",
-        "color": "lightgray"
+        "value": "skull",
+        "color": "brown"
     },
     {
         "key": "Star Flare",
-        "value": "sun",
-        "color": "yellow"
+        "value": "asterisk",
+        "color": "white"
     },
     {
         "key": "Harvest's Scythe",
-        "value": "long-bone",
-        "color": "lightgray"
-    },
-    {
-        "key": "Speech Beyond the Grave",
-        "value": "long-bone",
-        "color": "lightgray"
-    },
-    {
-        "key": "Watcher at the Threshold",
         "value": "bone",
         "color": "brown"
     },
     {
-        "key": "Paths of the Dead",
+        "key": "Speech Beyond the Grave",
         "value": "grave",
         "color": "brown"
     },
     {
+        "key": "Watcher at the Threshold",
+        "value": "bone",
+        "color": "lightgray"
+    },
+    {
+        "key": "Paths of the Dead",
+        "value": "skull",
+        "color": "brown"
+    },
+    {
         "key": "Summon Wildfire",
-        "value": "bug",
+        "value": "butterfly",
         "color": "green"
     },
     {
@@ -1926,33 +1926,33 @@
     },
     {
         "key": "Second Wind",
-        "value": "star-of-life",
+        "value": "first-aid",
         "color": "pink"
     },
     {
         "key": "Action Surge",
-        "value": "stopwatch",
-        "color": "yellow"
+        "value": "flash",
+        "color": "orange"
     },
     {
         "key": "Martial Archetype",
-        "value": "sword",
-        "color": "yellow"
-    },
-    {
-        "key": "Martial Versatility",
         "value": "chess-knight",
         "color": "lightgray"
     },
     {
+        "key": "Martial Versatility",
+        "value": "chess-knight",
+        "color": "yellow"
+    },
+    {
         "key": "Indomitable",
         "value": "shield",
-        "color": "purple"
+        "color": "lightgray"
     },
     {
         "key": "Combat Superiority",
-        "value": "sword",
-        "color": "red"
+        "value": "chess-knight",
+        "color": "yellow"
     },
     {
         "key": "Student of War",
@@ -1961,7 +1961,7 @@
     },
     {
         "key": "Know Your Enemy",
-        "value": "bone",
+        "value": "heart-rate",
         "color": "pink"
     },
     {
@@ -1971,8 +1971,8 @@
     },
     {
         "key": "Relentless",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Arcane Archer Lore",
@@ -1981,7 +1981,7 @@
     },
     {
         "key": "Arcane Shot",
-        "value": "flash",
+        "value": "stars",
         "color": "purple"
     },
     {
@@ -1991,97 +1991,97 @@
     },
     {
         "key": "Curving Shot",
+        "value": "bullseye",
+        "color": "orange"
+    },
+    {
+        "key": "Ever-Ready Shot",
         "value": "archery",
         "color": "red"
     },
     {
-        "key": "Ever-Ready Shot",
-        "value": "target",
-        "color": "lightgray"
-    },
-    {
         "key": "Arcane Shot Options",
-        "value": "gem",
-        "color": "purple"
-    },
-    {
-        "key": "Rallying Cry",
-        "value": "heart-rate",
+        "value": "stars",
         "color": "pink"
     },
     {
+        "key": "Rallying Cry",
+        "value": "first-aid-kit",
+        "color": "red"
+    },
+    {
         "key": "Royal Envoy",
-        "value": "skull",
+        "value": "emoji-surprised",
         "color": "purple"
     },
     {
         "key": "Inspiring Surge",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "red"
     },
     {
         "key": "Bulwark",
-        "value": "book",
-        "color": "yellow"
+        "value": "book-closed",
+        "color": "white"
     },
     {
         "key": "Born to the Saddle",
         "value": "walk",
-        "color": "orange"
+        "color": "green"
     },
     {
         "key": "Unwavering Mark",
         "value": "sword",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Warding Maneuver",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Hold the Line",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Ferocious Charger",
         "value": "sword",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Vigilant Defender",
         "value": "sword",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Improved Critical",
         "value": "sword",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Remarkable Athlete",
-        "value": "mountains",
+        "value": "sailboat",
         "color": "green"
     },
     {
         "key": "Additional Fighting Style",
-        "value": "chess-knight",
-        "color": "red"
-    },
-    {
-        "key": "Superior Critical",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "yellow"
     },
     {
+        "key": "Superior Critical",
+        "value": "sword",
+        "color": "red"
+    },
+    {
         "key": "Survivor",
-        "value": "heart-rate",
+        "value": "heart",
         "color": "pink"
     },
     {
         "key": "Manifest Echo",
-        "value": "stars",
+        "value": "orbit",
         "color": "purple"
     },
     {
@@ -2091,7 +2091,7 @@
     },
     {
         "key": "Echo Avatar",
-        "value": "orbit",
+        "value": "stars",
         "color": "pink"
     },
     {
@@ -2101,48 +2101,48 @@
     },
     {
         "key": "Reclaim Potential",
-        "value": "heart",
+        "value": "bone",
         "color": "pink"
     },
     {
         "key": "Legion of One",
-        "value": "magic-wand",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "Weapon Bond",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "red"
     },
     {
         "key": "War Magic",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Eldritch Strike",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Arcane Charge",
-        "value": "flash",
-        "color": "purple"
+        "value": "stars",
+        "color": "pink"
     },
     {
         "key": "Improved War Magic",
-        "value": "flash",
+        "value": "magic-wand",
         "color": "purple"
     },
     {
         "key": "Psionic Power",
-        "value": "brain",
+        "value": "thought",
         "color": "purple"
     },
     {
         "key": "Telekinetic Adept",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Guarded Mind",
@@ -2151,48 +2151,48 @@
     },
     {
         "key": "Bulwark of Force",
-        "value": "brain",
+        "value": "thought",
         "color": "pink"
     },
     {
         "key": "Telekinetic Master",
         "value": "brain",
-        "color": "pink"
-    },
-    {
-        "key": "Rune Carver",
-        "value": "reference",
-        "color": "brown"
-    },
-    {
-        "key": "Giant's Might",
-        "value": "sword",
-        "color": "red"
-    },
-    {
-        "key": "Runic Shield",
-        "value": "shield",
         "color": "purple"
     },
     {
-        "key": "Great Stature",
-        "value": "stars",
-        "color": "pink"
-    },
-    {
-        "key": "Master of Runes",
+        "key": "Rune Carver",
         "value": "gem",
         "color": "purple"
     },
     {
-        "key": "Runic Juggernaut",
+        "key": "Giant's Might",
+        "value": "chess-knight",
+        "color": "yellow"
+    },
+    {
+        "key": "Runic Shield",
+        "value": "shield",
+        "color": "brown"
+    },
+    {
+        "key": "Great Stature",
+        "value": "gem",
+        "color": "purple"
+    },
+    {
+        "key": "Master of Runes",
         "value": "reference",
         "color": "brown"
     },
     {
+        "key": "Runic Juggernaut",
+        "value": "gem",
+        "color": "purple"
+    },
+    {
         "key": "Fighting Spirit",
         "value": "chess-knight",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Elegant Courtier",
@@ -2202,27 +2202,27 @@
     {
         "key": "Tireless Spirit",
         "value": "sword",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Rapid Strike",
         "value": "sword",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Strength Before Death",
-        "value": "skull",
+        "value": "grave",
         "color": "brown"
     },
     {
         "key": "Arcane Arrow",
-        "value": "stars",
-        "color": "pink"
+        "value": "magic-wand",
+        "color": "purple"
     },
     {
         "key": "Archer's Lore",
-        "value": "book",
-        "color": "lightgray"
+        "value": "book-closed",
+        "color": "white"
     },
     {
         "key": "Conjure Arrows",
@@ -2231,38 +2231,38 @@
     },
     {
         "key": "Ever-Ready Arrow",
-        "value": "target",
-        "color": "red"
+        "value": "archery",
+        "color": "lightgray"
     },
     {
         "key": "Deadly Arrow",
-        "value": "bullseye",
-        "color": "orange"
+        "value": "archery",
+        "color": "lightgray"
     },
     {
         "key": "Arcane Shots",
-        "value": "flash",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Arcane Archer's Lore",
-        "value": "library",
-        "color": "white"
+        "value": "book",
+        "color": "lightgray"
     },
     {
         "key": "Brute Force",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Brutish Durability",
-        "value": "bone",
-        "color": "lightgray"
+        "value": "skull",
+        "color": "brown"
     },
     {
         "key": "Devastating Critical",
-        "value": "sword",
-        "color": "red"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Implacable Mark",
@@ -2271,18 +2271,18 @@
     },
     {
         "key": "Noble Cavalry",
-        "value": "bug",
+        "value": "hare",
         "color": "orange"
     },
     {
         "key": "Defender's Blade",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Hunter's Mysticism",
-        "value": "stars",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Monster Slayer",
@@ -2291,18 +2291,18 @@
     },
     {
         "key": "Psionic Talent",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Psi Replenishment",
-        "value": "thought",
+        "value": "brain",
         "color": "pink"
     },
     {
         "key": "Psi-Enhanced Metabolism",
-        "value": "brain",
-        "color": "purple"
+        "value": "thought",
+        "color": "pink"
     },
     {
         "key": "Telekinetic Hand",
@@ -2311,13 +2311,13 @@
     },
     {
         "key": "Psionic Armament",
-        "value": "thought",
+        "value": "brain",
         "color": "purple"
     },
     {
         "key": "Strength of Mind",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Telekinetic Bulwark",
@@ -2327,21 +2327,21 @@
     {
         "key": "Agonizing Strikes",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Psychic Dreadnought",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Rune Magic",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "stars",
+        "color": "purple"
     },
     {
         "key": "Giant Might",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
@@ -2351,63 +2351,63 @@
     },
     {
         "key": "Blessing of the All Father",
-        "value": "sun",
-        "color": "white"
+        "value": "torii",
+        "color": "yellow"
     },
     {
         "key": "Natural Explorer",
         "value": "map",
-        "color": "orange"
+        "color": "green"
     },
     {
         "key": "Steady Aim",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "lightgray"
     },
     {
         "key": "Careful Eyes",
         "value": "water",
-        "color": "white"
-    },
-    {
-        "key": "Close-Quarters Shooting",
-        "value": "sword",
-        "color": "yellow"
-    },
-    {
-        "key": "Snap Shot",
-        "value": "bullseye",
         "color": "lightgray"
     },
     {
-        "key": "Martial Arts",
+        "key": "Close-Quarters Shooting",
         "value": "chess-knight",
         "color": "red"
     },
     {
-        "key": "Ki",
-        "value": "yin-yang",
+        "key": "Snap Shot",
+        "value": "bullseye",
         "color": "orange"
     },
     {
+        "key": "Martial Arts",
+        "value": "sword",
+        "color": "lightgray"
+    },
+    {
+        "key": "Ki",
+        "value": "yin-yang",
+        "color": "brown"
+    },
+    {
         "key": "Unarmored Movement",
-        "value": "run",
+        "value": "walk",
         "color": "orange"
     },
     {
         "key": "Dedicated Weapon",
-        "value": "chess-knight",
-        "color": "lightgray"
+        "value": "sword",
+        "color": "red"
     },
     {
         "key": "Monastic Tradition",
         "value": "hand",
-        "color": "orange"
+        "color": "brown"
     },
     {
         "key": "Deflect Missiles",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Ki-Fueled Attack",
@@ -2422,42 +2422,42 @@
     {
         "key": "Quickened Healing",
         "value": "first-aid",
-        "color": "red"
+        "color": "pink"
     },
     {
         "key": "Stunning Strike",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Focused Aim",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Ki-Empowered Strikes",
         "value": "sword",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Evasion",
         "value": "volcano",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Stillness of Mind",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Purity of Body",
-        "value": "chemistry",
+        "value": "bug",
         "color": "green"
     },
     {
         "key": "Tongue of the Sun and Moon",
-        "value": "thought",
-        "color": "pink"
+        "value": "brain",
+        "color": "purple"
     },
     {
         "key": "Diamond Soul",
@@ -2466,7 +2466,7 @@
     },
     {
         "key": "Empty Body",
-        "value": "yin-yang",
+        "value": "hand",
         "color": "brown"
     },
     {
@@ -2476,23 +2476,23 @@
     },
     {
         "key": "Arms of the Astral Self",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "yellow"
     },
     {
         "key": "Visage of the Astral Self",
-        "value": "binoculars",
+        "value": "view",
         "color": "yellow"
     },
     {
         "key": "Body of the Astral Self",
         "value": "flash",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Awakened Astral Self",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Draconic Disciple",
@@ -2506,43 +2506,43 @@
     },
     {
         "key": "Wings Unfurled",
-        "value": "feather",
-        "color": "white"
+        "value": "airplane",
+        "color": "lightgray"
     },
     {
         "key": "Aspect of the Wyrm",
-        "value": "circle-dashed",
-        "color": "purple"
+        "value": "orbit",
+        "color": "yellow"
     },
     {
         "key": "Ascendant Aspect",
-        "value": "snake",
+        "value": "chemistry",
         "color": "green"
     },
     {
         "key": "Drunken Technique",
         "value": "walk",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Tipsy Sway",
         "value": "sword",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Drunkard's Luck",
         "value": "die6",
-        "color": "green"
+        "color": "yellow"
     },
     {
         "key": "Intoxicated Frenzy",
-        "value": "fire",
-        "color": "red"
+        "value": "volcano",
+        "color": "orange"
     },
     {
         "key": "Disciple of the Elements",
         "value": "yin-yang",
-        "color": "orange"
+        "color": "brown"
     },
     {
         "key": "Path of the Kensei",
@@ -2551,18 +2551,18 @@
     },
     {
         "key": "One with the Blade",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Sharpen the Blade",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Unerring Accuracy",
-        "value": "chess-knight",
-        "color": "lightgray"
+        "value": "sword",
+        "color": "yellow"
     },
     {
         "key": "Touch of Death",
@@ -2571,22 +2571,22 @@
     },
     {
         "key": "Hour of Reaping",
-        "value": "skull",
+        "value": "long-bone",
         "color": "brown"
     },
     {
         "key": "Mastery of Death",
-        "value": "grave",
+        "value": "long-bone",
         "color": "brown"
     },
     {
         "key": "Touch of the Long Death",
-        "value": "long-bone",
+        "value": "grave",
         "color": "lightgray"
     },
     {
         "key": "Implements of Mercy",
-        "value": "shade-contrast",
+        "value": "view-off",
         "color": "white"
     },
     {
@@ -2596,113 +2596,113 @@
     },
     {
         "key": "Hands of Harm",
-        "value": "chess-knight",
-        "color": "lightgray"
+        "value": "sword",
+        "color": "red"
     },
     {
         "key": "Physician's Touch",
-        "value": "star-of-life",
+        "value": "heart-rate",
         "color": "pink"
     },
     {
         "key": "Flurry of Healing and Harm",
         "value": "yin-yang",
-        "color": "orange"
+        "color": "brown"
     },
     {
         "key": "Hand of Ultimate Mercy",
-        "value": "first-aid-kit",
+        "value": "star-of-life",
         "color": "pink"
     },
     {
         "key": "Open Hand Technique",
-        "value": "yin-yang",
+        "value": "hand",
         "color": "orange"
     },
     {
         "key": "Wholeness of Body",
-        "value": "heart-rate",
+        "value": "star-of-life",
         "color": "pink"
     },
     {
         "key": "Tranquility",
-        "value": "hourglass",
+        "value": "bed",
         "color": "lightgray"
     },
     {
         "key": "Quivering Palm",
-        "value": "bone",
+        "value": "heart-rate",
         "color": "red"
     },
     {
         "key": "Shadow Arts",
-        "value": "asterisk",
-        "color": "purple"
+        "value": "moon",
+        "color": "brown"
     },
     {
         "key": "Shadow Step",
-        "value": "asterisk",
+        "value": "moon",
         "color": "brown"
     },
     {
         "key": "Cloak of Shadows",
-        "value": "asterisk",
-        "color": "brown"
+        "value": "partly-cloudy-night",
+        "color": "purple"
     },
     {
         "key": "Opportunist",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Radiant Sun Bolt",
-        "value": "torii",
-        "color": "brown"
-    },
-    {
-        "key": "Searing Arc Strike",
-        "value": "water",
+        "value": "sun",
         "color": "white"
     },
     {
+        "key": "Searing Arc Strike",
+        "value": "sailboat",
+        "color": "lightgray"
+    },
+    {
         "key": "Searing Sunburst",
-        "value": "water",
+        "value": "sailboat",
         "color": "white"
     },
     {
         "key": "Sun Shield",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Awakening of the Astral Self",
-        "value": "hand",
+        "value": "yin-yang",
         "color": "brown"
     },
     {
         "key": "Complete Astral Self",
         "value": "sword",
-        "color": "red"
+        "color": "yellow"
     },
     {
         "key": "Noxious Aura",
         "value": "orbit",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Healing Technique",
-        "value": "first-aid",
-        "color": "pink"
+        "value": "heart-rate",
+        "color": "red"
     },
     {
         "key": "Hand of Mercy",
         "value": "yin-yang",
-        "color": "orange"
+        "color": "brown"
     },
     {
         "key": "Path of Tranquility",
         "value": "church",
-        "color": "brown"
+        "color": "white"
     },
     {
         "key": "Healing Hands",
@@ -2712,12 +2712,12 @@
     {
         "key": "Emissary of Peace",
         "value": "dialogue",
-        "color": "orange"
+        "color": "pink"
     },
     {
         "key": "Douse the Flames of War",
         "value": "forest-fire",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Anger of a Gentle Soul",
@@ -2726,23 +2726,23 @@
     },
     {
         "key": "Psionics",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Mystic Order",
         "value": "gem",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Mystical Recovery",
         "value": "heart-rate",
-        "color": "pink"
+        "color": "red"
     },
     {
         "key": "Telepathy",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Potent Psionics",
@@ -2751,93 +2751,93 @@
     },
     {
         "key": "Consumptive Power",
-        "value": "thought",
-        "color": "purple"
-    },
-    {
-        "key": "Psionic Mastery",
         "value": "brain",
         "color": "pink"
     },
     {
-        "key": "Psionic Body",
+        "key": "Psionic Mastery",
         "value": "thought",
         "color": "pink"
     },
     {
+        "key": "Psionic Body",
+        "value": "brain",
+        "color": "pink"
+    },
+    {
         "key": "Beacon",
-        "value": "brightness-high",
+        "value": "sun",
         "color": "white"
     },
     {
         "key": "Blade Meld",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "yellow"
     },
     {
         "key": "Blind Spot",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Delusion",
-        "value": "telescope",
+        "value": "binoculars",
         "color": "yellow"
     },
     {
         "key": "Energy Beam",
         "value": "flash",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Light Step",
         "value": "walk",
-        "color": "orange"
+        "color": "green"
     },
     {
         "key": "Mind Meld",
-        "value": "brain",
+        "value": "thought",
         "color": "purple"
     },
     {
         "key": "Mind Slam",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Mind Thrust",
-        "value": "brain",
-        "color": "purple"
+        "value": "thought",
+        "color": "pink"
     },
     {
         "key": "Mystic Charm",
-        "value": "dialogue",
+        "value": "chat",
         "color": "orange"
     },
     {
         "key": "Mystic Hand",
-        "value": "flash",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Psychic Hammer",
-        "value": "thought",
+        "value": "brain",
         "color": "pink"
     },
     {
         "key": "Using a Discipline",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Bonus Disciplines",
-        "value": "thought",
+        "value": "brain",
         "color": "purple"
     },
     {
         "key": "Armor Training",
         "value": "shield",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Avatar of Healing",
@@ -2846,28 +2846,28 @@
     },
     {
         "key": "Avatar of Speed",
-        "value": "run",
-        "color": "green"
+        "value": "walk",
+        "color": "orange"
     },
     {
         "key": "Awakened Talent",
-        "value": "binoculars",
+        "value": "view",
         "color": "yellow"
     },
     {
         "key": "Psionic Investigation",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Psionic Surge",
-        "value": "thought",
+        "value": "brain",
         "color": "purple"
     },
     {
         "key": "Spectral Form",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Immortal Durability",
@@ -2881,17 +2881,17 @@
     },
     {
         "key": "Surge of Health",
-        "value": "heart-rate",
+        "value": "first-aid",
         "color": "red"
     },
     {
         "key": "Immortal Will",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Breadth of Knowledge",
-        "value": "book-closed",
+        "value": "book",
         "color": "lightgray"
     },
     {
@@ -2902,31 +2902,31 @@
     {
         "key": "Superior Teleportation",
         "value": "flash",
-        "color": "pink"
-    },
-    {
-        "key": "Effortless Journey",
-        "value": "thought",
         "color": "purple"
     },
     {
-        "key": "Martial Training",
-        "value": "sword",
-        "color": "yellow"
+        "key": "Effortless Journey",
+        "value": "brain",
+        "color": "pink"
     },
     {
-        "key": "Soul Knife",
+        "key": "Martial Training",
         "value": "chess-knight",
         "color": "red"
     },
     {
-        "key": "Hone the Blade",
+        "key": "Soul Knife",
         "value": "chess-knight",
+        "color": "lightgray"
+    },
+    {
+        "key": "Hone the Blade",
+        "value": "sword",
         "color": "yellow"
     },
     {
         "key": "Consumptive Knife",
-        "value": "brain",
+        "value": "thought",
         "color": "pink"
     },
     {
@@ -2936,18 +2936,18 @@
     },
     {
         "key": "Hermit\u2019s Study",
-        "value": "gradebook",
-        "color": "brown"
+        "value": "library",
+        "color": "white"
     },
     {
         "key": "Elemental Attunement",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Arcane Dabbler",
-        "value": "stars",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Elemental Mastery",
@@ -2956,18 +2956,18 @@
     },
     {
         "key": "Divine Sense",
-        "value": "binoculars",
-        "color": "yellow"
+        "value": "telescope",
+        "color": "lightgray"
     },
     {
         "key": "Lay on Hands",
-        "value": "first-aid",
+        "value": "heart-rate",
         "color": "red"
     },
     {
         "key": "Divine Smite",
-        "value": "church",
-        "color": "yellow"
+        "value": "asterisk",
+        "color": "brown"
     },
     {
         "key": "Divine Health",
@@ -2981,8 +2981,8 @@
     },
     {
         "key": "Aura of Protection",
-        "value": "orbit",
-        "color": "purple"
+        "value": "circle-dashed",
+        "color": "yellow"
     },
     {
         "key": "Aura of Courage",
@@ -2991,47 +2991,47 @@
     },
     {
         "key": "Improved Divine Smite",
-        "value": "church",
-        "color": "yellow"
-    },
-    {
-        "key": "Cleansing Touch",
-        "value": "chat",
-        "color": "orange"
-    },
-    {
-        "key": "Tenets of the Ancients",
-        "value": "temple",
+        "value": "sun",
         "color": "white"
     },
     {
+        "key": "Cleansing Touch",
+        "value": "megaphone",
+        "color": "pink"
+    },
+    {
+        "key": "Tenets of the Ancients",
+        "value": "star-of-life",
+        "color": "brown"
+    },
+    {
         "key": "Oath Spells",
-        "value": "torii",
-        "color": "yellow"
+        "value": "star-of-life",
+        "color": "brown"
     },
     {
         "key": "Aura of Warding",
-        "value": "reference",
+        "value": "gem",
         "color": "brown"
     },
     {
         "key": "Undying Sentinel",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Elder Champion",
-        "value": "mushroom",
+        "value": "conifer-tree",
         "color": "brown"
     },
     {
         "key": "Tenets of Conquest",
-        "value": "sun",
+        "value": "star-of-life",
         "color": "brown"
     },
     {
         "key": "Aura of Conquest",
-        "value": "circle-dashed",
+        "value": "orbit",
         "color": "purple"
     },
     {
@@ -3042,32 +3042,32 @@
     {
         "key": "Invincible Conqueror",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "red"
     },
     {
         "key": "Tenets of the Crown",
-        "value": "sun",
-        "color": "brown"
-    },
-    {
-        "key": "Divine Allegiance",
         "value": "asterisk",
         "color": "brown"
     },
     {
+        "key": "Divine Allegiance",
+        "value": "torii",
+        "color": "yellow"
+    },
+    {
         "key": "Unyielding Saint",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "church",
+        "color": "brown"
     },
     {
         "key": "Exalted Champion",
-        "value": "circle-dashed",
-        "color": "purple"
+        "value": "orbit",
+        "color": "yellow"
     },
     {
         "key": "Tenets of Devotion",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "temple",
+        "color": "yellow"
     },
     {
         "key": "Aura of Devotion",
@@ -3077,61 +3077,61 @@
     {
         "key": "Purity of Spirit",
         "value": "shield",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Holy Nimbus",
-        "value": "star-of-life",
-        "color": "brown"
+        "value": "temple",
+        "color": "white"
     },
     {
         "key": "Tenets Of Glory",
-        "value": "star-of-life",
-        "color": "brown"
+        "value": "temple",
+        "color": "yellow"
     },
     {
         "key": "Aura of Alacrity",
-        "value": "orbit",
-        "color": "yellow"
+        "value": "circle-dashed",
+        "color": "purple"
     },
     {
         "key": "Glorious Defense",
         "value": "shield",
-        "color": "purple"
-    },
-    {
-        "key": "Living Legend",
-        "value": "sword",
         "color": "lightgray"
     },
     {
+        "key": "Living Legend",
+        "value": "chess-knight",
+        "color": "yellow"
+    },
+    {
         "key": "Tenets of Redemption",
-        "value": "torii",
+        "value": "church",
         "color": "brown"
     },
     {
         "key": "Aura of the Guardian",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Protective Spirit",
         "value": "shield",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Emissary of Redemption",
-        "value": "torii",
-        "color": "brown"
+        "value": "church",
+        "color": "yellow"
     },
     {
         "key": "Tenets of Vengeance",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "sun",
+        "color": "yellow"
     },
     {
         "key": "Relentless Avenger",
-        "value": "walk",
+        "value": "run",
         "color": "green"
     },
     {
@@ -3141,12 +3141,12 @@
     },
     {
         "key": "Avenging Angel",
-        "value": "hot-air-balloon",
+        "value": "feather",
         "color": "white"
     },
     {
         "key": "Tenets of the Watchers",
-        "value": "star-of-life",
+        "value": "asterisk",
         "color": "brown"
     },
     {
@@ -3156,13 +3156,13 @@
     },
     {
         "key": "Vigilant Rebuke",
-        "value": "book-closed",
-        "color": "lightgray"
+        "value": "gradebook",
+        "color": "brown"
     },
     {
         "key": "Mortal Bulwark",
-        "value": "torii",
-        "color": "brown"
+        "value": "sun",
+        "color": "yellow"
     },
     {
         "key": "Aura of Hate",
@@ -3172,36 +3172,36 @@
     {
         "key": "Supernatural Resistance",
         "value": "shield",
-        "color": "yellow"
-    },
-    {
-        "key": "Dread Lord",
-        "value": "emoji-surprised",
         "color": "brown"
     },
     {
+        "key": "Dread Lord",
+        "value": "ghost",
+        "color": "purple"
+    },
+    {
         "key": "Tenets of Treachery",
-        "value": "torii",
-        "color": "white"
+        "value": "asterisk",
+        "color": "yellow"
     },
     {
         "key": "Aura of Treachery",
-        "value": "circle-dashed",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "Blackguard's Escape",
-        "value": "flash",
-        "color": "pink"
+        "value": "ringed-planet",
+        "color": "purple"
     },
     {
         "key": "Icon of Deceit",
-        "value": "temple",
-        "color": "white"
+        "value": "church",
+        "color": "yellow"
     },
     {
         "key": "Redemption Spells",
-        "value": "star-of-life",
+        "value": "sun",
         "color": "white"
     },
     {
@@ -3211,87 +3211,87 @@
     },
     {
         "key": "Warrior of Reconciliation",
-        "value": "sword",
-        "color": "lightgray"
+        "value": "chess-knight",
+        "color": "red"
     },
     {
         "key": "Tenets of Heroism",
-        "value": "star-of-life",
-        "color": "yellow"
+        "value": "sun",
+        "color": "white"
     },
     {
         "key": "Mighty Deed",
-        "value": "ghost",
+        "value": "skull",
         "color": "purple"
     },
     {
         "key": "Living Myth",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Favored Enemy",
-        "value": "target",
-        "color": "green"
-    },
-    {
-        "key": "Favored Foe",
-        "value": "binoculars",
-        "color": "green"
-    },
-    {
-        "key": "Deft Explorer",
-        "value": "binoculars",
-        "color": "green"
-    },
-    {
-        "key": "Primeval Awareness",
-        "value": "telescope",
-        "color": "yellow"
-    },
-    {
-        "key": "Primal Awareness",
-        "value": "cat",
-        "color": "orange"
-    },
-    {
-        "key": "Ranger Conclave",
         "value": "map",
         "color": "green"
     },
     {
+        "key": "Favored Foe",
+        "value": "compass",
+        "color": "orange"
+    },
+    {
+        "key": "Deft Explorer",
+        "value": "binoculars",
+        "color": "orange"
+    },
+    {
+        "key": "Primeval Awareness",
+        "value": "view",
+        "color": "lightgray"
+    },
+    {
+        "key": "Primal Awareness",
+        "value": "hare",
+        "color": "orange"
+    },
+    {
+        "key": "Ranger Conclave",
+        "value": "target",
+        "color": "green"
+    },
+    {
         "key": "Hide in Plain Sight",
-        "value": "conceal",
+        "value": "view-off",
         "color": "lightgray"
     },
     {
         "key": "Nature's Veil",
-        "value": "clover",
-        "color": "green"
+        "value": "conifer-tree",
+        "color": "brown"
     },
     {
         "key": "Vanish",
         "value": "target",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Feral Senses",
         "value": "telescope",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Foe Slayer",
         "value": "target",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Ranger's Companion",
-        "value": "butterfly",
+        "value": "hare",
         "color": "green"
     },
     {
         "key": "Primal Companion",
-        "value": "cat",
+        "value": "bug",
         "color": "green"
     },
     {
@@ -3306,27 +3306,27 @@
     },
     {
         "key": "Share Spells",
-        "value": "fish",
+        "value": "butterfly",
         "color": "green"
     },
     {
         "key": "Dreadful Strikes",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Fey Wanderer Magic",
-        "value": "flash",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Otherworldly Glamour",
-        "value": "gem",
-        "color": "purple"
+        "value": "ghost",
+        "color": "pink"
     },
     {
         "key": "Beguiling Twist",
-        "value": "ghost",
+        "value": "emoji-surprised",
         "color": "brown"
     },
     {
@@ -3336,53 +3336,53 @@
     },
     {
         "key": "Misty Wanderer",
-        "value": "ringed-planet",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Gloom Stalker Magic",
         "value": "asterisk",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Dread Ambusher",
-        "value": "conceal",
-        "color": "lightgray"
+        "value": "view-off",
+        "color": "white"
     },
     {
         "key": "Umbral Sight",
-        "value": "asterisk",
+        "value": "partly-cloudy-night",
         "color": "brown"
     },
     {
         "key": "Iron Mind",
-        "value": "thought",
-        "color": "pink"
+        "value": "brain",
+        "color": "purple"
     },
     {
         "key": "Stalker's Flurry",
-        "value": "hand",
-        "color": "orange"
+        "value": "yin-yang",
+        "color": "brown"
     },
     {
         "key": "Shadowy Dodge",
-        "value": "asterisk",
+        "value": "moon",
         "color": "brown"
     },
     {
         "key": "Horizon Walker Magic",
-        "value": "gem",
+        "value": "magic-wand",
         "color": "purple"
     },
     {
         "key": "Detect Portal",
         "value": "orbit",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Planar Warrior",
-        "value": "orbit",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Ethereal Step",
@@ -3392,22 +3392,22 @@
     {
         "key": "Distant Strike",
         "value": "sword",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Spectral Defense",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Hunter's Prey",
-        "value": "compass",
+        "value": "target",
         "color": "green"
     },
     {
         "key": "Defensive Tactics",
-        "value": "emoji-surprised",
-        "color": "brown"
+        "value": "skull",
+        "color": "purple"
     },
     {
         "key": "Multiattack",
@@ -3416,42 +3416,42 @@
     },
     {
         "key": "Superior Hunter's Defense",
-        "value": "target",
+        "value": "compass",
         "color": "green"
     },
     {
         "key": "Monster Slayer Magic",
-        "value": "gem",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Hunter's Sense",
-        "value": "telescope",
-        "color": "lightgray"
+        "value": "view",
+        "color": "yellow"
     },
     {
         "key": "Slayer's Prey",
         "value": "target",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Supernatural Defense",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Magic-User's Nemesis",
-        "value": "stars",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Slayer's Counter",
-        "value": "binoculars",
-        "color": "green"
+        "value": "compass",
+        "color": "orange"
     },
     {
         "key": "Gathered Swarm",
-        "value": "bug",
+        "value": "cat",
         "color": "orange"
     },
     {
@@ -3461,68 +3461,68 @@
     },
     {
         "key": "Writhing Tide",
-        "value": "water",
-        "color": "lightgray"
+        "value": "anchor",
+        "color": "white"
     },
     {
         "key": "Mighty Swarm",
         "value": "bug",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Swarming Dispersal",
-        "value": "hare",
+        "value": "fish",
         "color": "orange"
     },
     {
         "key": "Draconic Gift",
-        "value": "library",
-        "color": "brown"
+        "value": "book-closed",
+        "color": "lightgray"
     },
     {
         "key": "Drake Companion",
         "value": "hare",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Bond of Fang and Scale",
         "value": "shield",
-        "color": "lightgray"
+        "color": "brown"
     },
     {
         "key": "Drake\u2019s Breath",
-        "value": "bug",
+        "value": "chemistry",
         "color": "green"
     },
     {
         "key": "Perfected Bond",
-        "value": "stars",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "Underdark Scout",
         "value": "conceal",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Deep Stalker Magic",
-        "value": "gem",
-        "color": "purple"
+        "value": "magic-wand",
+        "color": "pink"
     },
     {
         "key": "Stalker's Dodge",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Feywild Gifts",
-        "value": "star-of-life",
-        "color": "white"
+        "value": "asterisk",
+        "color": "brown"
     },
     {
         "key": "Cunning Will",
-        "value": "shade-contrast",
-        "color": "purple"
+        "value": "view-off",
+        "color": "lightgray"
     },
     {
         "key": "Blessings of the Courts",
@@ -3536,23 +3536,23 @@
     },
     {
         "key": "Slayer\u2019s Mysticism",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Slayer\u2019s Eye",
         "value": "sword",
-        "color": "red"
-    },
-    {
-        "key": "Extra Attack (Revised Ranger)",
-        "value": "chess-knight",
         "color": "lightgray"
     },
     {
+        "key": "Extra Attack (Revised Ranger)",
+        "value": "sword",
+        "color": "red"
+    },
+    {
         "key": "Relentless Slayer",
-        "value": "gradebook",
-        "color": "yellow"
+        "value": "book-closed",
+        "color": "white"
     },
     {
         "key": "Slayer\u2019s Counter",
@@ -3562,7 +3562,7 @@
     {
         "key": "Guardian Magic",
         "value": "flash",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Guardian Soul",
@@ -3571,23 +3571,23 @@
     },
     {
         "key": "Piercing Thorns",
-        "value": "clover",
-        "color": "green"
+        "value": "leaf",
+        "color": "brown"
     },
     {
         "key": "Ancient Fortitude",
-        "value": "heart",
+        "value": "heart-rate",
         "color": "pink"
     },
     {
         "key": "Rooted Defense",
         "value": "shield",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Guardian Aura",
         "value": "shield",
-        "color": "brown"
+        "color": "yellow"
     },
     {
         "key": "Scuttling Eyes",
@@ -3606,23 +3606,23 @@
     },
     {
         "key": "Thieves' Cant",
-        "value": "unlock",
-        "color": "lightgray"
+        "value": "key-antique",
+        "color": "yellow"
     },
     {
         "key": "Cunning Action",
-        "value": "conceal",
+        "value": "shade-contrast",
         "color": "purple"
     },
     {
         "key": "Roguish Archetype",
-        "value": "conceal",
-        "color": "purple"
+        "value": "shade-contrast",
+        "color": "white"
     },
     {
         "key": "Uncanny Dodge",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Reliable Talent",
@@ -3631,57 +3631,57 @@
     },
     {
         "key": "Blindsense",
-        "value": "view-off",
+        "value": "shade-contrast",
         "color": "purple"
     },
     {
         "key": "Slippery Mind",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Elusive",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Stroke of Luck",
         "value": "cards",
-        "color": "yellow"
+        "color": "green"
     },
     {
         "key": "Mage Hand Legerdemain",
         "value": "unlock",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Magical Ambush",
         "value": "conceal",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Versatile Trickster",
-        "value": "sword",
-        "color": "red"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Spell Thief",
-        "value": "gem",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Assassinate",
         "value": "shade-contrast",
-        "color": "white"
+        "color": "purple"
     },
     {
         "key": "Infiltration Expertise",
-        "value": "shade-contrast",
-        "color": "white"
+        "value": "view-off",
+        "color": "lightgray"
     },
     {
         "key": "Impostor",
-        "value": "megaphone",
+        "value": "chat",
         "color": "orange"
     },
     {
@@ -3692,36 +3692,36 @@
     {
         "key": "Ear for Deceit",
         "value": "telescope",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Eye for Detail",
-        "value": "library",
-        "color": "white"
+        "value": "book",
+        "color": "yellow"
     },
     {
         "key": "Insightful Fighting",
-        "value": "chess-knight",
-        "color": "lightgray"
+        "value": "sword",
+        "color": "yellow"
     },
     {
         "key": "Steady Eye",
-        "value": "library",
-        "color": "brown"
+        "value": "book-closed",
+        "color": "lightgray"
     },
     {
         "key": "Unerring Eye",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "pink"
     },
     {
         "key": "Eye for Weakness",
         "value": "sword",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Master of Intrigue",
-        "value": "shade-contrast",
+        "value": "view-off",
         "color": "lightgray"
     },
     {
@@ -3731,18 +3731,18 @@
     },
     {
         "key": "Insightful Manipulator",
-        "value": "view",
-        "color": "yellow"
+        "value": "telescope",
+        "color": "lightgray"
     },
     {
         "key": "Misdirection",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Soul of Deceit",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Whispers of the Dead",
@@ -3751,32 +3751,32 @@
     },
     {
         "key": "Wails from the Grave",
-        "value": "bone",
+        "value": "skull-profile",
         "color": "brown"
     },
     {
         "key": "Tokens of the Departed",
-        "value": "bone",
-        "color": "lightgray"
+        "value": "skull-profile",
+        "color": "brown"
     },
     {
         "key": "Ghost Walk",
-        "value": "target",
+        "value": "compass",
         "color": "orange"
     },
     {
         "key": "Death's Friend",
-        "value": "bone",
-        "color": "brown"
+        "value": "skull-profile",
+        "color": "lightgray"
     },
     {
         "key": "Skirmisher",
-        "value": "walk",
-        "color": "orange"
+        "value": "run",
+        "color": "green"
     },
     {
         "key": "Survivalist",
-        "value": "cactus",
+        "value": "tree",
         "color": "green"
     },
     {
@@ -3786,57 +3786,57 @@
     },
     {
         "key": "Ambush Master",
-        "value": "shade-contrast",
-        "color": "lightgray"
+        "value": "view-off",
+        "color": "white"
     },
     {
         "key": "Sudden Strike",
         "value": "sword",
-        "color": "red"
+        "color": "yellow"
     },
     {
         "key": "Soul Blades",
         "value": "sword",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Psychic Veil",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Rend Mind",
-        "value": "brain",
-        "color": "pink"
+        "value": "thought",
+        "color": "purple"
     },
     {
         "key": "Fancy Footwork",
         "value": "chess-knight",
-        "color": "red"
+        "color": "lightgray"
     },
     {
         "key": "Rakish Audacity",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Panache",
-        "value": "chat",
-        "color": "orange"
+        "value": "megaphone",
+        "color": "pink"
     },
     {
         "key": "Elegant Maneuver",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Master Duelist",
-        "value": "chess-knight",
-        "color": "yellow"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Fast Hands",
-        "value": "unlock",
+        "value": "key",
         "color": "yellow"
     },
     {
@@ -3846,8 +3846,8 @@
     },
     {
         "key": "Supreme Sneak",
-        "value": "conceal",
-        "color": "white"
+        "value": "view-off",
+        "color": "lightgray"
     },
     {
         "key": "Use Magic Device",
@@ -3856,17 +3856,17 @@
     },
     {
         "key": "Thief's Reflexes",
-        "value": "conceal",
-        "color": "purple"
+        "value": "view-off",
+        "color": "lightgray"
     },
     {
         "key": "Death Knell",
-        "value": "long-bone",
+        "value": "skull-profile",
         "color": "lightgray"
     },
     {
         "key": "Tokens of Past Lives",
-        "value": "screwdriver",
+        "value": "gear",
         "color": "orange"
     },
     {
@@ -3876,27 +3876,27 @@
     },
     {
         "key": "Bolts from the Grave",
-        "value": "bone",
+        "value": "skull",
         "color": "brown"
     },
     {
         "key": "Connect with the Dead",
         "value": "library",
-        "color": "white"
+        "color": "brown"
     },
     {
         "key": "Audience with Death",
-        "value": "bone",
+        "value": "skull-profile",
         "color": "lightgray"
     },
     {
         "key": "Ethereal Jaunt",
-        "value": "orbit",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Psychic Blade",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "yellow"
     },
     {
@@ -3906,13 +3906,13 @@
     },
     {
         "key": "Terrifying Blade",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "yellow"
     },
     {
         "key": "Psi Replenishment.",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Psionic Veil",
@@ -3921,33 +3921,33 @@
     },
     {
         "key": "Sorcerous Origin",
-        "value": "gem",
+        "value": "flash",
         "color": "purple"
     },
     {
         "key": "Font of Magic",
-        "value": "gem",
-        "color": "purple"
+        "value": "stars",
+        "color": "pink"
     },
     {
         "key": "Metamagic",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Sorcerous Versatility",
-        "value": "stars",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Magical Guidance",
         "value": "flash",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Sorcerous Restoration",
-        "value": "flash",
-        "color": "purple"
+        "value": "magic-wand",
+        "color": "pink"
     },
     {
         "key": "Psionic Spells",
@@ -3956,13 +3956,13 @@
     },
     {
         "key": "Telepathic Speech",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Psionic Sorcery",
         "value": "thought",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Psychic Defenses",
@@ -3971,37 +3971,37 @@
     },
     {
         "key": "Revelation in Flesh",
-        "value": "flash",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Warping Implosion",
-        "value": "stars",
-        "color": "pink"
-    },
-    {
-        "key": "Clockwork Magic",
-        "value": "stars",
-        "color": "purple"
-    },
-    {
-        "key": "Restore Balance",
-        "value": "first-aid",
-        "color": "red"
-    },
-    {
-        "key": "Bastion of Law",
         "value": "magic-wand",
         "color": "pink"
     },
     {
+        "key": "Clockwork Magic",
+        "value": "magic-wand",
+        "color": "pink"
+    },
+    {
+        "key": "Restore Balance",
+        "value": "heart-rate",
+        "color": "red"
+    },
+    {
+        "key": "Bastion of Law",
+        "value": "gem",
+        "color": "purple"
+    },
+    {
         "key": "Trance of Order",
-        "value": "bed",
+        "value": "moon",
         "color": "purple"
     },
     {
         "key": "Clockwork Cavalcade",
-        "value": "gem",
+        "value": "flash",
         "color": "pink"
     },
     {
@@ -4011,33 +4011,33 @@
     },
     {
         "key": "Draconic Resilience",
-        "value": "gem",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Elemental Affinity",
-        "value": "stars",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Dragon Wings",
-        "value": "hot-air-balloon",
+        "value": "feather",
         "color": "white"
     },
     {
         "key": "Draconic Presence",
-        "value": "orbit",
+        "value": "circle-dashed",
         "color": "yellow"
     },
     {
         "key": "Divine Magic",
-        "value": "asterisk",
+        "value": "star-of-life",
         "color": "brown"
     },
     {
         "key": "Favored by the Gods",
-        "value": "binoculars",
-        "color": "green"
+        "value": "compass",
+        "color": "orange"
     },
     {
         "key": "Empowered Healing",
@@ -4046,73 +4046,73 @@
     },
     {
         "key": "Angelic Form",
-        "value": "hot-air-balloon",
+        "value": "airplane",
         "color": "lightgray"
     },
     {
         "key": "Unearthly Recovery",
-        "value": "first-aid-kit",
+        "value": "heart-rate",
         "color": "pink"
     },
     {
         "key": "Lunar Embodiment",
-        "value": "magic-wand",
-        "color": "pink"
-    },
-    {
-        "key": "Moon Fire",
-        "value": "volcano",
-        "color": "orange"
-    },
-    {
-        "key": "Lunar Boons",
         "value": "stars",
         "color": "pink"
     },
     {
-        "key": "Waxing and Waning",
-        "value": "magic-wand",
+        "key": "Moon Fire",
+        "value": "fire",
+        "color": "red"
+    },
+    {
+        "key": "Lunar Boons",
+        "value": "stars",
         "color": "purple"
     },
     {
-        "key": "Lunar Empowerment",
-        "value": "library",
-        "color": "white"
-    },
-    {
-        "key": "Lunar Phenomenon",
+        "key": "Waxing and Waning",
         "value": "gem",
         "color": "pink"
     },
     {
-        "key": "Shadow Sorcerer Quirks",
-        "value": "asterisk",
+        "key": "Lunar Empowerment",
+        "value": "gradebook",
+        "color": "yellow"
+    },
+    {
+        "key": "Lunar Phenomenon",
+        "value": "magic-wand",
         "color": "purple"
     },
     {
+        "key": "Shadow Sorcerer Quirks",
+        "value": "moon",
+        "color": "brown"
+    },
+    {
         "key": "Eyes of the Dark",
-        "value": "ghost",
+        "value": "partly-cloudy-night",
         "color": "purple"
     },
     {
         "key": "Strength of the Grave",
-        "value": "grave",
+        "value": "long-bone",
         "color": "lightgray"
     },
     {
         "key": "Hound of Ill Omen",
-        "value": "partly-cloudy-night",
-        "color": "brown"
+        "value": "ghost",
+        "color": "purple"
     },
     {
         "key": "Shadow Walk",
-        "value": "ghost",
+        "value": "partly-cloudy-night",
         "color": "purple"
     },
     {
         "key": "Umbral Form",
         "value": "partly-cloudy-night",
-        "color": "brown"
+        "color": "purple"
     },
     {
         "key": "Wind Speaker",
@@ -4121,48 +4121,48 @@
     },
     {
         "key": "Tempestuous Magic",
-        "value": "hurricane",
-        "color": "green"
+        "value": "tornado",
+        "color": "lightgray"
     },
     {
         "key": "Heart of the Storm",
-        "value": "storm",
+        "value": "flash",
         "color": "yellow"
     },
     {
         "key": "Storm Guide",
         "value": "flash",
-        "color": "purple"
+        "color": "yellow"
     },
     {
         "key": "Storm's Fury",
-        "value": "flash",
+        "value": "storm",
         "color": "purple"
     },
     {
         "key": "Wind Soul",
-        "value": "flash",
-        "color": "yellow"
+        "value": "storm",
+        "color": "purple"
     },
     {
         "key": "Wild Magic Surge",
-        "value": "stars",
-        "color": "pink"
+        "value": "flash",
+        "color": "purple"
     },
     {
         "key": "Tides of Chaos",
         "value": "water",
-        "color": "white"
+        "color": "lightgray"
     },
     {
         "key": "Bend Luck",
-        "value": "cards",
-        "color": "yellow"
+        "value": "clover-four-leaf",
+        "color": "green"
     },
     {
         "key": "Controlled Chaos",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Spell Bombardment",
@@ -4171,13 +4171,13 @@
     },
     {
         "key": "Heart of Fire",
-        "value": "volcano",
+        "value": "fire",
         "color": "orange"
     },
     {
         "key": "Fire in the Veins",
-        "value": "forest-fire",
-        "color": "red"
+        "value": "fire",
+        "color": "orange"
     },
     {
         "key": "Pyromancer's Fury",
@@ -4187,32 +4187,32 @@
     {
         "key": "Fiery Soul",
         "value": "fire",
-        "color": "red"
+        "color": "orange"
     },
     {
         "key": "Warped Being",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Warp Reality",
-        "value": "circle-dashed",
+        "value": "orbit",
         "color": "purple"
     },
     {
         "key": "Bulwark of Law",
         "value": "gem",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Chosen of the Gods",
-        "value": "temple",
-        "color": "yellow"
+        "value": "torii",
+        "color": "brown"
     },
     {
         "key": "Divine Wings",
-        "value": "feather",
-        "color": "white"
+        "value": "airplane",
+        "color": "lightgray"
     },
     {
         "key": "Power of the Chosen",
@@ -4221,73 +4221,73 @@
     },
     {
         "key": "Supernatural Resilience",
-        "value": "temple",
-        "color": "white"
+        "value": "asterisk",
+        "color": "brown"
     },
     {
         "key": "Blessed Countenance",
-        "value": "temple",
-        "color": "brown"
+        "value": "star-of-life",
+        "color": "white"
     },
     {
         "key": "Divine Purity",
-        "value": "sun",
-        "color": "brown"
+        "value": "asterisk",
+        "color": "white"
     },
     {
         "key": "Jotun Resilience",
         "value": "heart-rate",
-        "color": "red"
+        "color": "pink"
     },
     {
         "key": "Mark of the Ordning",
         "value": "storm",
-        "color": "yellow"
-    },
-    {
-        "key": "Soul of Lost Ostoria",
-        "value": "storm",
         "color": "purple"
     },
     {
+        "key": "Soul of Lost Ostoria",
+        "value": "flash",
+        "color": "yellow"
+    },
+    {
         "key": "Rage of Fallen Ostoria",
-        "value": "fire",
+        "value": "volcano",
         "color": "orange"
     },
     {
         "key": "Quandrix Spells",
-        "value": "sailboat",
-        "color": "lightgray"
+        "value": "anchor",
+        "color": "white"
     },
     {
         "key": "Functions of Probability",
-        "value": "chess-knight",
-        "color": "lightgray"
+        "value": "sword",
+        "color": "yellow"
     },
     {
         "key": "Velocity Shift",
-        "value": "ringed-planet",
-        "color": "purple"
+        "value": "orbit",
+        "color": "pink"
     },
     {
         "key": "Null Equation",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "red"
     },
     {
         "key": "Quantum Tunneling",
-        "value": "target",
-        "color": "green"
+        "value": "binoculars",
+        "color": "orange"
     },
     {
         "key": "Ignite",
-        "value": "volcano",
-        "color": "red"
+        "value": "forest-fire",
+        "color": "orange"
     },
     {
         "key": "Mantle of Flame",
-        "value": "volcano",
-        "color": "red"
+        "value": "forest-fire",
+        "color": "orange"
     },
     {
         "key": "Phoenix Spark",
@@ -4296,8 +4296,8 @@
     },
     {
         "key": "Nourishing Fire",
-        "value": "forest-fire",
-        "color": "red"
+        "value": "fire",
+        "color": "orange"
     },
     {
         "key": "Form of the Phoenix",
@@ -4307,7 +4307,7 @@
     {
         "key": "Psionic Origin",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Psychic Strike",
@@ -4316,22 +4316,22 @@
     },
     {
         "key": "Mind Over Body",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Psychic Aura",
-        "value": "brain",
+        "value": "thought",
         "color": "pink"
     },
     {
         "key": "Soul of the Sea",
         "value": "water",
-        "color": "lightgray"
+        "color": "white"
     },
     {
         "key": "Curse of the Sea",
-        "value": "sailboat",
+        "value": "anchor",
         "color": "white"
     },
     {
@@ -4341,13 +4341,13 @@
     },
     {
         "key": "Shifting Form",
-        "value": "sword",
-        "color": "yellow"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Water Soul",
-        "value": "water",
-        "color": "white"
+        "value": "sailboat",
+        "color": "lightgray"
     },
     {
         "key": "Shadow Form",
@@ -4356,7 +4356,7 @@
     },
     {
         "key": "Metal Magic",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
@@ -4366,48 +4366,48 @@
     },
     {
         "key": "Stone Aegis",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "lightgray"
     },
     {
         "key": "Stone's Edge",
-        "value": "flash",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Earth Master's Aegis",
         "value": "shield",
-        "color": "lightgray"
+        "color": "brown"
     },
     {
         "key": "Eldritch Invocations",
-        "value": "flash",
-        "color": "purple"
+        "value": "stars",
+        "color": "pink"
     },
     {
         "key": "Pact Boon",
         "value": "skull",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Eldritch Versatility",
-        "value": "partly-cloudy-night",
+        "value": "ghost",
         "color": "purple"
     },
     {
         "key": "Mystic Arcanum",
-        "value": "magic-wand",
-        "color": "pink"
+        "value": "stars",
+        "color": "purple"
     },
     {
         "key": "Eldritch Master",
-        "value": "ghost",
+        "value": "moon",
         "color": "brown"
     },
     {
         "key": "Expanded Spell List",
-        "value": "forest-fire",
-        "color": "orange"
+        "value": "book",
+        "color": "purple"
     },
     {
         "key": "Fey Presence",
@@ -4416,7 +4416,7 @@
     },
     {
         "key": "Misty Escape",
-        "value": "orbit",
+        "value": "flash",
         "color": "purple"
     },
     {
@@ -4426,8 +4426,8 @@
     },
     {
         "key": "Dark Delirium",
-        "value": "ghost",
-        "color": "brown"
+        "value": "asterisk",
+        "color": "purple"
     },
     {
         "key": "Bonus Cantrips",
@@ -4436,12 +4436,12 @@
     },
     {
         "key": "Healing Light",
-        "value": "heart-rate",
-        "color": "pink"
+        "value": "first-aid",
+        "color": "red"
     },
     {
         "key": "Radiant Soul",
-        "value": "church",
+        "value": "torii",
         "color": "yellow"
     },
     {
@@ -4457,17 +4457,17 @@
     {
         "key": "Tentacle of the Deep",
         "value": "sword",
-        "color": "red"
+        "color": "yellow"
     },
     {
         "key": "Gift of the Sea",
-        "value": "anchor",
+        "value": "water",
         "color": "white"
     },
     {
         "key": "Oceanic Soul",
-        "value": "sailboat",
-        "color": "lightgray"
+        "value": "anchor",
+        "color": "white"
     },
     {
         "key": "Guardian Coil",
@@ -4476,23 +4476,23 @@
     },
     {
         "key": "Grasping Tentacles",
-        "value": "gem",
-        "color": "purple"
+        "value": "ghost",
+        "color": "pink"
     },
     {
         "key": "Fathomless Plunge",
-        "value": "sailboat",
-        "color": "lightgray"
+        "value": "water",
+        "color": "white"
     },
     {
         "key": "Dark One's Blessing",
-        "value": "sun",
-        "color": "yellow"
+        "value": "star-of-life",
+        "color": "brown"
     },
     {
         "key": "Dark One's Own Luck",
-        "value": "die6",
-        "color": "green"
+        "value": "clover-four-leaf",
+        "color": "yellow"
     },
     {
         "key": "Fiendish Resilience",
@@ -4501,23 +4501,23 @@
     },
     {
         "key": "Hurl Through Hell",
-        "value": "ghost",
-        "color": "brown"
+        "value": "asterisk",
+        "color": "purple"
     },
     {
         "key": "Genie's Vessel",
-        "value": "ghost",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Elemental Gift",
-        "value": "volcano",
-        "color": "orange"
+        "value": "fire",
+        "color": "red"
     },
     {
         "key": "Sanctuary Vessel",
-        "value": "asterisk",
-        "color": "brown"
+        "value": "star-of-life",
+        "color": "white"
     },
     {
         "key": "Limited Wish",
@@ -4527,86 +4527,86 @@
     {
         "key": "Awakened Mind",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Entropic Ward",
-        "value": "hashtag",
+        "value": "gem",
         "color": "brown"
     },
     {
         "key": "Thought Shield",
         "value": "shield",
-        "color": "purple"
+        "color": "lightgray"
     },
     {
         "key": "Create Thrall",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Hexblade's Curse",
-        "value": "ghost",
+        "value": "skull",
         "color": "brown"
     },
     {
         "key": "Hex Warrior",
-        "value": "skull",
-        "color": "purple"
+        "value": "ghost",
+        "color": "brown"
     },
     {
         "key": "Accursed Specter",
-        "value": "chat",
-        "color": "pink"
+        "value": "dialogue",
+        "color": "orange"
     },
     {
         "key": "Armor of Hexes",
-        "value": "ghost",
-        "color": "purple"
+        "value": "bomb",
+        "color": "brown"
     },
     {
         "key": "Master of Hexes",
-        "value": "ghost",
-        "color": "purple"
+        "value": "skull",
+        "color": "brown"
     },
     {
         "key": "Form of Dread",
-        "value": "skull",
+        "value": "emoji-surprised",
         "color": "brown"
     },
     {
         "key": "Grave Touched",
-        "value": "skull",
-        "color": "brown"
-    },
-    {
-        "key": "Necrotic Husk",
-        "value": "long-bone",
+        "value": "grave",
         "color": "lightgray"
     },
     {
+        "key": "Necrotic Husk",
+        "value": "grave",
+        "color": "brown"
+    },
+    {
         "key": "Spirit Projection",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Among the Dead",
-        "value": "library",
-        "color": "brown"
+        "value": "book",
+        "color": "lightgray"
     },
     {
         "key": "Defy Death",
-        "value": "skull",
-        "color": "brown"
+        "value": "long-bone",
+        "color": "lightgray"
     },
     {
         "key": "Undying Nature",
-        "value": "clover",
+        "value": "conifer-tree",
         "color": "green"
     },
     {
         "key": "Indestructible Life",
-        "value": "star-of-life",
+        "value": "first-aid-kit",
         "color": "pink"
     },
     {
@@ -4626,13 +4626,13 @@
     },
     {
         "key": "Personal Encryption",
-        "value": "book",
-        "color": "lightgray"
+        "value": "library",
+        "color": "brown"
     },
     {
         "key": "Technovirus",
         "value": "sword",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Shadow Hound",
@@ -4641,23 +4641,23 @@
     },
     {
         "key": "Grasp of the Deep",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Scion of the Deep",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Fathomless Soul",
-        "value": "snowflake",
+        "value": "temperature-cool",
         "color": "lightgray"
     },
     {
         "key": "Guardian Grasp",
         "value": "shield",
-        "color": "brown"
+        "color": "yellow"
     },
     {
         "key": "Devouring Maw",
@@ -4666,38 +4666,38 @@
     },
     {
         "key": "Unleash the Depths",
-        "value": "fire",
+        "value": "volcano",
         "color": "orange"
     },
     {
         "key": "Collector\u2019s Vessel",
-        "value": "stars",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Elemental Resistance",
         "value": "shield",
-        "color": "brown"
+        "color": "lightgray"
     },
     {
         "key": "Protective Wish",
         "value": "shield",
-        "color": "brown"
+        "color": "lightgray"
     },
     {
         "key": "Genie\u2019s Entertainment",
         "value": "skull",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Collector's Call",
-        "value": "megaphone",
+        "value": "dialogue",
         "color": "orange"
     },
     {
         "key": "Sentinel Raven",
-        "value": "view",
-        "color": "lightgray"
+        "value": "telescope",
+        "color": "yellow"
     },
     {
         "key": "Soul of the Raven",
@@ -4707,57 +4707,57 @@
     {
         "key": "Raven's Shield",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Queen's Right Hand",
-        "value": "grave",
+        "value": "long-bone",
         "color": "lightgray"
     },
     {
         "key": "Shielding Aurora",
         "value": "shield",
-        "color": "lightgray"
+        "color": "purple"
     },
     {
         "key": "Pact Boon: Pact of the Star Chain",
         "value": "gem",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Astral Refuge",
-        "value": "flash",
+        "value": "ringed-planet",
         "color": "purple"
     },
     {
         "key": "Far Wanderer",
         "value": "fire",
-        "color": "orange"
+        "color": "red"
     },
     {
         "key": "Astral Sequestration",
-        "value": "moon",
-        "color": "purple"
-    },
-    {
-        "key": "Mortal Husk",
-        "value": "skull-profile",
+        "value": "hourglass",
         "color": "lightgray"
     },
     {
+        "key": "Mortal Husk",
+        "value": "bone",
+        "color": "brown"
+    },
+    {
         "key": "Radiant Resistance",
-        "value": "church",
-        "color": "yellow"
+        "value": "star-of-life",
+        "color": "white"
     },
     {
         "key": "Agonizing Blast",
-        "value": "asterisk",
-        "color": "purple"
+        "value": "moon",
+        "color": "brown"
     },
     {
         "key": "Armor of Shadows",
         "value": "shield",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Ascendant Step",
@@ -4766,13 +4766,13 @@
     },
     {
         "key": "Aspect of the Moon",
-        "value": "bed",
+        "value": "hourglass",
         "color": "lightgray"
     },
     {
         "key": "Beast Speech",
         "value": "cat",
-        "color": "green"
+        "color": "orange"
     },
     {
         "key": "Beguiling Influence",
@@ -4781,7 +4781,7 @@
     },
     {
         "key": "Bewitching Whispers",
-        "value": "bed",
+        "value": "moon",
         "color": "lightgray"
     },
     {
@@ -4791,62 +4791,62 @@
     },
     {
         "key": "Book of Ancient Secrets",
-        "value": "ghost",
-        "color": "purple"
+        "value": "gradebook",
+        "color": "brown"
     },
     {
         "key": "Chains of Carceri",
         "value": "gem",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Cloak of Flies",
-        "value": "bug",
+        "value": "chemistry",
         "color": "green"
     },
     {
         "key": "Devil's Sight",
-        "value": "binoculars",
-        "color": "lightgray"
-    },
-    {
-        "key": "Dreadful Word",
-        "value": "emoji-surprised",
-        "color": "brown"
-    },
-    {
-        "key": "Eldritch Mind",
-        "value": "moon",
-        "color": "purple"
-    },
-    {
-        "key": "Eldritch Sight",
         "value": "telescope",
         "color": "lightgray"
     },
     {
-        "key": "Eldritch Smite",
-        "value": "sword",
-        "color": "yellow"
-    },
-    {
-        "key": "Eldritch Spear",
-        "value": "ghost",
-        "color": "brown"
-    },
-    {
-        "key": "Eyes of the Rune Keeper",
-        "value": "reference",
-        "color": "brown"
-    },
-    {
-        "key": "Far Scribe",
+        "key": "Dreadful Word",
         "value": "ghost",
         "color": "purple"
     },
     {
+        "key": "Eldritch Mind",
+        "value": "ghost",
+        "color": "purple"
+    },
+    {
+        "key": "Eldritch Sight",
+        "value": "view",
+        "color": "lightgray"
+    },
+    {
+        "key": "Eldritch Smite",
+        "value": "star-of-life",
+        "color": "white"
+    },
+    {
+        "key": "Eldritch Spear",
+        "value": "ghost",
+        "color": "purple"
+    },
+    {
+        "key": "Eyes of the Rune Keeper",
+        "value": "gem",
+        "color": "brown"
+    },
+    {
+        "key": "Far Scribe",
+        "value": "moon",
+        "color": "purple"
+    },
+    {
         "key": "Fiendish Vigor",
-        "value": "skull",
+        "value": "ghost",
         "color": "pink"
     },
     {
@@ -4856,83 +4856,83 @@
     },
     {
         "key": "Ghostly Gaze",
-        "value": "view",
-        "color": "yellow"
+        "value": "telescope",
+        "color": "lightgray"
     },
     {
         "key": "Gift of the Depths",
         "value": "sailboat",
-        "color": "lightgray"
+        "color": "white"
     },
     {
         "key": "Gift of the Ever-Living Ones",
-        "value": "star-of-life",
+        "value": "first-aid-kit",
         "color": "pink"
     },
     {
         "key": "Gift of the Protectors",
         "value": "shield",
-        "color": "brown"
+        "color": "yellow"
     },
     {
         "key": "Grasp of Hadar",
-        "value": "partly-cloudy-night",
+        "value": "ghost",
         "color": "purple"
     },
     {
         "key": "Improved Pact Weapon",
-        "value": "sword",
+        "value": "chess-knight",
         "color": "red"
     },
     {
         "key": "Investment of the Chain Master",
-        "value": "chess-knight",
+        "value": "sword",
         "color": "lightgray"
     },
     {
         "key": "Lance of Lethargy",
-        "value": "asterisk",
+        "value": "partly-cloudy-night",
         "color": "purple"
     },
     {
         "key": "Lifedrinker",
-        "value": "star-of-life",
-        "color": "pink"
+        "value": "first-aid",
+        "color": "red"
     },
     {
         "key": "Maddening Hex",
-        "value": "ghost",
-        "color": "brown"
+        "value": "bomb",
+        "color": "purple"
     },
     {
         "key": "Mask of Many Faces",
-        "value": "view-off",
+        "value": "conceal",
         "color": "lightgray"
     },
     {
         "key": "Master of Myriad Forms",
-        "value": "view-off",
-        "color": "white"
+        "value": "shade-contrast",
+        "color": "purple"
     },
     {
         "key": "Minions of Chaos",
-        "value": "magic-wand",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Mire the Mind",
         "value": "thought",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Misty Visions",
-        "value": "telescope",
+        "value": "view",
         "color": "lightgray"
     },
     {
         "key": "One with Shadows",
-        "value": "asterisk",
-        "color": "purple"
+        "value": "moon",
+        "color": "brown"
     },
     {
         "key": "Otherworldly Leap",
@@ -4946,27 +4946,27 @@
     },
     {
         "key": "Rebuke of the Talisman",
-        "value": "thought",
+        "value": "brain",
         "color": "pink"
     },
     {
         "key": "Relentless Hex",
         "value": "bomb",
-        "color": "brown"
+        "color": "purple"
     },
     {
         "key": "Repelling Blast",
         "value": "asterisk",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Sculptor of Flesh",
         "value": "gem",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Shroud of Shadow",
-        "value": "ghost",
+        "value": "partly-cloudy-night",
         "color": "brown"
     },
     {
@@ -4976,17 +4976,17 @@
     },
     {
         "key": "Thief of Five Fates",
-        "value": "cards",
+        "value": "die6",
         "color": "green"
     },
     {
         "key": "Thirsting Blade",
         "value": "chess-knight",
-        "color": "yellow"
+        "color": "lightgray"
     },
     {
         "key": "Tomb of Levistus",
-        "value": "volcano",
+        "value": "forest-fire",
         "color": "red"
     },
     {
@@ -4996,27 +4996,27 @@
     },
     {
         "key": "Undying Servitude",
-        "value": "moon",
-        "color": "lightgray"
+        "value": "hourglass",
+        "color": "purple"
     },
     {
         "key": "Visions of Distant Realms",
-        "value": "binoculars",
-        "color": "lightgray"
+        "value": "telescope",
+        "color": "yellow"
     },
     {
         "key": "Voice of the Chain Master",
         "value": "brain",
-        "color": "pink"
+        "color": "purple"
     },
     {
         "key": "Whispers of the Grave",
-        "value": "grave",
+        "value": "skull",
         "color": "brown"
     },
     {
         "key": "Witch Sight",
-        "value": "view",
+        "value": "telescope",
         "color": "yellow"
     },
     {
@@ -5027,32 +5027,32 @@
     {
         "key": "Burning Hex",
         "value": "skull",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Caiphon's Beacon",
-        "value": "brightness-high",
-        "color": "white"
+        "value": "light-bulb",
+        "color": "yellow"
     },
     {
         "key": "Chilling Hex",
         "value": "snowflake",
-        "color": "white"
+        "color": "lightgray"
     },
     {
         "key": "Chronicle of the Raven Queen",
-        "value": "gem",
-        "color": "purple"
+        "value": "ghost",
+        "color": "pink"
     },
     {
         "key": "Claw of Acamar",
         "value": "skull",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Curse Bringer",
-        "value": "skull",
-        "color": "brown"
+        "value": "bomb",
+        "color": "purple"
     },
     {
         "key": "Eldritch Armor",
@@ -5061,38 +5061,38 @@
     },
     {
         "key": "Green Lord's Gift",
-        "value": "skull",
-        "color": "pink"
+        "value": "ghost",
+        "color": "purple"
     },
     {
         "key": "Kiss of Mephistopheles",
-        "value": "fire",
-        "color": "red"
+        "value": "forest-fire",
+        "color": "orange"
     },
     {
         "key": "Mace of Dispater",
-        "value": "skull",
+        "value": "gem",
         "color": "pink"
     },
     {
         "key": "Moonbow",
-        "value": "skull",
-        "color": "purple"
+        "value": "ghost",
+        "color": "pink"
     },
     {
         "key": "Path of the Seeker",
-        "value": "book-closed",
+        "value": "library",
         "color": "white"
     },
     {
         "key": "Raven Queen's Blessing",
-        "value": "temple",
-        "color": "brown"
+        "value": "asterisk",
+        "color": "white"
     },
     {
         "key": "Seeker's Speech",
         "value": "library",
-        "color": "white"
+        "color": "brown"
     },
     {
         "key": "Shroud of Ulban",
@@ -5102,7 +5102,7 @@
     {
         "key": "Superior Pact Weapon",
         "value": "chess-knight",
-        "color": "lightgray"
+        "color": "red"
     },
     {
         "key": "Ultimate Pact Weapon",
@@ -5111,12 +5111,12 @@
     },
     {
         "key": "Arcane Recovery",
-        "value": "first-aid",
-        "color": "red"
+        "value": "heart-rate",
+        "color": "pink"
     },
     {
         "key": "Arcane Tradition",
-        "value": "stars",
+        "value": "gem",
         "color": "pink"
     },
     {
@@ -5126,12 +5126,12 @@
     },
     {
         "key": "Spell Mastery",
-        "value": "book-closed",
-        "color": "lightgray"
+        "value": "gradebook",
+        "color": "brown"
     },
     {
         "key": "Signature Spells",
-        "value": "moon",
+        "value": "hourglass",
         "color": "lightgray"
     },
     {
@@ -5146,37 +5146,37 @@
     },
     {
         "key": "Projected Ward",
-        "value": "reference",
-        "color": "brown"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Improved Abjuration",
-        "value": "flash",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Spell Resistance",
         "value": "shield",
-        "color": "lightgray"
+        "color": "brown"
     },
     {
         "key": "Training in War and Song",
-        "value": "guitar",
+        "value": "piano",
         "color": "purple"
     },
     {
         "key": "Bladesong",
-        "value": "chess-knight",
-        "color": "red"
+        "value": "sword",
+        "color": "lightgray"
     },
     {
         "key": "Song of Defense",
         "value": "shield",
-        "color": "yellow"
+        "color": "brown"
     },
     {
         "key": "Song of Victory",
-        "value": "trumpet",
+        "value": "music",
         "color": "pink"
     },
     {
@@ -5186,7 +5186,7 @@
     },
     {
         "key": "Temporal Awareness",
-        "value": "view",
+        "value": "telescope",
         "color": "lightgray"
     },
     {
@@ -5196,38 +5196,38 @@
     },
     {
         "key": "Arcane Abeyance",
-        "value": "stars",
+        "value": "gem",
         "color": "pink"
     },
     {
         "key": "Convergent Future",
-        "value": "flash",
-        "color": "pink"
+        "value": "magic-wand",
+        "color": "purple"
     },
     {
         "key": "Conjuration Savant",
-        "value": "stars",
-        "color": "purple"
+        "value": "gem",
+        "color": "pink"
     },
     {
         "key": "Minor Conjuration",
         "value": "magic-wand",
-        "color": "pink"
-    },
-    {
-        "key": "Benign Transportation",
-        "value": "stars",
         "color": "purple"
     },
     {
+        "key": "Benign Transportation",
+        "value": "flash",
+        "color": "pink"
+    },
+    {
         "key": "Focused Conjuration",
-        "value": "magic-wand",
+        "value": "stars",
         "color": "pink"
     },
     {
         "key": "Durable Summons",
-        "value": "stars",
-        "color": "purple"
+        "value": "orbit",
+        "color": "pink"
     },
     {
         "key": "Divination Savant",
@@ -5241,27 +5241,27 @@
     },
     {
         "key": "Expert Divination",
-        "value": "heart-rate",
+        "value": "first-aid",
         "color": "red"
     },
     {
         "key": "The Third Eye",
-        "value": "telescope",
+        "value": "binoculars",
         "color": "lightgray"
     },
     {
         "key": "Greater Portent",
         "value": "brain",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Enchantment Savant",
-        "value": "stars",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Hypnotic Gaze",
-        "value": "gem",
+        "value": "flash",
         "color": "pink"
     },
     {
@@ -5271,8 +5271,8 @@
     },
     {
         "key": "Split Enchantment",
-        "value": "gem",
-        "color": "purple"
+        "value": "flash",
+        "color": "pink"
     },
     {
         "key": "Alter Memories",
@@ -5282,12 +5282,12 @@
     {
         "key": "Evocation Savant",
         "value": "stars",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Sculpt Spells",
-        "value": "flash",
-        "color": "pink"
+        "value": "gem",
+        "color": "purple"
     },
     {
         "key": "Potent Cantrip",
@@ -5296,8 +5296,8 @@
     },
     {
         "key": "Empowered Evocation",
-        "value": "stars",
-        "color": "purple"
+        "value": "gem",
+        "color": "pink"
     },
     {
         "key": "Overchannel",
@@ -5306,67 +5306,67 @@
     },
     {
         "key": "Adjust Density",
-        "value": "stars",
+        "value": "flash",
         "color": "pink"
     },
     {
         "key": "Gravity Well",
-        "value": "sword",
-        "color": "red"
+        "value": "chess-knight",
+        "color": "lightgray"
     },
     {
         "key": "Violent Attraction",
-        "value": "water",
+        "value": "skull",
         "color": "red"
     },
     {
         "key": "Event Horizon",
-        "value": "walk",
-        "color": "orange"
+        "value": "run",
+        "color": "green"
     },
     {
         "key": "Illusion Savant",
-        "value": "stars",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Improved Minor Illusion",
-        "value": "magic-wand",
-        "color": "purple"
-    },
-    {
-        "key": "Malleable Illusions",
-        "value": "flash",
-        "color": "purple"
-    },
-    {
-        "key": "Illusory Self",
         "value": "gem",
         "color": "purple"
     },
     {
+        "key": "Malleable Illusions",
+        "value": "magic-wand",
+        "color": "pink"
+    },
+    {
+        "key": "Illusory Self",
+        "value": "magic-wand",
+        "color": "pink"
+    },
+    {
         "key": "Illusory Reality",
-        "value": "stars",
+        "value": "magic-wand",
         "color": "pink"
     },
     {
         "key": "Necromancy Savant",
-        "value": "bone",
-        "color": "brown"
-    },
-    {
-        "key": "Grim Harvest",
-        "value": "skull-profile",
-        "color": "lightgray"
-    },
-    {
-        "key": "Undead Thralls",
         "value": "grave",
         "color": "lightgray"
     },
     {
+        "key": "Grim Harvest",
+        "value": "grave",
+        "color": "lightgray"
+    },
+    {
+        "key": "Undead Thralls",
+        "value": "long-bone",
+        "color": "lightgray"
+    },
+    {
         "key": "Inured to Undeath",
-        "value": "bone",
+        "value": "long-bone",
         "color": "brown"
     },
     {
@@ -5376,28 +5376,28 @@
     },
     {
         "key": "Wizardly Quill",
-        "value": "anchor",
+        "value": "water",
         "color": "lightgray"
     },
     {
         "key": "Awakened Spellbook",
         "value": "magic-wand",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Manifest Mind",
-        "value": "brain",
+        "value": "thought",
         "color": "pink"
     },
     {
         "key": "Master Scriviner",
-        "value": "currency-coin",
+        "value": "gem",
         "color": "yellow"
     },
     {
         "key": "One with the Word",
-        "value": "book-closed",
-        "color": "lightgray"
+        "value": "library",
+        "color": "brown"
     },
     {
         "key": "Transmutation Savant",
@@ -5407,7 +5407,7 @@
     {
         "key": "Minor Alchemy",
         "value": "stars",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Transmuter's Stone",
@@ -5416,22 +5416,22 @@
     },
     {
         "key": "Shapechanger",
-        "value": "bug",
+        "value": "fish",
         "color": "orange"
     },
     {
         "key": "Master Transmuter",
-        "value": "gem",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Arcane Deflection",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "pink"
     },
     {
         "key": "Tactical Wit",
-        "value": "book",
+        "value": "gradebook",
         "color": "yellow"
     },
     {
@@ -5441,8 +5441,8 @@
     },
     {
         "key": "Durable Magic",
-        "value": "magic-wand",
-        "color": "purple"
+        "value": "gem",
+        "color": "pink"
     },
     {
         "key": "Deflecting Shroud",
@@ -5456,8 +5456,8 @@
     },
     {
         "key": "Runic Empowerment",
-        "value": "walk",
-        "color": "green"
+        "value": "run",
+        "color": "orange"
     },
     {
         "key": "Sigils of Warding",
@@ -5467,7 +5467,7 @@
     {
         "key": "Rune Maven",
         "value": "reference",
-        "color": "purple"
+        "color": "brown"
     },
     {
         "key": "Engraved Emnity",
@@ -5481,17 +5481,17 @@
     },
     {
         "key": "Infuse Scrolls",
-        "value": "hammer",
+        "value": "wrench",
         "color": "orange"
     },
     {
         "key": "Infuse Weapons and Armor",
         "value": "shield",
-        "color": "brown"
+        "color": "lightgray"
     },
     {
         "key": "Superior Artificer",
-        "value": "wrench",
+        "value": "gear",
         "color": "lightgray"
     },
     {
@@ -5502,32 +5502,32 @@
     {
         "key": "Tools of the Inventor",
         "value": "hammer",
-        "color": "orange"
+        "color": "lightgray"
     },
     {
         "key": "Arcanomechanical Armor",
         "value": "shield",
-        "color": "lightgray"
+        "color": "yellow"
     },
     {
         "key": "Reckless Casting",
         "value": "volcano",
-        "color": "orange"
+        "color": "red"
     },
     {
         "key": "Alchemical Casting",
         "value": "flash",
-        "color": "yellow"
+        "color": "purple"
     },
     {
         "key": "Prodigious Inspiration",
-        "value": "megaphone",
+        "value": "dialogue",
         "color": "orange"
     },
     {
         "key": "Lore Mastery",
-        "value": "library",
-        "color": "white"
+        "value": "book",
+        "color": "lightgray"
     },
     {
         "key": "Spell Secrets",
@@ -5541,28 +5541,28 @@
     },
     {
         "key": "Prodigious Memory",
-        "value": "book-closed",
+        "value": "library",
         "color": "white"
     },
     {
         "key": "Master of Magic",
-        "value": "gem",
+        "value": "stars",
         "color": "purple"
     },
     {
         "key": "Extract Name",
-        "value": "book-closed",
-        "color": "white"
-    },
-    {
-        "key": "Fateful Naming",
-        "value": "clover-four-leaf",
+        "value": "book",
         "color": "yellow"
     },
     {
+        "key": "Fateful Naming",
+        "value": "cards",
+        "color": "green"
+    },
+    {
         "key": "Resonant Utterance",
-        "value": "library",
-        "color": "white"
+        "value": "gradebook",
+        "color": "yellow"
     },
     {
         "key": "Inexorable Pronouncement",
@@ -5571,68 +5571,68 @@
     },
     {
         "key": "Relentless Naming",
-        "value": "thought",
+        "value": "brain",
         "color": "pink"
     },
     {
         "key": "Master Scrivener",
-        "value": "magic-wand",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Psionic Focus",
-        "value": "brain",
-        "color": "purple"
+        "value": "thought",
+        "color": "pink"
     },
     {
         "key": "Psionic Devotion",
-        "value": "thought",
-        "color": "purple"
+        "value": "brain",
+        "color": "pink"
     },
     {
         "key": "Thought Form",
-        "value": "thought",
+        "value": "brain",
         "color": "pink"
     },
     {
         "key": "Empowered Psionics",
-        "value": "thought",
-        "color": "pink"
-    },
-    {
-        "key": "Mental Discipline",
         "value": "brain",
         "color": "pink"
     },
     {
+        "key": "Mental Discipline",
+        "value": "thought",
+        "color": "purple"
+    },
+    {
         "key": "Thought Travel",
-        "value": "binoculars",
-        "color": "orange"
+        "value": "map",
+        "color": "green"
     },
     {
         "key": "Technological Savant",
-        "value": "stars",
-        "color": "purple"
+        "value": "magic-wand",
+        "color": "pink"
     },
     {
         "key": "Program Spell",
-        "value": "bed",
-        "color": "purple"
+        "value": "hourglass",
+        "color": "lightgray"
     },
     {
         "key": "Online Casting",
-        "value": "library",
-        "color": "white"
-    },
-    {
-        "key": "Chained Device",
         "value": "gradebook",
         "color": "brown"
     },
     {
-        "key": "Divine Inspiration",
-        "value": "temple",
+        "key": "Chained Device",
+        "value": "gradebook",
         "color": "yellow"
+    },
+    {
+        "key": "Divine Inspiration",
+        "value": "church",
+        "color": "brown"
     },
     {
         "key": "Channel Arcana",
@@ -5641,22 +5641,22 @@
     },
     {
         "key": "Channel Arcana: Divine Arcana",
-        "value": "temple",
-        "color": "white"
+        "value": "church",
+        "color": "yellow"
     },
     {
         "key": "Arcane Acolyte",
-        "value": "flash",
+        "value": "gem",
         "color": "purple"
     },
     {
         "key": "Arcane Priest",
         "value": "stars",
-        "color": "purple"
+        "color": "pink"
     },
     {
         "key": "Arcane High Priest",
-        "value": "flash",
+        "value": "gem",
         "color": "purple"
     }
 ]

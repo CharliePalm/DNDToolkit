@@ -352,6 +352,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "arcana",
             "recall",
             "memory",
+            "spell list",
         ],
         ["book", "book-closed", "library", "gradebook"],
         ["brown", "yellow", "lightgray", "white"],
