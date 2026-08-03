@@ -55,6 +55,18 @@ class TestSpellScraper(TestCase):
         self.assertFalse(choice)
         self.assertIsNone(placeholder)
 
+    def test_detects_choice_noun_phrasing(self):
+        # "a bard college of your choice" uses the noun "choice", not "choose"
+        choice, placeholder = _class_feature_choice(
+            "Bard College",
+            "At 3rd level, you delve into the advanced techniques of a bard college of your choice.",
+        )
+        self.assertTrue(choice)
+        self.assertEqual(
+            placeholder,
+            "Pick your subclass where you set your class (top left)",
+        )
+
 
 class TestBaseClassFixture(TestCase):
     """regression tests for _parse_base_class against fixtures/test_html/barbarian.html"""
@@ -109,8 +121,9 @@ class TestBaseClassFixture(TestCase):
 
     def test_optional_suffix_stripped_from_name(self):
         # "Primal Knowledge (Optional)" -> "Primal Knowledge"
-        self.assertIsNotNone(_by_name(self.features, "Primal Knowledge"))
-        self.assertIsNone(_by_name(self.features, "Primal Knowledge (Optional)"))
+        names = [f.name for f in self.features]
+        self.assertIn("Primal Knowledge", names)
+        self.assertNotIn("Primal Knowledge (Optional)", names)
 
     def test_subclass_index_table_not_in_description(self):
         primal_path = _by_name(self.features, "Primal Path")

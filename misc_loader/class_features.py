@@ -96,6 +96,7 @@ SUBCLASS_CHOICE_KEYWORDS = (
     "circle",
     "path",
     "origin",
+    "order",
 )
 SPECIALIZATION_CHOICE_PATTERNS = (
     re.compile(r"\b(type of|kind of)\s+(specialist|specialization)\b", re.IGNORECASE),
@@ -286,7 +287,9 @@ def _class_feature_choice(name: str, description: str) -> Tuple[bool, Optional[s
     if not text:
         return False, None
 
-    has_choice_phrase = re.search(r"\b(choose|pick|select)\b", text) is not None
+    has_choice_phrase = (
+        re.search(r"\b(choose|choosing|choice|pick|select)\b", text) is not None
+    )
     has_subclass_keyword = any(keyword in text for keyword in SUBCLASS_CHOICE_KEYWORDS)
     has_specialization_choice = any(
         pattern.search(text) for pattern in SPECIALIZATION_CHOICE_PATTERNS
