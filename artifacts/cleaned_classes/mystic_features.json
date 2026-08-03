@@ -11,7 +11,7 @@
     },
     {
         "name": "Psionics",
-        "description": "As a student of psionics, you can master and use psionic talents and disciplines. Psionics is a special form of magic use, distinct from spellcasting.\n\nPsionic Talents\n\nA psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels. The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent. You chose your talents from the Psionic Talents list.\n\nPsionic Disciplines\n\nA psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time, and chooses them from the Psionic Discipline list.\n\nAt 1st level, you know one psionic discipline of your choice. The Disciplines Known column of the Mystic table shows the total number of disciplines you know at each level; when that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nPsi Points\n\nYou have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.\n\nThe number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can\u2019t go below 0 or over your maximum.\n\nPsi Limit\n\nThough you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have.\n\nPsychic Focus\n\nYou can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline\u2019s description. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn\u2019t limit your ability to use other disciplines.\n\nPsionic Ability\n\nIntelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.\n\nDiscipline save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nDiscipline attack modifier = your proficiency bonus + your Intelligence modifier",
+        "description": "As a student of psionics, you can master and use psionic talents and disciplines. Psionics is a special form of magic use, distinct from spellcasting.\n\nPsionic Talents\n\nA psionic talent is a minor psionic effect you have mastered. At 1st level, you know one psionic talent of your choice. You learn additional talents of your choice at higher levels. The Talents Known column of the Mystic table shows the total number of talents you know at each level; when that number goes up for you, choose a new talent. You chose your talents from the [Psionic Talents](/mystic:talents) list.\n\nPsionic Disciplines\n\nA psionic discipline is a rigid set of mental exercises that allows a mystic to manifest psionic power. A mystic masters only a few disciplines at a time, and chooses them from the [Psionic Discipline](/mystic:disciplines) list.\n\nAt 1st level, you know one psionic discipline of your choice. The Disciplines Known column of the Mystic table shows the total number of disciplines you know at each level; when that number goes up for you, choose a new discipline. In addition, whenever you gain a level in this class, you can replace one discipline you know with a different one of your choice.\n\nPsi Points\n\nYou have an internal reservoir of energy that can be devoted to psionic disciplines you know. This energy is represented by psi points. Each psionic discipline describes effects you can create with it by spending a certain number of psi points. A psionic talent requires no psi points.\n\nThe number of psi points you have is based on your mystic level, as shown in the Psi Points column of the Mystic table. The number shown for your level is your psi point maximum. Your psi point total returns to its maximum when you finish a long rest. The number of psi points you have can\u2019t go below 0 or over your maximum.\n\nPsi Limit\n\nThough you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. There is a limit on the number of psi points you can spend to activate a psionic discipline. The limit is based on your mystic level, as shown in the Psi Limit column of the Mystic table. For example, as a 3rd-level mystic, you can spend no more than 3 psi points on a discipline each time you use it, no matter how many psi points you have.\n\nPsychic Focus\n\nYou can focus psionic energy on one of your psionic disciplines to draw ongoing benefits from it. As a bonus action, you can choose one of your psionic disciplines and gain its psychic focus benefit, which is detailed in that discipline\u2019s description. The benefit lasts until you are incapacitated or until you use another bonus action to choose a different focus benefit. You can have only one psychic focus benefit at a time, and using the psychic focus of one discipline doesn\u2019t limit your ability to use other disciplines.\n\nPsionic Ability\n\nIntelligence is your psionic ability for your psionic disciplines. You use your Intelligence modifier when setting the saving throw DC for a psionic discipline or when making an attack roll with one.\n\nDiscipline save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nDiscipline attack modifier = your proficiency bonus + your Intelligence modifier",
         "character_class": "Mystic",
         "level": 1,
         "is_choice": false,
@@ -24,9 +24,9 @@
         "description": "At 1st level, you choose a Mystic Order: the Order of the Avatar, the Order of the Awakened, the Order of the Immortal, the Order of the Nomad, the Order of the Soul Knife, or the Order of the Wu Jen. Each order specializes in a specific approach to psionics. Your order gives you features when you choose it at 1st level and additional features at 3rd, 6th, and 14th level.",
         "character_class": "Mystic",
         "level": 1,
-        "is_choice": false,
+        "is_choice": true,
+        "subclass": "Pick your subclass where you set your class (top left)",
         "uses": null,
-        "subclass": null,
         "source": null
     },
     {
@@ -101,7 +101,7 @@
     },
     {
         "name": "Bonus Disciplines",
-        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Avatar disciplines.",
+        "description": "At 1st level, you learn two additional [Psionic Disciplines](http://dnd5e.wikidot.com/mystic:disciplines) of your choice. They must be chosen from among the Avatar disciplines.",
         "character_class": "Mystic",
         "subclass": "Order of the Avatar",
         "level": 1,
@@ -151,7 +151,7 @@
     },
     {
         "name": "Bonus Disciplines",
-        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Awakened disciplines.",
+        "description": "At 1st level, you learn two additional [Psionic Disciplines](http://dnd5e.wikidot.com/mystic:disciplines) of your choice. They must be chosen from among the Awakened disciplines.",
         "character_class": "Mystic",
         "subclass": "Order of the Awakened",
         "level": 1,
@@ -201,7 +201,7 @@
     },
     {
         "name": "Bonus Disciplines",
-        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Immortal Disciplines.",
+        "description": "At 1st level, you learn two additional [Psionic Disciplines](http://dnd5e.wikidot.com/mystic:disciplines) of your choice. They must be chosen from among the Immortal Disciplines.",
         "character_class": "Mystic",
         "subclass": "Order of the the Immortal",
         "level": 1,
@@ -251,7 +251,7 @@
     },
     {
         "name": "Bonus Disciplines",
-        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Nomad disciplines.",
+        "description": "At 1st level, you learn two additional [Psionic Disciplines](http://dnd5e.wikidot.com/mystic:disciplines) of your choice. They must be chosen from among the Nomad disciplines.",
         "character_class": "Mystic",
         "subclass": "Order of the Nomad",
         "level": 1,
@@ -321,7 +321,7 @@
     },
     {
         "name": "Hone the Blade",
-        "description": "Starting at 3rd level, you can spend psi points to augment your soul knife\u2019s attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.",
+        "description": "Starting at 3rd level, you can spend psi points to augment your soul knife\u2019s attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.\n\nPsi Points | Attack and Damage Bonus\n2 | +1\n5 | +2\n7 | +4",
         "character_class": "Mystic",
         "subclass": "Order of the Soul Knife",
         "level": 3,
@@ -351,7 +351,7 @@
     },
     {
         "name": "Bonus Disciplines",
-        "description": "At 1st level, you learn two additional Psionic Disciplines of your choice. They must be chosen from among the Wu Jen disciplines.",
+        "description": "At 1st level, you learn two additional [Psionic Disciplines](http://dnd5e.wikidot.com/mystic:disciplines) of your choice. They must be chosen from among the Wu Jen disciplines.",
         "character_class": "Mystic",
         "subclass": "Order of the Wu Jen",
         "level": 1,
@@ -381,7 +381,7 @@
     },
     {
         "name": "Arcane Dabbler",
-        "description": "At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.\n\nAs a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.\n\nThe spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.\n\nWhenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.",
+        "description": "At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.\n\nAs a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below.\n\nSpell Slot Level | Psi Cost\n1st | 2\n2nd | 3\n3rd | 5\n4th | 6\n5th | 7\n\nThe spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.\n\nWhenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.",
         "character_class": "Mystic",
         "subclass": "Order of the Wu Jen",
         "level": 6,

@@ -11,7 +11,7 @@
     },
     {
         "name": "Spellcasting",
-        "description": "Spellcasting:\nAs a conduit for divine power, you can cast cleric spells.\n\nCantrips\n\nAt 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.\n\nSpell Slots\n\nThe Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.\n\nSpellcasting Ability\n\nWisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\n\nYou can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\n\nYou can use a holy symbol as a spellcasting focus for your cleric spells.",
+        "description": "Spellcasting:\nAs a conduit for divine power, you can cast cleric spells.\n\nCantrips\n\nAt 1st level, you know three cantrips of your choice from the [cleric spell list](http://dnd5e.wikidot.com/spells:cleric). You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.\n\nSpell Slots\n\nThe Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nYou prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.\n\nFor example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds), you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.\n\nYou can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.\n\nSpellcasting Ability\n\nWisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nRitual Casting\n\nYou can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n\nSpellcasting Focus\n\nYou can use a holy symbol as a spellcasting focus for your cleric spells.",
         "character_class": "Cleric",
         "level": 1,
         "is_choice": false,
@@ -71,7 +71,7 @@
     },
     {
         "name": "Arcane Initiate",
-        "description": "When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.",
+        "description": "When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the [wizard spell list](http://dnd5e.wikidot.com/spells:wizard). For you, these cantrips count as cleric cantrips.",
         "character_class": "Cleric",
         "subclass": "Arcana Domain",
         "level": 1,
@@ -81,7 +81,7 @@
     },
     {
         "name": "Channel Divinity: Arcane Abjuration",
-        "description": "Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.\n\nAs an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\nAfter you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the Banishment spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the Arcane Banishment table.",
+        "description": "Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.\n\nAs an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.\n\nAfter you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the [Banishment](http://dnd5e.wikidot.com/spell:banishment) spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the Arcane Banishment table.\n\nArcane Banishment\nCleric Level | Banishes Creatures of CR\u2026\n5th | 1/2 or lower\n8th | 1 or lower\n11th | 2 or lower\n14th | 3 or lower\n17th | 4 or lower",
         "character_class": "Cleric",
         "subclass": "Arcana Domain",
         "level": 2,
@@ -111,7 +111,7 @@
     },
     {
         "name": "Arcane Mastery",
-        "description": "At 17th level, you choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.",
+        "description": "At 17th level, you choose four spells from the [wizard spell list](http://dnd5e.wikidot.com/spells:wizard), one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.",
         "character_class": "Cleric",
         "subclass": "Arcana Domain",
         "level": 17,
@@ -131,7 +131,7 @@
     },
     {
         "name": "Reaper",
-        "description": "At 1st level, you learn one necromancy cantrip of your choice from any spell list. When you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.",
+        "description": "At 1st level, you learn one necromancy cantrip of your choice from [any spell list](http://dnd5e.wikidot.com/spells). When you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.",
         "character_class": "Cleric",
         "subclass": "Death Domain",
         "level": 1,
@@ -241,7 +241,7 @@
     },
     {
         "name": "Circle of Mortality",
-        "description": "At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.\n\nIn addition, you learn the Spare the Dying cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.",
+        "description": "At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.\n\nIn addition, you learn the [Spare the Dying](http://dnd5e.wikidot.com/spell:spare-the-dying) cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.",
         "character_class": "Cleric",
         "subclass": "Grave Domain",
         "level": 1,
@@ -321,7 +321,7 @@
     },
     {
         "name": "Channel Divinity: Read Thoughts",
-        "description": "At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.\n\nAs an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.\n\nIf the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.\n\nDuring that time, you can use your action to end this effect and cast the Suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.",
+        "description": "At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.\n\nAs an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.\n\nIf the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.\n\nDuring that time, you can use your action to end this effect and cast the [Suggestion](http://dnd5e.wikidot.com/spell:suggestion) spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.",
         "character_class": "Cleric",
         "subclass": "Knowledge Domain",
         "level": 6,
@@ -411,7 +411,7 @@
     },
     {
         "name": "Bonus Cantrip",
-        "description": "When you choose this domain at 1st level, you gain the Light cantrip if you don't already know it. This cantrip doesn\u2019t count against the number of cleric cantrips you know.",
+        "description": "When you choose this domain at 1st level, you gain the [Light](http://dnd5e.wikidot.com/spell:light) cantrip if you don't already know it. This cantrip doesn\u2019t count against the number of cleric cantrips you know.",
         "character_class": "Cleric",
         "subclass": "Light Domain",
         "level": 1,
@@ -471,7 +471,7 @@
     },
     {
         "name": "Acolyte of Nature",
-        "description": "At 1st level, you learn one cantrip of your choice from the druid spell list. This cantrip counts as a cleric cantrip for you, but it doesn\u2019t count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.",
+        "description": "At 1st level, you learn one cantrip of your choice from the [druid spell list](http://dnd5e.wikidot.com/spells:druid). This cantrip counts as a cleric cantrip for you, but it doesn\u2019t count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.",
         "character_class": "Cleric",
         "subclass": "Nature Domain",
         "level": 1,
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "Omens and Portents",
-        "description": "At 1st level, you can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the Augury spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.\n\nIn addition, until you finish a long rest, when you cast a divination spell that includes a chance the DM gives you no answer or a random reading\u2014such as Augury, Commune, or Divination\u2014reduce that chance by 25 percent.",
+        "description": "At 1st level, you can perceive signs of the future in everyday objects and events, such as flights of birds or ripples made in water by a thrown stone. You can cast the [Augury](http://dnd5e.wikidot.com/spell:augury) spell without expending a spell slot and, when you cast the spell in this way, the spell has no verbal, somatic, or material components. Once you cast the spell in this way, you cannot do so again until you finish a long rest.\n\nIn addition, until you finish a long rest, when you cast a [divination](http://dnd5e.wikidot.com/spells:divination) spell that includes a chance the DM gives you no answer or a random reading\u2014such as [Augury](http://dnd5e.wikidot.com/spell:augury), [Commune](http://dnd5e.wikidot.com/spell:commune), or [Divination](http://dnd5e.wikidot.com/spell:divination)\u2014reduce that chance by 25 percent.",
         "character_class": "Cleric",
         "subclass": "Fate Domain (UA)",
         "level": 1,
@@ -1171,7 +1171,7 @@
     },
     {
         "name": "Visions of the Future",
-        "description": "At 17th level, your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the Foresight spell once without expending a spell slot; when you cast the spell in this way, the spell\u2019s duration is 1 minute for that casting. Once you cast the spell in this way, you can\u2019t do so again until you finish a long rest.",
+        "description": "At 17th level, your knowledge of the future allows you to guide an individual to achieve their greatest possible success. You can cast the [Foresight](http://dnd5e.wikidot.com/spell:foresight) spell once without expending a spell slot; when you cast the spell in this way, the spell\u2019s duration is 1 minute for that casting. Once you cast the spell in this way, you can\u2019t do so again until you finish a long rest.",
         "character_class": "Cleric",
         "subclass": "Fate Domain (UA)",
         "level": 17,
@@ -1181,7 +1181,7 @@
     },
     {
         "name": "Bonus Cantrip",
-        "description": "When you choose this domain at 1st level, you gain the On/Off* cantrip in addition to your chosen cantrips.",
+        "description": "When you choose this domain at 1st level, you gain the [On/Off](http://dnd5e.wikidot.com/spell:on-off)* cantrip in addition to your chosen cantrips.",
         "character_class": "Cleric",
         "subclass": "City Domain (UA)",
         "level": 1,
@@ -1241,7 +1241,7 @@
     },
     {
         "name": "Express Transit",
-        "description": "At 17th level, you can use mass transit routes to transport instantaneously to other points in the city. Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a Teleport spell whose destination is a permanent Teleportation Circle you know. Once you use this feature, you must finish a short or long rest before using it again.",
+        "description": "At 17th level, you can use mass transit routes to transport instantaneously to other points in the city. Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a [Teleport](http://dnd5e.wikidot.com/spell:teleport) spell whose destination is a permanent [Teleportation Circle](http://dnd5e.wikidot.com/spell:teleportation-circle) you know. Once you use this feature, you must finish a short or long rest before using it again.",
         "character_class": "Cleric",
         "subclass": "City Domain (UA)",
         "level": 17,
@@ -1371,7 +1371,7 @@
     },
     {
         "name": "Midnight Shroud",
-        "description": "At 17th level, you can harness the shrouding power of night to protect your allies and stymie your foes. Whenever you cast the Darkness spell using a spell slot, you can choose a number of creatures that you can see (including yourself) equal to your Wisdom modifier (minimum of one). The chosen creatures can see through the darkness.",
+        "description": "At 17th level, you can harness the shrouding power of night to protect your allies and stymie your foes. Whenever you cast the [Darkness](http://dnd5e.wikidot.com/spell:darkness) spell using a spell slot, you can choose a number of creatures that you can see (including yourself) equal to your Wisdom modifier (minimum of one). The chosen creatures can see through the darkness.",
         "character_class": "Cleric",
         "subclass": "Twilight Domain (UA)",
         "level": 17,

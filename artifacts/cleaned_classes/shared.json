@@ -72,7 +72,7 @@
     },
     {
         "name": "Ancient Companion",
-        "description": "You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature\u2019s game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit\u2019s appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.",
+        "description": "You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature\u2019s game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit\u2019s appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.\n\nAncient Companion\nMedium construct, Any Alignment\nArmor Class: 14 (natural armor) + 2 (Warrior only)\nHit Points: 5 + 5 times your level in this class (the companion has a number of Hit Dice [d8s] equal to your level in this class)\nSpeed: 30 ft.\nSTR | DEX | CON | INT | WIS | CHA\n14 (+2) | 9 (-1) | 15 (+2) | 14 (+2) | 14 (+2) | 11 (+0)\nSaving Throws: Con +2 plus PB, Int +2 plus PB, Wis +2 plus PB\nSkills: History +2 plus PB, Perception +2 plus (PB \u00d7 2)\nDamage Immunities: poison\nCondition Immunities: charmed, exhaustion\nSenses: passive Perception 12 + (PB \u00d7 2)\nLanguages: speaks and understands the languages you speak\nChallenge: \u2014\nProficiency Bonus: equals your bonus\nAncient Fortitude. If damage reduces the companion to 0 hit points, it can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the companion drops to 1 hit point instead.\nSage\u2019s Counsel (Sage Only). While within 15 feet of the companion, you and your allies gain a +2 bonus to Intelligence and Wisdom checks.\nActions\nSpirit Strike. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 + PB force damage.\nHealer\u2019s Light (Healer Only). The companion chooses a creature it can see within 15 feet of itself and flares with invigorating light. The creature gains 1d8 + PB temporary hit points.\nReactions\nWarrior\u2019s Protection (Warrior Only). When a creature within 5 feet of the companion makes a Strength or Dexterity saving throw, the companion imposes itself between the creature and the danger. The creature can roll a d4 and add the number rolled to the saving throw.",
         "subclass": "Mage of Lorehold (UA)",
         "level": 1,
         "uses": null,
@@ -84,6 +84,10 @@
                 "subclass": "Mage of Lorehold (UA)"
             },
             {
+                "character_class": "Warlock",
+                "subclass": "Mage of Lorehold (UA)"
+            },
+            {
                 "character_class": "Wizard",
                 "subclass": "Mage of Lorehold (UA)"
             }
@@ -91,7 +95,7 @@
     },
     {
         "name": "Cantrip Versatility",
-        "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.",
+        "description": "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the [cleric spell list](http://dnd5e.wikidot.com/spells:cleric).",
         "level": 4,
         "is_choice": false,
         "uses": null,
@@ -133,7 +137,7 @@
     },
     {
         "name": "Eloquent Apprentice",
-        "description": "You learn one cantrip of your choice, either Sacred Flame or Vicious Mockery. It doesn\u2019t count against the number of cantrips you know, and it is added to your class spell list if it isn\u2019t there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight.",
+        "description": "You learn one cantrip of your choice, either [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) or [Vicious Mockery](http://dnd5e.wikidot.com/spell:vicious-mockery). It doesn\u2019t count against the number of cantrips you know, and it is added to your class spell list if it isn\u2019t there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight.",
         "subclass": "Mage of Silverquill (UA)",
         "level": 1,
         "uses": null,
@@ -387,7 +391,7 @@
     },
     {
         "name": "Inky Shroud",
-        "description": "You learn the Darkness spell, and it is added to your class spell list if it isn\u2019t there already. If you are a wizard, you add it to your spellbook, if it\u2019s not there already.\n\nYou can cast the spell without expending a spell slot, and you can\u2019t do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher.",
+        "description": "You learn the [Darkness](http://dnd5e.wikidot.com/spell:darkness) spell, and it is added to your class spell list if it isn\u2019t there already. If you are a wizard, you add it to your spellbook, if it\u2019s not there already.\n\nYou can cast the spell without expending a spell slot, and you can\u2019t do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher.",
         "subclass": "Mage of Silverquill (UA)",
         "level": 6,
         "uses": null,
@@ -433,7 +437,7 @@
     },
     {
         "name": "Land's Stride",
-        "description": "Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the Entangle spell.",
+        "description": "Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\n\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the [Entangle](http://dnd5e.wikidot.com/spell:entangle) spell.",
         "subclass": "Circle of the Land",
         "level": 6,
         "uses": null,
@@ -475,7 +479,7 @@
     },
     {
         "name": "Lorehold Spells",
-        "description": "You learn the cantrip Sacred Flame and the 1st level spell Comprehend Languages. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.",
+        "description": "You learn the cantrip [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) and the 1st level spell [Comprehend Languages](http://dnd5e.wikidot.com/spell:comprehend-languages). You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nLorehold Spells\nClass Level | Spells\n3rd | [Knock](http://dnd5e.wikidot.com/spell:knock), [Locate Object](http://dnd5e.wikidot.com/spell:locate-object)\n5th | [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead), [Spirit Guardians](http://dnd5e.wikidot.com/spell:spirit-guardians)\n7th | [Arcane Eye](http://dnd5e.wikidot.com/spell:arcane-eye), [Stone Shape](http://dnd5e.wikidot.com/spell:stone-shape)\n9th | [Destructive Wave](http://dnd5e.wikidot.com/spell:destructive-wave), [Legend Lore](http://dnd5e.wikidot.com/spell:legend-lore)",
         "subclass": "Mage of Lorehold (UA)",
         "level": 1,
         "uses": null,
@@ -484,6 +488,10 @@
         "classes": [
             {
                 "character_class": "Bard",
+                "subclass": "Mage of Lorehold (UA)"
+            },
+            {
+                "character_class": "Warlock",
                 "subclass": "Mage of Lorehold (UA)"
             },
             {
@@ -551,7 +559,7 @@
     },
     {
         "name": "Quandrix Spells",
-        "description": "You learn the cantrip Guidance and the 1st-level spell Guiding Bolt. You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nQuandrix Spells",
+        "description": "You learn the cantrip [Guidance](http://dnd5e.wikidot.com/spell:guidance) and the 1st-level spell [Guiding Bolt](http://www.dnd5e.wikidot.com/spell:guiding-bolt). You learn additional spells when you reach certain levels in this class, as shown on the Quandrix Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nQuandrix Spells\n\nClass Level | Spells\n3rd | [Enlarge/Reduce](http://dnd5e.wikidot.com/spell:enlarge-reduce), [Spike Growth](http://dnd5e.wikidot.com/spell:spike-growth)\n5th | [Aura of Vitality](http://dnd5e.wikidot.com/spell:aura-of-vitality), [Haste](http://dnd5e.wikidot.com/spell:haste)\n7th | [Control Water](http://dnd5e.wikidot.com/spell:control-water), [Freedom of Movement](http://dnd5e.wikidot.com/spell:freedom-of-movement)\n9th | [Circle of Power](http://dnd5e.wikidot.com/spell:circle-of-power), [Passwall](http://dnd5e.wikidot.com/spell:passwall)",
         "subclass": "Mage of Quandrix (UA)",
         "level": 1,
         "uses": null,
@@ -607,25 +615,6 @@
             {
                 "character_class": "Wizard",
                 "subclass": "Mage of Silverquill (UA)"
-            }
-        ]
-    },
-    {
-        "name": "Spellcasting",
-        "description": "Spellcasting:\nWhen you reach 3rd level, you augment your martial prowess with the ability to cast spells.\n\nCantrips\n\nYou learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.\n\nSpell Slots\n\nThe Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Shield and have a 1st-level and a 2nd-level spell slot available, you can cast Shield using either slot.\n\nSpells Known of 1st Level and Higher\n\nYou know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.\n\nThe Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.\n\nSpellcasting Ability\n\nIntelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-        "level": 3,
-        "is_choice": false,
-        "uses": null,
-        "subclass": "Eldritch Knight",
-        "source": null,
-        "classes": [
-            {
-                "character_class": "Fighter",
-                "subclass": "Eldritch Knight"
-            },
-            {
-                "character_class": "Rogue",
-                "subclass": "Arcane Trickster"
             }
         ]
     },
@@ -802,6 +791,25 @@
         "description": "You gain proficiency with herbalism kits if you don\u2019t already have it.\n\nWhen you finish a long rest, you can use an herbalism kit and a pot or cauldron to create magical brews. You create a number of brews equal to your proficiency bonus. Each brew requires its own flask. A brew retains its magical potency for 24 hours or until it is used. For each brew, choose one of the following effects:\n\nFortifying. When you create this brew, choose a damage type from the following list: cold, fire, necrotic, poison, or radiant. A creature can drink this brew or administer it to another creature as an action. The recipient gains resistance to the chosen damage type for 1 hour.\n\nQuickening. A creature can drink this brew or administer it to another creature as an action. The recipient regains 2d6 hit points, and one disease or condition from the following list affecting the recipient ends (brew user\u2019s choice): charmed, frightened, paralyzed, poisoned, stunned.\n\nToxifying. As an action, a creature can apply this brew to a simple or martial weapon. The next time the weapon or a piece of ammunition fired by it hits a creature within 1 hour, the target takes 2d6 poison damage and must succeed on a Constitution saving throw against your spell save DC or be poisoned for 1 minute.",
         "subclass": "Mage Of Witherbloom (UA)",
         "level": 6,
+        "uses": null,
+        "source": "Unearthed Arcana 79 - Mages of Strixhaven Classes: Druid, Warlock",
+        "is_choice": false,
+        "classes": [
+            {
+                "character_class": "Druid",
+                "subclass": "Mage Of Witherbloom (UA)"
+            },
+            {
+                "character_class": "Warlock",
+                "subclass": "Mage Of Witherbloom (UA)"
+            }
+        ]
+    },
+    {
+        "name": "Witherbloom Spells",
+        "description": "You learn the cantrip [Spare the Dying](http://dnd5e.wikidot.com/spell:spare-the-dying) and the 1st level spells [Cure Wounds](http://dnd5e.wikidot.com/spell:Cure-wounds) and [Inflict Wounds](http://dnd5e.wikidot.com/spell:inflict-wounds). You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don\u2019t count against the number of spells you can prepare each day.\n\nWitherbloom Spells\n\nClass Level | Spells\n3rd | [Lesser Restoration](http://dnd5e.wikidot.com/spell:Lesser-restoration), [Ray of Enfeeblement](http://dnd5e.wikidot.com/spell:ray-of-enfeeblement)\n5th | [Revivify](http://dnd5e.wikidot.com/spell:revivify), [Vampiric Touch](http://dnd5e.wikidot.com/spell:vampiric-touch)\n7th | [Blight](http://dnd5e.wikidot.com/spell:blight), [Greater Restoration](http://dnd5e.wikidot.com/spell:greater-restoration)\n9th | [Antilife Shell](http://dnd5e.wikidot.com/spell:antilife-shell), [Mass Cure Wounds](http://dnd5e.wikidot.com/spell:mass-cure-wounds)",
+        "subclass": "Mage Of Witherbloom (UA)",
+        "level": 1,
         "uses": null,
         "source": "Unearthed Arcana 79 - Mages of Strixhaven Classes: Druid, Warlock",
         "is_choice": false,

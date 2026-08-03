@@ -41,7 +41,7 @@
     },
     {
         "name": "Martial Arts",
-        "description": "At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.\n\nYou gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n\u2022 You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\n\n\u2022 You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.\n\n\u2022 When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nCertain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon on the Weapons page.",
+        "description": "At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.\n\nYou gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n\n\u2022 You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\n\n\u2022 You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.\n\n\u2022 When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.\n\nCertain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon on the [Weapons](http://dnd5e.wikidot.com/weapons) page.",
         "character_class": "Monk",
         "level": 1,
         "is_choice": false,
@@ -241,7 +241,7 @@
     },
     {
         "name": "Empty Body",
-        "description": "Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.\n\nAdditionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can't take any other creatures with you.",
+        "description": "Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.\n\nAdditionally, you can spend 8 ki points to cast the [astral projection](/spell:astral-projection) spell, without needing material components. When you do so, you can't take any other creatures with you.",
         "character_class": "Monk",
         "level": 18,
         "is_choice": false,
@@ -401,7 +401,7 @@
     },
     {
         "name": "Disciple of the Elements",
-        "description": "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.\n\nYou know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.\n\nCasting Elemental Spells. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.\n\nOnce you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as Burning Hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast Burning Hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).\n\nThe maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table.",
+        "description": "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.\n\nYou know the Elemental Attunement discipline and one other [elemental discipline](http://dnd5e.wikidot.com/monk:four-elements:disciplines) of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.\n\nCasting Elemental Spells. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.\n\nOnce you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands) does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands), you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).\n\nThe maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table.\n\nSpells and Ki Points\nMonk Levels | Maximum Ki Points for a Spell\n5th-8th | 3\n9th-12th | 4\n13th-16th | 5\n17th-20th | 6",
         "character_class": "Monk",
         "subclass": "Way of the Four Elements",
         "level": 3,
@@ -491,7 +491,7 @@
     },
     {
         "name": "Implements of Mercy",
-        "description": "When you choose this tradition at 3rd level, you gain proficiency in the Insight and Medicine skills, and you gain proficiency with the herbalism kit.\n\nYou also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.",
+        "description": "When you choose this tradition at 3rd level, you gain proficiency in the Insight and Medicine skills, and you gain proficiency with the herbalism kit.\n\nYou also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.\n\nMerciful Mask\nd6 | Mask Appearance\n1 | Raven\n2 | Blank and white\n3 | Crying visage\n4 | Laughing visage\n5 | Skull\n6 | Butterfly",
         "character_class": "Monk",
         "subclass": "Way of Mercy",
         "level": 3,
@@ -571,7 +571,7 @@
     },
     {
         "name": "Tranquility",
-        "description": "Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a Sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.",
+        "description": "Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a [Sanctuary](http://dnd5e.wikidot.com/spell:sanctuary) spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.",
         "character_class": "Monk",
         "subclass": "Way of the Open Hand",
         "level": 11,
@@ -591,7 +591,7 @@
     },
     {
         "name": "Shadow Arts",
-        "description": "Starting when you choose this tradition at 3rd level, you can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast Darkness, Darkvision, Pass Without Trace, or Silence, without providing material components. Additionally, you gain the Minor Illusion cantrip if you don't already know it.",
+        "description": "Starting when you choose this tradition at 3rd level, you can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast [Darkness](/spell:darkness), [Darkvision](/spell:darkvision), [Pass Without Trace](/spell:pass-without-trace), or [Silence](/spell:silence), without providing material components. Additionally, you gain the [Minor Illusion](/spell:minor-illusion) cantrip if you don't already know it.",
         "character_class": "Monk",
         "subclass": "Way of Shadow",
         "level": 3,
@@ -641,7 +641,7 @@
     },
     {
         "name": "Searing Arc Strike",
-        "description": "At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the Burning Hands spell as a bonus action.\n\nYou can spend additional ki points to cast Burning Hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.",
+        "description": "At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands) spell as a bonus action.\n\nYou can spend additional ki points to cast [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands) as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.",
         "character_class": "Monk",
         "subclass": "Way of the Sun Soul",
         "level": 6,
@@ -861,7 +861,7 @@
     },
     {
         "name": "Path of Tranquility",
-        "description": "When you choose this tradition at 3rd level, you can become an island of calm in even the most chaotic of situations. With this feature, you can cast the sanctuary spell on yourself, no material component required, and it lasts up to 8 hours. Its saving throw DC equals 8 + your proficiency bonus + your Wisdom modifier. A creature that succeeds on the save is immune to this effect for 1 hour.\n\nOnce you cast the spell in this way, you can\u2019t do so again for 1 minute.",
+        "description": "When you choose this tradition at 3rd level, you can become an island of calm in even the most chaotic of situations. With this feature, you can cast the [sanctuary](http://dnd5e.wikidot.com/spell:sanctuary) spell on yourself, no material component required, and it lasts up to 8 hours. Its saving throw DC equals 8 + your proficiency bonus + your Wisdom modifier. A creature that succeeds on the save is immune to this effect for 1 hour.\n\nOnce you cast the spell in this way, you can\u2019t do so again for 1 minute.",
         "character_class": "Monk",
         "subclass": "Way of Tranquility",
         "level": 3,

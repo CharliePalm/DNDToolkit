@@ -498,6 +498,7 @@ def get_class_features(
         all_features, subclass_keys = _parse_base_class(html, for_class)
 
         for subclass_key in subclass_keys:
+            time.sleep(1)
             subclass_html = _load_html(subclass_key, is_dry_run)
             if not subclass_html:
                 print("skipping (no html): " + subclass_key)
@@ -519,6 +520,6 @@ def get_class_features(
         for cc in CharacterClass:
             print("scraping ", cc)
             all_feats.append(run(cc))
-            time.sleep(5)
+            time.sleep(3)
     else:
         return run(CharacterClass[char_class.capitalize()])

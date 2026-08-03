@@ -81,7 +81,7 @@
     },
     {
         "name": "Evasion",
-        "description": "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+        "description": "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an [Ice Storm](http://dnd5e.wikidot.com/spell:ice-storm) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
         "character_class": "Rogue",
         "level": 7,
         "is_choice": false,
@@ -140,8 +140,18 @@
         "source": null
     },
     {
+        "name": "Spellcasting",
+        "description": "Spellcasting:\nWhen you reach 3rd level, you augment your martial prowess with the ability to cast spells.\n\nCantrips\n\nYou learn three cantrips: [Mage Hand](/spell:mage-hand) and two other cantrips of your choice from the [wizard spell list](/spells:wizard). You learn another wizard cantrip of your choice at 10th level.\n\nSpell Slots\n\nThe Arcane Trickster Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell [Charm Person](/spell:charm-person) and have a 1st-level and a 2nd-level spell slot available, you can cast [Charm Person](/spell:charm-person) using either slot.\n\nSpells Known of 1st Level and Higher\n\nYou know three 1st-level wizard spells of your choice, two of which you must choose from the [enchantment and illusion](/spells:arcane-trickster) spells on the [wizard spell list](/spells:wizard).\n\nThe Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nThe spells you learn at 8th, 14th, and 20th level can come from any school of magic.\n\nWhenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.\n\nSpellcasting Ability\n\nIntelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Intelligence modifier\n\nSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+        "character_class": "Rogue",
+        "level": 3,
+        "is_choice": false,
+        "uses": null,
+        "subclass": "Arcane Trickster",
+        "source": null
+    },
+    {
         "name": "Mage Hand Legerdemain",
-        "description": "Starting at 3rd level, when you cast Mage Hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:\n\n\u2022 You can stow one object the hand is holding in a container worn or carried by another creature.\n\n\u2022 You can retrieve an object in a container worn or carried by another creature.\n\n\u2022 You can use thieves' tools to pick locks and disarm traps at range.\n\nYou can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.\n\nIn addition, you can use the bonus action granted by your Cunning Action to control the hand.",
+        "description": "Starting at 3rd level, when you cast [Mage Hand](/spell:mage-hand), you can make the spectral hand invisible, and you can perform the following additional tasks with it:\n\n\u2022 You can stow one object the hand is holding in a container worn or carried by another creature.\n\n\u2022 You can retrieve an object in a container worn or carried by another creature.\n\n\u2022 You can use thieves' tools to pick locks and disarm traps at range.\n\nYou can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.\n\nIn addition, you can use the bonus action granted by your Cunning Action to control the hand.",
         "character_class": "Rogue",
         "subclass": "Arcane Trickster",
         "level": 3,
@@ -161,7 +171,7 @@
     },
     {
         "name": "Versatile Trickster",
-        "description": "At 13th level, you gain the ability to distract targets with your Mage Hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.",
+        "description": "At 13th level, you gain the ability to distract targets with your [Mage Hand](/spell:mage-hand). As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.",
         "character_class": "Rogue",
         "subclass": "Arcane Trickster",
         "level": 13,
@@ -671,7 +681,7 @@
     },
     {
         "name": "Connect with the Dead",
-        "description": "At 9th level, you can create a link with a spirit through their corpse. When you do so, you cast the Speak with Dead spell, without using a spell slot or material components. Intelligence is your spellcasting ability for this spell.\n\nSpeaking with the dead in this way temporarily gives you a capability from a past life-you're unsure whether its from your past life or the spirit's. When the spell ends, you gain one random benefit from the Revived Capabilities table. These benefits last until you finish a short or long rest.\n\nAfter you cast the spell with this feature, you can't do so again until you finish a short or long rest.",
+        "description": "At 9th level, you can create a link with a spirit through their corpse. When you do so, you cast the [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead) spell, without using a spell slot or material components. Intelligence is your spellcasting ability for this spell.\n\nSpeaking with the dead in this way temporarily gives you a capability from a past life-you're unsure whether its from your past life or the spirit's. When the spell ends, you gain one random benefit from the Revived Capabilities table. These benefits last until you finish a short or long rest.\n\nd3 | Capability\n1 | You learn how to speak, read, and write one language of your choice.\n2 | You gain one skill or tool proficiency of your choice.\n3 | You gain proficiency with one saving throw of your choice.\n\nAfter you cast the spell with this feature, you can't do so again until you finish a short or long rest.",
         "character_class": "Rogue",
         "subclass": "Revived",
         "level": 9,
