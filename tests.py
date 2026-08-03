@@ -215,6 +215,16 @@ class TestSubclassFixtures(TestCase):
         # once-per-rest feature
         self.assertEqual(_by_name(features, "Searing Vengeance").uses, 1)
 
+    def test_levelless_subclass_feature_uses_acquisition_level(self):
+        features = _parse_subclass(_load_fixture("warlock:celestial"), "Warlock")
+        # these features state no explicit level, so they fall back to the level a
+        # Warlock gains its subclass (1), not the generic default of 3
+        self.assertEqual(_by_name(features, "Expanded Spell List").level, 1)
+        self.assertEqual(_by_name(features, "Bonus Cantrips").level, 1)
+        self.assertEqual(_by_name(features, "Healing Light").level, 1)
+        # explicit prose levels still win
+        self.assertEqual(_by_name(features, "Radiant Soul").level, 6)
+
     def test_multiclass_subclass_level_header(self):
         features = _parse_subclass(
             _load_fixture("multisubclass:mage-of-lorehold-ua"), "Warlock"

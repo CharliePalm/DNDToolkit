@@ -17,6 +17,27 @@ ORDINAL_RE = re.compile(r"(\d+)(?:st|nd|rd|th)\s+level", re.IGNORECASE)
 FEATURE_LEVEL_RE = re.compile(r"\bLevel (\d+)\+?\s+[^.]*?\bFeature\b", re.IGNORECASE)
 LEVEL_RE = re.compile(r"(\d+)")
 
+# level at which each class gains access to its subclass. Used as the fallback
+# level for a subclass feature when its description states no explicit level; such
+# a feature is granted at the first level the subclass itself is available.
+SUBCLASS_ACQUISITION_LEVEL = {
+    "Artificer": 3,
+    "Barbarian": 3,
+    "Bard": 3,
+    "Cleric": 1,
+    "Druid": 2,
+    "Fighter": 3,
+    "Monk": 3,
+    "Paladin": 3,
+    "Ranger": 3,
+    "Rogue": 3,
+    "Sorcerer": 1,
+    "Warlock": 1,
+    "Wizard": 2,
+    "Blood Hunter": 3,
+}
+DEFAULT_SUBCLASS_LEVEL = 3
+
 # wikidot descriptions mix curly and straight apostrophes; normalize before matching
 _APOSTROPHES = str.maketrans({"\u2019": "'", "\u2018": "'"})
 
@@ -448,7 +469,9 @@ def _parse_subclass(html: str, char_class: str) -> List[ClassFeature]:
         feature.description = description
         feature.character_class = char_class
         feature.subclass = subclass_name
-        feature.level = _prose_level(description) or 3
+        feature.level = _prose_level(description) or SUBCLASS_ACQUISITION_LEVEL.get(
+            char_class, DEFAULT_SUBCLASS_LEVEL
+        )
         feature.uses = _uses_from_description(description)
         _merge_feature(features, feature)
 
