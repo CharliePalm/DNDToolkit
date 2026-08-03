@@ -272,20 +272,20 @@ class TestDescriptionBlocks(TestCase):
         self.assertEqual(
             types,
             [
-                "heading_3",
+                "heading_2",
                 "paragraph",
-                "heading_3",
+                "heading_2",
                 "paragraph",
-                "heading_3",
+                "heading_2",
                 "paragraph",
             ],
         )
         # a trailing ':' label marker is stripped from the heading text
         self.assertEqual(
-            blocks[0]["heading_3"]["rich_text"][0]["text"]["content"], "Spellcasting"
+            blocks[0]["heading_2"]["rich_text"][0]["text"]["content"], "Spellcasting"
         )
         self.assertEqual(
-            blocks[4]["heading_3"]["rich_text"][0]["text"]["content"],
+            blocks[4]["heading_2"]["rich_text"][0]["text"]["content"],
             "Spells Known of 1st Level and Higher",
         )
 

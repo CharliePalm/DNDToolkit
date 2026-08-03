@@ -185,7 +185,7 @@ def _heading_text(line: str) -> str:
 
 
 def _text_blocks(paragraph: str) -> List[dict]:
-    """render a non-table paragraph, promoting punctuation-free lines to heading_3
+    """render a non-table paragraph, promoting punctuation-free lines to heading_2
     and keeping the remaining lines grouped into paragraph/bullet blocks."""
     if paragraph.lstrip()[:1] == bullet_char:
         return [_paragraph_block(paragraph)]

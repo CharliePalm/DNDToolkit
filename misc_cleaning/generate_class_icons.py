@@ -43,9 +43,11 @@ COLORS = {
 }
 
 # ordered keyword rules: (keywords, candidate icons, candidate colors).
-# the first rule with a keyword found in "<name> <description>" wins; icon and
-# color are chosen from the candidate lists by a hash of the feature name so
-# features in the same theme still vary in both icon and color.
+# each feature is scored against every rule (see _match): a keyword in the
+# feature name counts heavily, a distinct keyword in the description counts a
+# little, and the highest-scoring rule wins (earlier rules break ties). icon and
+# color are chosen from the winning rule's candidate lists by a hash of the
+# feature name so features in the same theme still vary in both icon and color.
 RULES: List[Tuple[List[str], List[str], List[str]]] = [
     # --- elemental / damage themes -------------------------------------------
     (
@@ -90,6 +92,10 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "bless",
             "sanctuary",
             "consecrate",
+            "oath",
+            "tenet",
+            "paladin",
+            "saint",
         ],
         ["church", "temple", "star-of-life", "torii", "sun", "asterisk"],
         ["yellow", "white", "brown"],
@@ -150,6 +156,16 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "wild magic",
             "eldritch invocation",
             "magic",
+            "mystic",
+            "conjur",
+            "enchant",
+            "evocation",
+            "abjur",
+            "transmut",
+            "illusion",
+            "necromanc",
+            "alchemy",
+            "sculpt",
         ],
         ["magic-wand", "gem", "stars", "flash"],
         ["purple", "pink"],
@@ -160,7 +176,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
         ["purple", "brown"],
     ),
     (
-        ["summon", "conjure", "invoke", "manifest"],
+        ["summon", "conjure", "invoke", "manifest", "echo", "avatar"],
         ["stars", "orbit", "magic-wand"],
         ["purple", "pink"],
     ),
@@ -171,7 +187,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
     ),
     # --- nature / beast ------------------------------------------------------
     (
-        ["wild shape", "beast", "animal", "companion", "primal", "wild"],
+        ["wild shape", "beast", "animal", "companion", "primal", "wild", "swarm"],
         ["cat", "hare", "fish", "butterfly", "bug"],
         ["green", "orange"],
     ),
@@ -202,6 +218,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "explorer",
             "terrain",
             "natural",
+            "conclave",
         ],
         ["compass", "binoculars", "map", "target"],
         ["green", "orange"],
@@ -219,6 +236,8 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "maneuver",
             "superiority",
             "cleave",
+            "fighting style",
+            "fighting",
         ],
         ["sword", "chess-knight"],
         ["red", "yellow", "lightgray"],
@@ -255,6 +274,10 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "ambush",
             "assassin",
             "shadow step",
+            "roguish",
+            "disguise",
+            "mask",
+            "myriad",
         ],
         ["view-off", "conceal", "shade-contrast"],
         ["lightgray", "purple", "white"],
@@ -410,7 +433,16 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
         ["yellow", "orange"],
     ),
     (
-        ["ki", "monk", "martial arts", "flurry", "patient", "empty body", "stillness"],
+        [
+            "ki",
+            "monk",
+            "monastic",
+            "martial arts",
+            "flurry",
+            "patient",
+            "empty body",
+            "stillness",
+        ],
         ["yin-yang", "hand"],
         ["orange", "brown"],
     ),
@@ -476,6 +508,24 @@ def _pick(options: List[str], seed: str, salt: int) -> str:
     return options[(hash((seed, salt)) & 0x7FFFFFFF) % len(options)]
 
 
+# a keyword found in the feature *name* is far stronger evidence of its theme than
+# one buried in the description, where unrelated mechanics (e.g. "charmed",
+# "frightened") are frequently mentioned in passing. Scoring by the number of
+# distinct keywords a rule matches also favours the rule a feature is genuinely
+# about over one that happens to share a single incidental word.
+NAME_WEIGHT = 5
+DESC_WEIGHT = 1
+
+
+def _rule_score(
+    patterns: List[Pattern[str]], name: str, description: str
+) -> Tuple[int, int]:
+    """(name keyword hits, distinct description keyword hits) for a rule."""
+    name_hits = sum(1 for p in patterns if p.search(name))
+    desc_hits = sum(1 for p in patterns if p.search(description))
+    return name_hits, desc_hits
+
+
 def _unique_feature_names() -> List[str]:
     names: Dict[str, str] = {}
     files = sorted(CLASSES_DIR.glob("*_features.json"))
@@ -489,27 +539,30 @@ def _unique_feature_names() -> List[str]:
     return list(names.items())  # type: ignore[return-value]
 
 
-def _match(text: str, name: str, valid: set) -> Optional[Tuple[str, str]]:
+def _match(name: str, description: str, valid: set) -> Optional[Tuple[str, str]]:
+    """choose the highest-scoring rule; earlier (more specific) rules win ties."""
+    name_l, description_l = name.lower(), description.lower()
+    best_score = 0
+    best: Optional[Tuple[List[str], List[str]]] = None
     for patterns, icons, colors in COMPILED:
-        if any(p.search(text) for p in patterns):
-            candidates = [i for i in icons if i in valid]
-            if not candidates:
-                continue
-            icon = _pick(candidates, name, 1)
-            color = _pick(
-                [c for c in colors if c in COLORS] or [FALLBACK_COLOR], name, 2
-            )
-            return icon, color
-    return None
+        candidates = [i for i in icons if i in valid]
+        if not candidates:
+            continue
+        name_hits, desc_hits = _rule_score(patterns, name_l, description_l)
+        score = name_hits * NAME_WEIGHT + desc_hits * DESC_WEIGHT
+        if score > best_score:
+            best_score = score
+            best = (candidates, colors)
+    if best is None:
+        return None
+    icons, colors = best
+    icon = _pick(icons, name, 1)
+    color = _pick([c for c in colors if c in COLORS] or [FALLBACK_COLOR], name, 2)
+    return icon, color
 
 
 def _choose(name: str, description: str, valid: set) -> Tuple[str, str]:
-    # prefer a match on the feature name, then fall back to the description
-    return (
-        _match(name.lower(), name, valid)
-        or _match(description.lower(), name, valid)
-        or (FALLBACK_ICON, FALLBACK_COLOR)
-    )
+    return _match(name, description, valid) or (FALLBACK_ICON, FALLBACK_COLOR)
 
 
 def generate() -> None:
