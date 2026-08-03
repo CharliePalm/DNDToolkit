@@ -14,8 +14,8 @@ Run from the repo root:  python puts/put_class_features.py
 (requires the NOTION_TOKEN environment variable)
 """
 
-from asyncio import run
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Dict, List
@@ -26,6 +26,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from shared.model import bullet_char, serialize_uses  # noqa: E402
 from shared.notion.notion import Notion  # noqa: E402
+from shared.requestor import base_url  # noqa: E402
 
 DEBUG_FEATURE_NAMES = "Expanded Spell List"
 NON_FEATURE_SUBCLASSES = set(
@@ -61,6 +62,11 @@ API_COLORS = {
 MAX_RICH_TEXT = 2000
 # Notion rejects more than this many block children per append request
 MAX_CHILDREN = 100
+# Notion rejects more than this many rich_text objects in a single array
+MAX_RICH_TEXT_OBJECTS = 100
+
+# inline markdown link, e.g. [Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds)
+LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
 def _load_icons() -> Dict[str, dict]:
@@ -100,11 +106,101 @@ def _properties(
     }
 
 
-def _rich_text(content: str) -> List[dict]:
+def _abs_url(url: str) -> str:
+    """expand a relative wikidot href (e.g. "/spell:fireball") to an absolute URL."""
+    url = url.strip()
+    return base_url + url if url.startswith("/") else url
+
+
+def _chunk(content: str) -> List[str]:
+    """split a string into <=MAX_RICH_TEXT slices (never empty)."""
+    if not content:
+        return [""]
     return [
-        {"type": "text", "text": {"content": content[i : i + MAX_RICH_TEXT]}}
-        for i in range(0, len(content), MAX_RICH_TEXT)
+        content[i : i + MAX_RICH_TEXT] for i in range(0, len(content), MAX_RICH_TEXT)
     ]
+
+
+def _markdown_rich_text(text: str) -> List[dict]:
+    """convert a string with [label](url) markdown links into Notion rich text."""
+    objects: List[dict] = []
+    pos = 0
+    for match in LINK_RE.finditer(text):
+        if match.start() > pos:
+            for chunk in _chunk(text[pos : match.start()]):
+                objects.append({"type": "text", "text": {"content": chunk}})
+        url = _abs_url(match.group(2))
+        for chunk in _chunk(match.group(1)):
+            objects.append(
+                {"type": "text", "text": {"content": chunk, "link": {"url": url}}}
+            )
+        pos = match.end()
+    if pos < len(text):
+        for chunk in _chunk(text[pos:]):
+            objects.append({"type": "text", "text": {"content": chunk}})
+    if not objects:
+        objects.append({"type": "text", "text": {"content": ""}})
+    return objects[:MAX_RICH_TEXT_OBJECTS]
+
+
+def _paragraph_block(text: str) -> dict:
+    """a paragraph, or a bulleted list item when the text leads with a bullet."""
+    block_type = "paragraph"
+    if text[:1] == bullet_char:
+        block_type = "bulleted_list_item"
+        text = text[1:].strip()
+    return {
+        "object": "block",
+        "type": block_type,
+        block_type: {"rich_text": _markdown_rich_text(text)},
+    }
+
+
+def _is_table_block(paragraph: str) -> bool:
+    """a flattened table has at least one row whose cells are joined by ' | '."""
+    return any(" | " in line for line in paragraph.split("\n"))
+
+
+def _table_row(cells: List[str], width: int) -> dict:
+    padded = (cells + [""] * width)[:width]
+    return {
+        "object": "block",
+        "type": "table_row",
+        "table_row": {"cells": [_markdown_rich_text(cell) for cell in padded]},
+    }
+
+
+def _table_and_caption_blocks(paragraph: str) -> List[dict]:
+    """render a flattened ' | ' table, emitting any leading caption line as a
+    paragraph before the table block itself."""
+    blocks: List[dict] = []
+    rows: List[List[str]] = []
+    for line in paragraph.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        if " | " in line:
+            rows.append([cell.strip() for cell in line.split(" | ")])
+        elif rows:
+            rows.append([line])
+        else:
+            blocks.append(_paragraph_block(line))
+    if not rows:
+        return blocks
+    width = max(len(row) for row in rows)
+    blocks.append(
+        {
+            "object": "block",
+            "type": "table",
+            "table": {
+                "table_width": width,
+                "has_column_header": True,
+                "has_row_header": False,
+                "children": [_table_row(row, width) for row in rows],
+            },
+        }
+    )
+    return blocks
 
 
 def _description_blocks(description: str) -> List[dict]:
@@ -113,17 +209,10 @@ def _description_blocks(description: str) -> List[dict]:
         paragraph = paragraph.strip("\n")
         if not paragraph.strip():
             continue
-        block_type = "paragraph"
-        if paragraph[:1] == bullet_char:
-            block_type = "bulleted_list_item"
-            paragraph = paragraph[1:].strip()
-        blocks.append(
-            {
-                "object": "block",
-                "type": block_type,
-                block_type: {"rich_text": _rich_text(paragraph)},
-            }
-        )
+        if _is_table_block(paragraph):
+            blocks.extend(_table_and_caption_blocks(paragraph))
+        else:
+            blocks.append(_paragraph_block(paragraph))
     return blocks
 
 

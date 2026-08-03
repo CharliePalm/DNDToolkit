@@ -7,6 +7,7 @@ from misc_loader.class_features import (
     _parse_base_class,
     _parse_subclass,
 )
+from puts.put_class_features import _description_blocks
 from shared.model import ClassFeature
 
 FIXTURE_DIR = os.path.join(os.path.dirname(__file__), "fixtures", "test_html")
@@ -136,6 +137,25 @@ class TestBaseClassFixture(TestCase):
         self.assertIn("barbarian:beast-ua", self.subclass_keys)
 
 
+class TestWarlockBaseFixture(TestCase):
+    """regression tests for _parse_base_class against fixtures/test_html/warlock.html"""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.features, _ = _parse_base_class(_load_fixture("warlock"), "Warlock")
+
+    def test_pact_boon_nested_list_not_duplicated(self):
+        # nested <ul>/<li> options previously rendered each pact's text multiple
+        # times; each pact should now appear exactly once
+        pact_boon = _by_name(self.features, "Pact Boon")
+        self.assertEqual(
+            pact_boon.description.count("You can use your action to create a pact"),
+            1,
+        )
+        # one bullet per pact option (Blade, Chain, Tome, Talisman, Star Chain)
+        self.assertEqual(pact_boon.description.count("\u2022"), 5)
+
+
 class TestSubclassFixtures(TestCase):
     """regression tests for _parse_subclass across several fixture pages"""
 
@@ -203,3 +223,60 @@ class TestSubclassFixtures(TestCase):
         # "Level 6+ Mage of Lorehold Feature ..." header sets the level
         self.assertEqual(_by_name(features, "Lessons of the Past").level, 6)
         self.assertEqual(_by_name(features, "War Echoes").level, 10)
+
+
+class TestDescriptionBlocks(TestCase):
+    """regression tests for the Notion block rendering in put_class_features"""
+
+    def test_inline_links_become_rich_text_links(self):
+        blocks = _description_blocks(
+            "Learn [find familiar](/spell:find-familiar) as a ritual."
+        )
+        self.assertEqual(len(blocks), 1)
+        rich_text = blocks[0]["paragraph"]["rich_text"]
+        linked = [rt for rt in rich_text if rt["text"].get("link")]
+        self.assertEqual(len(linked), 1)
+        self.assertEqual(linked[0]["text"]["content"], "find familiar")
+        # relative wikidot href expanded to an absolute URL
+        self.assertEqual(
+            linked[0]["text"]["link"]["url"],
+            "http://dnd5e.wikidot.com/spell:find-familiar",
+        )
+
+    def test_bullet_becomes_bulleted_list_item(self):
+        blocks = _description_blocks("\u2022 A bulleted option.")
+        self.assertEqual(blocks[0]["type"], "bulleted_list_item")
+        self.assertEqual(
+            blocks[0]["bulleted_list_item"]["rich_text"][0]["text"]["content"],
+            "A bulleted option.",
+        )
+
+    def test_flattened_table_becomes_table_block(self):
+        description = (
+            "Expanded Spells\n"
+            "Spell Level | Spells\n"
+            "1st | [Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds)\n"
+            "5th | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike)"
+        )
+        blocks = _description_blocks(description)
+        # caption line rendered as a paragraph before the table
+        self.assertEqual(blocks[0]["type"], "paragraph")
+        self.assertEqual(
+            blocks[0]["paragraph"]["rich_text"][0]["text"]["content"],
+            "Expanded Spells",
+        )
+        table = blocks[1]
+        self.assertEqual(table["type"], "table")
+        self.assertEqual(table["table"]["table_width"], 2)
+        self.assertTrue(table["table"]["has_column_header"])
+        rows = table["table"]["children"]
+        self.assertEqual(len(rows), 3)
+        # every row has exactly table_width cells
+        for row in rows:
+            self.assertEqual(len(row["table_row"]["cells"]), 2)
+        # a cell link is preserved
+        link_cell = rows[1]["table_row"]["cells"][1][0]
+        self.assertEqual(
+            link_cell["text"]["link"]["url"],
+            "http://dnd5e.wikidot.com/spell:cure-wounds",
+        )

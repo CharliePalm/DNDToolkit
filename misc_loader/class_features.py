@@ -288,7 +288,10 @@ def _iter_features(container: Tag, skip_table_re: Optional[re.Pattern] = None):
                 # already captured as part of a rendered table; don't double-count
                 continue
             elif node.name == "ul":
-                for li in node.find_all("li"):
+                if node.find_parent("li") is not None:
+                    # nested list; already captured inline by its parent <li>
+                    continue
+                for li in node.find_all("li", recursive=False):
                     current_desc.append("\u2022 " + _render_markdown_text(li))
             else:
                 text = _render_markdown_text(node)
