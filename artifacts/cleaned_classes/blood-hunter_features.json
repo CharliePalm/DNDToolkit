@@ -34,7 +34,7 @@
         "description": "At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can\u2019t take a Fighting Style option more than once, even if you later get to choose again.\n\n\u2022 Archery. You gain a +2 bonus to attack rolls you make with ranged weapons.\n\n\u2022 Dueling. When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\n\u2022 Great Weapon Fighting. When you roll a 1 or 2 on a non-rite damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\n\u2022 Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",
         "character_class": "Blood Hunter",
         "level": 2,
-        "is_choice": true,
+        "is_choice": false,
         "uses": null,
         "subclass": null,
         "source": null
@@ -54,9 +54,9 @@
         "description": "At 3rd level, you commit to an order of blood hunters whose philosophy will guide you throughout your life. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.",
         "character_class": "Blood Hunter",
         "level": 3,
-        "is_choice": true,
+        "is_choice": false,
         "uses": null,
-        "subclass": "Pick your subclass where you set your class (top left)",
+        "subclass": null,
         "source": null
     },
     {
@@ -118,126 +118,6 @@
         "uses": null,
         "subclass": null,
         "source": null
-    },
-    {
-        "name": "Blood Curse of the Anxious",
-        "description": "As a bonus action, you harry the body or mind of a creature within 30 feet of you, making them susceptible to forceful influence. Until the end of your next turn, Charisma (Intimidation) checks made against the cursed creature have advantage.\n\nAmplify. The next Wisdom saving throw the cursed creature makes before this curse ends has disadvantage.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of Binding",
-        "description": "As a bonus action, you attempt to bind a Large or smaller creature you can see within 30 feet of you, which must make a Strength saving throw. On a failure, the cursed creature\u2019s speed is reduced to 0 and it can\u2019t use reactions until the end of your next turn.\n\nAmplify. This curse lasts for 1 minute and can affect any creature regardless of size. The cursed creature can repeat the saving throw at the end of each of its turns, ending the curse on itself on a success.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of Bloated Agony",
-        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you, causing its body to swell until the end of your next turn. For the duration, the creature has disadvantage on Strength checks and Dexterity checks, and takes 1d8 necrotic damage if it makes more than one attack during its turn.\n\nAmplify. This curse lasts for 1 minute. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of Corrosion",
-        "description": "Prerequisite: 15th level, Order of the Mutant As a bonus action, you cause a creature within 30 feet of you to become poisoned. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.\n\nAmplify. The cursed creature takes 4d6 necrotic damage when you inflict this curse, and it takes this damage again each time it fails a Constitution saving throw to end the curse.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 15,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Exorcist",
-        "description": "Prerequisite: 15th level, Order of the Ghostslayer As a bonus action, you choose one creature you can see within 30 feet of you that is charmed or frightened, or which is under a possession effect. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify. A creature that charmed, frightened, or possessed the target of your curse takes 3d6 psychic damage and must succeed on a Wisdom saving throw or be stunned until the end of your next turn.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 15,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of Exposure",
-        "description": "When a creature you can see within 30 feet of you takes damage from an attack or spell, you can use your reaction to temporarily weaken its resilience. Until the end of the target\u2019s next turn, it loses resistance to all the damage types dealt by the triggering attack or spell (including for that triggering effect).\n\nAmplify. The target instead loses invulnerability to the damage types of the triggering attack or spell, but has resistance to those damage types until the end of its next turn.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Eyeless",
-        "description": "When a creature you can see within 30 feet of you makes an attack, you can use your reaction to roll one hemocraft die and subtract the number rolled from the creature\u2019s attack roll. You can choose to use this feature after the creature\u2019s roll, but before the DM determines whether the attack hits or misses. The creature is immune to this curse if it is immune to the blinded condition.\n\nAmplify. You apply this curse to all the creature\u2019s attack rolls until the end of the creature\u2019s turn. You roll separately for each affected attack.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Fallen Puppet",
-        "description": "When a creature you can see within 30 feet of you drops to 0 hit points, you can use your reaction to instill that creature with a final act of aggression. The creature immediately makes one weapon attack against a target of your choice within its range.\n\nAmplify. You can first cause the cursed creature to move up to half its speed, and you grant a bonus to its attack roll equal to your Hemocraft modifier (minimum of +1).",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Howl",
-        "description": "Prerequisite: 18th level, Order of the Lycan As an action, you unleash a bloodcurdling howl. Each creature within 30 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. If a creature fails its saving throw by 5 or more, it is stunned while frightened in this way. A creature that succeeds on its saving throw is immune to this blood curse for the next 24 hours.\n\nYou can choose any number of creatures you can see to be unaffected by the howl.\n\nAmplify. The range of this curse increases to 60 feet.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 18,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Marked",
-        "description": "As a bonus action, you mark a creature that you can see within 30 feet of you. Until the end of your turn, whenever you hit the cursed creature with a weapon for which you have an active crimson rite, you roll an additional hemocraft die when determining the extra damage from the rite.\n\nAmplify. The next attack roll you make against the target before the end of your turn has advantage.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Muddled Mind",
-        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you that is concentrating on a spell or using a feature that requires concentration. That creature has disadvantage on the next Constitution saving throw it makes to maintain concentration before the end of your next turn.\n\nAmplify. The cursed creature has disadvantage on all Constitution saving throws made to maintain concentration until the end of your next turn.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 3,
-        "uses": null,
-        "source": null,
-        "is_choice": false
-    },
-    {
-        "name": "Blood Curse of the Soul Eater",
-        "description": "Prerequisite: 18th level, Order of the Profane Soul When a creature that isn\u2019t a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to offer their life energy to your patron in exchange for power. Until the end of your next turn, you make attacks with advantage and you have resistance to all damage.\n\nAmplify. Additionally, you regain an expended warlock spell slot. Once you\u2019ve amplified this blood curse, you must finish a long rest before you can amplify it again.",
-        "character_class": "Blood Hunter",
-        "subclass": "Blood Curse",
-        "level": 18,
-        "uses": null,
-        "source": null,
-        "is_choice": false
     },
     {
         "name": "Rite of the Dawn",

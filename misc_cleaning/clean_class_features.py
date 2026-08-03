@@ -22,6 +22,18 @@ from typing import Dict, List
 CLASSES_DIR = Path(__file__).resolve().parent.parent / "artifacts" / "classes"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "artifacts" / "cleaned_classes"
 SHARED_FILE = OUTPUT_DIR / "shared.json"
+OPTIONS_FILE = OUTPUT_DIR / "class_feature_options.json"
+
+# pseudo-subclasses that are really pick-lists of options a player selects as part
+# of another feature (spell-like choices), rather than true subclasses. Their
+# features are routed to class_feature_options.json instead of the class file.
+FEATURE_OPTION_SUBCLASSES = {
+    "Blood Curse",
+    "Eldritch Invocations",
+    "Psionic Talents",
+    "Psychic Disciplines",
+    "Artificer Infusions",
+}
 
 # entries merged into a single "Base Features" feature
 BASE_FEATURE_NAMES = {
@@ -171,6 +183,8 @@ def clean() -> None:
         for feature in features:
             if feature["name"] in CONSOLIDATED_NAMES:
                 continue
+            if feature.get("subclass") in FEATURE_OPTION_SUBCLASSES:
+                continue
             groups[_normalize_name(feature["name"])].append(feature)
             owner[id(feature)] = path
 
@@ -201,9 +215,30 @@ def clean() -> None:
 
     shared.sort(key=lambda entry: entry["name"].lower())
 
-    # remove shared features from their parent class files and write everything back
+    # 4: pull out feature-option pseudo-subclasses (Blood Curse, Eldritch
+    # Invocations, etc.) into their own file, removing them from the class files
+    options: List[dict] = []
     for path, features in data.items():
-        cleaned = [f for f in features if id(f) not in remove_ids]
+        for feature in features:
+            if feature.get("subclass") in FEATURE_OPTION_SUBCLASSES:
+                options.append(feature)
+    option_ids = {id(f) for f in options}
+    options.sort(
+        key=lambda entry: (
+            entry["character_class"],
+            entry.get("subclass") or "",
+            entry["name"].lower(),
+        )
+    )
+
+    # remove shared and option features from their parent class files and write
+    # everything back
+    for path, features in data.items():
+        cleaned = [
+            f
+            for f in features
+            if id(f) not in remove_ids and id(f) not in option_ids
+        ]
         output_path = OUTPUT_DIR / path.name
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as fp:
@@ -213,8 +248,13 @@ def clean() -> None:
     with open(SHARED_FILE, "w") as fp:
         json.dump(shared, fp, indent=4)
 
+    OPTIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OPTIONS_FILE, "w") as fp:
+        json.dump(options, fp, indent=4)
+
     print(f"consolidated {len(data)} class files")
     print(f"extracted {len(shared)} shared features -> {SHARED_FILE.name}")
+    print(f"extracted {len(options)} feature options -> {OPTIONS_FILE.name}")
 
 
 if __name__ == "__main__":

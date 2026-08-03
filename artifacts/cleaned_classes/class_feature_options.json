@@ -1,0 +1,1142 @@
+[
+    {
+        "name": "Arcane Propulsion Armor",
+        "description": "Prerequisite: 14th-level artificer Item: A suit of armor (requires attunement)\n\nThe wearer of this armor gains these benefits:\n\n\u2022 The wearer's walking speed increases by 5 feet.\n\n\u2022 The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.\n\n\u2022 The armor can't be removed against the wearer's will.\n\n\u2022 If the wearer is missing any limbs, the armor replaces those limbs - hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Armor of Magical Strength",
+        "description": "Item: A suit of armor (requires attunement)\n\nThis armor has 6 charges. The wearer can expend the armor's charges in the following ways:\n\n\u2022 When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to its Intelligence modifier.\n\n\u2022 If the creature would be knocked prone, it can use its reaction to expend 1 charge to avoid being knocked prone.\n\nThe armor regains 1d6 expended charges daily at dawn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Armor of Tools (UA)",
+        "description": "Item: A suit of armor\n\nAs an action, a creature wearing this infused armor can integrate into it artisan\u2019s tools or thieves\u2019 tools. The tools remain integrated in the armor for 8 hours or until the wearer removes the tools as an action. The armor can have only one tool integrated at a time. The wearer can add its Intelligence modifier to any ability checks it makes with the integrated tool. The wearer must have a hand free to use the tool.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Boots of the Winding Path",
+        "description": "Prerequisite: 6th-level artificer Item: A pair of boots (requires attunement)\n\nWhile wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Enhanced Arcane Focus",
+        "description": "Item: A rod, staff or wand (requires attunement)\n\nWhile holding this item, a creature gains +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 10,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Enhanced Defense",
+        "description": "Item: A suit of armor or a shield\n\nA creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 10,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Enhanced Weapon",
+        "description": "Item: A simple or martial weapon\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 10,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Helm of Awareness",
+        "description": "Prerequisite: 10th-level artificer Item: A helmet (requires attunement)\n\nWhile wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can\u2019t be surprised, provided it isn\u2019t incapacitated.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Homunculus Servant",
+        "description": "Item: A gem or crystal worth at least 100 gp\n\nYou learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.\n\nYou determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.\n\nThe homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.\n\nIn combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.\n\nThe homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Sharpener",
+        "description": "Item: A suit of armor or robes\n\nThe infused item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Radiant Weapon",
+        "description": "Prerequisite: 6th-level artificer Item: A simple or martial weapon (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.\n\nThe weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Repeating Shot",
+        "description": "Item: A simple or martial weapon with the ammunition property (requires attunement)\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.\n\nIf the weapon lacks ammunition, it produces its own, automatically creating one piece of magic ammunition when the wielder makes a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Replicate Magic Item",
+        "description": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.\n\nIn the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.\n\nIf you have Xanathar's Guide to Everything, you can choose from among the common magic items in that book when you pick a magic item you can replicate with this infusion.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Repulsion Shield",
+        "description": "Prerequisite: 6th-level artificer Item: A shield (requires attunement)\n\nA creature gains a +1 bonus to Armor Class while wielding this shield.\n\nThe shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Resistant Armor",
+        "description": "Prerequisite: 6th-level artificer Item: A suit of armor (requires attunement)\n\nWhile wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Returning Weapon",
+        "description": "Item: A simple or martial weapon with the thrown property\n\nThis magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder\u2019s hand immediately after it is used to make a ranged attack.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Spell-Refueling Ring",
+        "description": "Prerequisite: 6th-level artificer Item: A ring (requires attunement)\n\nWhile wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn.",
+        "character_class": "Artificer",
+        "subclass": "Artificer Infusions",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Binding",
+        "description": "As a bonus action, you attempt to bind a Large or smaller creature you can see within 30 feet of you, which must make a Strength saving throw. On a failure, the cursed creature\u2019s speed is reduced to 0 and it can\u2019t use reactions until the end of your next turn.\n\nAmplify. This curse lasts for 1 minute and can affect any creature regardless of size. The cursed creature can repeat the saving throw at the end of each of its turns, ending the curse on itself on a success.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Bloated Agony",
+        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you, causing its body to swell until the end of your next turn. For the duration, the creature has disadvantage on Strength checks and Dexterity checks, and takes 1d8 necrotic damage if it makes more than one attack during its turn.\n\nAmplify. This curse lasts for 1 minute. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Corrosion",
+        "description": "Prerequisite: 15th level, Order of the Mutant As a bonus action, you cause a creature within 30 feet of you to become poisoned. The cursed creature can make a Constitution saving throw at the end of each of its turns, ending the curse on itself on a success.\n\nAmplify. The cursed creature takes 4d6 necrotic damage when you inflict this curse, and it takes this damage again each time it fails a Constitution saving throw to end the curse.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 15,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of Exposure",
+        "description": "When a creature you can see within 30 feet of you takes damage from an attack or spell, you can use your reaction to temporarily weaken its resilience. Until the end of the target\u2019s next turn, it loses resistance to all the damage types dealt by the triggering attack or spell (including for that triggering effect).\n\nAmplify. The target instead loses invulnerability to the damage types of the triggering attack or spell, but has resistance to those damage types until the end of its next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Anxious",
+        "description": "As a bonus action, you harry the body or mind of a creature within 30 feet of you, making them susceptible to forceful influence. Until the end of your next turn, Charisma (Intimidation) checks made against the cursed creature have advantage.\n\nAmplify. The next Wisdom saving throw the cursed creature makes before this curse ends has disadvantage.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Exorcist",
+        "description": "Prerequisite: 15th level, Order of the Ghostslayer As a bonus action, you choose one creature you can see within 30 feet of you that is charmed or frightened, or which is under a possession effect. The target creature is no longer charmed, frightened, or possessed.\n\nAmplify. A creature that charmed, frightened, or possessed the target of your curse takes 3d6 psychic damage and must succeed on a Wisdom saving throw or be stunned until the end of your next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 15,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Eyeless",
+        "description": "When a creature you can see within 30 feet of you makes an attack, you can use your reaction to roll one hemocraft die and subtract the number rolled from the creature\u2019s attack roll. You can choose to use this feature after the creature\u2019s roll, but before the DM determines whether the attack hits or misses. The creature is immune to this curse if it is immune to the blinded condition.\n\nAmplify. You apply this curse to all the creature\u2019s attack rolls until the end of the creature\u2019s turn. You roll separately for each affected attack.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Fallen Puppet",
+        "description": "When a creature you can see within 30 feet of you drops to 0 hit points, you can use your reaction to instill that creature with a final act of aggression. The creature immediately makes one weapon attack against a target of your choice within its range.\n\nAmplify. You can first cause the cursed creature to move up to half its speed, and you grant a bonus to its attack roll equal to your Hemocraft modifier (minimum of +1).",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Howl",
+        "description": "Prerequisite: 18th level, Order of the Lycan As an action, you unleash a bloodcurdling howl. Each creature within 30 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. If a creature fails its saving throw by 5 or more, it is stunned while frightened in this way. A creature that succeeds on its saving throw is immune to this blood curse for the next 24 hours.\n\nYou can choose any number of creatures you can see to be unaffected by the howl.\n\nAmplify. The range of this curse increases to 60 feet.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 18,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Marked",
+        "description": "As a bonus action, you mark a creature that you can see within 30 feet of you. Until the end of your turn, whenever you hit the cursed creature with a weapon for which you have an active crimson rite, you roll an additional hemocraft die when determining the extra damage from the rite.\n\nAmplify. The next attack roll you make against the target before the end of your turn has advantage.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Muddled Mind",
+        "description": "As a bonus action, you curse a creature that you can see within 30 feet of you that is concentrating on a spell or using a feature that requires concentration. That creature has disadvantage on the next Constitution saving throw it makes to maintain concentration before the end of your next turn.\n\nAmplify. The cursed creature has disadvantage on all Constitution saving throws made to maintain concentration until the end of your next turn.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blood Curse of the Soul Eater",
+        "description": "Prerequisite: 18th level, Order of the Profane Soul When a creature that isn\u2019t a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to offer their life energy to your patron in exchange for power. Until the end of your next turn, you make attacks with advantage and you have resistance to all damage.\n\nAmplify. Additionally, you regain an expended warlock spell slot. Once you\u2019ve amplified this blood curse, you must finish a long rest before you can amplify it again.",
+        "character_class": "Blood Hunter",
+        "subclass": "Blood Curse",
+        "level": 18,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Beacon",
+        "description": "As a bonus action, you cause bright light to radiate from your body in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. The light lasts for 1 hour, and you can extinguish it earlier as a bonus action.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blade Meld",
+        "description": "As a bonus action, a one-handed melee weapon you hold becomes one with your hand. For the next minute, you can't let go of the weapon nor can it be forced from your grasp.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Blind Spot",
+        "description": "As an action, you erase your image from the mind of one creature you can see within 120 feet of you; the target must succeed on a Wisdom saving throw, or you are invisible to it until the end of your next turn.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Delusion",
+        "description": "As an action, you plant a false belief in the mind of one creature that you can see within 60 feet of you. You can create a sound or an image. Only the target of this talent perceives the sound or image you create.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a creature's roar, a musical instrument, or any other sound you pick. It lasts for 1 minute.\n\nIf you create an object, it must fit within a 5-foot cube and can\u2019t move or be reflective. The image can't create any effect that influences a sense other than sight. The image lasts for 1 minute, and it disappears if the creature touches it.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Energy Beam",
+        "description": "As an action, you target one creature you can see within 90 feet of you. The target must succeed on a Dexterity saving throw or take 1d8 acid, cold, fire, lightning, or thunder damage (your choice).\n\nThe talent's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Light Step",
+        "description": "As a bonus action, you alter your density and weight to improve your mobility. For the rest of your turn, your walking speed increases by 10 feet, and the first time you stand up this turn, you do so without expending any of your movement if your speed is greater than 0.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Meld",
+        "description": "As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this talent fails and the action is wasted.\n\nThis communication can occur until the end of the current turn. You don\u2019t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target\u2019s choice, gaining perfect recall of one thing it saw or did.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Slam",
+        "description": "As an action, you target one creature you can see within 60 feet of you. The target must succeed on a Constitution saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, it is knocked prone.\n\nThe talent\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mind Thrust",
+        "description": "As an action, you target one creature you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d10 psychic damage.\n\nThe talent\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mystic Charm",
+        "description": "As an action, you beguile one humanoid you can see within 120 feet of you. The target must succeed on a Charisma saving throw or be charmed by you until the end of your next turn.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Mystic Hand",
+        "description": "You can use your action to manipulate or move one object within 30 feet of you. The object can\u2019t weigh more than 10 pounds, and you can\u2019t affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction.\n\nThis talent allows you to open an unlocked door, pour out a beer stein, and so on.\n\nThe object falls to the ground at the end of your turn if you leave it suspended in midair.",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Psychic Hammer",
+        "description": "As an action, you try to grasp one creature you can see within 120 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 1d6 force damage. If it takes any of this damage and is Large or smaller, you can move it up to 10 feet in a straight line in a direction of your choice. You can\u2019t lift the target off the ground unless it is already airborne or underwater.\n\nThe talent\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+        "character_class": "Mystic",
+        "subclass": "Psionic Talents",
+        "level": 5,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Using a Discipline",
+        "description": "\u2022 Each psionic discipline has several ways you can use it, all contained in its description. The discipline specifies the type of action and number of psi points it requires. It also details whether you must concentrate on its effects, how many targets it affects, what saving throws it requires, and so on.\n\n\u2022 The following sections go into more detail on using a discipline. Psionic disciplines are magical and function similarly to spells.\n\nPsychic Focus\n\n\u2022 The Psychic Focus section of a discipline describes the benefit you gain when you choose that discipline for your psychic focus.\n\nEffect Options and Psi Points\n\n\u2022 A discipline provides different options for how to use it with your psi points. Each effect option has a name, and the psi point cost of that option appears in parentheses after its name. You must spend that number of psi points to use that option, while abiding by your psi limit. If you don't have enough psi points left, or the cost is above your psi limit, you can't use the option.\n\n\u2022 Some options show a range of psi points, rather than a specific cost. To use that option, you must spend a number of points within that point range, still abiding by your psi limit. Some options let you spend additional psi points to increase a discipline's potency. Again, you must abide by your psi limit, and you must spend all the points when you first use the discipline; you can't decide to spend additional points once you see the discipline in action.\n\n\u2022 Each option notes specific information about its effect, including any action required to use it and its range.\n\nComponents\n\n\u2022 Disciplines don't require the components that many spells require. Using a discipline requires no spoken words, gestures, or materials. The power of psionics comes from the mind.\n\nDuration\n\n\u2022 An effect option in a discipline specifies how long its effect lasts. Instantaneous. If no duration is specified, the effect of the option is instantaneous. Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute. Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.\n\n\u2022 Instantaneous. If no duration is specified, the effect of the option is instantaneous.\n\n\u2022 Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.\n\n\u2022 Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.\n\n\u2022 Instantaneous. If no duration is specified, the effect of the option is instantaneous.\n\n\u2022 Concentration. Some options require concentration to maintain their effects. This requirement is noted with \"conc.\" after the option's psi point cost. The \"conc.\" notation is followed by the maximum duration of the concentration. For example, if an option says \"conc., 1 min.,\" you can concentrate on its effect for up to 1 minute.\n\n\u2022 Concentrating on a discipline follows the same rules as concentrating on a spell. This rule means you can't concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, \"Spellcasting,\" in the Player's Handbook for how concentration works.\n\nTargets and Areas of Effect\n\n\u2022 Psionic disciplines use the same rules as spells for determining targets and areas of effect, as presented in chapter 10, \"Spellcasting,\" of the Player's Handbook.\n\nSaving Throws and Attack Rolls\n\n\u2022 If a discipline requires a saving throw, it specifies the type of save and the results of a successful or failed saving throw. The DC is determined by your psionic ability.\n\n\u2022 Some disciplines require you to make an attack roll to determine whether the discipline's effect hits its target. The attack roll uses your psionic ability.\n\nCombining Psionic Effects\n\n\u2022 The effects of different psionic disciplines add together while the durations of the disciplines overlap. Likewise, different options from a psionic discipline combine if they are active at the same time. However, a specific option from a psionic discipline doesn't combine with itself if the option is used multiple times. Instead, the most potent effect\u2014usually dependent on how many psi points were used to create the effect\u2014applies while the durations of the effects overlap.\n\n\u2022 Psionics and spells are separate effects, and therefore their benefits and drawbacks overlap. A psionic effect that reproduces a spell is an exception to this rule.\n\n\u2022 Avatar\n\n\u2022 Awakened\n\n\u2022 Immortal\n\n\u2022 Nomad\n\n\u2022 Wu Jen",
+        "character_class": "Mystic",
+        "subclass": "Psychic Disciplines",
+        "level": 3,
+        "uses": null,
+        "source": null,
+        "is_choice": false
+    },
+    {
+        "name": "Agonizing Blast",
+        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Arcane Gunslinger",
+        "description": "Source: Unearthed Arcana 7 - Modern Magic Prerequisite: Pact of the Blade feature\n\nYou can create a pact weapon that is a sidearm or long arm, and you can transform a magical sidearm or long arm into your pact weapon.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Armor of Shadows",
+        "description": "Source: Player's Handbook\n\nYou can cast mage armor on yourself at will, without expending a spell slot or material components.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Ascendant Step",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast levitate on yourself at will, without expending a spell slot or material components.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Aspect of the Moon",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: Pact of the Tome feature\n\nYou no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Beast Speech",
+        "description": "You can cast speak with animals at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Beguiling Influence",
+        "description": "You gain proficiency in the Deception and Persuasion skills.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Bewitching Whispers",
+        "description": "Prerequisite: 7th level\n\nYou can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Bond of the Talisman",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 12th level, Pact of the Talisman feature\n\nWhile someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 12,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Book of Ancient Secrets",
+        "description": "Prerequisite: Pact of the Tome feature\n\nYou can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.\n\nOn your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Burning Hex",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron\n\nAs a bonus action, you cause a target cursed by your Hexblade's Curse to take fire damage equal to your Charisma modifier (minimum of 1).",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Caiphon's Beacon",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron\n\nThe purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Chains of Carceri",
+        "description": "Source: Player's Handbook Prerequisite: 15th level, Pact of the Chain feature\n\nYou can cast hold monster at will \u2013 targeting a celestial, fiend, or elemental \u2013 without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Chilling Hex",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron\n\nAs a bonus action, you cause frost to swirl around a target cursed by your Hexblade's Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Chronicle of the Raven Queen",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: Raven Queen patron, Pact of the Tome feature\n\nYou can place a corpse's hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature's spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature's death, and a given creature can only be asked one question in this manner.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Claw of Acamar",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron, Pact of the Blade feature\n\nYou can create a black, lead flail using your Pact of the Blade feature. The flail's head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Cloak of Flies",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level\n\nAs a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.\n\nThe aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": 1,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Curse Bringer",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron, Pact of the Blade feature\n\nYou can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade's Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn't extend the curse's duration.\n\nWhen you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Devil's Sight",
+        "description": "Source: Player's Handbook\n\nYou can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Dreadful Word",
+        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eldritch Armor",
+        "description": "Source: Unearthed Arcana 62 - Class Feature Variants Prerequisite: Pact of the Blade feature\n\nAs an action, you can touch a suit of armor that isn't being worn or carried by anyone and instantly don it, provided you aren't wearing armor already. You are proficient with this suit of armor until it's removed.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eldritch Mind",
+        "description": "Source: Tasha's Cauldron of Everything You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eldritch Sight",
+        "description": "Source: Player's Handbook\n\nYou can cast detect magic at will, without expending a spell slot or material components.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eldritch Smite",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level, Pact of the Blade feature\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eldritch Spear",
+        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you cast eldritch blast, its range is 300 feet.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Eyes of the Rune Keeper",
+        "description": "Source: Player's Handbook\n\nYou can read all writing.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Far Scribe",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th level, Pact of the Tome feature\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nYou can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.\n\nAs an action, you can magically erase a name on the page by touching it.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Fiendish Vigor",
+        "description": "Source: Player's Handbook\n\nYou can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Gaze of Two Minds",
+        "description": "Source: Player's Handbook\n\nYou can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Ghostly Gaze",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level\n\nAs an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": 1,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Gift of the Depths",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level\n\nYou can breathe underwater, and you gain a swimming speed equal to your walking speed.\n\nYou can also cast water breathing without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Gift of the Ever-Living Ones",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: Pact of the Chain feature\n\nWhenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Gift of the Protectors",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 9th level, Pact of the Tome feature\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nWhen any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.\n\nAs an action, you can magically erase a name on the page by touching it.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Grasp of Hadar",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: eldritch blast cantrip\n\nOnce on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to yourself.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Green Lord's Gift",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Archfey patron\n\nThe Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Improved Pact Weapon",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.\n\nFinally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Investment of the Chain Master",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: Pact of the Chain feature\n\nWhen you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n\u2022 The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.\n\n\u2022 As a bonus action, you can command the familiar to take the Attack action.\n\n\u2022 The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.\n\n\u2022 If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n\u2022 When the familiar takes damage, you can use your reaction to grant it resistance against that damage.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Kiss of Mephistopheles",
+        "description": "Source: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level, eldritch blast cantrip\n\nWhen you hit a creature with your eldritch blast, you can cast fireball as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with eldritch blast.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Lance of Lethargy",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: eldritch blast cantrip\n\nOnce on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 feet until the end of your next turn.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Lifedrinker",
+        "description": "Source: Player's Handbook Prerequisite: 12th level, Pact of the Blade feature\n\nWhen you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum 1).",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 12,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Mace of Dispater",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Fiend patron, Pact of the Blade feature\n\nWhen you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Maddening Hex",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level, hex spell or a warlock feature that curses\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.\n\nSource: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "is_choice": false,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip"
+    },
+    {
+        "name": "Mask of Many Faces",
+        "description": "Source: Player's Handbook\n\nYou can cast disguise self at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Master of Myriad Forms",
+        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast alter self at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Minions of Chaos",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Mire the Mind",
+        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Misty Visions",
+        "description": "Source: Player's Handbook\n\nYou can cast silent image at will, without expending a spell slot or material components.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Moonbow",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Archfey patron, Pact of the Blade feature\n\nYou can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "One with Shadows",
+        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nWhen you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Otherworldly Leap",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast jump at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Path of the Seeker",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Seeker patron\n\nThe Seeker bids you to travel in search of knowledge, and little can prevent you from walking this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Protection of the Talisman",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 7th level, Pact of the Talisman feature\n\nWhen the wearer of your talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Raven Queen's Blessing",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: Raven Queen patron, eldritch blast cantrip\n\nWhen you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature's Constitution modifier (minimum of 1 hit point).",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Rebuke of the Talisman",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: Pact of the Talisman feature\n\nWhen the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Relentless Hex",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level, hex spell or a warlock feature that curses\n\nYour curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Repelling Blast",
+        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Sculptor of Flesh",
+        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Seeker's Speech",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Seeker patron\n\nYour quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Shroud of Shadow",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 15th level\n\nYou can cast invisibility at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Shroud of Ulban",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron\n\nThe blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn invisible for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Sign of Ill Omen",
+        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Superior Pact Weapon",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: 9th level, Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon counts as a magic weapon with a +2 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Thief of Five Fates",
+        "description": "Source: Player's Handbook\n\nYou can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Thirsting Blade",
+        "description": "Source: Player's Handbook Prerequisite: 5th level, Pact of the Blade feature\n\nYou can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Tomb of Levistus",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level\n\nAs a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 5,
+        "uses": 1,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Trickster's Escape",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level\n\nYou can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 7,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Ultimate Pact Weapon",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: 15th level, Pact of the Blade feature\n\nYou can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon counts as a magic weapon with a +3 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Undying Servitude",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th-level warlock\n\nYou can cast animate dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Visions of Distant Realms",
+        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast arcane eye at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Voice of the Chain Master",
+        "description": "Source: Player's Handbook Prerequisite: Pact of the Chain feature\n\nYou can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 3,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Whispers of the Grave",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast speak with dead at will, without expending a spell slot.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 9,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    },
+    {
+        "name": "Witch Sight",
+        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.",
+        "character_class": "Warlock",
+        "subclass": "Eldritch Invocations",
+        "level": 15,
+        "uses": null,
+        "source": "Player's Handbook Prerequisite: eldritch blast cantrip",
+        "is_choice": false
+    }
+]
