@@ -29,8 +29,8 @@ from shared.model import bullet_char, serialize_uses  # noqa: E402
 from shared.notion.notion import Notion  # noqa: E402
 from shared.requestor import base_url  # noqa: E402
 
-DEBUG_FEATURE_NAMES = ["Spellcasting"]
-DEBUG_FEATURE_SUBCLASS = "Arcane Trickster"
+DEBUG_FEATURE_NAMES = ["Sneak Attack"]
+DEBUG_FEATURE_SUBCLASS = ""
 NON_FEATURE_SUBCLASSES = set(
     [
         "Blood Curse",
@@ -161,8 +161,8 @@ def _paragraph_block(text: str) -> dict:
 def _heading_block(text: str) -> dict:
     return {
         "object": "block",
-        "type": "heading_3",
-        "heading_3": {"rich_text": _markdown_rich_text(text)},
+        "type": "heading_2",
+        "heading_2": {"rich_text": _markdown_rich_text(text)},
     }
 
 
@@ -317,9 +317,8 @@ def put_class_features() -> None:
     failed = 0
     for name, description, classes, subclasses, level, uses in _iter_features():
         try:
-            if (
-                name not in DEBUG_FEATURE_NAMES
-                or DEBUG_FEATURE_SUBCLASS not in subclasses
+            if name not in DEBUG_FEATURE_NAMES or (
+                DEBUG_FEATURE_SUBCLASS and DEBUG_FEATURE_SUBCLASS not in subclasses
             ):
                 continue
             page = notion.insert_into_db(

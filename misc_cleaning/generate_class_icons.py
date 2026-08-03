@@ -19,7 +19,7 @@ from typing import Dict, List, Optional, Pattern, Tuple
 ARTIFACTS = Path(__file__).resolve().parent.parent / "artifacts"
 CLASSES_DIR = ARTIFACTS / "classes"
 ICONS_FILE = ARTIFACTS / "icons.json"
-OUTPUT_FILE = CLASSES_DIR / "class_icons.json"
+OUTPUT_FILE = ARTIFACTS / "feature_icons.json"
 
 # entries we must not regenerate / overwrite (curated by hand)
 PRESERVE = {
@@ -27,7 +27,7 @@ PRESERVE = {
 }
 
 FALLBACK_ICON = "hexagon-three-sixths"
-FALLBACK_COLOR = "brown"
+FALLBACK_COLOR = "lightgray"
 
 # allowed Notion colors for generated entries
 COLORS = {
@@ -91,8 +91,8 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "sanctuary",
             "consecrate",
         ],
-        ["church", "temple", "star-of-life", "torii"],
-        ["yellow", "white"],
+        ["church", "temple", "star-of-life", "torii", "sun", "asterisk"],
+        ["yellow", "white", "brown"],
     ),
     (
         ["channel divinity", "turn undead", "smite"],
@@ -101,7 +101,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
     ),
     (
         ["light", "shining", "sunlight", "dawn", "beacon"],
-        ["sun", "light-bulb", "brightness-high", "sunrise"],
+        ["sun", "light-bulb", "brightness-high", "sunrise", "asterisk"],
         ["yellow", "white"],
     ),
     # --- death / shadow / fear -----------------------------------------------
@@ -122,7 +122,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
     ),
     (
         ["shadow", "dark", "night", "gloom", "umbral", "eldritch"],
-        ["moon", "partly-cloudy-night", "ghost"],
+        ["moon", "partly-cloudy-night", "ghost", "asterisk"],
         ["purple", "brown"],
     ),
     (
@@ -145,11 +145,11 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
         [
             "arcane",
             "sorcer",
-            "metamagic",
             "spell point",
             "font of magic",
             "wild magic",
             "eldritch invocation",
+            "magic",
         ],
         ["magic-wand", "gem", "stars", "flash"],
         ["purple", "pink"],
@@ -189,7 +189,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "land's stride",
             "circle of",
         ],
-        ["leaf", "tree", "conifer-tree", "clover", "mushroom", "cactus"],
+        ["leaf", "tree", "conifer-tree", "clover", "mushroom", "cactus", "grain"],
         ["green", "brown"],
     ),
     (
@@ -220,13 +220,13 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "superiority",
             "cleave",
         ],
-        ["sword", "knife", "chess-knight"],
-        ["red"],
+        ["sword", "chess-knight"],
+        ["red", "yellow", "lightgray"],
     ),
     (
         ["archery", "ranged", "arrow", "bow", "shot", "sharpshoot"],
         ["archery", "target", "bullseye"],
-        ["red", "orange"],
+        ["red", "orange", "lightgray"],
     ),
     (
         [
@@ -243,7 +243,7 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "indomitable",
         ],
         ["shield"],
-        ["lightgray", "brown"],
+        ["lightgray", "brown", "yellow", "purple"],
     ),
     (
         [
@@ -256,8 +256,8 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "assassin",
             "shadow step",
         ],
-        ["view-off", "conceal"],
-        ["lightgray", "purple"],
+        ["view-off", "conceal", "shade-contrast"],
+        ["lightgray", "purple", "white"],
     ),
     (
         [
@@ -328,9 +328,10 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
             "intelligence",
             "arcana",
             "recall",
+            "memory",
         ],
         ["book", "book-closed", "library", "gradebook"],
-        ["brown", "yellow"],
+        ["brown", "yellow", "lightgray", "white"],
     ),
     # --- craft / tools -------------------------------------------------------
     (
@@ -429,10 +430,11 @@ RULES: List[Tuple[List[str], List[str], List[str]]] = [
         ["yellow", "purple"],
     ),
     (
-        ["blood", "hemocraft", "crimson", "sanguine", "hunter's"],
+        ["blood", "hemocraft", "crimson", "sanguine", "hunter's", "violent"],
         ["heart", "skull", "water"],
         ["red", "brown"],
     ),
+    (["channel"], ["skull"], ["white", "lightgray"]),
     (
         ["pact", "warlock", "patron", "otherworld", "fiend", "genie"],
         ["gem", "ghost", "skull"],

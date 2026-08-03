@@ -874,5 +874,9 @@
   "timeline",
   "camera-roll",
   "camera-roll-portrait",
-  "tabs"
+  "tabs",
+  "shade-light",
+  "shade-dark",
+  "shade-contrast",
+  "shade-midtone"
 ]
