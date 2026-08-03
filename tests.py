@@ -261,6 +261,39 @@ class TestDescriptionBlocks(TestCase):
             "A bulleted option.",
         )
 
+    def test_punctuationless_line_becomes_heading_3(self):
+        description = (
+            "Spellcasting:\nWhen you reach 3rd level, you cast spells.\n\n"
+            "Cantrips\n\nYou learn three cantrips.\n\n"
+            "Spells Known of 1st Level and Higher\n\nYou know three spells."
+        )
+        blocks = _description_blocks(description)
+        types = [b["type"] for b in blocks]
+        self.assertEqual(
+            types,
+            [
+                "heading_3",
+                "paragraph",
+                "heading_3",
+                "paragraph",
+                "heading_3",
+                "paragraph",
+            ],
+        )
+        # a trailing ':' label marker is stripped from the heading text
+        self.assertEqual(
+            blocks[0]["heading_3"]["rich_text"][0]["text"]["content"], "Spellcasting"
+        )
+        self.assertEqual(
+            blocks[4]["heading_3"]["rich_text"][0]["text"]["content"],
+            "Spells Known of 1st Level and Higher",
+        )
+
+    def test_bullet_without_punctuation_stays_bulleted_list_item(self):
+        # a punctuation-free bullet must not be promoted to a heading
+        blocks = _description_blocks("\u2022 Intelligence score")
+        self.assertEqual(blocks[0]["type"], "bulleted_list_item")
+
     def test_flattened_table_becomes_table_block(self):
         description = (
             "Expanded Spells\n"

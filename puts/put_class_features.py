@@ -16,6 +16,7 @@ Run from the repo root:  python puts/put_class_features.py
 
 import json
 import re
+import string
 import sys
 from pathlib import Path
 from typing import Dict, List
@@ -157,6 +158,55 @@ def _paragraph_block(text: str) -> dict:
     }
 
 
+def _heading_block(text: str) -> dict:
+    return {
+        "object": "block",
+        "type": "heading_3",
+        "heading_3": {"rich_text": _markdown_rich_text(text)},
+    }
+
+
+def _is_heading_line(line: str) -> bool:
+    """a line acts as a section header when it has text but no punctuation. A single
+    trailing ':' is treated as a label marker and ignored (e.g. "Spellcasting:")."""
+    stripped = line.strip()
+    if not stripped or stripped[:1] == bullet_char:
+        return False
+    candidate = stripped[:-1] if stripped.endswith(":") else stripped
+    if not any(char.isalnum() for char in candidate):
+        return False
+    return not any(char in string.punctuation for char in candidate)
+
+
+def _heading_text(line: str) -> str:
+    """the heading label for a heading line, dropping a single trailing ':'."""
+    stripped = line.strip()
+    return stripped[:-1].strip() if stripped.endswith(":") else stripped
+
+
+def _text_blocks(paragraph: str) -> List[dict]:
+    """render a non-table paragraph, promoting punctuation-free lines to heading_3
+    and keeping the remaining lines grouped into paragraph/bullet blocks."""
+    if paragraph.lstrip()[:1] == bullet_char:
+        return [_paragraph_block(paragraph)]
+    blocks: List[dict] = []
+    buffer: List[str] = []
+
+    def flush() -> None:
+        if buffer:
+            blocks.append(_paragraph_block("\n".join(buffer)))
+            buffer.clear()
+
+    for line in paragraph.split("\n"):
+        if _is_heading_line(line):
+            flush()
+            blocks.append(_heading_block(_heading_text(line)))
+        else:
+            buffer.append(line)
+    flush()
+    return blocks
+
+
 def _is_table_block(paragraph: str) -> bool:
     """a flattened table has at least one row whose cells are joined by ' | '."""
     return any(" | " in line for line in paragraph.split("\n"))
@@ -213,7 +263,7 @@ def _description_blocks(description: str) -> List[dict]:
         if _is_table_block(paragraph):
             blocks.extend(_table_and_caption_blocks(paragraph))
         else:
-            blocks.append(_paragraph_block(paragraph))
+            blocks.extend(_text_blocks(paragraph))
     return blocks
 
 
