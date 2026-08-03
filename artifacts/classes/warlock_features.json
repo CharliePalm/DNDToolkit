@@ -34,14 +34,14 @@
         "description": "At 1st level, you have struck a bargain with an otherworldly being of your choice. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",
         "character_class": "Warlock",
         "level": 1,
-        "is_choice": false,
+        "is_choice": true,
+        "subclass": "Pick your subclass where you set your class (top left)",
         "uses": null,
-        "subclass": null,
         "source": null
     },
     {
         "name": "Pact Magic",
-        "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells.\n\nCantrips\n\nYou know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n\nSpell Slots\n\nThe Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.\n\nSpells Known of 1st Level and Higher\n\nAt 1st level, you know two 1st-level spells of your choice from the warlock spell list.\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\n\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus\n\nYou can use an arcane focus as a spellcasting focus for your warlock spells.",
+        "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells.\n\nCantrips\n\nYou know two cantrips of your choice from the [warlock spell list](http://dnd5e.wikidot.com/spells:warlock). You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.\n\nSpell Slots\n\nThe Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.\n\nFor example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell [witch bolt](/spell:witch-bolt), you must spend one of those slots, and you cast it as a 3rd-level spell.\n\nSpells Known of 1st Level and Higher\n\nAt 1st level, you know two 1st-level spells of your choice from the [warlock spell list](http://dnd5e.wikidot.com/spells:warlock).\n\nThe Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level or higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.\n\nAdditionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.\n\nSpellcasting Ability\n\nCharisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\n\nSpell attack modifier = your proficiency bonus + your Charisma modifier\n\nSpellcasting Focus\n\nYou can use an arcane focus as a spellcasting focus for your warlock spells.",
         "character_class": "Warlock",
         "level": 1,
         "is_choice": true,
@@ -51,7 +51,7 @@
     },
     {
         "name": "Eldritch Invocations",
-        "description": "In your study of occult lore, you have unearthed Eldritch Invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.\n\nAt 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table. A level prerequisite refers to your level in this class.\n\nAdditionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.",
+        "description": "In your study of occult lore, you have unearthed [Eldritch Invocations](/warlock:eldritch-invocations), fragments of forbidden knowledge that imbue you with an abiding magical ability.\n\nAt 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table. A level prerequisite refers to your level in this class.\n\nAdditionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.",
         "character_class": "Warlock",
         "level": 2,
         "is_choice": false,
@@ -61,7 +61,7 @@
     },
     {
         "name": "Pact Boon",
-        "description": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.\n\n\u2022 Pact of the Blade You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\n\u2022 Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\n\u2022 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest.\n\n\u2022 You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\n\u2022 Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\n\u2022 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest.\n\n\u2022 You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 Pact of the Chain You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known. When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.\n\n\u2022 Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.\n\n\u2022 Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 Pact of the Tome Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.\n\n\u2022 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.\n\n\u2022 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Pact of the Talisman Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest. If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.\n\n\u2022 If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.\n\n\u2022 If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Pact of the Star Chain (UA) Prerequisite: Seeker Patron The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the augury spell and can cast it as a ritual. The spell doesn't count against your number of spells known. Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest. If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die. The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.\n\n\u2022 Prerequisite: Seeker Patron\n\n\u2022 The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the augury spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.\n\n\u2022 If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.\n\n\u2022 The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.\n\n\u2022 Prerequisite: Seeker Patron\n\n\u2022 The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the augury spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.\n\n\u2022 If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.\n\n\u2022 The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.",
+        "description": "At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.\n\n\u2022 Pact of the Blade You can use your action to create a pact [weapon](http://dnd5e.wikidot.com/weapons) in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die. You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 You can use your action to create a pact [weapon](http://dnd5e.wikidot.com/weapons) in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\n\u2022 Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\n\u2022 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest.\n\n\u2022 You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 You can use your action to create a pact [weapon](http://dnd5e.wikidot.com/weapons) in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\n\u2022 Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\n\u2022 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest.\n\n\u2022 You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n\u2022 Pact of the Chain You learn the [find familiar](/spell:find-familiar) spell and can cast it as a ritual. The spell doesn't count against your number of spells known. When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 You learn the [find familiar](/spell:find-familiar) spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.\n\n\u2022 Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 You learn the [find familiar](/spell:find-familiar) spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.\n\n\u2022 Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack with its reaction.\n\n\u2022 Pact of the Tome Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.\n\n\u2022 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.\n\n\u2022 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.\n\n\u2022 Pact of the Talisman Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest. If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.\n\n\u2022 If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.\n\n\u2022 If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.\n\n\u2022 Pact of the Star Chain (UA) Prerequisite: Seeker Patron The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the [augury](/spell:augury) spell and can cast it as a ritual. The spell doesn't count against your number of spells known. Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest. If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die. The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.\n\n\u2022 Prerequisite: Seeker Patron\n\n\u2022 The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the [augury](/spell:augury) spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.\n\n\u2022 If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.\n\n\u2022 The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.\n\n\u2022 Prerequisite: Seeker Patron\n\n\u2022 The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the [augury](/spell:augury) spell and can cast it as a ritual. The spell doesn't count against your number of spells known.\n\n\u2022 Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.\n\n\u2022 If you lose your Star Chain, you can perform a 1-hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.\n\n\u2022 The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian.",
         "character_class": "Warlock",
         "level": 3,
         "is_choice": true,
@@ -111,7 +111,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nArchfey Expanded Spells\nSpell Level | Spells\n1st | [Faerie Fire](http://dnd5e.wikidot.com/spell:faerie-fire), [Sleep](http://dnd5e.wikidot.com/spell:sleep)\n2nd | [Calm Emotions](http://dnd5e.wikidot.com/spell:calm-emotions), [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force)\n3rd | [Blink](http://dnd5e.wikidot.com/spell:blink), [Plant Growth](http://dnd5e.wikidot.com/spell:plant-growth)\n4th | [Dominate Beast](http://dnd5e.wikidot.com/spell:dominate-beast), [Greater Invisibility](http://dnd5e.wikidot.com/spell:greater-invisibility)\n5th | [Dominate Person](http://dnd5e.wikidot.com/spell:dominate-person), [Seeming](http://dnd5e.wikidot.com/spell:seeming)",
         "character_class": "Warlock",
         "subclass": "The Archfey",
         "level": 3,
@@ -161,7 +161,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nCelestial Expanded Spells\nSpell Level | Spells\n1st | [Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds), [Guiding Bolt](http://dnd5e.wikidot.com/spell:guiding-bolt)\n2nd | [Flaming Sphere](http://dnd5e.wikidot.com/spell:flaming-sphere), [Lesser Restoration](http://dnd5e.wikidot.com/spell:lesser-restoration)\n3rd | [Daylight](http://dnd5e.wikidot.com/spell:daylight), [Revivify](http://dnd5e.wikidot.com/spell:revivify)\n4th | [Guardian of Faith](http://dnd5e.wikidot.com/spell:guardian-of-faith), [Wall of Fire](http://dnd5e.wikidot.com/spell:wall-of-fire)\n5th | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike), [Greater Restoration](http://dnd5e.wikidot.com/spell:greater-restoration)",
         "character_class": "Warlock",
         "subclass": "The Celestial",
         "level": 3,
@@ -171,7 +171,7 @@
     },
     {
         "name": "Bonus Cantrips",
-        "description": "At 1st level, you learn the Light and Sacred Flame cantrips. They count as warlock cantrips for you, but they don\u2019t count against your number of cantrips known.",
+        "description": "At 1st level, you learn the [Light](http://dnd5e.wikidot.com/spell:light) and [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) cantrips. They count as warlock cantrips for you, but they don\u2019t count against your number of cantrips known.",
         "character_class": "Warlock",
         "subclass": "The Celestial",
         "level": 1,
@@ -221,7 +221,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nFathomless Expanded Spells\nSpell Level | Spells\n1st | [Create or Destroy Water](http://dnd5e.wikidot.com/spell:create-or-destroy-water), [Thunderwave](http://dnd5e.wikidot.com/spell:thunderwave)\n2nd | [Gust of Wind](http://dnd5e.wikidot.com/spell:gust-of-wind), [Silence](http://dnd5e.wikidot.com/spell:silence)\n3rd | [Lightning Bolt](http://dnd5e.wikidot.com/spell:lightning-bolt), [Sleet Storm](http://dnd5e.wikidot.com/spell:sleet-storm)\n4th | [Control Water](http://dnd5e.wikidot.com/spell:control-water), [Summon Elemental](http://dnd5e.wikidot.com/spell:summon-elemental) (Water only)\n5th | [Bigby's Hand](http://dnd5e.wikidot.com/spell:bigbys-hand) (appears as a tentacle), [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)",
         "character_class": "Warlock",
         "subclass": "The Fathomless",
         "level": 3,
@@ -271,7 +271,7 @@
     },
     {
         "name": "Grasping Tentacles",
-        "description": "Starting at 10th level, you learn the spell Evard's Black Tentacles. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without using a spell slot, and you regain the ability to do so when you finish a long rest.\n\nWhenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell.",
+        "description": "Starting at 10th level, you learn the spell [Evard's Black Tentacles](http://dnd5e.wikidot.com/spell:evards-black-tentacles). It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without using a spell slot, and you regain the ability to do so when you finish a long rest.\n\nWhenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell.",
         "character_class": "Warlock",
         "subclass": "The Fathomless",
         "level": 10,
@@ -291,7 +291,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nFiend Expanded Spells\nSpell Level | Spells\n1st | [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands), [Command](http://dnd5e.wikidot.com/spell:command)\n2nd | [Blindness/Deafness](http://dnd5e.wikidot.com/spell:blindness-deafness), [Scorching Ray](http://dnd5e.wikidot.com/spell:scorching-ray)\n3rd | [Fireball](http://dnd5e.wikidot.com/spell:fireball), [Stinking Cloud](http://dnd5e.wikidot.com/spell:stinking-cloud)\n4th | [Fire Shield](http://dnd5e.wikidot.com/spell:fire-shield), [Wall of Fire](http://dnd5e.wikidot.com/spell:wall-of-fire)\n5th | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike), [Hallow](http://dnd5e.wikidot.com/spell:hallow)",
         "character_class": "Warlock",
         "subclass": "The Fiend",
         "level": 3,
@@ -341,7 +341,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "At 1st level, the Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.",
+        "description": "At 1st level, the Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.\n\nGenie Expanded Spells\nSpell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells\n1st | [Detect Evil and Good](http://dnd5e.wikidot.com/spell:detect-evil-and-good) | [Sanctuary](http://dnd5e.wikidot.com/spell:sanctuary) | [Thunderwave](http://dnd5e.wikidot.com/spell:thunderwave) | [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands) | [Fog Cloud](http://dnd5e.wikidot.com/spell:fog-cloud)\n2nd | [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force) | [Spike Growth](http://dnd5e.wikidot.com/spell:spike-growth) | [Gust of Wind](http://dnd5e.wikidot.com/spell:gust-of-wind) | [Scorching Ray](http://dnd5e.wikidot.com/spell:scorching-ray) | [Blur](http://dnd5e.wikidot.com/spell:blur)\n3rd | [Create Food and Water](http://dnd5e.wikidot.com/spell:create-food-and-water) | [Meld into Stone](http://dnd5e.wikidot.com/spell:meld-into-stone) | [Wind Wall](http://dnd5e.wikidot.com/spell:wind-wall) | [Fireball](http://dnd5e.wikidot.com/spell:fireball) | [Sleet Storm](http://dnd5e.wikidot.com/spell:sleet-storm)\n4th | [Phantasmal Killer](http://dnd5e.wikidot.com/spell:phantasmal-killer) | [Stone Shape](http://dnd5e.wikidot.com/spell:stone-shape) | [Greater Invisibility](http://dnd5e.wikidot.com/spell:greater-invisibility) | [Fire Shield](http://dnd5e.wikidot.com/spell:fire-shield) | [Control Water](http://dnd5e.wikidot.com/spell:control-water)\n5th | [Creation](http://dnd5e.wikidot.com/spell:creation) | [Wall of Stone](http://dnd5e.wikidot.com/spell:wall-of-stone) | [Seeming](http://dnd5e.wikidot.com/spell:seeming) | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike) | [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)\n9th | [Wish](http://dnd5e.wikidot.com/spell:wish) | \u2014 | \u2014 | \u2014 | \u2014",
         "character_class": "Warlock",
         "subclass": "The Genie",
         "level": 1,
@@ -351,7 +351,7 @@
     },
     {
         "name": "Genie's Vessel",
-        "description": "Also at 1st level, your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n\u2022 Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.\n\n\u2022 Genie's Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.",
+        "description": "Also at 1st level, your patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.\n\nGenie's Vessel\nd6 | Vessel\n1 | Oil lamp\n2 | Urn\n3 | Ring with a compartment\n4 | Stoppered bottle\n5 | Hollow statuette\n6 | Ornate lantern\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n\u2022 Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.\n\n\u2022 Genie's Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.",
         "character_class": "Warlock",
         "subclass": "The Genie",
         "level": 1,
@@ -391,7 +391,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nGreat Old One Expanded Spells\nSpell Level | Spells\n1st | [Dissonant Whispers](http://dnd5e.wikidot.com/spell:dissonant-whispers), [Tasha's Hideous Laughter](http://dnd5e.wikidot.com/spell:tashas-hideous-laughter)\n2nd | [Detect Thoughts](http://dnd5e.wikidot.com/spell:detect-thoughts), [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force)\n3rd | [Clairvoyance](http://dnd5e.wikidot.com/spell:clairvoyance), [Sending](http://dnd5e.wikidot.com/spell:sending)\n4th | [Dominate Beast](http://dnd5e.wikidot.com/spell:dominate-beast), [Evard's Black Tentacles](http://dnd5e.wikidot.com/spell:evards-black-tentacles)\n5th | [Dominate Person](http://dnd5e.wikidot.com/spell:dominate-person), [Telekinesis](http://dnd5e.wikidot.com/spell:telekinesis)",
         "character_class": "Warlock",
         "subclass": "The Great Old One",
         "level": 3,
@@ -431,7 +431,7 @@
     },
     {
         "name": "Create Thrall",
-        "description": "At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a Remove Curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.\n\nYou can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.",
+        "description": "At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a [Remove Curse](http://dnd5e.wikidot.com/spell:remove-curse) spell is cast on it, the charmed condition is removed from it, or you use this feature again.\n\nYou can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.",
         "character_class": "Warlock",
         "subclass": "The Great Old One",
         "level": 14,
@@ -441,7 +441,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nHexblade Expanded Spells\nSpell Level | Spells\n1st | [Shield](http://dnd5e.wikidot.com/spell:shield), [Wrathful Smite](http://dnd5e.wikidot.com/spell:wrathful-smite)\n2nd | [Blur](http://dnd5e.wikidot.com/spell:blur), [Branding Smite](http://dnd5e.wikidot.com/spell:branding-smite)\n3rd | [Blink](http://dnd5e.wikidot.com/spell:blink), [Elemental Weapon](http://dnd5e.wikidot.com/spell:elemental-weapon)\n4th | [Phantasmal Killer](http://dnd5e.wikidot.com/spell:phantasmal-killer), [Staggering Smite](http://dnd5e.wikidot.com/spell:staggering-smite)\n5th | [Banishing Smite](http://dnd5e.wikidot.com/spell:banishing-smite), [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)",
         "character_class": "Warlock",
         "subclass": "The Hexblade",
         "level": 3,
@@ -501,7 +501,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "At 1st level, the Undead lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "At 1st level, the Undead lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nUndead Expanded Spells\nSpell Level | Spells\n1st | [Bane](http://dnd5e.wikidot.com/spell:bane), [False Life](http://dnd5e.wikidot.com/spell:false-life)\n2nd | [Blindness/Deafness](http://dnd5e.wikidot.com/spell:blindness-deafness), [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force)\n3rd | [Phantom Steed](http://dnd5e.wikidot.com/spell:phantom-steed), [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead)\n4th | [Death Ward](http://dnd5e.wikidot.com/spell:death-ward), [Greater Invisibility](http://dnd5e.wikidot.com/spell:greater-invisibility)\n5th | [Antilife Shell](http://dnd5e.wikidot.com/spell:antilife-shell), [Cloudkill](http://dnd5e.wikidot.com/spell:cloudkill)",
         "character_class": "Warlock",
         "subclass": "The Undead",
         "level": 1,
@@ -551,7 +551,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nUndying Expanded Spells\nSpell Level | Spells\n1st | [False Life](http://dnd5e.wikidot.com/spell:false-life), [Ray of Sickness](http://dnd5e.wikidot.com/spell:ray-of-sickness)\n2nd | [Blindness/Deafness](http://dnd5e.wikidot.com/spell:blindness-deafness), [Silence](http://dnd5e.wikidot.com/spell:silence)\n3rd | [Feign Death](http://dnd5e.wikidot.com/spell:feign-death), [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead)\n4th | [Aura of Life](http://dnd5e.wikidot.com/spell:aura-of-life), [Death Ward](http://dnd5e.wikidot.com/spell:death-ward)\n5th | [Contagion](http://dnd5e.wikidot.com/spell:contagion), [Legend Lore](http://dnd5e.wikidot.com/spell:legend-lore)",
         "character_class": "Warlock",
         "subclass": "The Undying",
         "level": 3,
@@ -561,7 +561,7 @@
     },
     {
         "name": "Among the Dead",
-        "description": "Starting at 1st level, you learn the Spare the Dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.\n\nAdditionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of Fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.",
+        "description": "Starting at 1st level, you learn the [Spare the Dying](http://dnd5e.wikidot.com/spell:spare-the-dying) cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.\n\nAdditionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of [Fireball](http://dnd5e.wikidot.com/spell:fireball)). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell.",
         "character_class": "Warlock",
         "subclass": "The Undying",
         "level": 1,
@@ -571,7 +571,7 @@
     },
     {
         "name": "Defy Death",
-        "description": "Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with Spare the Dying.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+        "description": "Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with [Spare the Dying](http://dnd5e.wikidot.com/spell:spare-the-dying).\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "The Undying",
         "level": 6,
@@ -611,7 +611,7 @@
     },
     {
         "name": "Lorehold Spells",
-        "description": "Level 1+ Mage of Lorehold Feature You learn the cantrip Sacred Flame and the 1st level spell Comprehend Languages. You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.",
+        "description": "Level 1+ Mage of Lorehold Feature You learn the cantrip [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) and the 1st level spell [Comprehend Languages](http://dnd5e.wikidot.com/spell:comprehend-languages). You learn additional spells when you reach certain levels in this class, as shown on the Lorehold Spells table.\n\nEach of these spells counts as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a wizard, you can add these spells to your spellbook upon learning them, without expending any gold, and prepare them as normal.\n\nLorehold Spells\nClass Level | Spells\n3rd | [Knock](http://dnd5e.wikidot.com/spell:knock), [Locate Object](http://dnd5e.wikidot.com/spell:locate-object)\n5th | [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead), [Spirit Guardians](http://dnd5e.wikidot.com/spell:spirit-guardians)\n7th | [Arcane Eye](http://dnd5e.wikidot.com/spell:arcane-eye), [Stone Shape](http://dnd5e.wikidot.com/spell:stone-shape)\n9th | [Destructive Wave](http://dnd5e.wikidot.com/spell:destructive-wave), [Legend Lore](http://dnd5e.wikidot.com/spell:legend-lore)",
         "character_class": "Warlock",
         "subclass": "Mage of Lorehold UA",
         "level": 1,
@@ -621,7 +621,7 @@
     },
     {
         "name": "Ancient Companion",
-        "description": "Level 1+ Mage of Lorehold Feature You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature\u2019s game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit\u2019s appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.",
+        "description": "Level 1+ Mage of Lorehold Feature You learn to call on the spirits of the ancient dead and house them temporarily in the remnants of old statues, so they may remain longer on this plane to bolster your studies and aid you in battle.\n\nWhenever you finish a short or long rest, you can call forth and bond with one such spirit, who comes to inhabit a Medium, freestanding statue within 10 feet of you to serve as your ancient companion. See this creature\u2019s game statistics in the Ancient Companion stat block, which uses your proficiency bonus (PB) in several places. When you bond with your ancient companion, choose the type of spirit you bond with: Healer, Sage, or Warrior. Your choice of spirit determines certain traits in its stat block. The statue determines the spirit\u2019s appearance.\n\nThe ancient companion is friendly to you and your companions and obeys your commands. In combat, the companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n\nAs an action, you can touch the ancient companion and expend a spell slot of 1st-level or higher. The ancient companion regains a number of hit points equal to 10 times the level of spell slot expended.\n\nThe companion perishes when it drops to 0 hit points, when you bond with a new ancient companion at the end of a short or long rest, or when you die. When the companion perishes, the spirit within returns to its plane of origin, and the statue becomes an inert object.\n\nAncient Companion\nMedium construct, Any Alignment\nArmor Class: 14 (natural armor) + 2 (Warrior only)\nHit Points: 5 + 5 times your level in this class (the companion has a number of Hit Dice [d8s] equal to your level in this class)\nSpeed: 30 ft.\nSTR | DEX | CON | INT | WIS | CHA\n14 (+2) | 9 (-1) | 15 (+2) | 14 (+2) | 14 (+2) | 11 (+0)\nSaving Throws: Con +2 plus PB, Int +2 plus PB, Wis +2 plus PB\nSkills: History +2 plus PB, Perception +2 plus (PB \u00d7 2)\nDamage Immunities: poison\nCondition Immunities: charmed, exhaustion\nSenses: passive Perception 12 + (PB \u00d7 2)\nLanguages: speaks and understands the languages you speak\nChallenge: \u2014\nProficiency Bonus: equals your bonus\nAncient Fortitude. If damage reduces the companion to 0 hit points, it can make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is from a critical hit. On a success, the companion drops to 1 hit point instead.\nSage\u2019s Counsel (Sage Only). While within 15 feet of the companion, you and your allies gain a +2 bonus to Intelligence and Wisdom checks.\nActions\nSpirit Strike. Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 + PB force damage.\nHealer\u2019s Light (Healer Only). The companion chooses a creature it can see within 15 feet of itself and flares with invigorating light. The creature gains 1d8 + PB temporary hit points.\nReactions\nWarrior\u2019s Protection (Warrior Only). When a creature within 5 feet of the companion makes a Strength or Dexterity saving throw, the companion imposes itself between the creature and the danger. The creature can roll a d4 and add the number rolled to the saving throw.",
         "character_class": "Warlock",
         "subclass": "Mage of Lorehold UA",
         "level": 1,
@@ -671,7 +671,7 @@
     },
     {
         "name": "Eloquent Apprentice",
-        "description": "Level 1+ Mage of Silverquill Feature You learn one cantrip of your choice, either Sacred Flame or Vicious Mockery. It doesn\u2019t count against the number of cantrips you know, and it is added to your class spell list if it isn\u2019t there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight.",
+        "description": "Level 1+ Mage of Silverquill Feature You learn one cantrip of your choice, either [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) or [Vicious Mockery](http://dnd5e.wikidot.com/spell:vicious-mockery). It doesn\u2019t count against the number of cantrips you know, and it is added to your class spell list if it isn\u2019t there already.\n\nAdditionally, you gain proficiency in your choice of two of the following skills: Deception, Intimidation, Performance, Persuasion, or Insight.",
         "character_class": "Warlock",
         "subclass": "Mage of Silverquill (UA)",
         "level": 1,
@@ -691,7 +691,7 @@
     },
     {
         "name": "Inky Shroud",
-        "description": "Level 6+ Mage of Silverquill Feature\n\nYou learn the Darkness spell, and it is added to your class spell list if it isn\u2019t there already. If you are a wizard, you add it to your spellbook, if it\u2019s not there already.\n\nYou can cast the spell without expending a spell slot, and you can\u2019t do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher.",
+        "description": "Level 6+ Mage of Silverquill Feature\n\nYou learn the [Darkness](http://dnd5e.wikidot.com/spell:darkness) spell, and it is added to your class spell list if it isn\u2019t there already. If you are a wizard, you add it to your spellbook, if it\u2019s not there already.\n\nYou can cast the spell without expending a spell slot, and you can\u2019t do so again until you finish a long rest. When you cast the spell in this way, you can see normally through the darkness created, and when a creature you can see starts its turn in the darkness, you can deal 2d10 psychic damage to that creature.\n\nYou can also cast the spell normally, without the additional effects, by using spell slots you have of 2nd level or higher.",
         "character_class": "Warlock",
         "subclass": "Mage of Silverquill (UA)",
         "level": 6,
@@ -731,7 +731,7 @@
     },
     {
         "name": "Witherbloom Spells",
-        "description": "Level 1+ Mage of Witherbloom Feature\n\nYou learn the cantrip Spare the Dying and the 1st level spells Cure Wounds and Inflict Wounds. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don\u2019t count against the number of spells you can prepare each day.\n\nWitherbloom Spells",
+        "description": "Level 1+ Mage of Witherbloom Feature\n\nYou learn the cantrip [Spare the Dying](http://dnd5e.wikidot.com/spell:spare-the-dying) and the 1st level spells [Cure Wounds](http://dnd5e.wikidot.com/spell:Cure-wounds) and [Inflict Wounds](http://dnd5e.wikidot.com/spell:inflict-wounds). You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don\u2019t count against the number of spells you can prepare each day.\n\nWitherbloom Spells\n\nClass Level | Spells\n3rd | [Lesser Restoration](http://dnd5e.wikidot.com/spell:Lesser-restoration), [Ray of Enfeeblement](http://dnd5e.wikidot.com/spell:ray-of-enfeeblement)\n5th | [Revivify](http://dnd5e.wikidot.com/spell:revivify), [Vampiric Touch](http://dnd5e.wikidot.com/spell:vampiric-touch)\n7th | [Blight](http://dnd5e.wikidot.com/spell:blight), [Greater Restoration](http://dnd5e.wikidot.com/spell:greater-restoration)\n9th | [Antilife Shell](http://dnd5e.wikidot.com/spell:antilife-shell), [Mass Cure Wounds](http://dnd5e.wikidot.com/spell:mass-cure-wounds)",
         "character_class": "Warlock",
         "subclass": "Mage Of Witherbloom (UA)",
         "level": 1,
@@ -781,7 +781,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nCelestial Expanded Spells\nSpell Level | Spells\n1st | [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands), [Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds)\n2nd | [Flaming Sphere](http://dnd5e.wikidot.com/spell:flaming-sphere), [Lesser Restoration](http://dnd5e.wikidot.com/spell:lesser-restoration)\n3rd | [Daylight](http://dnd5e.wikidot.com/spell:daylight), [Revivify](http://dnd5e.wikidot.com/spell:revivify)\n4th | [Guardian of Faith](http://dnd5e.wikidot.com/spell:guardian-of-faith), [Wall of Fire](http://dnd5e.wikidot.com/spell:wall-of-fire)\n5th | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike), [Greater Restoration](http://dnd5e.wikidot.com/spell:greater-restoration)",
         "character_class": "Warlock",
         "subclass": "The Celestial (UA)",
         "level": 3,
@@ -791,7 +791,7 @@
     },
     {
         "name": "Bonus Cantrips",
-        "description": "At 1st level, you learn the Light and Sacred Flame cantrips. They count as warlock cantrips for you, but they don\u2019t count against your number of cantrips known.",
+        "description": "At 1st level, you learn the [Light](http://dnd5e.wikidot.com/spell:light) and [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) cantrips. They count as warlock cantrips for you, but they don\u2019t count against your number of cantrips known.",
         "character_class": "Warlock",
         "subclass": "The Celestial (UA)",
         "level": 1,
@@ -841,7 +841,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron\u2019s kind: dao, djinni, efreeti, or marid.",
+        "description": "The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron\u2019s kind: dao, djinni, efreeti, or marid.\n\nGenie Expanded Spells\nSpell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells\n1st | [Detect Evil and Good](http://dnd5e.wikidot.com/spell:detect-evil-and-good) | [Sanctuary](http://dnd5e.wikidot.com/spell:sanctuary) | [Thunderwave](http://dnd5e.wikidot.com/spell:thunderwave) | [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands) | [Fog Cloud](http://dnd5e.wikidot.com/spell:fog-cloud)\n2nd | [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force) | [Spike Growth](http://dnd5e.wikidot.com/spell:spike-growth) | [Gust of Wind](http://dnd5e.wikidot.com/spell:gust-of-wind) | [Scorching Ray](http://dnd5e.wikidot.com/spell:scorching-ray) | [Blur](http://dnd5e.wikidot.com/spell:blur)\n3rd | [Create Food and Water](http://dnd5e.wikidot.com/spell:create-food-and-water) | [Meld into Stone](http://dnd5e.wikidot.com/spell:meld-into-stone) | [Wind Wall](http://dnd5e.wikidot.com/spell:wind-wall) | [Fireball](http://dnd5e.wikidot.com/spell:fireball) | [Sleet Storm](http://dnd5e.wikidot.com/spell:sleet-storm)\n4th | [Phantasmal Killer](http://dnd5e.wikidot.com/spell:phantasmal-killer) | [Stone Shape](http://dnd5e.wikidot.com/spell:stone-shape) | [Greater Invisibility](http://dnd5e.wikidot.com/spell:greater-invisibility) | [Fire Shield](http://dnd5e.wikidot.com/spell:fire-shield) | [Control Water](http://dnd5e.wikidot.com/spell:control-water)\n5th | [Creation](http://dnd5e.wikidot.com/spell:creation) | [Wall of Stone](http://dnd5e.wikidot.com/spell:wall-of-stone) | [Seeming](http://dnd5e.wikidot.com/spell:seeming) | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike) | [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)\n9th | [Wish](http://dnd5e.wikidot.com/spell:wish) | \u2014 | \u2014 | \u2014 | \u2014",
         "character_class": "Warlock",
         "subclass": "The Genie",
         "level": 3,
@@ -851,7 +851,7 @@
     },
     {
         "name": "Genie\u2019s Vessel",
-        "description": "At 1st level, your patron gifts you a magical vessel that grants you a measure of the genie\u2019s power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie\u2019s Vessel table.\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n\u2022 Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is comfortably appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel\u2019s former space. Once you enter the vessel, you can\u2019t enter again until you finish a long rest.\n\n\u2022 Genie\u2019s Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel\u2019s AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.",
+        "description": "At 1st level, your patron gifts you a magical vessel that grants you a measure of the genie\u2019s power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie\u2019s Vessel table.\n\nGenie's Vessel\nd6 | Vessel\n1 | Oil lamp\n2 | Urn\n3 | Ring with a compartment\n4 | Stoppered bottle\n5 | Hollow statuette\n6 | Ornate lantern\n\nWhile you are touching the vessel, you can use it in the following ways:\n\n\u2022 Bottled Respite: As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is comfortably appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel\u2019s former space. Once you enter the vessel, you can\u2019t enter again until you finish a long rest.\n\n\u2022 Genie\u2019s Wrath: Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nThe vessel\u2019s AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.",
         "character_class": "Warlock",
         "subclass": "The Genie",
         "level": 1,
@@ -891,7 +891,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the On/Off* cantrip, and the following new spells are added to the warlock spell list for you.\n\nSpells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
+        "description": "The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the [On/Off](http://dnd5e.wikidot.com/spell:on-off)* cantrip, and the following new spells are added to the warlock spell list for you.\n\nSpells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.\n\nGhost in the Machine Expanded Spells\nSpell Level | Spells\n1st | [Infallible Relay](http://dnd5e.wikidot.com/spell:infallible-relay)*, [Remote Access](http://dnd5e.wikidot.com/spell:remote-access)*\n2nd | [Arcane Hacking](http://dnd5e.wikidot.com/spell:arcane-hacking)*, [Digital Phantom](http://dnd5e.wikidot.com/spell:digital-phantom)*\n3rd | [Haywire](http://dnd5e.wikidot.com/spell:haywire)*, [Invisibility to Cameras](http://dnd5e.wikidot.com/spell:invisibility-to-cameras)*\n4th | [Conjure Knowbot](http://dnd5e.wikidot.com/spell:conjure-knowbot)*, [System Backdoor](http://dnd5e.wikidot.com/spell:system-backdoor)*\n5th | [Shutdown](http://dnd5e.wikidot.com/spell:shutdown)*, [Synchronicity](http://dnd5e.wikidot.com/spell:synchronicity)*",
         "character_class": "Warlock",
         "subclass": "Ghost In The Machine (UA)",
         "level": 3,
@@ -931,7 +931,7 @@
     },
     {
         "name": "Technovirus",
-        "description": "At 14th level, you gain the ability to infect a humanoid\u2019s body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.\n\nAdditionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the Command spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a Lesser Restoration spell.",
+        "description": "At 14th level, you gain the ability to infect a humanoid\u2019s body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.\n\nAdditionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the [Command](http://dnd5e.wikidot.com/spell:command) spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected.\n\nOnce you use this feature, you can\u2019t use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a [Lesser Restoration](http://dnd5e.wikidot.com/spell:lesser-restoration) spell.",
         "character_class": "Warlock",
         "subclass": "Ghost In The Machine (UA)",
         "level": 14,
@@ -941,7 +941,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nHexblade Expanded Spells\nSpell Level | Spells\n1st | [Shield](http://dnd5e.wikidot.com/spell:shield), [Wrathful Smite](http://dnd5e.wikidot.com/spell:wrathful-smite)\n2nd | [Branding Smite](http://dnd5e.wikidot.com/spell:branding-smite), [Magic Weapon](http://dnd5e.wikidot.com/spell:magic-weapon)\n3rd | [Blink](http://dnd5e.wikidot.com/spell:blink), [Elemental Weapon](http://dnd5e.wikidot.com/spell:elemental-weapon)\n4th | [Phantasmal Killer](http://dnd5e.wikidot.com/spell:phantasmal-killer), [Staggering Smite](http://dnd5e.wikidot.com/spell:staggering-smite)\n5th | [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold), [Destructive Wave](http://dnd5e.wikidot.com/spell:destructive-wave)",
         "character_class": "Warlock",
         "subclass": "The Hexblade (UA)",
         "level": 3,
@@ -1001,7 +1001,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Lurker in the Deep lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Lurker in the Deep lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nLurker Expanded Spells\nSpell Level | Spells\n1st | [Create or Destroy Water](http://dnd5e.wikidot.com/spell:create-or-destroy-water), [Thunderwave](http://dnd5e.wikidot.com/spell:thunderwave)\n2nd | [Gust of Wind](http://dnd5e.wikidot.com/spell:gust-of-wind), [Shatter](http://dnd5e.wikidot.com/spell:shatter)\n3rd | [Lightning Bolt](http://dnd5e.wikidot.com/spell:lightning-bolt), [Sleet Storm](http://dnd5e.wikidot.com/spell:sleet-storm)\n4th | [Control Water](http://dnd5e.wikidot.com/spell:control-water), [Evard's Black Tentacles](http://dnd5e.wikidot.com/spell:evards-black-tentacles)\n5th | [Commune with Nature](http://dnd5e.wikidot.com/spell:commune-with-nature), [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)",
         "character_class": "Warlock",
         "subclass": "Lurker in the Deep (UA)",
         "level": 3,
@@ -1071,7 +1071,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nNoble Genie Expanded Spells\nSpell Level | Spells\n1st | [Fog Cloud](http://dnd5e.wikidot.com/spell:fog-cloud), [Sleep](http://dnd5e.wikidot.com/spell:sleep)\n2nd | [Enlarge/Reduce](http://dnd5e.wikidot.com/spell:enlarge-reduce), [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force)\n3rd | [Create Food and Water](http://dnd5e.wikidot.com/spell:create-food-and-water), [Protection from Energy](http://dnd5e.wikidot.com/spell:protection-from-energy)\n4th | [Polymorph](http://dnd5e.wikidot.com/spell:polymorph), [Phantasmal Killer](http://dnd5e.wikidot.com/spell:phantasmal-killer)\n5th | [Bigby's Hand](http://dnd5e.wikidot.com/spell:bigbys-hand), [Creation](http://dnd5e.wikidot.com/spell:creation)",
         "character_class": "Warlock",
         "subclass": "The Noble Genie (UA)",
         "level": 3,
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "Collector's Call",
-        "description": "At 14th level, in exchange for extending your patron\u2019s influence over the multiverse, you can call on more of their power. As an action, you can implore your patron for aid by making a Charisma (Persuasion) check against your warlock spell save DC. If the check succeeds, you can choose one of the following effects:\n\n\u2022 A creature you can see within 60 feet of you regains 8d6 hit points and ends one disease or condition afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.\n\n\u2022 A creature you can see within 60 feet of you has disadvantage on attack rolls and saving throws until the start of your next turn.\n\n\u2022 You cast the Legend Lore spell without material components.\n\nWhether the check succeeds or fails, you can\u2019t use this feature again until you finish a long rest. Alternatively, you can regain the use of this feature by sacrificing nonmagical treasure worth at least 500 gp to your patron. This sacrifice requires the treasure to be within 10 feet of you for at least 1 minute, at the end of which you use an action to teleport the treasure to your patron\u2019s realm, provided you have the vessel of your Collector\u2019s Vessel in hand.",
+        "description": "At 14th level, in exchange for extending your patron\u2019s influence over the multiverse, you can call on more of their power. As an action, you can implore your patron for aid by making a Charisma (Persuasion) check against your warlock spell save DC. If the check succeeds, you can choose one of the following effects:\n\n\u2022 A creature you can see within 60 feet of you regains 8d6 hit points and ends one disease or condition afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.\n\n\u2022 A creature you can see within 60 feet of you has disadvantage on attack rolls and saving throws until the start of your next turn.\n\n\u2022 You cast the [Legend Lore](http://dnd5e.wikidot.com/spell:legend-lore) spell without material components.\n\nWhether the check succeeds or fails, you can\u2019t use this feature again until you finish a long rest. Alternatively, you can regain the use of this feature by sacrificing nonmagical treasure worth at least 500 gp to your patron. This sacrifice requires the treasure to be within 10 feet of you for at least 1 minute, at the end of which you use an action to teleport the treasure to your patron\u2019s realm, provided you have the vessel of your Collector\u2019s Vessel in hand.",
         "character_class": "Warlock",
         "subclass": "The Noble Genie (UA)",
         "level": 14,
@@ -1131,7 +1131,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nRaven Queen Expanded Spells\nSpell Level | Spells\n1st | [False Life](http://dnd5e.wikidot.com/spell:false-life), [Sanctuary](http://dnd5e.wikidot.com/spell:sanctuary)\n2nd | [Silence](http://dnd5e.wikidot.com/spell:silence), [Spiritual Weapon](http://dnd5e.wikidot.com/spell:spiritual-weapon)\n3rd | [Feign Death](http://dnd5e.wikidot.com/spell:feign-death), [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead)\n4th | [Ice Storm](http://dnd5e.wikidot.com/spell:ice-storm), [Locate Creature](http://dnd5e.wikidot.com/spell:locate-creature)\n5th | [Commune](http://dnd5e.wikidot.com/spell:commune), [Cone of Cold](http://dnd5e.wikidot.com/spell:cone-of-cold)",
         "character_class": "Warlock",
         "subclass": "The Raven Queen",
         "level": 3,
@@ -1171,7 +1171,7 @@
     },
     {
         "name": "Queen's Right Hand",
-        "description": "Starting at 14th level, you can channel the Raven Queen\u2019s power to slay a creature. You can cast Finger of Death. After you cast the spell with this feature, you can\u2019t do so again until you finish a long rest.",
+        "description": "Starting at 14th level, you can channel the Raven Queen\u2019s power to slay a creature. You can cast [Finger of Death](http://dnd5e.wikidot.com/spell:finger-of-death). After you cast the spell with this feature, you can\u2019t do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "The Raven Queen",
         "level": 14,
@@ -1181,7 +1181,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSeeker Expanded Spells\nSpell Level | Spells\n1st | [Feather Fall](http://dnd5e.wikidot.com/spell:feather-fall), [Jump](http://dnd5e.wikidot.com/spell:jump)\n2nd | [Levitate](http://dnd5e.wikidot.com/spell:levitate), [Locate Object](http://dnd5e.wikidot.com/spell:locate-object)\n3rd | [Clairvoyance](http://dnd5e.wikidot.com/spell:clairvoyance), [Sending](http://dnd5e.wikidot.com/spell:sending)\n4th | [Arcane Eye](http://dnd5e.wikidot.com/spell:arcane-eye), [Locate Creature](http://dnd5e.wikidot.com/spell:locate-creature)\n5th | [Legend Lore](http://dnd5e.wikidot.com/spell:legend-lore), [Passwall](http://dnd5e.wikidot.com/spell:passwall)",
         "character_class": "Warlock",
         "subclass": "The Seeker",
         "level": 3,
@@ -1241,7 +1241,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "At 1st level, the Undead lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "At 1st level, the Undead lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nUndead Expanded Spells\nSpell Level | Spells\n1st | [Bane](http://dnd5e.wikidot.com/spell:bane), [False Life](http://dnd5e.wikidot.com/spell:false-life)\n2nd | [Blindness/Deafness](http://dnd5e.wikidot.com/spell:blindness-deafness), [Phantasmal Force](http://dnd5e.wikidot.com/spell:phantasmal-force)\n3rd | [Speak with Dead](http://dnd5e.wikidot.com/spell:speak-with-dead), [Phantom Steed](http://dnd5e.wikidot.com/spell:phantom-steed)\n4th | [Death Ward](http://dnd5e.wikidot.com/spell:death-ward), [Greater Invisibility](http://dnd5e.wikidot.com/spell:greater-invisibility)\n5th | [Antilife Shell](http://dnd5e.wikidot.com/spell:antilife-shell), [Cloudkill](http://dnd5e.wikidot.com/spell:cloudkill)",
         "character_class": "Warlock",
         "subclass": "The Undead (UA)",
         "level": 1,
@@ -1291,7 +1291,7 @@
     },
     {
         "name": "Expanded Spell List",
-        "description": "The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        "description": "The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nUndying Light Expanded Spells\nSpell Level | Spells\n1st | [Burning Hands](http://dnd5e.wikidot.com/spell:burning-hands)\n2nd | [Flaming Sphere](http://dnd5e.wikidot.com/spell:flaming-sphere)\n3rd | [Daylight](http://dnd5e.wikidot.com/spell:daylight)\n4th | [Fire Shield](http://dnd5e.wikidot.com/spell:fire-shield)\n5th | [Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike)",
         "character_class": "Warlock",
         "subclass": "The Undying Light",
         "level": 3,
@@ -1301,7 +1301,7 @@
     },
     {
         "name": "Radiant Soul",
-        "description": "Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the Light and Sacred Flame cantrips and can cast them at will. They don't count against your number of cantrips known.",
+        "description": "Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the [Light](http://dnd5e.wikidot.com/spell:light) and [Sacred Flame](http://dnd5e.wikidot.com/spell:sacred-flame) cantrips and can cast them at will. They don't count against your number of cantrips known.",
         "character_class": "Warlock",
         "subclass": "The Undying Light",
         "level": 1,
@@ -1341,7 +1341,7 @@
     },
     {
         "name": "Agonizing Blast",
-        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.",
+        "description": "Source: Player's Handbook Prerequisite: [eldritch blast](/spell:eldritch-blast) cantrip\n\nWhen you cast [eldritch blast](/spell:eldritch-blast), add your Charisma modifier to the damage it deals on a hit.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1351,7 +1351,7 @@
     },
     {
         "name": "Armor of Shadows",
-        "description": "Source: Player's Handbook\n\nYou can cast mage armor on yourself at will, without expending a spell slot or material components.",
+        "description": "Source: Player's Handbook\n\nYou can cast [mage armor](/spell:mage-armor) on yourself at will, without expending a spell slot or material components.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1361,7 +1361,7 @@
     },
     {
         "name": "Ascendant Step",
-        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast levitate on yourself at will, without expending a spell slot or material components.",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast [levitate](/spell:levitate) on yourself at will, without expending a spell slot or material components.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 9,
@@ -1381,7 +1381,7 @@
     },
     {
         "name": "Beast Speech",
-        "description": "You can cast speak with animals at will, without expending a spell slot.",
+        "description": "You can cast [speak with animals](/spell:speak-with-animals) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1401,7 +1401,7 @@
     },
     {
         "name": "Bewitching Whispers",
-        "description": "Prerequisite: 7th level\n\nYou can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Prerequisite: 7th level\n\nYou can cast [compulsion](/spell:compulsion) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 7,
@@ -1421,7 +1421,7 @@
     },
     {
         "name": "Book of Ancient Secrets",
-        "description": "Prerequisite: Pact of the Tome feature\n\nYou can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.\n\nOn your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+        "description": "Prerequisite: Pact of the Tome feature\n\nYou can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from [any class's spell list](http://dnd5e.wikidot.com/spells:ritual) (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.\n\nOn your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1431,7 +1431,7 @@
     },
     {
         "name": "Chains of Carceri",
-        "description": "Source: Player's Handbook Prerequisite: 15th level, Pact of the Chain feature\n\nYou can cast hold monster at will \u2013 targeting a celestial, fiend, or elemental \u2013 without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.",
+        "description": "Source: Player's Handbook Prerequisite: 15th level, Pact of the Chain feature\n\nYou can cast [hold monster](/spell:hold-monster) at will \u2013 targeting a celestial, fiend, or elemental \u2013 without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 15,
@@ -1461,7 +1461,7 @@
     },
     {
         "name": "Dreadful Word",
-        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast [confusion](/spell:confusion) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 7,
@@ -1481,7 +1481,7 @@
     },
     {
         "name": "Eldritch Sight",
-        "description": "Source: Player's Handbook\n\nYou can cast detect magic at will, without expending a spell slot or material components.",
+        "description": "Source: Player's Handbook\n\nYou can cast [detect magic](/spell:detect-magic) at will, without expending a spell slot or material components.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1501,7 +1501,7 @@
     },
     {
         "name": "Eldritch Spear",
-        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you cast eldritch blast, its range is 300 feet.",
+        "description": "Source: Player's Handbook Prerequisite: [eldritch blast](/spell:eldritch-blast) cantrip\n\nWhen you cast [eldritch blast](/spell:eldritch-blast), its range is 300 feet.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1521,7 +1521,7 @@
     },
     {
         "name": "Far Scribe",
-        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th level, Pact of the Tome feature\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nYou can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.\n\nAs an action, you can magically erase a name on the page by touching it.",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th level, Pact of the Tome feature\n\nA new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nYou can cast the [sending](/spell:sending) spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.\n\nAs an action, you can magically erase a name on the page by touching it.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1531,7 +1531,7 @@
     },
     {
         "name": "Fiendish Vigor",
-        "description": "Source: Player's Handbook\n\nYou can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.",
+        "description": "Source: Player's Handbook\n\nYou can cast [false life](/spell:false-life) on yourself at will as a 1st-level spell, without expending a spell slot or material components.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1561,7 +1561,7 @@
     },
     {
         "name": "Gift of the Depths",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level\n\nYou can breathe underwater, and you gain a swimming speed equal to your walking speed.\n\nYou can also cast water breathing without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level\n\nYou can breathe underwater, and you gain a swimming speed equal to your walking speed.\n\nYou can also cast [water breathing](/spell:water-breathing) without expending a spell slot. You regain the ability to do so when you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1591,7 +1591,7 @@
     },
     {
         "name": "Grasp of Hadar",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: eldritch blast cantrip\n\nOnce on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to yourself.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: [eldritch blast](/spell:eldritch-blast) cantrip\n\nOnce on each of your turns when you hit a creature with your [eldritch blast](/spell:eldritch-blast), you can move that creature in a straight line 10 feet closer to yourself.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1611,7 +1611,7 @@
     },
     {
         "name": "Investment of the Chain Master",
-        "description": "Source: Tasha's Cauldron of Everything Prerequisite: Pact of the Chain feature\n\nWhen you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n\u2022 The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.\n\n\u2022 As a bonus action, you can command the familiar to take the Attack action.\n\n\u2022 The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.\n\n\u2022 If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n\u2022 When the familiar takes damage, you can use your reaction to grant it resistance against that damage.",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: Pact of the Chain feature\n\nWhen you cast [find familiar](/spell:find-familiar), you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n\u2022 The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.\n\n\u2022 As a bonus action, you can command the familiar to take the Attack action.\n\n\u2022 The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.\n\n\u2022 If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n\u2022 When the familiar takes damage, you can use your reaction to grant it resistance against that damage.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1621,7 +1621,7 @@
     },
     {
         "name": "Lance of Lethargy",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: eldritch blast cantrip\n\nOnce on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 feet until the end of your next turn.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: [eldritch blast](/spell:eldritch-blast) cantrip\n\nOnce on each of your turns when you hit a creature with your [eldritch blast](/spell:eldritch-blast), you can reduce that creature's speed by 10 feet until the end of your next turn.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1641,7 +1641,7 @@
     },
     {
         "name": "Maddening Hex",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level, hex spell or a warlock feature that curses\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.\n\nSource: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 5th level, [hex](/spell:hex) spell or a warlock feature that curses\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your [hex](/spell:hex) spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.\n\nSource: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level\n\nAs a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1651,7 +1651,7 @@
     },
     {
         "name": "Mask of Many Faces",
-        "description": "Source: Player's Handbook\n\nYou can cast disguise self at will, without expending a spell slot.",
+        "description": "Source: Player's Handbook\n\nYou can cast [disguise self](/spell:disguise-self) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1661,7 +1661,7 @@
     },
     {
         "name": "Master of Myriad Forms",
-        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast alter self at will, without expending a spell slot.",
+        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast [alter self](/spell:alter-self) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 15,
@@ -1671,7 +1671,7 @@
     },
     {
         "name": "Minions of Chaos",
-        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast [conjure elemental](/spell:conjure-elemental) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 9,
@@ -1681,7 +1681,7 @@
     },
     {
         "name": "Mire the Mind",
-        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast [slow](/spell:slow) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1691,7 +1691,7 @@
     },
     {
         "name": "Misty Visions",
-        "description": "Source: Player's Handbook\n\nYou can cast silent image at will, without expending a spell slot or material components.",
+        "description": "Source: Player's Handbook\n\nYou can cast [silent image](/spell:silent-image) at will, without expending a spell slot or material components.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1711,7 +1711,7 @@
     },
     {
         "name": "Otherworldly Leap",
-        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast jump at will, without expending a spell slot.",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast [jump](/spell:jump) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 9,
@@ -1741,7 +1741,7 @@
     },
     {
         "name": "Relentless Hex",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level, hex spell or a warlock feature that curses\n\nYour curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level, [hex](/spell:hex) spell or a warlock feature that curses\n\nYour curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your [hex](/spell:hex) spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 7,
@@ -1751,7 +1751,7 @@
     },
     {
         "name": "Repelling Blast",
-        "description": "Source: Player's Handbook Prerequisite: eldritch blast cantrip\n\nWhen you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.",
+        "description": "Source: Player's Handbook Prerequisite: [eldritch blast](/spell:eldritch-blast) cantrip\n\nWhen you hit a creature with [eldritch blast](/spell:eldritch-blast), you can push the creature up to 10 feet away from you in a straight line.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1761,7 +1761,7 @@
     },
     {
         "name": "Sculptor of Flesh",
-        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook Prerequisite: 7th level\n\nYou can cast [polymorph](/spell:polymorph) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 7,
@@ -1771,7 +1771,7 @@
     },
     {
         "name": "Shroud of Shadow",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: 15th level\n\nYou can cast invisibility at will, without expending a spell slot.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 15th level\n\nYou can cast [invisibility](/spell:invisibility) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 15,
@@ -1781,7 +1781,7 @@
     },
     {
         "name": "Sign of Ill Omen",
-        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook Prerequisite: 5th level\n\nYou can cast [bestow curse](/spell:bestow-curse) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1791,7 +1791,7 @@
     },
     {
         "name": "Thief of Five Fates",
-        "description": "Source: Player's Handbook\n\nYou can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.",
+        "description": "Source: Player's Handbook\n\nYou can cast [bane](/spell:bane) once using a warlock spell slot. You can't do so again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1821,7 +1821,7 @@
     },
     {
         "name": "Trickster's Escape",
-        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level\n\nYou can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+        "description": "Source: Xanathar's Guide to Everything Prerequisite: 7th level\n\nYou can cast [freedom of movement](/spell:freedom-of-movement) once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 7,
@@ -1831,7 +1831,7 @@
     },
     {
         "name": "Undying Servitude",
-        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th-level warlock\n\nYou can cast animate dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.",
+        "description": "Source: Tasha's Cauldron of Everything Prerequisite: 5th-level warlock\n\nYou can cast [animate dead](/spell:animate-dead) without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1841,7 +1841,7 @@
     },
     {
         "name": "Visions of Distant Realms",
-        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast arcane eye at will, without expending a spell slot.",
+        "description": "Source: Player's Handbook Prerequisite: 15th level\n\nYou can cast [arcane eye](/spell:arcane-eye) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 15,
@@ -1861,7 +1861,7 @@
     },
     {
         "name": "Whispers of the Grave",
-        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast speak with dead at will, without expending a spell slot.",
+        "description": "Source: Player's Handbook Prerequisite: 9th level\n\nYou can cast [speak with dead](/spell:speak-with-dead) at will, without expending a spell slot.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 9,
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "Burning Hex",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron\n\nAs a bonus action, you cause a target cursed by your Hexblade's Curse to take fire damage equal to your Charisma modifier (minimum of 1).",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Hexblade](/warlock:hexblade) patron\n\nAs a bonus action, you cause a target cursed by your Hexblade's Curse to take fire damage equal to your Charisma modifier (minimum of 1).",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1901,7 +1901,7 @@
     },
     {
         "name": "Caiphon's Beacon",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron\n\nThe purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Great Old One](/warlock:great-old-one) patron\n\nThe purple star Caiphon is the doom of inexperienced mariners. Those who use its deceptive light to guide their travels invariably come to ruin. You gain proficiency in the Deception and Stealth skills, and you have advantage on attack rolls against charmed creatures.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1911,7 +1911,7 @@
     },
     {
         "name": "Chilling Hex",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron\n\nAs a bonus action, you cause frost to swirl around a target cursed by your Hexblade's Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Hexblade](/warlock:hexblade) patron\n\nAs a bonus action, you cause frost to swirl around a target cursed by your Hexblade's Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1921,7 +1921,7 @@
     },
     {
         "name": "Chronicle of the Raven Queen",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: Raven Queen patron, Pact of the Tome feature\n\nYou can place a corpse's hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature's spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature's death, and a given creature can only be asked one question in this manner.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [Raven Queen](/warlock:raven-queen-ua) patron, Pact of the Tome feature\n\nYou can place a corpse's hand or similar appendage on your Book of Shadows and ask one question aloud. After 1 minute, the answer appears written in blood in your book. The answer is provided by the dead creature's spirit to the best of its knowledge and is translated into a language of your choice. You must use this ability within 1 minute of a creature's death, and a given creature can only be asked one question in this manner.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1931,7 +1931,7 @@
     },
     {
         "name": "Claw of Acamar",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron, Pact of the Blade feature\n\nYou can create a black, lead flail using your Pact of the Blade feature. The flail's head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Great Old One](/warlock:great-old-one) patron, Pact of the Blade feature\n\nYou can create a black, lead flail using your Pact of the Blade feature. The flail's head is sculpted to resemble a pair of grasping tentacles. The weapon has the reach property. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 necrotic damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1941,7 +1941,7 @@
     },
     {
         "name": "Curse Bringer",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Hexblade patron, Pact of the Blade feature\n\nYou can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade's Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn't extend the curse's duration.\n\nWhen you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Hexblade](/warlock:hexblade) patron, Pact of the Blade feature\n\nYou can create a greatsword forged from silver, with black runes etched into its blade, using your Pact of the Blade feature. If you reduce a target cursed by your Hexblade's Curse to 0 hit points with this sword, you can immediately change the target of the curse to a different creature. This change doesn't extend the curse's duration.\n\nWhen you hit a creature with this weapon, you can expend a spell slot to deal an additional 2d8 slashing damage to the target per spell level, and you can reduce the creature's speed to 0 feet until the end of your next turn.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1961,7 +1961,7 @@
     },
     {
         "name": "Green Lord's Gift",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Archfey patron\n\nThe Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Archfey](/warlock:archfey) patron\n\nThe Green Lord oversees a verdant realm of everlasting summer. Your soul is linked to his power. Whenever you regain hit points, you treat any dice rolled to determine the hit points you regain as having rolled their maximum value.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1971,7 +1971,7 @@
     },
     {
         "name": "Kiss of Mephistopheles",
-        "description": "Source: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level, eldritch blast cantrip\n\nWhen you hit a creature with your eldritch blast, you can cast fireball as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with eldritch blast.",
+        "description": "Source: Unearthed Arcana 40 - Revised Class Options Prerequisite: 5th level, [eldritch blast](/spell:eldritch-blast) cantrip\n\nWhen you hit a creature with your eldritch blast, you can cast [fireball](/spell:fireball) as a bonus action using a warlock spell slot. The spell must be centered on the creature you hit with eldritch blast.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 5,
@@ -1981,7 +1981,7 @@
     },
     {
         "name": "Mace of Dispater",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Fiend patron, Pact of the Blade feature\n\nWhen you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Fiend](/warlock:fiend) patron, Pact of the Blade feature\n\nWhen you create your pact weapon as a mace, it manifests as an iron mace forged in Dis, the second of the Nine Hells. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 force damage to the target per spell level, and you can knock the target prone if it is Huge or smaller.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -1991,7 +1991,7 @@
     },
     {
         "name": "Moonbow",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Archfey patron, Pact of the Blade feature\n\nYou can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Archfey](/warlock:archfey) patron, Pact of the Blade feature\n\nYou can create a longbow using your Pact of the Blade feature. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have advantage on attack rolls against lycanthropes with the bow. When you hit a creature with it, you can expend a spell slot to deal an additional 2d8 radiant damage to the target per spell level.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -2001,7 +2001,7 @@
     },
     {
         "name": "Path of the Seeker",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Seeker patron\n\nThe Seeker bids you to travel in search of knowledge, and little can prevent you from walking this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Seeker](/warlock:seeker-ua) patron\n\nThe Seeker bids you to travel in search of knowledge, and little can prevent you from walking this path. You ignore difficult terrain, have advantage on all checks to escape a grapple, manacles, or rope bindings, and advantage on saving throws against being paralyzed.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -2011,7 +2011,7 @@
     },
     {
         "name": "Raven Queen's Blessing",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: Raven Queen patron, eldritch blast cantrip\n\nWhen you score a critical hit with your eldritch blast cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature's Constitution modifier (minimum of 1 hit point).",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [Raven Queen](/warlock:raven-queen-ua) patron, [eldritch blast](/spell:eldritch-blast) cantrip\n\nWhen you score a critical hit with your [eldritch blast](/spell:eldritch-blast) cantrip, pick yourself or an ally you can see within 30 feet of you. The chosen creature can immediately expend a Hit Die to regain hit points equal to the roll + the creature's Constitution modifier (minimum of 1 hit point).",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -2021,7 +2021,7 @@
     },
     {
         "name": "Seeker's Speech",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Seeker patron\n\nYour quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Seeker](/warlock:seeker-ua) patron\n\nYour quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,
@@ -2031,7 +2031,7 @@
     },
     {
         "name": "Shroud of Ulban",
-        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: The Great Old One patron\n\nThe blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn invisible for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn.",
+        "description": "Source: Unearthed Arcana 29 - Warlock & Wizard Prerequisite: [The Great Old One](/warlock:great-old-one) patron\n\nThe blue-white star Ulban maintains a fickle presence among the stars, fluttering into view only to herald a dire omen. As an action, you can turn invisible for 1 minute. If you attack, deal damage, or force a creature to make a saving throw, you become visible at the end of the current turn.",
         "character_class": "Warlock",
         "subclass": "Eldritch Invocations",
         "level": 3,

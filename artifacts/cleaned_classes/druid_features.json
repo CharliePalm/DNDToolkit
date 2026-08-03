@@ -490,6 +490,16 @@
         "is_choice": false
     },
     {
+        "name": "Witherbloom Spells",
+        "description": "You learn the cantrip Spare the Dying and the 1st level spells Cure Wounds and Inflict Wounds. You learn additional spells when you reach certain levels in this class, as shown on the Witherbloom Spells table.\n\nEach of these spells count as a class spell for you, but it doesn\u2019t count against the number of spells you know. If you are a druid, you always have the spells prepared, and they don\u2019t count against the number of spells you can prepare each day.\n\nWitherbloom Spells",
+        "character_class": "Druid",
+        "subclass": "Mage Of Witherbloom (UA)",
+        "level": 1,
+        "uses": null,
+        "source": "Unearthed Arcana 79 - Mages of Strixhaven Classes: Druid, Warlock",
+        "is_choice": false
+    },
+    {
         "name": "Star Map",
         "description": "At 2nd level, You've created a star map as part of your study of the heavens. The map is a Tiny object and can serve as a spellcasting focus for your druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.\n\nIf you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.\n\nYou can cast the Augury and Guiding Bolt spells without expending a spell slot and without preparing the spell, provided you use the star map as the spellcasting focus. You can cast a spell from the map in this way a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
         "character_class": "Druid",

@@ -3,6 +3,7 @@ import re
 from typing import Dict, List, Optional, Tuple
 import time
 from bs4 import BeautifulSoup, Tag
+from bs4.element import NavigableString
 
 from shared.helpers import write_obj_to_json
 from shared.model import CharacterClass, ClassFeature
@@ -104,9 +105,36 @@ SPECIALIZATION_CHOICE_PATTERNS = (
 )
 
 
-def _clean_text(node: Tag) -> str:
+def _clean_text(node: Tag | str) -> str:
     """collapse whitespace and strip the non-breaking spaces wikidot litters everywhere"""
-    return re.sub(r"\s+", " ", node.get_text().replace("\xa0", " ")).strip()
+    return re.sub(
+        r"\s+",
+        " ",
+        (node.get_text() if isinstance(node, Tag) else node).replace("\xa0", " "),
+    ).strip()
+
+
+def _render_markdown_text(node: Tag) -> str:
+    """render node text while preserving inline anchor hrefs as markdown links."""
+    parts: List[str] = []
+    for child in node.children:
+        if isinstance(child, NavigableString):
+            text = str(child)
+            if text:
+                parts.append(text)
+            continue
+        if not isinstance(child, Tag):
+            continue
+        if child.name == "a" and child.get("href"):
+            href = str(child["href"]).strip()
+            text = _render_markdown_text(child)
+            parts.append(f"[{text}]({href})")
+        elif child.name in {"br"}:
+            parts.append("\n")
+        else:
+            parts.append(_render_markdown_text(child))
+    text = "".join(parts)
+    return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
 
 
 def _normalize_name(name: str) -> str:
@@ -207,10 +235,10 @@ def _parse_level_table(table: Tag) -> Tuple[Dict[str, int], Dict[str, dict]]:
 
 
 def _render_table(table: Tag) -> str:
-    """flatten a table into text, one line per row with cells joined by ' | '"""
+    """flatten a table into text, one line per row with cells joined by ' | '."""
     lines: List[str] = []
     for row in table.find_all("tr"):
-        cells = [_clean_text(c) for c in row.find_all(["th", "td"])]
+        cells = [_render_markdown_text(c) for c in row.find_all(["th", "td"])]
         cells = [c for c in cells if c]
         if cells:
             lines.append(" | ".join(cells))
@@ -261,9 +289,9 @@ def _iter_features(container: Tag, skip_table_re: Optional[re.Pattern] = None):
                 continue
             elif node.name == "ul":
                 for li in node.find_all("li"):
-                    current_desc.append("\u2022 " + _clean_text(li))
+                    current_desc.append("\u2022 " + _render_markdown_text(li))
             else:
-                text = _clean_text(node)
+                text = _render_markdown_text(node)
                 if text:
                     current_desc.append(text)
     if current_name is not None:

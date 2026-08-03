@@ -27,6 +27,7 @@ sys.path.insert(0, str(REPO_ROOT))
 from shared.model import bullet_char, serialize_uses  # noqa: E402
 from shared.notion.notion import Notion  # noqa: E402
 
+DEBUG_FEATURE_NAMES = "Expanded Spell List"
 NON_FEATURE_SUBCLASSES = set(
     [
         "Blood Curse",
@@ -176,6 +177,8 @@ def put_class_features() -> None:
     failed = 0
     for name, description, classes, subclasses, level, uses in _iter_features():
         try:
+            if name not in DEBUG_FEATURE_NAMES:
+                continue
             page = notion.insert_into_db(
                 DB_ID,
                 _properties(name, classes, subclasses, level, uses),

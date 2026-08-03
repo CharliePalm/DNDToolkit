@@ -184,6 +184,14 @@ class TestSubclassFixtures(TestCase):
         expanded = _by_name(features, "Expanded Spell List")
         self.assertIn("Cure Wounds", expanded.description)
         self.assertIn("Flame Strike", expanded.description)
+        self.assertIn(
+            "[Cure Wounds](http://dnd5e.wikidot.com/spell:cure-wounds)",
+            expanded.description,
+        )
+        self.assertIn(
+            "[Flame Strike](http://dnd5e.wikidot.com/spell:flame-strike)",
+            expanded.description,
+        )
         # once-per-rest feature
         self.assertEqual(_by_name(features, "Searing Vengeance").uses, 1)
 
