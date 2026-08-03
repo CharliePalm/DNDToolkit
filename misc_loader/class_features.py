@@ -205,21 +205,33 @@ def _parse_level_table(table: Tag) -> Tuple[Dict[str, int], Dict[str, dict]]:
     return feature_levels, breakpoints
 
 
-def _iter_features(container: Tag):
+def _render_table(table: Tag) -> str:
+    """flatten a table into text, one line per row with cells joined by ' | '"""
+    lines: List[str] = []
+    for row in table.find_all("tr"):
+        cells = [_clean_text(c) for c in row.find_all(["th", "td"])]
+        cells = [c for c in cells if c]
+        if cells:
+            lines.append(" | ".join(cells))
+    return "\n".join(lines)
+
+
+def _iter_features(container: Tag, skip_table_re: Optional[re.Pattern] = None):
     """
     walk a page-content container in document order, yielding (name, description)
-    tuples. A feature starts at a header and its description is every paragraph /
-    list that follows until the next header at the same or a shallower level. A
-    deeper header (e.g. an h5 "Dancing Item" stat block under an h3 feature) is a
-    subsection: its heading and content fold into the current feature's description
-    rather than starting a new one. Tables are skipped so the subclass list doesn't
-    leak into the subclass description.
+    tuples. A feature starts at a header and its description is every block of
+    content that follows (paragraphs, lists, and tables) until the next header at
+    the same or a shallower level. A deeper header (e.g. an h5 "Dancing Item" stat
+    block under an h3 feature) is a subsection: its heading and content fold into
+    the current feature's description rather than starting a new one. Tables whose
+    links match ``skip_table_re`` (the subclass-index table) are skipped so the
+    subclass list doesn't leak into a feature description.
     """
     heading_tags = ("h2", "h3", "h4", "h5", "h6")
     current_name = None
     current_level = 0
     current_desc: List[str] = []
-    for node in container.find_all([*heading_tags, "p", "ul"]):
+    for node in container.find_all([*heading_tags, "p", "ul", "table"]):
         if node.name in heading_tags:
             level = int(node.name[1])
             text = _clean_text(node)
@@ -234,7 +246,19 @@ def _iter_features(container: Tag):
             current_level = level
             current_desc = []
         elif current_name is not None:
-            if node.name == "ul":
+            if node.name == "table":
+                if skip_table_re and any(
+                    skip_table_re.match(str(a["href"]).strip())
+                    for a in node.find_all("a", href=True)
+                ):
+                    continue
+                text = _render_table(node)
+                if text:
+                    current_desc.append(text)
+            elif node.find_parent("table") is not None:
+                # already captured as part of a rendered table; don't double-count
+                continue
+            elif node.name == "ul":
                 for li in node.find_all("li"):
                     current_desc.append("\u2022 " + _clean_text(li))
             else:
@@ -306,8 +330,11 @@ def _parse_base_class(
     if tables:
         feature_levels, resource_breakpoints = _parse_level_table(tables[0])
 
+    page_key = _class_page_key(char_class)
+    subclass_href_re = _subclass_href_re(page_key)
+
     features: Dict[str, ClassFeature] = {}
-    for name, description in _iter_features(content):
+    for name, description in _iter_features(content, subclass_href_re):
         if _normalize_name(name) == "class features":
             continue
         feature = ClassFeature()
@@ -330,18 +357,24 @@ def _parse_base_class(
     return list(features.values()), subclasses
 
 
-def _find_subclass_keys(content: Tag, class_page_key: str) -> List[str]:
-    """collect unique subclass page keys (e.g. "barbarian:ancestral-guardian" or
-    a shared "multisubclass:mage-of-lorehold-ua")"""
-    keys: List[str] = []
-    seen = set()
-    pattern = re.compile(
+def _subclass_href_re(class_page_key: str) -> re.Pattern:
+    """regex matching an anchor href that points to a subclass page (e.g.
+    "barbarian:ancestral-guardian" or a shared "multisubclass:mage-of-lorehold-ua")"""
+    return re.compile(
         r"^(?:https?://dnd5e\.wikidot\.com)?/("
         + r"(?:"
         + re.escape(class_page_key)
         + r"|multisubclass)"
         + r":[a-z0-9-]+)$"
     )
+
+
+def _find_subclass_keys(content: Tag, class_page_key: str) -> List[str]:
+    """collect unique subclass page keys (e.g. "barbarian:ancestral-guardian" or
+    a shared "multisubclass:mage-of-lorehold-ua")"""
+    keys: List[str] = []
+    seen = set()
+    pattern = _subclass_href_re(class_page_key)
     for anchor in content.find_all("a", href=True):
         match = pattern.match(str(anchor["href"]).strip())
         if match:
@@ -373,7 +406,9 @@ def _parse_subclass(html: str, char_class: str) -> List[ClassFeature]:
             break
 
     features: Dict[str, ClassFeature] = {}
-    for name, description in _iter_features(content):
+    for name, description in _iter_features(
+        content, _subclass_href_re(_class_page_key(char_class))
+    ):
         feature = ClassFeature()
         feature.name = _display_name(name)
         feature.description = description
